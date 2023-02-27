@@ -1,4 +1,3 @@
-IM<!DOCTYPE html>
 <html dir="ltr" lang="en" class="min-h-screen">
 
 <head>
