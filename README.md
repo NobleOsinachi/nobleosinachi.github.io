@@ -445,7 +445,7 @@
                 <li>
                     Blockchain & Web 3.0
                     <small class="text-neutral-500">
-                        <em>(Enthusiasit)</em>
+                        <em>( Enthusiast )</em>
                     </small>
                 </li>
                 <li>
