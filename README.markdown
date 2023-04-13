@@ -1,5 +1,4 @@
 <html dir="ltr" lang="en" class="min-h-screen">
-
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -469,4 +468,4 @@
 
 </body>
 
-</html>"# nobleosinachi.github.io" 
+</html>
