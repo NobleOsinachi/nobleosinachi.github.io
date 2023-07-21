@@ -1,6 +1,6 @@
 # Noble Osinachi Portfolio Landing Page
 
-![Portfolio Landing Page](https://link-to-portfolio-landing-page-image)
+![Portfolio Landing Page](https://nobeosinachi.github.io)
 
 ## About
 
@@ -26,7 +26,8 @@ This landing page is built using the following technologies:
 
 ## Main Portfolio Website
 
-My main portfolio website is built using Next.js and TypeScript and contains a more comprehensive showcase of my projects, skills, and experience. To explore my main portfolio website, visit: [Noble Osinachi Main Portfolio](https://link-to-main-portfolio)
+My main portfolio website is built using Next.js and TypeScript and contains a more comprehensive showcase of my projects, skills, and experience. To explore my main portfolio website, visit: [Noble Osinachi Main Portfolio](https://nobleosinachi-portfolio.vercel.app/)
+
 
 ## Contributions
 
@@ -34,6 +35,6 @@ While this landing page is relatively simple, I welcome any feedback, suggestion
 
 ## Contact
 
-You can reach me through my website [www.nobleosinachi.com](https://www.nobleosinachi.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/nobleosinachi).
+You can reach me through my email nobleosinachi98@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/nobleosinachi).
 
 Thank you for visiting my Portfolio Landing Page! I hope you enjoy exploring my work and skills. 😄
