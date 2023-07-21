@@ -20,9 +20,9 @@ This landing page is built using the following technologies:
 
 ## How to Use
 
-1. Visit the live landing page by following this link: [Noble Osinachi Portfolio Landing Page](https://link-to-landing-page)
-2. Explore the landing page to learn more about me and my skills.
-3. Click the "View Full Portfolio" button to automatically redirect to my main portfolio website built with Next.js and TypeScript.
+1. Visit the live landing page by following this link: [Noble Osinachi Portfolio Landing Page](https://nobleosinachi.github.io/?origin=repo-readme)
+2. Take a moment to explore the landing page, where you'll find a concise overview of my skills. Get to know more about me and the various skills I possess.
+3. You will be automatically redirected to my comprehensive portfolio website, which I personally built with Next.js and TypeScript.
 
 ## Main Portfolio Website
 
