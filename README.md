@@ -1,6 +1,6 @@
 # Noble Osinachi Portfolio Landing Page
 
-![Portfolio Landing Page](/images/landing-page.png)
+![Portfolio Landing Page](/images/nobleosinachi.github.io.png)
 
 ## About
 
