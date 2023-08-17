@@ -13,6 +13,9 @@
     <meta name="author" content="Noble Osinachi">
     <meta name="robots" content="index,follow">
 
+      <!-- Redirect to my Next JS Portfolio Website -->
+    <meta http-equiv="refresh" content="5;url=https://nobleosinachi-portfolio.vercel.app/">
+
     <!-- Twitter Card metadata -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Noble Osinachi Portfolio">
@@ -490,28 +493,21 @@ srcset="./images/nobleosinachi.png 2x" alt="Noble Osinachi" width="200" height="
 
     <!-- Panelbear -->
     <script async src="https://cdn.panelbear.com/analytics.js?site=4R0QcNdfCBQ"></script>
-    <script>
-        window.panelbear = window.panelbear || function () { ( window.panelbear.q = window.panelbear.q || [] ).push( arguments ); };
-        panelbear( 'config', { site: '4R0QcNdfCBQ' } );
-    </script>
-
-
-   <script>
-        // Function to redirect after 10 seconds
-        function redirect() {
-            window.location.href = "https://nobleosinachi-portfolio.vercel.app/";
-        }
-
-        // Call the redirect function after 5 seconds
-        setTimeout(redirect, 5000); // 5000 milliseconds = 5 seconds
-    </script>
-
-  
+   
     <!-- Cronitor RUM -->
 <script async src="https://rum.cronitor.io/script.js"></script>
 <script>
     window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
     cronitor('config', { clientKey: '3147807307de3b2c0dc37ea95965744f' });
+
+ window.panelbear = window.panelbear || function () { ( window.panelbear.q = window.panelbear.q || [] ).push( arguments ); };
+        panelbear( 'config', { site: '4R0QcNdfCBQ' } );
+    
+      // Function to redirect after 5 seconds
+        setTimeout(function() {
+            window.location.href = "https://nobleosinachi-portfolio.vercel.app/";
+        }, 5000); // 5000 milliseconds = 5 seconds
+
 </script>
 
 </body>
