@@ -1,5 +1,0 @@
-Repo: https://github.com/Qoosim/Qoosim.github.io
-Link: https://qoosim.github.io
-
-
-https://victorokoroji.netlify.app/

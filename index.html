@@ -1,514 +1,429 @@
 <!DOCTYPE html>
-  
-<html dir="ltr" lang="en" class="min-h-screen">
+<html lang="en">
+
 <head>
-  
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Noble Osinachi</title>
-
-    <meta name="description" content="Noble's Portfolio - showcasing my skills and projects">
-    <meta name="keywords" content="portfolio, projects, skills, web development, noble osinachi, .net developer, javascript lord, angular, asp.net babalawo">
-    <meta name="author" content="Noble Osinachi">
-    <meta name="robots" content="index,follow">
-
-      <!-- Redirect to my Next JS Portfolio Website -->
-    <meta http-equiv="refresh" content="5;url=https://nobleosinachi-portfolio.vercel.app/portfolio">
-
-    <!-- Twitter Card metadata -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Noble Osinachi Portfolio">
-    <meta name="twitter:description" content="Noble Osinachi Portfolio - showcasing my skills and projects">
-    <meta name="twitter:image" content="/images/nobleosinachi.png">
-
-    <!-- Open Graph metadata -->
-    <meta property="og:title" content="Noble Osinachi Portfolio">
-    <meta property="og:description" content="Noble Osinachi Portfolio - showcasing my skills and projects">
-    <meta property="og:image" content="/images/nobleosinachi.png">
-    <meta property="og:url" content="https://example.com">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="My Portfolio">
-
-    <!-- Favicon -->
-    <link rel="icon" href="path-to-favicon.ico" type="image/x-icon">
-
-    <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="styles.css">
-
-    <!-- Optional: Additional CSS or JavaScript files -->
-
-    <!-- favicon: http://realfavicongenerator.net -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=3">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=3">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=3">
-    <link rel="manifest" href="/site.webmanifest?v=3">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=3" color="#525252">
-    <link rel="shortcut icon" href="/favicon.ico?v=3">
-
-    <meta name="apple-mobile-web-app-title" content="Noble Osinachi">
-    <meta name="application-name" content="Noble Osinachi">
-    <meta name="msapplication-TileColor" content="#525252">
-    <meta name="theme-color" content="#525252">
-
-  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-    <style>
-        /*! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com*/
-        *,
-        :after,
-        :before {
-            box-sizing: border-box;
-            border: 0 solid #e5e7eb
-        }
-
-        :after,
-        :before {
-            --tw-content: ""
-        }
-
-        html {
-            line-height: 1.5;
-            -webkit-text-size-adjust: 100%;
-            -moz-tab-size: 4;
-            -o-tab-size: 4;
-            tab-size: 4;
-            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-            font-feature-settings: normal
-        }
-
-        body {
-            margin: 0;
-            line-height: inherit
-        }
-
-        hr {
-            height: 0;
-            color: inherit;
-            border-top-width: 1px
-        }
-
-        abbr:where([title]) {
-            -webkit-text-decoration: underline dotted;
-            text-decoration: underline dotted
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-size: inherit;
-            font-weight: inherit
-        }
-
-        a {
-            color: inherit;
-            text-decoration: inherit
-        }
-
-        b,
-        strong {
-            font-weight: bolder
-        }
-
-        code,
-        kbd,
-        pre,
-        samp {
-            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-            font-size: 1em
-        }
-
-        small {
-            font-size: 80%
-        }
-
-        sub,
-        sup {
-            font-size: 75%;
-            line-height: 0;
-            position: relative;
-            vertical-align: initial
-        }
-
-        sub {
-            bottom: -.25em
-        }
-
-        sup {
-            top: -.5em
-        }
-
-        table {
-            text-indent: 0;
-            border-color: inherit;
-            border-collapse: collapse
-        }
-
-        button,
-        input,
-        optgroup,
-        select,
-        textarea {
-            font-family: inherit;
-            font-size: 100%;
-            font-weight: inherit;
-            line-height: inherit;
-            color: inherit;
-            margin: 0;
-            padding: 0
-        }
-
-        button,
-        select {
-            text-transform: none
-        }
-
-        [type=button],
-        [type=reset],
-        [type=submit],
-        button {
-            -webkit-appearance: button;
-            background-color: initial;
-            backgroundage: none
-        }
-
-        :-moz-focusring {
-            outline: auto
-        }
-
-        :-moz-ui-invalid {
-            box-shadow: none
-        }
-
-        progress {
-            vertical-align: initial
-        }
-
-        ::-webkit-inner-spin-button,
-        ::-webkit-outer-spin-button {
-            height: auto
-        }
-
-        [type=search] {
-            -webkit-appearance: textfield;
-            outline-offset: -2px
-        }
-
-        ::-webkit-search-decoration {
-            -webkit-appearance: none
-        }
-
-        ::-webkit-file-upload-button {
-            -webkit-appearance: button;
-            font: inherit
-        }
-
-        summary {
-            display: list-item
-        }
-
-        blockquote,
-        dd,
-        dl,
-        figure,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        hr,
-        p,
-        pre {
-            margin: 0
-        }
-
-        fieldset {
-            margin: 0
-        }
-
-        fieldset,
-        legend {
-            padding: 0
-        }
-
-        menu,
-        ol,
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0
-        }
-
-        textarea {
-            resize: vertical
-        }
-
-        input::-moz-placeholder,
-        textarea::-moz-placeholder {
-            opacity: 1;
-            color: #9ca3af
-        }
-
-        input::placeholder,
-        textarea::placeholder {
-            opacity: 1;
-            color: #9ca3af
-        }
-
-        [role=button],
-        button {
-            cursor: pointer
-        }
-
-        :disabled {
-            cursor: default
-        }
-
-        audio,
-        canvas,
-        embed,
-        iframe,
-        img,
-        object,
-        svg,
-        video {
-            display: block;
-            vertical-align: middle
-        }
-
-        img,
-        video {
-            max-width: 100%;
-            height: auto
-        }
-
-        [hidden] {
-            display: none
-        }
-
-        *,
-        ::backdrop,
-        :after,
-        :before {
-            --tw-border-spacing-x: 0;
-            --tw-border-spacing-y: 0;
-            --tw-translate-x: 0;
-            --tw-translate-y: 0;
-            --tw-rotate: 0;
-            --tw-skew-x: 0;
-            --tw-skew-y: 0;
-            --tw-scale-x: 1;
-            --tw-scale-y: 1;
-            --tw-pan-x: ;
-            --tw-pan-y: ;
-            --tw-pinch-zoom: ;
-            --tw-scroll-snap-strictness: proximity;
-            --tw-ordinal: ;
-            --tw-slashed-zero: ;
-            --tw-numeric-figure: ;
-            --tw-numeric-spacing: ;
-            --tw-numeric-fraction: ;
-            --tw-ring-inset: ;
-            --tw-ring-offset-width: 0px;
-            --tw-ring-offset-color: #fff;
-            --tw-ring-color: #3b82f680;
-            --tw-ring-offset-shadow: 0 0 #0000;
-            --tw-ring-shadow: 0 0 #0000;
-            --tw-shadow: 0 0 #0000;
-            --tw-shadow-colored: 0 0 #0000;
-            --tw-blur: ;
-            --tw-brightness: ;
-            --tw-contrast: ;
-            --tw-grayscale: ;
-            --tw-hue-rotate: ;
-            --tw-invert: ;
-            --tw-saturate: ;
-            --tw-sepia: ;
-            --tw-drop-shadow: ;
-            --tw-backdrop-blur: ;
-            --tw-backdrop-brightness: ;
-            --tw-backdrop-contrast: ;
-            --tw-backdrop-grayscale: ;
-            --tw-backdrop-hue-rotate: ;
-            --tw-backdrop-invert: ;
-            --tw-backdrop-opacity: ;
-            --tw-backdrop-saturate: ;
-            --tw-backdrop-sepia:
-        }
-
-        .m-4 {
-            margin: 1rem
-        }
-
-        .mb-2 {
-            margin-bottom: .5rem
-        }
-
-        .flex {
-            display: flex
-        }
-
-        .min-h-screen {
-            min-height: 100vh
-        }
-
-        .max-w-\[50\%\] {
-            max-width: 50%
-        }
-
-        .list-inside {
-            list-style-position: inside
-        }
-
-        .list-disc {
-            list-style-type: disc
-        }
-
-        .flex-wrap {
-            flex-wrap: wrap
-        }
-
-        .content-center {
-            align-content: center
-        }
-
-        .items-center {
-            align-items: center
-        }
-
-        .justify-center {
-            justify-content: center
-        }
-
-        .rounded-full {
-            border-radius: 9999px
-        }
-
-        .border-t-4 {
-            border-top-width: 4px
-        }
-
-        .border-neutral-400 {
-            --tw-border-opacity: 1;
-            border-color: rgb(163 163 163/var(--tw-border-opacity))
-        }
-
-        .bg-neutral-600 {
-            --tw-bg-opacity: 1;
-            background-color: rgb(82 82 82/var(--tw-bg-opacity))
-        }
-
-        .bg-neutral-100 {
-            --tw-bg-opacity: 1;
-            background-color: rgb(245 245 245/var(--tw-bg-opacity))
-        }
-
-        .font-sans {
-            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji
-        }
-
-        .text-xl {
-            font-size: 1.25rem;
-            line-height: 1.75rem
-        }
-
-        .font-medium {
-            font-weight: 500
-        }
-
-        .text-neutral-900 {
-            --tw-text-opacity: 1;
-            color: rgb(23 23 23/var(--tw-text-opacity))
-        }
-
-        .text-neutral-500 {
-            --tw-text-opacity: 1;
-            color: rgb(115 115 115/var(--tw-text-opacity))
-        }
-
-        .no-underline {
-            text-decoration-line: none
-        }
-
-        .hover\:underline:hover {
-            text-decoration-line: underline
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords"
+    content="jigar sable, portfolio, jigar, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+  <meta name="description" content="Welcome to Jigar's Portfolio. Full-Stack Web Developer and Android App Developer" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon -->
+  <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+  <title>Portfolio | Jigar Sable</title>
 </head>
 
-<body class="
-        min-h-screen bg-neutral-600
-        font-sans
-    ">
-    <main class="
-            min-h-screen
-            flex flex-wrap justify-center items-center content-center
-            border-t-4 border-neutral-400
-            bg-neutral-100
-            text-neutral-900
-        ">
-        <img src="/images/nobleosinachi.png"
+<body oncontextmenu="return false">
+
+  <!-- pre loader -->
+  <!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+  <!-- navbar starts -->
+  <header>
+    <a href="/" class="logo"><i class="fab fa-node-js"></i> Jigar</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- navbar ends -->
 
 
-srcset="./images/nobleosinachi.png 2x" alt="Noble Osinachi" width="200" height="200"
-            
-            
-            
-            class="m-4 rounded-full">
-        <div class="m-4 max-w-[50%]">
-            <h1 class="
-                    font-medium text-xl mb-2
-                ">
-                Noble Osinachi
-            </h1>
-            <ul class="
-                    list-disc list-inside mb-2
-                ">
-                <li>
-                    Engineer
-                    <small class="text-neutral-500">
-                        <em>(Systems & Software)</em>
-                    </small>
-                </li>
-                <li>
-                    Blockchain & Web 3.0
-                    <small class="text-neutral-500">
-                        <em>( Enthusiast )</em>
-                    </small>
-                </li>
-                <li>
-                    <a href="https://twitter.com/Noble Osinachi" target="_blank" class="no-underline hover:underline">
-                        @NobleOsinachi</a>
-                    <small class="text-neutral-500">
-                        <em>(Same handle on all Social Media)</em>
-                    </small>
-                </li>
-            </ul>
-            <!-- <p>From Dublin, currently working on<a href="#" target="_blank" class="no-underline hover:underline">SiteRegs.com</a>.</p> -->
+  <!-- hero section starts -->
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+      <h2>Hi There,<br /> I'm Jigar <span>Sable</span></h2>
+      <p>i am into <span class="typing-text"></span></p>
+      <a href="#about" class="btn"><span>About Me</span>
+        <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/jigar-sable/"
+              target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a class="github" aria-label="GitHub" href="https://github.com/jigar-sable" target="_blank"><i
+                class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/jigar_sable" target="_blank"><i
+                class="fab fa-twitter"></i></a></li>
+          <li><a class="telegram" aria-label="Telegram" href="https://t.me/lifecode5" target="_blank"><i
+                class="fab fa-telegram-plane"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/jigarsable.dev"><i
+                class="fab fa-instagram" target="_blank"></i></a></li>
+          <li><a class="dev" aria-label="Dev" href="https://dev.to/jigarsable" target="_blank"><i
+                class="fab fa-dev"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="image">
+      <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+    </div>
+  </section>
+  <!-- hero section ends -->
+
+
+  <!-- about section starts -->
+  <section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+
+    <div class="row">
+
+      <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>I'm Jigar</h3>
+        <span class="tag">Full Stack Developer</span>
+
+        <p>I am a Full-Stack developer based in Pune, India.
+          I am an Information Technology undergraduate from SPPU.
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build WebApps and Websites using MERN Stack.
+          Working for myself to improve my skills.
+          Love to build Full-Stack clones. </p>
+
+        <div class="box-container">
+          <!-- <div class="box">
+              <p><span> age: </span> 20</p>
+              <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
+            </div> -->
+          <div class="box">
+            <p><span> email : </span> jigarsable21@gmail.com</p>
+            <p><span> place : </span> Pune, India - 412206</p>
+          </div>
         </div>
-    </main>
 
-    <!-- Panelbear -->
-    <script async src="https://cdn.panelbear.com/analytics.js?site=4R0QcNdfCBQ"></script>
-   
-    <!-- Cronitor RUM -->
-<script async src="https://rum.cronitor.io/script.js"></script>
-<script>
-    window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
-    cronitor('config', { clientKey: '3147807307de3b2c0dc37ea95965744f' });
+        <div class="resumebtn">
+          <a href="https://drive.google.com/file/d/1rZiXl562q7aVyk1kJ2nO85YBAq8ixTiw/view" target="_blank"
+            class="btn"><span>Resume</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
 
- window.panelbear = window.panelbear || function () { ( window.panelbear.q = window.panelbear.q || [] ).push( arguments ); };
-        panelbear( 'config', { site: '4R0QcNdfCBQ' } );
-    
-      // Function to redirect after 5 seconds
-        // setTimeout(function() {
-        //     window.location.href = "https://nobleosinachi-portfolio.vercel.app/";
-        // }, 5000); // 5000 milliseconds = 5 seconds
+      </div>
+    </div>
+  </section>
+  <!-- about section ends -->
 
-</script>
+  <!-- skills section starts -->
+  <section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+      <div class="row" id="skillsContainer">
+
+        <!-- <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
+                <span>AdobeXD</span>
+              </div>
+            </div> -->
+
+      </div>
+    </div>
+  </section>
+  <!-- skills section ends -->
+
+
+  <!-- education section starts -->
+  <section class="education" id="education">
+
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./assets/images/education/college.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Bachelor of Engineering in Information Technology</h3>
+          <p>Zeal College of engineering and research | SPPU</p>
+          <h4>2020-2024 | Pursuing</h4>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./assets/images/education/school.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>HSC Science | Informatic Practices</h3>
+          <p>Shri L. G. Haria Multipurpose School | CBSE</p>
+          <h4>2018-2020 | Completed</h4>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- education section ends -->
+
+
+  <!-- work project section starts -->
+  <section class="work" id="work">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+    <div class="box-container">
+
+      <!-- <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    </div>
+
+    <div class="viewall">
+      <a href="/projects" class="btn"><span>View All</span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+
+  </section>
+  <!-- work project section ends -->
+
+  <!-- experience section starts -->
+  <section class="experience" id="experience">
+
+    <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+    <div class="timeline">
+
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>Self Employed</h2>
+          </div>
+          <div class="desc">
+            <h3>Full Stack Developer</h3>
+            <p>Oct 2021 - present</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>Mapstreak Flyseas</h2>
+          </div>
+          <div class="desc">
+            <h3>Web Developer | Internship</h3>
+            <p>June 2021 - Dec 2021</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>The Spark Foundation</h2>
+          </div>
+          <div class="desc">
+            <h3>Website Developer | Internship</h3>
+            <p>May 2021 - June 2021</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>The Spark Foundation</h2>
+          </div>
+          <div class="desc">
+            <h3>Mobile Application Developer | Internship</h3>
+            <p>April 2021 - May 2021</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>Frshr Technologies</h2>
+          </div>
+          <div class="desc">
+            <h3>Wordpress Developer | Internship</h3>
+            <p>April 2021 - April 2021</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>WonderingBlog</h2>
+          </div>
+          <div class="desc">
+            <h3>Web Development & SEO | Internship</h3>
+            <p>March 2021 - April 2021</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="morebtn">
+      <a href="/experience" class="btn"><span>View All</span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+
+    </div>
+
+  </section>
+  <!-- experience section ends -->
+
+  <!-- contact section starts -->
+  <section class="contact" id="contact">
+
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+    <div class="container">
+      <div class="content">
+        <div class="image-box">
+          <img draggable="false" src="./assets/images/contact1.png" alt="">
+        </div>
+        <form id="contact-form">
+
+          <div class="form-group">
+            <div class="field">
+              <input type="text" name="name" placeholder="Name" required>
+              <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="email" placeholder="Email" required>
+              <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="phone" placeholder="Phone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="message">
+              <textarea placeholder="Message" name="message" required></textarea>
+              <i class="fas fa-comment-dots"></i>
+            </div>
+          </div>
+          <div class="button-area">
+            <button type="submit">
+              Submit <i class="fa fa-paper-plane"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- contact section ends -->
+
+
+  <!-- footer section starts -->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Jigar's Portfolio</h3>
+        <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br /> Keep Rising
+          🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+        <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+        <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+        <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+        <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <p> <i class="fas fa-phone"></i>+91 XXX-XXX-XXXX</p>
+        <p> <i class="fas fa-envelope"></i>jigarsable21@gmail.com</p>
+        <p> <i class="fas fa-map-marked-alt"></i>Pune, India-412206</p>
+        <div class="share">
+
+          <a href="https://www.linkedin.com/in/jigar-sable" class="fab fa-linkedin" aria-label="LinkedIn"
+            target="_blank"></a>
+          <a href="https://github.com/jigar-sable" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+          <a href="mailto:jigarsable21@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+          <a href="https://twitter.com/jigar_sable" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+          <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
+        href="https://www.linkedin.com/in/jigar-sable"> jigar sable</a></h1>
+
+  </section>
+  <!-- footer section ends -->
+
+
+  <!-- scroll top btn -->
+  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+  <!-- scroll back to top -->
+
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- typed.js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- particle.js links -->
+  <script src="./assets/js/particles.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+  <!-- vanilla tilt.js links -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- scroll reveal anim -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+  <script src="./assets/js/script.js"></script>
 
 </body>
 
