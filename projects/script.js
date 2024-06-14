@@ -20,12 +20,12 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Jigar Sable";
-            $("#favicon").attr("href", "/assets/images/favicon.png");
+            document.title = "Projects | Portfolio Noble Osinachi";
+            $("#favicon").attr("href", "//images/favicon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "/assets/images/favhand.png");
+            $("#favicon").attr("href", "//images/favhand.png");
         }
     });
 
@@ -47,7 +47,7 @@ function showProjects(projects) {
         projectsHTML += `
         <div class="grid-item ${project.category}">
         <div class="box tilt" style="width: 380px; margin: 1rem">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="//images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
@@ -69,7 +69,7 @@ function showProjects(projects) {
     // VanillaTilt.init(document.querySelectorAll(".tilt"), {
     //     max: 20,
     // });
-    // // vanilla tilt.js  
+    // // vanilla tilt.js
 
     // /* ===== SCROLL REVEAL ANIMATION ===== */
     // const srtop = ScrollReveal({
@@ -117,7 +117,7 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 })();
 // End of Tawk.to Live Chat
 
-// disable developer mode
+// diOsinachi developer mode
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false;

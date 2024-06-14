@@ -28,13 +28,12 @@ This landing page is built using the following technologies:
 
 My main portfolio website is built using Next.js and TypeScript and contains a more comprehensive showcase of my projects, skills, and experience. To explore my main portfolio website, visit: [Noble Osinachi Main Portfolio](https://nobleosinachi-portfolio.vercel.app/)
 
-
 ## Contributions
 
 While this landing page is relatively simple, I welcome any feedback, suggestions, or contributions from the community. If you find any issues or have ideas for improvement, feel free to open an issue or submit a pull request.
 
 ## Contact
 
-You can reach me through my email nobleosinachi98@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/nobleosinachi).
+You can reach me through my email nobleosinachi98@gmail.com or connect with me on [LinkedIn](https://linkedin.com/in/nobleosinachi).
 
 Thank you for visiting my Portfolio Landing Page! I hope you enjoy exploring my work and skills. 😄
