@@ -1,0 +1,52 @@
+User-agent: *
+Disallow: *{*
+Disallow: *.do?*
+Disallow: *undefine*
+Disallow: *productDetail*
+Disallow: /sensors/
+Disallow: /si/
+Disallow: /gsol/
+Disallow: /_nuxt/
+Disallow: /fonts/
+Disallow: /preview/
+Disallow: /api/*/agg-search/*/popup/
+Disallow: /api/*/chat/
+Disallow: /api/*/get/md/routes
+Disallow: /api/*/alert-product/
+Disallow: /api/*/advert/*/top-ad
+
+User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile
+Disallow: /sensors/
+Disallow: /si/
+Disallow: /gsol/
+Disallow: /product/
+Disallow: /_nuxt/
+Disallow: /products/
+Disallow: /wholesale/
+Disallow: /factory/
+Disallow: /TMX/
+Disallow: /fonts/
+Disallow: /preview/
+Allow: /product/landingPage/
+
+User-agent: 80bot
+Disallow: /
+
+User-agent: YahooSeeker
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: voyager
+Crawl-delay: 10
+
+User-agent: bingbot
+Crawl-delay: 20
+
+User-agent: Applebot
+Crawl-delay: 20
