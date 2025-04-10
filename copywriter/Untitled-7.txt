@@ -1,0 +1,4 @@
+
+
+
+Email Flows are triggered by specific actions users take on your website. For example, a "3-day flow" for the Learn Blockchain course can be set to automatically start when a user signs up or shows interest. This allows you to deliver timely, relevant messages and guide users through a curated journey.

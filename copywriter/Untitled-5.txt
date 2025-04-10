@@ -1,0 +1,36 @@
+🚀 Full-Stack Software Engineer | .NET Core | React | Node.js
+
+Hi, I'm Noble, a full-stack software engineer with 6+ years of experience building enterprise-level fintech systems and custom web applications that scale. I've collaborated with 6-7 figure brands and helped startups launch faster with clean, secure, and optimized codebases.
+I specialize in developing scalable web systems and enterprise-grade APIs — all with performance, security, and modern UX in mind. From startup MVPs to financial technology platforms, I bring full-stack versatility and deliver real-world results.
+
+💻 Technical Expertise
+Frontend Development
+
+• Building responsive UIs with React.js and Next.js
+Creating type-safe applications using TypeScript and JavaScript
+Implementing modern designs with Tailwind CSS and Material UI
+Developing accessible interfaces with HTML5 and CSS3
+
+Backend Development
+
+Architecting robust systems with C# (.NET Core, ASP.NET MVC)
+Building scalable APIs with Node.js and Nest.js
+Implementing secure authentication with JWT and OAuth2
+Designing microservices with Docker and CI/CD integration
+
+Database & Cloud Solutions
+
+Optimizing performance with SQL Server and MongoDB
+Implementing efficient data access with Entity Framework Core
+Creating scalable database architectures with advanced caching
+Deploying cloud-based solutions with comprehensive monitoring
+
+🏆 What Sets Me Apart
+
+Fintech Expertise: Experience integrating payment gateways (Stripe, Paystack) with robust security measures
+MVP Development: Ability to rapidly prototype and launch market-ready applications
+REST API Design: Creating well-documented, efficient, and secure API endpoints
+Performance Optimization: Enhancing application speed and database query performance
+SaaS Architecture: Building subscription-based platforms with scalable infrastructure
+
+I'm ready to help your business create robust web applications that stand out in today's competitive market. Let's build something great together.

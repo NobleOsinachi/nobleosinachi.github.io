@@ -1,0 +1,12 @@
+   // Select all elements with aria-label="Unblock"
+    const unblockButtons = 
+    
+    
+    
+   
+    ;
+
+    // Loop through and click each one
+    unblockButtons.
+    
+    
