@@ -35,7 +35,7 @@ function getProjects() {
     return fetch("projects.json")
         .then(response => response.json())
         .then(data => {
-            return data
+            return data;
         });
 }
 
@@ -49,10 +49,7 @@ function showProjects(projects) {
         <div class="box tilt" style="width: 380px; margin: 1rem">
       <img draggable="false" src="/images/projects/${project.image}.png" alt="project" />
 
-
-<iframe width="540" height="522" src="https://www.youtube.com/embed/nVrBZMBM3Pw" title="WATCH THIS Before Starting THAT Business: Billionaire Insights to Life #CapCut #Netpreneur" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
+<iframe width="540" height="522" src="https://youtube.com/embed/nVrBZMBM3Pw" title="WATCH THIS Before Starting THAT Business: Billionaire Insights to Life #CapCut #Netpreneur" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       <div class="content">
         <div class="tag">
@@ -67,7 +64,7 @@ function showProjects(projects) {
         </div>
       </div>
     </div>
-    </div>`
+    </div>`;
     });
     projectsContainer.innerHTML = projectsHTML;
 
@@ -108,7 +105,7 @@ function showProjects(projects) {
 
 getProjects().then(data => {
     showProjects(data);
-})
+});
 // fetch projects end
 
 // Start of Tawk.to Live Chat
@@ -140,4 +137,4 @@ document.onkeydown = function (e) {
     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
         return false;
     }
-}
+};
