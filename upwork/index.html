@@ -2,15 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="5; url=https://upwork.com/freelancers/~01feebf6132808a422">
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="5; URL='https://upwork.com/freelancers/~01feebf6132808a422'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noble’s Upwork Profile</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            /* Blueish purple gradient */
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .spinner {
+            margin-top: 2rem;
+            border: 4px solid rgba(255, 255, 255, 0.2);
+            border-top: 4px solid #fff;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <p>You will be redirected to Upwork in 5 seconds. If not, <a
-            href="https://upwork.com/freelancers/~01feebf6132808a422">click here</a>.</p>
+    <h1>Redirecting to Noble’s Upwork Profile...</h1>
+    <p>If you're not automatically redirected, <a href="https://upwork.com/freelancers/~01feebf6132808a422">click
+            here</a>.
+    </p>
+    <div class="spinner"></div>
 </body>
 
 </html>
