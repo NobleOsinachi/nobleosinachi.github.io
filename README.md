@@ -34,6 +34,6 @@ While this landing page is relatively simple, I welcome any feedback, suggestion
 
 ## Contact
 
-You can reach me through my email nobleosinachi98@gmail.com or connect with me on [LinkedIn](https://linkedin.com/in/nobleosinachi).
+You can reach me through my email nobleosinachi@icloud.com or connect with me on [LinkedIn](https://linkedin.com/in/nobleosinachi).
 
 Thank you for visiting my Portfolio Landing Page! I hope you enjoy exploring my work and skills. 😄
