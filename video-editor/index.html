@@ -1031,12 +1031,9 @@
           submitButton.disabled = true;
           submitButton.innerHTML = 'Sending...';
 
-
-
-
           try {
-            const url = "http://localhost:3000/submit-form";
-            // const url = "https://email-sender-test.vercel.app/submit-form";
+            // const url = "http://localhost:3000/submit-form";
+            const url = "https://email-sender-test.onrender.com/submit-form";
 
             const response = await fetch(url, {
               method: 'POST',
