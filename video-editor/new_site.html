@@ -97,7 +97,7 @@
   </style>
   <script>
     document.getElementById('pingButton').addEventListener('click', function () {
-      fetch('https://email-sender-test.onrender.com/', {
+      fetch('https://nobleosinachi-email-api.onrender.com/', {
           method: 'GET',
           mode: 'no-cors', // 'no-cors' is needed to avoid CORS issues
         })
@@ -924,7 +924,7 @@
 
           try {
             // const url = "http://localhost:3000/submit-form";
-            const url = "https://email-sender-test.onrender.com/submit-form";
+            const url = "https://nobleosinachi-email-api.onrender.com/submit-form";
 
             const response = await fetch(url, {
               method: 'POST',
