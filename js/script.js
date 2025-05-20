@@ -1,4 +1,21 @@
 $(document).ready(function () {
+  // Function to send GET request to your backend
+  function pingBackend() {
+    fetch("https://nobleosinachi-email-api.onrender.com/", {
+      method: "GET",
+      mode: "no-cors", // 'no-cors' to avoid CORS issues (if needed)
+    })
+      .then(() => {
+        console.log("Email API is reachable!");
+      })
+      .catch((error) => {
+        console.log("Email API is not reachable.");
+      });
+  }
+
+  // Trigger the backend ping automatically
+  pingBackend();
+
   $("#menu").click(function () {
     $(this).toggleClass("fa-times");
     $(".navbar").toggleClass("nav-toggle");

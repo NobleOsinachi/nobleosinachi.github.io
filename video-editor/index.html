@@ -95,20 +95,9 @@
       width: 100%;
     }
   </style>
-  <script>
-    document.getElementById('pingButton').addEventListener('click', function () {
-      fetch('https://nobleosinachi-email-api.onrender.com/', {
-          method: 'GET',
-          mode: 'no-cors', // 'no-cors' is needed to avoid CORS issues
-        })
-        .then(() => {
-          console.log('Email API is reachable!');
-        })
-        .catch((error) => {
-          console.log('Email API is not reachable.');
-        });
-    });
-  </script>
+
+
+
 </head>
 
 <body class="bg-gray-900 text-white container mx-auto">
@@ -877,8 +866,26 @@
   </div>
 
   <!-- Simple JavaScript for mobile menu toggle and contact form -->
+
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Function to send GET request to your backend
+      function pingBackend() {
+        fetch('https://nobleosinachi-email-api.onrender.com/', {
+            method: 'GET',
+            mode: 'no-cors', // 'no-cors' to avoid CORS issues (if needed)
+          })
+          .then(() => {
+            console.log('Email API is reachable!');
+          })
+          .catch((error) => {
+            console.log('Email API is not reachable.');
+          });
+      }
+
+      // Trigger the backend ping automatically
+      pingBackend();
+
       // === Mobile Menu Logic ===
       const mobileMenuButton = document.querySelector('.md\\:hidden button');
       const mobileMenu = document.getElementById('mobile-menu');
@@ -978,6 +985,8 @@
       }
     });
   </script>
+
+
 
 </body>
 
