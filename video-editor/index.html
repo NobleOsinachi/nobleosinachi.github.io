@@ -419,7 +419,7 @@
       <!-- Adverts & VSLs Category -->
       <div class="mb-16">
         <h3 class="text-2xl font-bold mb-8 text-center text-white">
-          📢 Direct Response Adverts (VSL, UGC, Mashups)
+          📢 Direct Response Adverts (DTC, VSL, UGC, Product Demos, Mashups)
         </h3>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- GRAMS28 Leather Folio -->
@@ -782,7 +782,8 @@
   <section id="contact" class="py-20 bg-gray-800">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's <span class="text-blue-500">Connect</span></h2>
+        <h2 id="get-in-touch" class="text-3xl md:text-4xl font-bold mb-4">Let's <span
+            class="text-blue-500">Connect</span></h2>
         <div class="w-16 h-1 bg-blue-500 mx-auto mb-6"></div>
         <p class="text-gray-300 max-w-2xl mx-auto">Ready to take your content to the next level? Reach out and let's
           discuss how I can help you achieve your goals.</p>
@@ -1024,16 +1025,23 @@
 
       // === Contact Form Logic ===
       const contactForm = document.querySelector('form');
-
       if (contactForm) {
         contactForm.addEventListener('submit', async function (e) {
           e.preventDefault();
+
+          const contactSection = document.getElementById('get-in-touch');
+          if (contactSection) {
+            contactSection.scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
 
           const nameInput = document.getElementById('name');
           const emailInput = document.getElementById('email');
           const projectInput = document.getElementById('project');
           const messageInput = document.getElementById('message');
           const submitButton = document.querySelector('button[type="submit"]');
+          const originalBtnText = submitButton.innerHTML; // Capture the original button text
 
           if (!nameInput.value || !emailInput.value || !messageInput.value) {
             alert('Please fill in all required fields');
@@ -1042,9 +1050,10 @@
 
           submitButton.disabled = true;
           submitButton.innerHTML = 'Sending...';
+          submitButton.style.cursor = 'not-allowed';
+          submitButton.classList.add('opacity-50'); // optional: makes it visually look disabled
 
           try {
-            // const url = "http://localhost:3000/submit-form";
             const url = "https://nobleosinachi-email-api.onrender.com/video-editor-form";
 
             const response = await fetch(url, {
@@ -1067,36 +1076,55 @@
               const originalFormHTML = formContainer.innerHTML;
 
               formContainer.innerHTML = `
-  <div class="text-center py-8">
-    <svg xmlns="http://w3.org/2000/svg" class="h-16 w-16 text-green-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-    </svg>
-    <h3 class="text-2xl font-bold mb-2">Message Sent!</h3>
-    <p class="text-gray-300">Thank you for reaching out. We'll be in touch shortly.</p>
-  </div>
+<div class="text-center py-8">
+  <svg xmlns="http://w3.org/2000/svg" class="h-16 w-16 text-green-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24"
+    stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+  </svg>
+  <h3 class="text-2xl font-bold mb-2">Message Sent!</h3>
+  <p class="text-gray-300">Thank you for reaching out. We'll be in touch shortly.</p>
+</div>
 `;
 
-              // Restore the form after 10 seconds
               setTimeout(() => {
                 formContainer.innerHTML = originalFormHTML;
 
-                submitButton.disabled = false;
-                submitButton.innerHTML = 'Send Message';
-              }, 10000);
+                // Re-query the button and reattach event listener
+                const restoredForm = formContainer.querySelector('form');
+                if (restoredForm) {
+                  restoredForm.addEventListener('submit', arguments.callee);
+                }
+
+                const restoredButton = formContainer.querySelector('button[type="submit"]');
+                if (restoredButton) {
+                  restoredButton.disabled = false;
+                  restoredButton.innerHTML = originalBtnText;
+                  restoredButton.style.cursor = 'pointer'; // or 'default' depending on your design
+                  restoredButton.classList.remove('opacity-50');
+
+                }
+
+              }, 5000);
 
             } else {
               alert(result.message || 'Something went wrong. Please try again.');
               submitButton.disabled = false;
-              submitButton.innerHTML = 'Send Message';
+              submitButton.innerHTML = originalBtnText;
+              submitButton.style.cursor = 'pointer'; // or 'default' depending on your design
+              submitButton.classList.remove('opacity-50');
+
             }
           } catch (error) {
             console.error('Error submitting form:', error);
             alert('Failed to send message. Please try again later.');
             submitButton.disabled = false;
-            submitButton.innerHTML = 'Send Message';
+            submitButton.innerHTML = originalBtnText;
+            submitButton.style.cursor = 'pointer'; // or 'default' depending on your design
+            submitButton.classList.remove('opacity-50');
           }
         });
       }
+
     });
   </script>
 
