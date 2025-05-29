@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Studies Carousel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .carousel-container {
+            overflow: hidden;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-slide {
+            min-width: 100%;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Section Header -->
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Case Studies</h2>
+            </div>
+
+            <!-- Carousel Container -->
+            <div class="relative">
+                <div class="carousel-container rounded-lg shadow-lg bg-white overflow-hidden">
+                    <div class="carousel-track" id="carouselTrack">
+
+                        <!-- CASE STUDY 1 - Complete Slide -->
+                        <div class="carousel-slide">
+                            <div class="grid md:grid-cols-2 gap-8 p-8 items-center min-h-[600px]">
+                                <div class="space-y-6">
+                                    <h3 class="text-3xl font-bold text-gray-900">
+                                        Over <span class="text-red-700">$90k</span> from product drop campaigns, with a
+                                        <span class="text-red-700">23%</span> increase in flows
+                                    </h3>
+                                    <p class="text-gray-600 leading-relaxed text-lg">
+                                        This private label e-commerce brand contacted us to handle campaigns for their
+                                        product drop, which eventually generated over $90k. We also assisted in
+                                        polishing existing flows and helped with list hygiene.
+                                    </p>
+                                    <blockquote class="bg-gray-50 p-6 rounded-lg border-l-4 border-red-700">
+                                        <p class="text-gray-700 italic mb-4 text-lg">
+                                            "Maryann assisted me with my email marketing flows. She achieved an
+                                            aesthetic, high-converting design that matches my brand theme, generating
+                                            over $90,000 USD in revenue! She also helped clean my email list by removing
+                                            inactive subscribers and updating my existing flows. Overall, she's an email
+                                            marketing gem who consistently overdelivers."
+                                        </p>
+                                        <cite class="text-sm font-semibold text-gray-900">
+                                            Arshia Hosseini<br>
+                                            <span class="text-gray-600">CEO, Avancus</span>
+                                        </cite>
+                                    </blockquote>
+                                    <button
+                                        class="bg-red-700 text-white px-8 py-4 rounded-lg hover:bg-red-800 transition-colors text-lg font-semibold">
+                                        Give Me These Results
+                                    </button>
+                                </div>
+                                <div class="flex justify-center">
+                                    <img src="https://via.placeholder.com/500x600/f3f4f6/6b7280?text=E-commerce+Success+Case+Study"
+                                        alt="E-commerce Case Study" class="rounded-lg shadow-lg max-w-full h-auto">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CASE STUDY 2 - Complete Slide -->
+                        <div class="carousel-slide">
+                            <div class="grid md:grid-cols-2 gap-8 p-8 items-center min-h-[600px]">
+                                <div class="space-y-6">
+                                    <h3 class="text-3xl font-bold text-gray-900">
+                                        <span class="text-red-700">150%</span> increase in email revenue within <span
+                                            class="text-red-700">3 months</span>
+                                    </h3>
+                                    <p class="text-gray-600 leading-relaxed text-lg">
+                                        A growing SaaS company needed help with their email automation. We restructured
+                                        their entire funnel, implemented behavioral triggers, and optimized their
+                                        nurture sequences for maximum engagement and conversions.
+                                    </p>
+                                    <blockquote class="bg-gray-50 p-6 rounded-lg border-l-4 border-red-700">
+                                        <p class="text-gray-700 italic mb-4 text-lg">
+                                            "The results speak for themselves. Our email revenue increased by 150% in
+                                            just 3 months. The team's strategic approach and attention to detail is
+                                            unmatched. They transformed our email marketing from an afterthought to our
+                                            primary revenue driver."
+                                        </p>
+                                        <cite class="text-sm font-semibold text-gray-900">
+                                            Sarah Johnson<br>
+                                            <span class="text-gray-600">CMO, TechFlow Solutions</span>
+                                        </cite>
+                                    </blockquote>
+                                    <button
+                                        class="bg-red-700 text-white px-8 py-4 rounded-lg hover:bg-red-800 transition-colors text-lg font-semibold">
+                                        Get Similar Results
+                                    </button>
+                                </div>
+                                <div class="flex justify-center">
+                                    <img src="https://via.placeholder.com/500x600/f3f4f6/6b7280?text=SaaS+Growth+Dashboard"
+                                        alt="SaaS Growth Case Study" class="rounded-lg shadow-lg max-w-full h-auto">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CASE STUDY 3 - Complete Slide -->
+                        <div class="carousel-slide">
+                            <div class="grid md:grid-cols-2 gap-8 p-8 items-center min-h-[600px]">
+                                <div class="space-y-6">
+                                    <h3 class="text-3xl font-bold text-gray-900">
+                                        From <span class="text-red-700">$0</span> to <span
+                                            class="text-red-700">$45k</span> monthly recurring email revenue
+                                    </h3>
+                                    <p class="text-gray-600 leading-relaxed text-lg">
+                                        A fashion startup had zero email marketing strategy. We built their entire email
+                                        infrastructure from scratch, including welcome series, abandoned cart flows,
+                                        win-back campaigns, and VIP customer retention sequences.
+                                    </p>
+                                    <blockquote class="bg-gray-50 p-6 rounded-lg border-l-4 border-red-700">
+                                        <p class="text-gray-700 italic mb-4 text-lg">
+                                            "We went from having no email strategy to generating $45k monthly just from
+                                            our email campaigns. The onboarding process was smooth, and the results came
+                                            faster than expected. Now email is our biggest revenue channel!"
+                                        </p>
+                                        <cite class="text-sm font-semibold text-gray-900">
+                                            Marcus Chen<br>
+                                            <span class="text-gray-600">Founder, Urban Threads</span>
+                                        </cite>
+                                    </blockquote>
+                                    <button
+                                        class="bg-red-700 text-white px-8 py-4 rounded-lg hover:bg-red-800 transition-colors text-lg font-semibold">
+                                        Start From Scratch
+                                    </button>
+                                </div>
+                                <div class="flex justify-center">
+                                    <img src="https://via.placeholder.com/500x600/f3f4f6/6b7280?text=Fashion+Brand+Email+Design"
+                                        alt="Fashion Startup Case Study" class="rounded-lg shadow-lg max-w-full h-auto">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Navigation Arrows -->
+                <button id="prevBtn"
+                    class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 transition-colors z-10">
+                    <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                        </path>
+                    </svg>
+                </button>
+                <button id="nextBtn"
+                    class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 transition-colors z-10">
+                    <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+
+                <!-- Dots Navigation -->
+                <div class="flex justify-center mt-8 space-x-3">
+                    <button class="dot w-4 h-4 rounded-full bg-red-700 transition-colors" data-slide="0"></button>
+                    <button class="dot w-4 h-4 rounded-full bg-gray-300 hover:bg-gray-400 transition-colors"
+                        data-slide="1"></button>
+                    <button class="dot w-4 h-4 rounded-full bg-gray-300 hover:bg-gray-400 transition-colors"
+                        data-slide="2"></button>
+                </div>
+            </div>
+
+            <!-- View All Button -->
+            <div class="text-center mt-12">
+                <a href="#all-case-studies"
+                    class="inline-flex items-center px-8 py-4 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors text-lg">
+                    View All Case Studies
+                    <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        class Carousel {
+            constructor() {
+                this.currentSlide = 0;
+                this.totalSlides = 3; // Now only 3 case studies
+                this.track = document.getElementById('carouselTrack');
+                this.prevBtn = document.getElementById('prevBtn');
+                this.nextBtn = document.getElementById('nextBtn');
+                this.dots = document.querySelectorAll('.dot');
+
+                this.init();
+            }
+
+            init() {
+                // Arrow navigation
+                this.prevBtn.addEventListener('click', () => this.prevSlide());
+                this.nextBtn.addEventListener('click', () => this.nextSlide());
+
+                // Dot navigation
+                this.dots.forEach((dot, index) => {
+                    dot.addEventListener('click', () => this.goToSlide(index));
+                });
+
+                // Auto-play
+                this.startAutoPlay();
+
+                // Pause auto-play on hover
+                this.track.addEventListener('mouseenter', () => this.stopAutoPlay());
+                this.track.addEventListener('mouseleave', () => this.startAutoPlay());
+            }
+
+            updateSlide() {
+                const translateX = -this.currentSlide * 100;
+                this.track.style.transform = `translateX(${translateX}%)`;
+                this.updateDots();
+            }
+
+            updateDots() {
+                this.dots.forEach((dot, index) => {
+                    if (index === this.currentSlide) {
+                        dot.classList.remove('bg-gray-300');
+                        dot.classList.add('bg-red-700');
+                    } else {
+                        dot.classList.remove('bg-red-700');
+                        dot.classList.add('bg-gray-300');
+                    }
+                });
+            }
+
+            nextSlide() {
+                this.currentSlide = (this.currentSlide + 1) % this.totalSlides;
+                this.updateSlide();
+            }
+
+            prevSlide() {
+                this.currentSlide = (this.currentSlide - 1 + this.totalSlides) % this.totalSlides;
+                this.updateSlide();
+            }
+
+            goToSlide(slideIndex) {
+                this.currentSlide = slideIndex;
+                this.updateSlide();
+            }
+
+            startAutoPlay() {
+                this.autoPlayInterval = setInterval(() => {
+                    this.nextSlide();
+                }, 6000); // 6 seconds per slide
+            }
+
+            stopAutoPlay() {
+                if (this.autoPlayInterval) {
+                    clearInterval(this.autoPlayInterval);
+                }
+            }
+        }
+
+        // Initialize carousel
+        document.addEventListener('DOMContentLoaded', () => {
+            new Carousel();
+        });
+    </script>
+</body>
+
+</html>
