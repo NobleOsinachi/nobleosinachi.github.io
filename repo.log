@@ -3,27 +3,34 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io
 
-09/05/2025  02:57 PM    <DIR>          .
-09/05/2025  02:57 PM    <DIR>          ..
+09/05/2025  09:29 PM    <DIR>          .
+09/05/2025  09:29 PM    <DIR>          ..
 05/29/2025  12:49 AM             4,920 404.html
 06/11/2025  01:52 PM    <DIR>          acct
+09/05/2025  03:07 PM            72,594 apple-touch-icon.png
 04/15/2025  03:50 AM    <DIR>          copywriter
 04/01/2023  05:54 AM    <DIR>          css
 06/14/2024  04:29 PM    <DIR>          cv
-09/05/2025  02:35 PM           145,985 dir.log
 05/06/2025  02:01 PM    <DIR>          discord
 06/11/2024  01:22 PM    <DIR>          docs
 05/20/2025  05:50 PM    <DIR>          ecom-videos
 04/01/2023  05:54 AM    <DIR>          experience
+09/05/2025  03:07 PM            81,584 favicon-192.png
+09/05/2025  03:01 PM           786,486 favicon-512.png
+09/05/2025  03:02 PM             5,694 favicon.ico
+09/05/2025  03:01 PM           786,486 favicon.png
 04/01/2025  01:13 AM    <DIR>          fiverr
 07/18/2024  06:37 PM                53 google0e0da5e5289bcc8f.html
-05/22/2025  08:45 PM    <DIR>          images
-05/29/2025  12:57 AM            18,394 index.html
+09/05/2025  03:03 PM               119 humans.txt
+09/05/2025  09:25 PM    <DIR>          images
+09/05/2025  03:09 PM            19,628 index.html
 05/06/2025  03:53 AM    <DIR>          js
+09/05/2025  03:02 PM             5,694 LICENSE
+09/05/2025  03:05 PM               629 manifest.json
 04/01/2025  01:13 AM    <DIR>          projects
 04/29/2025  02:43 PM             2,049 README.md
-09/05/2025  02:57 PM                 0 repo.log
-09/05/2025  02:41 PM             1,168 robots.txt
+09/05/2025  09:29 PM                 0 repo.log
+09/05/2025  03:13 PM             1,247 robots.txt
 01/30/2025  02:11 PM    <DIR>          sfc-pricing
 09/05/2025  02:50 PM             4,156 sitemap.txt
 09/05/2025  02:52 PM             3,937 sitemap.xml
@@ -31,26 +38,26 @@
 04/29/2025  10:43 AM    <DIR>          ugc
 04/29/2025  10:41 AM    <DIR>          upwork
 04/29/2025  10:47 AM    <DIR>          upwork-verified
-06/13/2025  01:31 AM    <DIR>          video-editor
+09/05/2025  03:15 PM    <DIR>          video-editor
 04/01/2025  01:19 AM    <DIR>          vsl
-              10 File(s)        184,341 bytes
+              17 File(s)      1,778,955 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git
 
-09/05/2025  02:56 PM                40 COMMIT_EDITMSG
+09/05/2025  03:37 PM                23 COMMIT_EDITMSG
 09/11/2024  02:50 PM               348 config
 10/15/2023  08:35 AM                73 description
 09/05/2025  02:54 PM               108 FETCH_HEAD
 10/15/2023  08:35 AM                21 HEAD
 10/26/2023  06:25 PM    <DIR>          hooks
-09/05/2025  02:54 PM            14,629 index
+09/05/2025  03:37 PM            15,533 index
 10/26/2023  06:25 PM    <DIR>          info
 10/26/2023  06:25 PM    <DIR>          logs
-09/05/2025  02:56 PM    <DIR>          objects
+09/05/2025  03:37 PM    <DIR>          objects
 09/05/2025  02:54 PM                41 ORIG_HEAD
 10/15/2023  08:35 AM               195 packed-refs
 10/26/2023  06:25 PM    <DIR>          refs
-               8 File(s)         15,455 bytes
+               8 File(s)         16,342 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\hooks
 
@@ -81,9 +88,9 @@
 
 10/26/2023  06:25 PM    <DIR>          .
 10/26/2023  06:25 PM    <DIR>          ..
-09/05/2025  02:56 PM            10,226 HEAD
+09/05/2025  03:37 PM            10,399 HEAD
 10/26/2023  06:25 PM    <DIR>          refs
-               1 File(s)         10,226 bytes
+               1 File(s)         10,399 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\logs\refs
 
@@ -97,8 +104,8 @@
 
 10/26/2023  06:25 PM    <DIR>          .
 10/26/2023  06:25 PM    <DIR>          ..
-09/05/2025  02:56 PM            10,226 main
-               1 File(s)         10,226 bytes
+09/05/2025  03:37 PM            10,399 main
+               1 File(s)         10,399 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\logs\refs\remotes
 
@@ -112,24 +119,24 @@
 01/21/2024  11:21 PM    <DIR>          .
 01/21/2024  11:21 PM    <DIR>          ..
 09/11/2024  02:50 PM               211 HEAD
-09/05/2025  02:56 PM             9,280 main
-               2 File(s)          9,491 bytes
+09/05/2025  03:37 PM             9,437 main
+               2 File(s)          9,648 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects
 
-09/05/2025  02:56 PM    <DIR>          .
-09/05/2025  02:56 PM    <DIR>          ..
+09/05/2025  03:37 PM    <DIR>          .
+09/05/2025  03:37 PM    <DIR>          ..
 06/14/2024  05:17 PM    <DIR>          00
 05/22/2025  08:47 PM    <DIR>          01
 05/29/2025  01:01 AM    <DIR>          02
 05/22/2025  08:47 PM    <DIR>          03
-01/21/2024  11:53 PM    <DIR>          04
+09/05/2025  03:36 PM    <DIR>          04
 05/29/2025  01:01 AM    <DIR>          05
 04/16/2025  02:40 PM    <DIR>          06
 04/16/2025  05:03 PM    <DIR>          07
 05/21/2025  04:25 PM    <DIR>          08
 06/14/2024  04:14 PM    <DIR>          09
-04/16/2025  02:40 PM    <DIR>          0a
+09/05/2025  03:36 PM    <DIR>          0a
 04/16/2025  02:40 PM    <DIR>          0b
 05/21/2025  03:00 PM    <DIR>          0c
 04/01/2025  12:50 PM    <DIR>          0d
@@ -156,7 +163,7 @@
 05/01/2025  08:43 AM    <DIR>          22
 05/03/2025  04:55 PM    <DIR>          24
 04/29/2025  05:25 PM    <DIR>          25
-04/29/2025  10:35 AM    <DIR>          26
+09/05/2025  03:37 PM    <DIR>          26
 04/01/2025  12:49 PM    <DIR>          27
 04/16/2025  02:40 PM    <DIR>          28
 04/16/2025  02:40 PM    <DIR>          29
@@ -191,7 +198,7 @@
 04/16/2025  02:40 PM    <DIR>          48
 04/16/2025  02:40 PM    <DIR>          49
 05/21/2025  04:33 PM    <DIR>          4a
-04/16/2025  02:40 PM    <DIR>          4b
+09/05/2025  03:37 PM    <DIR>          4b
 05/01/2025  08:43 AM    <DIR>          4c
 04/16/2025  02:40 PM    <DIR>          4d
 05/22/2025  08:47 PM    <DIR>          4e
@@ -201,7 +208,7 @@
 05/22/2025  08:47 PM    <DIR>          53
 06/14/2024  05:18 PM    <DIR>          54
 04/29/2025  10:45 AM    <DIR>          55
-05/06/2025  03:51 AM    <DIR>          56
+09/05/2025  03:36 PM    <DIR>          56
 09/05/2025  02:54 PM    <DIR>          57
 05/06/2025  03:53 AM    <DIR>          58
 09/05/2025  02:51 PM    <DIR>          59
@@ -213,7 +220,7 @@
 04/29/2025  10:35 AM    <DIR>          5f
 04/16/2025  02:40 PM    <DIR>          61
 09/11/2024  02:55 PM    <DIR>          62
-04/29/2025  02:10 PM    <DIR>          63
+09/05/2025  03:36 PM    <DIR>          63
 04/16/2025  02:40 PM    <DIR>          65
 05/21/2025  03:00 PM    <DIR>          66
 04/29/2025  10:35 AM    <DIR>          67
@@ -240,16 +247,17 @@
 06/11/2024  01:24 PM    <DIR>          7d
 09/11/2024  02:39 PM    <DIR>          7e
 05/01/2025  08:43 AM    <DIR>          7f
-05/20/2025  05:58 PM    <DIR>          80
+09/05/2025  03:36 PM    <DIR>          80
 05/06/2025  03:51 AM    <DIR>          81
 05/20/2025  05:58 PM    <DIR>          82
 06/01/2025  01:25 AM    <DIR>          83
 09/11/2024  02:39 PM    <DIR>          84
 05/20/2025  05:58 PM    <DIR>          85
 05/29/2025  01:01 AM    <DIR>          86
-05/06/2025  03:53 AM    <DIR>          87
+09/05/2025  03:36 PM    <DIR>          87
 05/01/2025  08:47 AM    <DIR>          88
 04/16/2025  05:03 PM    <DIR>          89
+09/05/2025  03:36 PM    <DIR>          8a
 04/29/2025  10:35 AM    <DIR>          8b
 04/16/2025  05:03 PM    <DIR>          8c
 04/16/2025  02:40 PM    <DIR>          8d
@@ -259,9 +267,9 @@
 04/29/2025  11:13 AM    <DIR>          91
 09/05/2025  02:54 PM    <DIR>          92
 05/06/2025  03:52 AM    <DIR>          93
-05/29/2025  01:01 AM    <DIR>          94
+09/05/2025  03:36 PM    <DIR>          94
 05/01/2025  08:43 AM    <DIR>          95
-06/14/2024  05:21 PM    <DIR>          96
+09/05/2025  03:36 PM    <DIR>          96
 05/21/2025  03:00 PM    <DIR>          97
 01/21/2024  11:54 PM    <DIR>          98
 01/30/2025  02:56 PM    <DIR>          99
@@ -270,7 +278,7 @@
 04/16/2025  02:40 PM    <DIR>          9c
 05/21/2025  03:00 PM    <DIR>          9d
 05/03/2025  04:55 PM    <DIR>          9e
-05/29/2025  01:01 AM    <DIR>          9f
+09/05/2025  03:36 PM    <DIR>          9f
 09/28/2024  02:47 AM    <DIR>          a0
 06/01/2025  01:24 AM    <DIR>          a1
 04/16/2025  02:40 PM    <DIR>          a2
@@ -286,7 +294,7 @@
 05/22/2025  08:47 PM    <DIR>          ad
 04/16/2025  02:40 PM    <DIR>          ae
 09/12/2024  01:28 AM    <DIR>          af
-04/16/2025  02:40 PM    <DIR>          b0
+09/05/2025  03:36 PM    <DIR>          b0
 04/16/2025  02:40 PM    <DIR>          b1
 06/14/2024  05:18 PM    <DIR>          b2
 04/16/2025  02:40 PM    <DIR>          b3
@@ -331,7 +339,7 @@
 04/29/2025  05:23 PM    <DIR>          dc
 04/16/2025  02:40 PM    <DIR>          dd
 04/16/2025  02:40 PM    <DIR>          de
-04/16/2025  02:40 PM    <DIR>          df
+09/05/2025  03:37 PM    <DIR>          df
 05/01/2025  08:43 AM    <DIR>          e0
 04/16/2025  02:40 PM    <DIR>          e1
 04/16/2025  02:40 PM    <DIR>          e2
@@ -345,6 +353,7 @@
 05/06/2025  04:09 AM    <DIR>          ea
 09/11/2024  02:39 PM    <DIR>          eb
 05/21/2025  03:00 PM    <DIR>          ec
+09/05/2025  03:36 PM    <DIR>          ed
 05/01/2025  08:43 AM    <DIR>          ee
 04/16/2025  02:40 PM    <DIR>          ef
 05/21/2025  04:25 PM    <DIR>          f0
@@ -401,10 +410,11 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\04
 
-01/21/2024  11:53 PM    <DIR>          .
-01/21/2024  11:53 PM    <DIR>          ..
+09/05/2025  03:36 PM    <DIR>          .
+09/05/2025  03:36 PM    <DIR>          ..
 01/21/2024  11:53 PM             2,665 7c1c78b38eeafddbd587973bb69cdfd4c3bc0b
-               1 File(s)          2,665 bytes
+09/05/2025  03:36 PM               300 80fb52cfa88194f51281a6a46b3454ab7d8c39
+               2 File(s)          2,965 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\05
 
@@ -456,10 +466,11 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\0a
 
-04/16/2025  02:40 PM    <DIR>          .
-04/16/2025  02:40 PM    <DIR>          ..
+09/05/2025  03:36 PM    <DIR>          .
+09/05/2025  03:36 PM    <DIR>          ..
+09/05/2025  03:36 PM            72,636 88034e00f110253785621a3a25675d0c26f220
 04/16/2025  05:03 PM             4,217 eb7fafbe3b0bacd9f0ee897d8f4656c35b99a3
-               1 File(s)          4,217 bytes
+               2 File(s)         76,853 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\0b
 
@@ -713,14 +724,15 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\26
 
-04/29/2025  10:35 AM    <DIR>          .
-04/29/2025  10:35 AM    <DIR>          ..
+09/05/2025  03:37 PM    <DIR>          .
+09/05/2025  03:37 PM    <DIR>          ..
 04/16/2025  05:03 PM             2,023 054945789df4a2054dc115d8ac7a8687440771
 04/16/2025  05:03 PM             1,536 1fc367b1c7398b9cff8fdfa3c536ff5759fedc
+09/05/2025  03:37 PM             1,111 39dd5b6dfe40d4ab432c768e9167bc69bf22ef
 04/29/2025  10:35 AM               283 898bcf7b69a3d22619ea0abdf06bfcf1b35f7e
 01/30/2025  02:56 PM               140 c8df7860d0942255bdf4cddfa7290abdfec64d
 04/29/2025  10:35 AM               121 dea34978bc7b3ee77e001841f9e025336d5f57
-               5 File(s)          4,103 bytes
+               6 File(s)          5,214 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\27
 
@@ -1051,14 +1063,15 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\4b
 
-04/16/2025  02:40 PM    <DIR>          .
-04/16/2025  02:40 PM    <DIR>          ..
+09/05/2025  03:37 PM    <DIR>          .
+09/05/2025  03:37 PM    <DIR>          ..
 06/11/2024  01:22 PM             3,937 1a643b17d9e8d8bf52d40ece18180542e3fa5a
 04/16/2025  02:40 PM                92 4d5a8f51a383c752e101eea9f53553d49afd97
 06/14/2024  04:14 PM            64,944 7f73a0f41cb1f1d4ef6dc9d75508debde1c4d3
 12/03/2023  09:32 PM               386 92cbd192cfbf83a50b8e2c04451711e635f51d
 04/16/2025  02:40 PM               160 979cecb351929098ba973ce74e66744124744f
-               5 File(s)         69,519 bytes
+09/05/2025  03:37 PM               537 ab8372910ac3b0c19afeea42822811de438c21
+               6 File(s)         70,056 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\4c
 
@@ -1143,12 +1156,13 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\56
 
-05/06/2025  03:51 AM    <DIR>          .
-05/06/2025  03:51 AM    <DIR>          ..
+09/05/2025  03:36 PM    <DIR>          .
+09/05/2025  03:36 PM    <DIR>          ..
 05/06/2025  03:51 AM               698 23f728166cc046ee16d1131f678f536e8f4fb0
+09/05/2025  03:36 PM           456,648 8159202dcbd386907ecf19c06a2bcb31e55900
 04/16/2025  05:03 PM             2,260 904082ed8eed11e0a4b1eda5083ec828135d26
 06/14/2024  04:15 PM                60 9648c5848bca9cf0447df33a4f153f8daa18f6
-               3 File(s)          3,018 bytes
+               4 File(s)        459,666 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\57
 
@@ -1250,12 +1264,13 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\63
 
-04/29/2025  02:10 PM    <DIR>          .
-04/29/2025  02:10 PM    <DIR>          ..
+09/05/2025  03:36 PM    <DIR>          .
+09/05/2025  03:36 PM    <DIR>          ..
 04/29/2025  02:10 PM               689 4af715b1341e98c2ff9da3e7877706f0c2c8b1
 06/14/2024  05:21 PM               359 8ed8ec8b1a9fe1b0c793aba34ac02fb2c713b1
+09/05/2025  03:36 PM               555 95bf105a9270378ff2b777122ea183a8f08e50
 06/14/2024  04:14 PM           108,041 a3d4038fb0a20381e598037492b774fd34a9ca
-               3 File(s)        109,089 bytes
+               4 File(s)        109,644 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\65
 
@@ -1501,13 +1516,14 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\80
 
-05/20/2025  05:58 PM    <DIR>          .
-05/20/2025  05:58 PM    <DIR>          ..
+09/05/2025  03:36 PM    <DIR>          .
+09/05/2025  03:36 PM    <DIR>          ..
 05/20/2025  05:58 PM                55 1ded21182e42b1034412b6f2b924822cbd3a5b
 01/21/2024  11:53 PM             2,906 bbb2f3c26c149901f2b0356c5b289bb6f4e617
 09/11/2024  02:55 PM               177 d800bb8a4a610db9a4d131cc66c1416893c9b5
 06/14/2024  05:21 PM           808,551 e0a3ba9e8c71d625e91e64629ea927265f543e
-               4 File(s)        811,689 bytes
+09/05/2025  03:36 PM            39,595 ec6bc5052c5e4908391ac218f4ba72ef725283
+               5 File(s)        851,284 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\81
 
@@ -1567,16 +1583,17 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\87
 
-05/06/2025  03:53 AM    <DIR>          .
-05/06/2025  03:53 AM    <DIR>          ..
+09/05/2025  03:36 PM    <DIR>          .
+09/05/2025  03:36 PM    <DIR>          ..
 05/06/2025  03:53 AM               733 0d7cb197650ea2353ed71c84ee30a06fe8e65c
 04/16/2025  05:03 PM             5,274 33ae05329e0272f9bd239b51a57b14ebb3197a
 01/21/2024  11:54 PM               536 35b586fad1a38cb7b1cc1b8ad10c50284c04b8
 09/13/2024  12:20 PM               190 3fa23c115a3176bc7c366afb014a943a47ba46
 09/11/2024  02:55 PM               157 72cad75b3927b68a161779c93465c0a0de868d
 11/06/2024  09:57 PM               174 7b08e8b930044b820a1b57fad3c83271f8c5dd
+09/05/2025  03:36 PM             6,251 ba19c78542e5a5e83dac9f119cd4d7ce079b85
 09/13/2024  12:36 PM               614 eb92e00fbebe4b8d0e603efe051a686baaaa98
-               7 File(s)          7,678 bytes
+               8 File(s)         13,929 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\88
 
@@ -1598,6 +1615,13 @@
 04/16/2025  05:03 PM               901 db4a41cf242aec58e8f881c06e781bd38f0970
 04/10/2025  05:39 PM               180 dd2798a466e94e211057706ce76afc8571ff64
                5 File(s)          4,076 bytes
+
+ Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\8a
+
+09/05/2025  03:36 PM    <DIR>          .
+09/05/2025  03:36 PM    <DIR>          ..
+09/05/2025  03:36 PM               115 5183105b74c8733e708ed5056d171bf579ec69
+               1 File(s)            115 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\8b
 
@@ -1682,15 +1706,16 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\94
 
-05/29/2025  01:01 AM    <DIR>          .
-05/29/2025  01:01 AM    <DIR>          ..
+09/05/2025  03:36 PM    <DIR>          .
+09/05/2025  03:36 PM    <DIR>          ..
 05/29/2025  01:01 AM             4,093 46cd77458cd88ac77ce9cfeacd8dd0c4bdb422
+09/05/2025  03:36 PM               104 4a3b95ea5b5c087f8a96ffd2ec4af881d3b0a3
 04/16/2025  02:40 PM               155 a25f7f4cb416c083d265558da75d457237d671
 04/01/2025  01:14 AM                58 ad514a57cde73076af31c3678b3eb710cef603
 04/11/2025  03:53 PM               184 af23637a7892462fcfdbd30c818e6f36b54455
 12/03/2023  09:31 PM               669 c04e91247d91e29983d5eabb2c1bb0e3a2b9fd
 12/03/2023  09:38 PM               179 fa11834ec45ad50056a1c08d3de44de9b0d307
-               6 File(s)          5,338 bytes
+               7 File(s)          5,442 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\95
 
@@ -1704,10 +1729,11 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\96
 
-06/14/2024  05:21 PM    <DIR>          .
-06/14/2024  05:21 PM    <DIR>          ..
+09/05/2025  03:36 PM    <DIR>          .
+09/05/2025  03:36 PM    <DIR>          ..
+09/05/2025  03:36 PM            12,340 cd10b35afc4561cba0f6a564dd96efaab97059
 06/14/2024  05:21 PM               959 cfd3eda0a3f057d7be5af4d41d2be01807add5
-               1 File(s)            959 bytes
+               2 File(s)         13,299 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\97
 
@@ -1781,14 +1807,15 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\9f
 
-05/29/2025  01:01 AM    <DIR>          .
-05/29/2025  01:01 AM    <DIR>          ..
+09/05/2025  03:36 PM    <DIR>          .
+09/05/2025  03:36 PM    <DIR>          ..
 05/29/2025  01:01 AM            11,642 0b637bb89b61688742037ef91f81120c383f6d
 04/16/2025  05:03 PM             1,185 1db76ba9fddab85d7161f180d95ea46ff4df16
 05/29/2025  01:01 AM             3,515 7e19722b4871024ef660c3137c494f6f4216f6
 04/29/2025  05:23 PM            11,087 803ec17f257fa298e132f984020f16a4dca8ec
+09/05/2025  03:36 PM               326 8103784d42db516651c18dce4facbd9ae95828
 04/16/2025  05:03 PM             2,209 a69f46c1ff492e0996d2a30d02b6871837ec82
-               5 File(s)         29,638 bytes
+               6 File(s)         29,964 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\a0
 
@@ -1927,11 +1954,12 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\b0
 
-04/16/2025  02:40 PM    <DIR>          .
-04/16/2025  02:40 PM    <DIR>          ..
+09/05/2025  03:36 PM    <DIR>          .
+09/05/2025  03:36 PM    <DIR>          ..
+09/05/2025  03:36 PM            81,626 0778f9ce65ab82d4532dd880c080a7ef4746be
 11/06/2024  09:57 PM                55 96f5be961dc13367f6ae0178a7b5c6f65449c6
 04/16/2025  05:03 PM             4,097 a767822da9c9332a779ef71af19caf13e4defd
-               2 File(s)          4,152 bytes
+               3 File(s)         85,778 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\b1
 
@@ -2333,10 +2361,11 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\df
 
-04/16/2025  02:40 PM    <DIR>          .
-04/16/2025  02:40 PM    <DIR>          ..
+09/05/2025  03:37 PM    <DIR>          .
+09/05/2025  03:37 PM    <DIR>          ..
 04/16/2025  05:03 PM             4,069 0fd6eeb0568bf19871b54fc107806143ebc5f9
-               1 File(s)          4,069 bytes
+09/05/2025  03:37 PM               177 43a4218c2056aadc22328aca6077cb34c78d78
+               2 File(s)          4,246 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\e0
 
@@ -2454,6 +2483,13 @@
 05/21/2025  03:00 PM                55 8b85d2d7e50d6c570174584bd17bd954a57b25
 05/20/2025  05:58 PM            10,400 9a0327d18febf8a7eb5ecc2927370fa9a5ad7f
                2 File(s)         10,455 bytes
+
+ Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\ed
+
+09/05/2025  03:36 PM    <DIR>          .
+09/05/2025  03:36 PM    <DIR>          ..
+09/05/2025  03:36 PM             4,135 3125f01eb135e6a895c5d6091a357daaa01611
+               1 File(s)          4,135 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\objects\ee
 
@@ -2635,31 +2671,31 @@
 
 10/26/2023  06:25 PM    <DIR>          .
 10/26/2023  06:25 PM    <DIR>          ..
-09/05/2025  02:56 PM    <DIR>          heads
+09/05/2025  03:37 PM    <DIR>          heads
 10/26/2023  06:25 PM    <DIR>          remotes
 10/15/2023  08:35 AM    <DIR>          tags
                0 File(s)              0 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\refs\heads
 
-09/05/2025  02:56 PM    <DIR>          .
-09/05/2025  02:56 PM    <DIR>          ..
-09/05/2025  02:56 PM                41 main
+09/05/2025  03:37 PM    <DIR>          .
+09/05/2025  03:37 PM    <DIR>          ..
+09/05/2025  03:37 PM                41 main
                1 File(s)             41 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\refs\remotes
 
 10/26/2023  06:25 PM    <DIR>          .
 10/26/2023  06:25 PM    <DIR>          ..
-09/05/2025  02:56 PM    <DIR>          origin
+09/05/2025  03:37 PM    <DIR>          origin
                0 File(s)              0 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\refs\remotes\origin
 
-09/05/2025  02:56 PM    <DIR>          .
-09/05/2025  02:56 PM    <DIR>          ..
+09/05/2025  03:37 PM    <DIR>          .
+09/05/2025  03:37 PM    <DIR>          ..
 10/15/2023  08:35 AM                30 HEAD
-09/05/2025  02:56 PM                41 main
+09/05/2025  03:37 PM                41 main
                2 File(s)             71 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\.git\refs\tags
@@ -2774,8 +2810,8 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\images
 
-05/22/2025  08:45 PM    <DIR>          .
-05/22/2025  08:45 PM    <DIR>          ..
+09/05/2025  09:25 PM    <DIR>          .
+09/05/2025  09:25 PM    <DIR>          ..
 04/01/2023  05:54 AM           127,133 @hero.png
 06/14/2024  12:34 PM           496,732 @nobleosinachi.png
 04/01/2023  05:54 AM           320,314 @profile.png
@@ -2806,7 +2842,9 @@
 06/17/2024  11:14 AM            60,961 noble.png
 10/14/2023  10:18 AM           106,012 nobleosinachi (2).png
 10/15/2023  08:35 AM            80,495 nobleosinachi.github.io.png
-04/17/2024  09:24 PM           354,255 nobleosinachi.png
+09/05/2025  09:06 PM         1,900,110 nobleosinachi.jpeg
+04/17/2024  09:24 PM           354,255 nobleosinachi.jpg
+09/05/2025  09:25 PM            73,829 nobleosinachi.png
 04/01/2023  05:54 AM           141,766 preloader.gif
 04/05/2025  11:01 PM           227,440 preview.png
 04/01/2025  12:51 PM         1,644,887 profile.png
@@ -2817,7 +2855,7 @@
 04/01/2023  05:54 AM    <DIR>          skills
 04/11/2025  03:56 PM           183,941 upwork.png
 05/05/2025  05:23 PM         1,152,780 video-editor.png
-              38 File(s)     12,157,526 bytes
+              40 File(s)     14,131,465 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\images\education
 
@@ -2954,22 +2992,24 @@
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\video-editor
 
-06/13/2025  01:31 AM    <DIR>          .
-06/13/2025  01:31 AM    <DIR>          ..
+09/05/2025  03:15 PM    <DIR>          .
+09/05/2025  03:15 PM    <DIR>          ..
 04/26/2025  08:26 AM             2,071 adsrx.txt
 06/13/2025  01:30 AM             4,436 case studies template.html
 05/24/2025  11:13 PM            19,810 case.html
 05/24/2025  11:14 PM            14,802 case2.html
-06/01/2025  01:23 AM            53,312 index.html
+09/05/2025  03:12 PM            55,827 index.html
 05/21/2025  04:31 PM            44,621 new_site.html
 04/22/2025  08:16 PM             8,725 old_site.html
 09/11/2024  02:50 PM                 0 portfolio.json
 05/01/2025  08:09 AM             7,020 pricing.txt.html
 09/11/2024  02:49 PM            11,856 projects.json
+09/05/2025  03:17 PM               103 robots.txt
 05/29/2025  12:56 AM             4,518 script.js
+09/05/2025  03:13 PM             1,454 sitemap-video-editor.xml
 04/01/2023  05:54 AM             6,824 style.css
 04/25/2025  03:40 PM                25 UGC Manya inspiration.txt
-              13 File(s)        178,020 bytes
+              15 File(s)        182,092 bytes
 
  Directory of C:\Users\NOBLE\source\repos\nobleosinachi.github.io\vsl
 
@@ -2982,5 +3022,5 @@
                4 File(s)            847 bytes
 
      Total Files Listed:
-             968 File(s)     78,751,825 bytes
-             860 Dir(s)  82,913,112,064 bytes free
+             994 File(s)     83,002,296 bytes
+             866 Dir(s)  79,316,561,920 bytes free
