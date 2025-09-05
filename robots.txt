@@ -59,3 +59,4 @@ Crawl-delay: 20
 
 # Sitemap for structured crawling
 Sitemap: https://nobleosinachi.github.io/sitemap.xml
+Sitemap: https://nobleosinachi.github.io/video-editor/sitemap-video-editor.xml
