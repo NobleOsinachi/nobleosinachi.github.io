@@ -1,0 +1,26 @@
+geegpay
+
+Account Holder: Noble Chukwukere
+Bank Name: Wells Fargo Bank, N.a.
+Account Number: 40630148376655803
+Account Type: Checking
+Routing Number: 121000248
+Address: 580 California Street, San Francisco, CA 94104, US
+
+grey
+Account holder : Noble Osinachi Chukwukere 
+ACCOUNT NUMBER : 219079729687 
+BANK NAME : Lead Bank 
+COUNTRY CODE : US 
+ACH ROUTING : 101019644 
+WIRE ROUTING : 101019644 
+BANK ADDRESS : 1801 Main St., Kansas City, MO 64108 
+ACCOUNT TYPE : Checking 
+
+Cleva
+Account name: Noble Chukwukere
+Bank: Lead Bank
+Account number: 214963368856
+Routing number: 101019644
+Account Type: Personal Checking
+Account Address: 9450 Southwest Gemini Drive, Beaverton, OR, 97008, USA

@@ -1,52 +1,61 @@
-User-agent: *
-Disallow: *{*
-Disallow: *.do?*
-Disallow: *undefine*
-Disallow: *productDetail*
-Disallow: /sensors/
-Disallow: /si/
-Disallow: /gsol/
-Disallow: /_nuxt/
-Disallow: /fonts/
-Disallow: /preview/
-Disallow: /api/*/agg-search/*/popup/
-Disallow: /api/*/chat/
-Disallow: /api/*/get/md/routes
-Disallow: /api/*/alert-product/
-Disallow: /api/*/advert/*/top-ad
+# robots.txt for Noble Osinachi Portfolio
+# Cleaned up & optimized for personal/portfolio SEO
 
+User-agent: *
+Allow: /$
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /acct/
+Allow: /copywriter/
+Allow: /cv/
+Allow: /discord/
+Allow: /docs/
+Allow: /ecom-videos/
+Allow: /experience/
+Allow: /fiverr/
+Allow: /projects/
+Allow: /sfc-pricing/
+Allow: /ugc/
+Allow: /upwork/
+Allow: /upwork-verified/
+Allow: /video-editor/
+Allow: /vsl/
+
+# Block useless/unwanted files
+Disallow: /404.html
+Disallow: /robots.log
+Disallow: /README.md
+Disallow: /skills.json
+Disallow: /.git/
+Disallow: /info/
+Disallow: /pack/
+
+# Verification files (Google, Bing, etc.)
+Allow: /google*.html
+
+# AdsBot rules (if you run ads in future)
 User-agent: AdsBot-Google
 User-agent: AdsBot-Google-Mobile
-Disallow: /sensors/
-Disallow: /si/
-Disallow: /gsol/
-Disallow: /product/
-Disallow: /_nuxt/
-Disallow: /products/
-Disallow: /wholesale/
-Disallow: /factory/
-Disallow: /TMX/
-Disallow: /fonts/
-Disallow: /preview/
-Allow: /product/landingPage/
+Allow: /
 
+# Block unwanted scrapers/crawlers
 User-agent: 80bot
 Disallow: /
-
 User-agent: YahooSeeker
 Disallow: /
-
 User-agent: MJ12bot
 Disallow: /
-
 User-agent: Bytespider
 Disallow: /
 
+# Crawl delays for aggressive bots
 User-agent: voyager
 Crawl-delay: 10
-
 User-agent: bingbot
 Crawl-delay: 20
-
 User-agent: Applebot
 Crawl-delay: 20
+
+# Sitemap for structured crawling
+Sitemap: https://nobleosinachi.github.io/sitemap.xml
