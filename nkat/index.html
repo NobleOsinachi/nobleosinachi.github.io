@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-720Y6D4QNV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-720Y6D4QNV');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta -->
+  <title>Noble Osinachi | Full Stack Sales Funnel Engineer</title>
+  <meta name="description"
+    content="Full Stack Sales Funnel Engineer. Video creatives → Landing pages → Conversions → Revenue. I build complete sales funnels from ad creative to backend automation. Book a strategy call." />
+  <meta name="keywords"
+    content="Noble Osinachi, sales funnel engineer, funnel builder, direct response copywriter, Facebook ads, landing page builder, video editor, funnel architect, conversion optimization, lead generation, ecommerce funnel" />
+  <link rel="canonical" href="https://nobleosinachi.github.io/funnel-engineer/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nobleosinachi.github.io/funnel-engineer/" />
+  <meta property="og:title" content="Noble Osinachi - Full Stack Sales Funnel Engineer" />
+  <meta property="og:description"
+    content="I build complete sales funnels: video creatives, copy, landing pages, automations. From content to revenue." />
+  <meta property="og:image" content="https://nobleosinachi.github.io/images/preview.png" />
+  <meta property="og:site_name" content="Noble Osinachi - Funnel Engineer" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://nobleosinachi.github.io/funnel-engineer/" />
+  <meta name="twitter:title" content="Noble Osinachi - Full Stack Sales Funnel Engineer" />
+  <meta name="twitter:description"
+    content="Build complete sales funnels: video ads → landing pages → conversions → automation." />
+  <meta name="twitter:image" content="https://nobleosinachi.github.io/images/preview.png" />
+  <meta name="twitter:creator" content="@NobleOsinachi" />
+
+  <!-- Schema Markup (SEO Boost) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Noble Osinachi",
+      "url": "https://nobleosinachi.github.io/funnel-engineer/",
+      "image": "https://nobleosinachi.github.io/images/preview.png",
+      "jobTitle": "Full Stack Sales Funnel Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "sameAs": [
+        "https://twitter.com/NobleOsinachi",
+        "https://linkedin.com/in/NobleOsinachi",
+        "https://youtube.com/@NobleOsinachi"
+      ]
+    }
+  </script>
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="icon" href="/favicon-192.png" sizes="192x192" type="image/png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+
+  <!-- Preconnect for Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+
+  <!-- Stylesheets -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  <!-- Fonts -->
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .gradient-bg {
+      background: linear-gradient(90deg, #0f172a 0%, #1e293b 100%);
+    }
+
+    .text-gradient {
+      background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .service-card {
+      transition: all 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .testimonial-card {
+      transition: transform 0.3s ease;
+    }
+
+    .testimonial-card:hover {
+      transform: scale(1.02);
+    }
+
+    .package-card {
+      transition: all 0.3s ease;
+    }
+
+    .package-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 25px 50px rgba(96, 165, 250, 0.2);
+    }
+
+    .package-card.featured {
+      border: 2px solid #60a5fa;
+      box-shadow: 0 0 30px rgba(96, 165, 250, 0.3);
+    }
+
+    .social-icon {
+      transition: all 0.3s ease;
+    }
+
+    .social-icon:hover {
+      transform: translateY(-3px);
+      color: #60a5fa;
+    }
+
+    .nav-link {
+      position: relative;
+    }
+
+    .nav-link::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -2px;
+      left: 0;
+      background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
+      transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .process-step {
+      position: relative;
+      padding-left: 60px;
+    }
+
+    .process-step::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: white;
+    }
+
+    .faq-item {
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 500px;
+      opacity: 1;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      opacity: 0;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-filter backdrop-blur-sm border-b border-gray-800">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center">
+        <h1 class="text-2xl font-bold">
+          Noble<span class="text-blue-500">Osinachi</span>
+        </h1>
+      </div>
+      <div class="hidden md:flex space-x-8">
+        <a href="#home" class="nav-link font-medium text-sm">Home</a>
+        <a href="#what-i-do" class="nav-link font-medium text-sm">What I Do</a>
+        <a href="#why-different" class="nav-link font-medium text-sm">Why Different</a>
+        <a href="#process" class="nav-link font-medium text-sm">Process</a>
+        <a href="#packages" class="nav-link font-medium text-sm">Packages</a>
+        <a href="#testimonials" class="nav-link font-medium text-sm">Testimonials</a>
+        <a href="#faq" class="nav-link font-medium text-sm">FAQ</a>
+        <a href="#contact" class="nav-link font-medium text-sm">Contact</a>
+      </div>
+      <div class="md:hidden">
+        <button class="focus:outline-none" id="menu-button">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section: FRONT-END IDENTITY -->
+  <section id="home" class="pt-20 pb-20 gradient-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12 flex flex-col md:flex-row items-center gap-12">
+      <div class="md:w-1/2 mb-10 md:mb-0">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+          Your <span class="text-gradient">Growth Engine</span> Is Here
+        </h1>
+        <p class="text-xl text-gray-300 mb-3 leading-relaxed">
+          Most brands are stuck between content and conversions. They have great ideas but lack the unified system to turn clicks into customers.
+        </p>
+        <p class="text-lg text-gray-400 mb-8 leading-relaxed">
+          I'm a Full Stack Sales Funnel Engineer. I build complete revenue systems—from performance video creatives to conversion-optimized landing pages to backend automation.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 mb-8">
+          <a href="#contact"
+            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg inline-block text-center transition-all">
+            Book a Funnel Strategy Call
+          </a>
+          <a href="#packages"
+            class="bg-transparent hover:bg-gray-800 text-blue-400 font-semibold py-4 px-8 border border-blue-500 hover:border-transparent rounded-lg inline-block text-center transition-all">
+            View Packages
+          </a>
+        </div>
+        <p class="text-sm text-gray-500">
+          <i class="fas fa-check-circle text-green-500 mr-2"></i>Limited spots available for new projects this quarter
+        </p>
+      </div>
+      <div class="md:w-1/2">
+        <div class="relative w-full bg-gray-800 rounded-lg overflow-hidden shadow-2xl">
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full"></iframe>
+        </div>
+        <p class="text-gray-500 text-center mt-4 text-sm">
+          Watch how I built a $50k funnel in 30 days
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What I Do: CORE OFFER BREAKDOWN -->
+  <section id="what-i-do" class="py-20 bg-gray-800 bg-opacity-40">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          What I <span class="text-gradient">Actually Do</span>
+        </h2>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+          I don't do one thing—I build complete funnels. Here's the breakdown:
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Card 1: Performance Creatives -->
+        <div class="service-card bg-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-4">
+              <i class="fas fa-film text-white text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold">Performance Creatives</h3>
+          </div>
+          <p class="text-gray-400 mb-4">
+            UGC-style video ads, short-form content, and direct-response visuals that stop the scroll and drive clicks. I edit for conversions, not just aesthetics.
+          </p>
+          <ul class="text-gray-300 space-y-2 text-sm">
+            <li><i class="fas fa-check text-green-500 mr-2"></i>High-converting ad creatives</li>
+            <li><i class="fas fa-check text-green-500 mr-2"></i>VSL editing & scripting</li>
+            <li><i class="fas fa-check text-green-500 mr-2"></i>Short-form & social content</li>
+            <li><i class="fas fa-check text-green-500 mr-2"></i>Fast turnaround (24-48 hrs)</li>
+          </ul>
+        </div>
+
+        <!-- Card 2: Conversion Copy -->
+        <div class="service-card bg-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-4">
+              <i class="fas fa-pen-fancy text-white text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold">Conversion Copy</h3>
+          </div>
+          <p class="text-gray-400 mb-4">
+            Headlines, hooks, email sequences, and landing page copy written to convert. Every word is tested and designed to push action.
+          </p>
+          <ul class="text-gray-300 space-y-2 text-sm">
+            <li><i class="fas fa-check text-green-500 mr-2"></i>Landing page & sales page copy</li>
+            <li><i class="fas fa-check text-green-500 mr-2"></i>Email sequences & autoresponders</li>
+            <li><i class="fas fa-check text-green-500 mr-2"></i>Ad headlines & ad copy</li>
+            <li><i class="fas fa-check text-green-500 mr-2"></i>Direct response principles</li>
+          </ul>
+        </div>
+
+        <!-- Card 3: Funnel Builds -->
+        <div class="service-card bg-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-4">
+              <i class="fas fa-layer-group text-white text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold">Funnel Builds</h3>
+          </div>
+          <p class="text-gray-400 mb-4">
+            Complete funnel architecture: high-converting landing pages, sales pages, thank-you sequences, and backend integrations. All custom-built for your offer.
+          </p>
+          <ul class="text-gray-300 space-y-2 text-sm">
+            <li><i class="fas fa-check text-green-500 mr-2"></i>Custom landing pages</li>
+            <li><i class="fas fa-check text-green-500 mr-2"></i>CRM & automation setup</li>
+            <li><i class="fas fa-check text-green-500 mr-2"></i>Payment integrations</li>
+            <li><i class="fas fa-check text-green-500 mr-2"></i>Funnel optimization & testing</li>
+          </ul>
+        </div>
+
+        <!-- Card 4: Media Buying & Scale -->
+        <div class="service-card bg-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-4">
+              <i class="fas fa-chart-line text-white text-xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold">Traffic & Lead Gen</h3>
+          </div>
+          <p class="text-gray-400 mb-4">
+            Facebook lead gen campaigns, audience building, and performance optimization. I scale what works and kill what doesn't.
+          </p>
+          <ul class="text-gray-300 space-y-2 text-sm">
+            <li><i class="fas fa-check text-green-500 mr-2"></i>Facebook & Instagram ads</li>
+            <li><i class="fas fa-check text-green-500 mr-2"></i>Audience research & targeting</li>
+            <li><i class="fas fa-check text-green-500 mr-2"></i>Performance optimization</li>
+            <li><i class="fas fa-check text-green-500 mr-2"></i>ROI tracking & reporting</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-16 p-8 bg-gradient-to-r from-blue-900 to-purple-900 rounded-lg text-center border border-blue-700">
+        <h3 class="text-2xl font-bold mb-3">The Real Power</h3>
+        <p class="text-gray-200 text-lg">
+          Most agencies handle these separately. You need 3-5 different vendors. I do it all—which means faster execution, better cohesion, and better results. Think of me as your in-house growth team.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Different: MIDDLE IDENTITY (Credibility Layer) -->
+  <section id="why-different" class="py-20 gradient-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          Why This Combination Is <span class="text-gradient">Rare & Powerful</span>
+        </h2>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+          You can hire a video editor. You can hire a copywriter. You can hire a developer. Or you can work with someone who does all three—and understands how they connect.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div class="bg-gray-800 bg-opacity-50 border border-gray-700 rounded-lg p-8 text-center">
+          <div class="text-4xl font-bold text-blue-400 mb-3">3-5x</div>
+          <p class="text-gray-300">
+            Faster execution. No coordination delays between freelancers.
+          </p>
+        </div>
+        <div class="bg-gray-800 bg-opacity-50 border border-gray-700 rounded-lg p-8 text-center">
+          <div class="text-4xl font-bold text-purple-400 mb-3">$5k-10k</div>
+          <p class="text-gray-300">
+            What agencies charge monthly. You get one expert, not a team.
+          </p>
+        </div>
+        <div class="bg-gray-800 bg-opacity-50 border border-gray-700 rounded-lg p-8 text-center">
+          <div class="text-4xl font-bold text-pink-400 mb-3">100%</div>
+          <p class="text-gray-300">
+            Aligned incentives. My success = your conversions = my reputation.
+          </p>
+        </div>
+      </div>
+
+      <div class="max-w-4xl mx-auto">
+        <h3 class="text-2xl font-bold mb-6">Here's What You Get:</h3>
+        <div class="space-y-4">
+          <div class="flex gap-4">
+            <div class="flex-shrink-0">
+              <div class="flex items-center justify-center h-10 w-10 rounded-md bg-blue-500">
+                <i class="fas fa-check text-white"></i>
+              </div>
+            </div>
+            <div>
+              <h4 class="font-semibold mb-1">Video Editor Who Understands Copy</h4>
+              <p class="text-gray-400">
+                I don't just make videos pretty. I edit for message, for hooks, for conversion. Every cut serves the copy and the offer.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="flex-shrink-0">
+              <div class="flex items-center justify-center h-10 w-10 rounded-md bg-blue-500">
+                <i class="fas fa-check text-white"></i>
+              </div>
+            </div>
+            <div>
+              <h4 class="font-semibold mb-1">Copywriter Who Builds Pages</h4>
+              <p class="text-gray-400">
+                I write copy and then build it into high-converting landing pages. No translation layer. No "lost in translation" with a developer.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="flex-shrink-0">
+              <div class="flex items-center justify-center h-10 w-10 rounded-md bg-blue-500">
+                <i class="fas fa-check text-white"></i>
+              </div>
+            </div>
+            <div>
+              <h4 class="font-semibold mb-1">Developer Who Knows Direct Response</h4>
+              <p class="text-gray-400">
+                10+ years as a software engineer. I build robust funnels with proper integrations, automations, and zero technical debt.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="flex-shrink-0">
+              <div class="flex items-center justify-center h-10 w-10 rounded-md bg-blue-500">
+                <i class="fas fa-check text-white"></i>
+              </div>
+            </div>
+            <div>
+              <h4 class="font-semibold mb-1">Systems Thinker</h4>
+              <p class="text-gray-400">
+                I see the entire funnel—from ad to landing page to thank-you page to backend automation. Every piece connects. Every piece optimizes for revenue.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section: BACK-END IDENTITY (Full Stack Reveal) -->
+  <section id="process" class="py-20 bg-gray-800 bg-opacity-40">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          How We Build Your <span class="text-gradient">Funnel Engine</span>
+        </h2>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+          A proven process that takes you from idea to revenue-generating system
+        </p>
+      </div>
+
+      <div class="max-w-3xl mx-auto space-y-12">
+        <div class="process-step" style="--step-number: '1';">
+          <h3 class="text-2xl font-bold mb-2">Funnel Audit & Strategy Session</h3>
+          <p class="text-gray-300 mb-3">
+            We dive deep into your business. I analyze your current funnel (if you have one), your offer, your audience, and your competitors. Together, we identify the biggest gaps and opportunities for immediate revenue impact.
+          </p>
+          <p class="text-gray-400 text-sm">
+            Output: Clear strategy doc + roadmap for your funnel
+          </p>
+        </div>
+
+        <div class="process-step" style="--step-number: '2';">
+          <h3 class="text-2xl font-bold mb-2">Creative & Copy Blueprint</h3>
+          <p class="text-gray-300 mb-3">
+            I create a complete blueprint for your funnel. This includes ad creative concepts (video specs, messaging angles), landing page structure, copy frameworks, and email sequences. You'll see the entire vision before we build.
+          </p>
+          <p class="text-gray-400 text-sm">
+            Output: Creative briefs + copy templates + landing page wireframes
+          </p>
+        </div>
+
+        <div class="process-step" style="--step-number: '3';">
+          <h3 class="text-2xl font-bold mb-2">Funnel Build & Tech Setup</h3>
+          <p class="text-gray-300 mb-3">
+            I build your complete funnel: edit your ad creatives, write final copy, build landing pages, set up email sequences, integrate your CRM, and configure automations. Everything connects. Everything works.
+          </p>
+          <p class="text-gray-400 text-sm">
+            Output: Live funnel + all integrations + automated email sequences
+          </p>
+        </div>
+
+        <div class="process-step" style="--step-number: '4';">
+          <h3 class="text-2xl font-bold mb-2">Launch, Test, & Optimize</h3>
+          <p class="text-gray-300 mb-3">
+            We launch your ads, monitor performance, and test variations. I optimize headlines, creative angles, audience targeting, and landing page elements. We're hunting for your winning combination.
+          </p>
+          <p class="text-gray-400 text-sm">
+            Output: Profitable campaign + optimization report
+          </p>
+        </div>
+
+        <div class="process-step" style="--step-number: '5';">
+          <h3 class="text-2xl font-bold mb-2">Scale & Ongoing Support</h3>
+          <p class="text-gray-300 mb-3">
+            Once we find what works, we scale it. I can manage ongoing ad spend, create new creatives, test new audiences, and continuously optimize. Your funnel becomes a reliable revenue machine.
+          </p>
+          <p class="text-gray-400 text-sm">
+            Output: Scaled campaigns + monthly optimization reports
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials: SOCIAL PROOF -->
+  <section id="testimonials" class="py-20 gradient-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          What My Clients <span class="text-gradient">Actually Say</span>
+        </h2>
+        <p class="text-xl text-gray-300">
+          Real results from real founders and business owners
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            "Noble rebuilt our entire funnel from scratch. We went from 2% conversion rate to 8% in two months. His videos converted better than anything we'd done before, and the landing pages just work. Best investment we made."
+          </p>
+          <div>
+            <p class="font-semibold">Chinedu M.</p>
+            <p class="text-gray-400 text-sm">E-commerce Founder, $500k/year revenue</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            "I was paying three different agencies. Noble consolidated everything into one person who actually understands how pieces fit together. My ad spend is down 40%, results are up. He's a game-changer."
+          </p>
+          <div>
+            <p class="font-semibold">Sarah L.</p>
+            <p class="text-gray-400 text-sm">Fitness Coach, Lead Gen Funnel</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            "The creative he produced went viral on TikTok. But what really impressed me was how he connected it to the landing page and email sequence. The whole system worked together. Highly recommend."
+          </p>
+          <div>
+            <p class="font-semibold">Alex T.</p>
+            <p class="text-gray-400 text-sm">Course Creator, $1M+ Annual Revenue</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            "We struggled with our VSL for months. Noble edited it, rewrote parts of the copy, and we saw our click-through rates jump from 3% to 12%. That one change paid for his entire project fee."
+          </p>
+          <div>
+            <p class="font-semibold">Marcus W.</p>
+            <p class="text-gray-400 text-sm">SaaS Founder, VSL Funnel</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 5 -->
+        <div class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            "Working with Noble is like having access to an agency, but you actually get someone who cares. He's responsive, strategic, and his work generates real ROI. Worth every penny."
+          </p>
+          <div>
+            <p class="font-semibold">Tunde O.</p>
+            <p class="text-gray-400 text-sm">Info Product Seller, 7-Figure Business</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 6 -->
+        <div class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            "Our Facebook ad ROAS went from 2.5x to 4.2x after Noble optimized everything—creatives, copy, and landing page. The fact that he handles it all cohesively made the real difference."
+          </p>
+          <div>
+            <p class="font-semibold">Nia K.</p>
+            <p class="text-gray-400 text-sm">DTC Brand Owner, $2M Revenue</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages / Pricing -->
+  <section id="packages" class="py-20 bg-gray-800 bg-opacity-40">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          Engagement <span class="text-gradient">Packages</span>
+        </h2>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+          Choose the package that fits your needs. All include strategy, execution, and optimization.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Starter Package -->
+        <div class="package-card bg-gray-900 border border-gray-700 rounded-lg p-8">
+          <h3 class="text-2xl font-bold mb-2">Starter</h3>
+          <p class="text-gray-400 mb-6">Best for coaches and course creators testing their funnel</p>
+          <div class="mb-8">
+            <div class="text-4xl font-bold mb-2">$2,500<span class="text-lg text-gray-400">/mo</span></div>
+            <p class="text-gray-400 text-sm">Minimum 3-month engagement</p>
+          </div>
+          <ul class="space-y-3 mb-8">
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Funnel audit & strategy session</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>2-3 ad creatives/month (editing & optimization)</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>1 landing page build & optimization</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Email sequence copy & setup</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Basic Facebook ad management (up to $500/day budget)</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Monthly optimization & reporting</span>
+            </li>
+          </ul>
+          <a href="#contact" class="block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-center transition-all">
+            Apply for Starter
+          </a>
+          <p class="text-gray-500 text-center text-sm mt-4">
+            Best for: Coaches, Course Creators, Local Businesses
+          </p>
+        </div>
+
+        <!-- Growth Package (Featured) -->
+        <div class="package-card featured bg-gray-900 rounded-lg p-8">
+          <div class="mb-4 inline-block bg-gradient-to-r from-blue-500 to-purple-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+            MOST POPULAR
+          </div>
+          <h3 class="text-2xl font-bold mb-2">Growth</h3>
+          <p class="text-gray-400 mb-6">Best for scaling e-commerce and lead generation funnels</p>
+          <div class="mb-8">
+            <div class="text-4xl font-bold mb-2">$5,000<span class="text-lg text-gray-400">/mo</span></div>
+            <p class="text-gray-400 text-sm">Minimum 2-month engagement</p>
+          </div>
+          <ul class="space-y-3 mb-8">
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Everything in Starter +</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>5-8 ad creatives/month (multiple angles)</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>2-3 landing page variations & optimization</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Full funnel architecture (3-5 page funnel)</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Advanced Facebook ad management (up to $3k/day budget)</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Weekly optimization & A/B testing</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>CRM integration & automation setup</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Bi-weekly strategy calls</span>
+            </li>
+          </ul>
+          <a href="#contact" class="block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-center transition-all">
+            Apply for Growth
+          </a>
+          <p class="text-gray-500 text-center text-sm mt-4">
+            Best for: E-commerce Brands, Lead Gen, Scaling Offers
+          </p>
+        </div>
+
+        <!-- Scale Package -->
+        <div class="package-card bg-gray-900 border border-gray-700 rounded-lg p-8">
+          <h3 class="text-2xl font-bold mb-2">Scale</h3>
+          <p class="text-gray-400 mb-6">For established businesses ready to maximize revenue</p>
+          <div class="mb-8">
+            <div class="text-4xl font-bold mb-2">Custom<span class="text-lg text-gray-400">/mo</span></div>
+            <p class="text-gray-400 text-sm">Typically $8k-15k depending on scope</p>
+          </div>
+          <ul class="space-y-3 mb-8">
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Everything in Growth +</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Unlimited ad creatives (multi-channel)</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Complete funnel ecosystem (5+ pages, upsells, downsells)</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Multi-channel ad management (Facebook, TikTok, Google)</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Advanced automation & backend tech</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Dedicated ongoing support & optimization</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Monthly strategy & performance reviews</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="fas fa-check text-green-500 flex-shrink-0 mt-1"></i>
+              <span>Direct access via Slack/email</span>
+            </li>
+          </ul>
+          <a href="#contact" class="block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-center transition-all">
+            Apply for Scale
+          </a>
+          <p class="text-gray-500 text-center text-sm mt-4">
+            Best for: 7-Figure Businesses, Agencies, Serious Growth
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-12 p-8 bg-gradient-to-r from-blue-900 to-purple-900 rounded-lg text-center border border-blue-700">
+        <h3 class="text-2xl font-bold mb-3">Not Sure Which Package?</h3>
+        <p class="text-gray-200 mb-4">
+          Let's talk. Book a free 30-minute strategy call and we'll figure out exactly what you need.
+        </p>
+        <a href="#contact" class="inline-block bg-white text-blue-900 font-bold py-3 px-8 rounded-lg hover:bg-gray-200 transition-all">
+          Book Strategy Call
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-20 gradient-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-4xl md:text-5xl font-bold mb-8 text-center">
+          Who I Am (And Why <span class="text-gradient">This Matters</span>)
+        </h2>
+
+        <div class="bg-gray-800 border border-gray-700 rounded-lg p-10">
+          <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+            I'm Noble Osinachi. For over 10 years, I've been writing code. But about 5 years ago, I realized something: the best software doesn't matter if it doesn't drive revenue.
+          </p>
+
+          <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+            So I started learning direct response marketing. I learned to edit video for conversions. I learned to write copy that actually moves people to action. And I learned how to build complete funnels that connect everything—from the first ad someone sees to the backend automation that keeps them coming back.
+          </p>
+
+          <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+            That combination—10+ years of engineering rigor, direct response thinking, and hands-on execution—is rare. Most people pick one lane. I live in all three.
+          </p>
+
+          <div class="bg-gray-900 border border-gray-700 rounded-lg p-6 mb-6">
+            <h3 class="font-bold text-xl mb-4">What This Means For You:</h3>
+            <ul class="space-y-3">
+              <li class="flex gap-3">
+                <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                <span>I don't just build pages—I engineer funnels. Everything works together.</span>
+              </li>
+              <li class="flex gap-3">
+                <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                <span>I think like a marketer, but execute like an engineer. No half-measures.</span>
+              </li>
+              <li class="flex gap-3">
+                <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                <span>Your growth is my obsession. My success is measured by your revenue, not my billable hours.</span>
+              </li>
+              <li class="flex gap-3">
+                <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                <span>I'm invested in long-term relationships, not quick wins.</span>
+              </li>
+            </ul>
+          </div>
+
+          <p class="text-lg text-gray-300 leading-relaxed">
+            When you hire me, you're not hiring a freelancer. You're getting a dedicated growth partner who lives and breathes the success of your funnel.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="py-20 bg-gray-800 bg-opacity-40">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          Common <span class="text-gradient">Questions</span>
+        </h2>
+        <p class="text-xl text-gray-300">
+          Everything you need to know before we work together
+        </p>
+      </div>
+
+      <div class="max-w-3xl mx-auto space-y-4">
+        <!-- FAQ Item 1 -->
+        <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-800 transition-all">
+            <h3 class="text-lg font-semibold">Who is this for?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              This is for founders and business owners who are serious about growth. You might be a coach with a digital offer, an e-commerce brand, a SaaS founder, or someone running a lead generation business. What you all have in common: you know your offer is good, but you need a system to turn that offer into consistent revenue.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-800 transition-all">
+            <h3 class="text-lg font-semibold">Do you only work with certain niches?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              No. I've built funnels in fitness, finance, e-commerce, SaaS, info products, coaching, and more. The principles of direct response and funnel architecture work everywhere. What matters is that your offer solves a real problem and you're willing to invest in the system to sell it.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-800 transition-all">
+            <h3 class="text-lg font-semibold">What do you need from me to get started?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              Not much. You need:
+            </p>
+            <ul class="list-disc list-inside mt-3 space-y-2">
+              <li>A clear offer (product, course, service, coaching program)</li>
+              <li>Understanding of your target audience</li>
+              <li>Willingness to invest in traffic (ads)</li>
+              <li>Access to your tools (email platform, website, ad accounts)</li>
+            </ul>
+            <p class="mt-3">
+              I'll handle the strategy, creative execution, and optimization. You just need to show up for calls and make decisions.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-800 transition-all">
+            <h3 class="text-lg font-semibold">How long does a funnel project typically take?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              Strategy & planning: 1-2 weeks. Creative & copy production: 2-3 weeks. Funnel build & launch: 1-2 weeks. First optimization cycle: 2-4 weeks. So typically 6-12 weeks from kickoff to a performing funnel.
+            </p>
+            <p class="mt-3">
+              That said, you'll see results progressively—not all at the end. By week 4, you'll have traffic. By week 8, you'll have data on conversions. By week 12, we're optimizing for profitability.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 5 -->
+        <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-800 transition-all">
+            <h3 class="text-lg font-semibold">Do you manage ongoing ads, or just setup?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              Both. During the project, I manage ads as part of the Launch & Optimize phase. After that, it depends on your package:
+            </p>
+            <ul class="list-disc list-inside mt-3 space-y-2">
+              <li><strong>Starter:</strong> I manage up to $500/day budget</li>
+              <li><strong>Growth:</strong> I manage up to $3k/day budget</li>
+              <li><strong>Scale:</strong> Unlimited, plus multi-channel management</li>
+            </ul>
+            <p class="mt-3">
+              You're never left hanging. I'm continuously testing, optimizing, and scaling what works.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 6 -->
+        <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-800 transition-all">
+            <h3 class="text-lg font-semibold">What's your payment structure?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              Monthly retainer, paid upfront. This aligns incentives—you're my client for the duration, and my job is to make sure every month delivers results.
+            </p>
+            <p class="mt-3">
+              We do minimum engagements (3 months for Starter, 2 months for Growth, custom for Scale). This gives us time to build and test properly.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 7 -->
+        <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-800 transition-all">
+            <h3 class="text-lg font-semibold">Can you work with my existing tools and platforms?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              Yes. I work with any platform: Shopify, ConvertKit, ClickFunnels, Leadpages, custom WordPress, you name it. I integrate with Zapier, Make, webhooks, APIs—whatever you need to connect your ecosystem.
+            </p>
+            <p class="mt-3">
+              If you don't have tools, I'll recommend the best stack for your situation.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 8 -->
+        <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg overflow-hidden" onclick="toggleFaq(this)">
+          <div class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-800 transition-all">
+            <h3 class="text-lg font-semibold">What if the funnel doesn't perform?</h3>
+            <i class="fas fa-chevron-down transition-transform"></i>
+          </div>
+          <div class="faq-answer px-6 pb-6 text-gray-300">
+            <p>
+              We test and iterate. If your initial angle doesn't work, we test new creative, new copy, new landing pages, new audiences. That's what I do. We'll keep testing until we find what works.
+            </p>
+            <p class="mt-3">
+              What I won't do is blame you or your offer. My job is to find the right message and channel. If we've tested thoroughly and nothing's working after 8-10 weeks, we'll be honest about it—but this rarely happens with the right offer and targeting.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Section -->
+  <section id="final-cta" class="py-20 gradient-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        Ready to Build Your <span class="text-gradient">Revenue Engine?</span>
+      </h2>
+      <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
+        You have a great offer. You have a vision. What you need is the system to turn that vision into consistent, predictable revenue. That's exactly what I build.
+      </p>
+      <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-10">
+        Let's talk about where you are, where you want to go, and how we can get you there.
+      </p>
+      <a href="#contact"
+        class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-12 rounded-lg text-lg transition-all shadow-lg">
+        Book Your Strategy Call Now
+      </a>
+      <p class="text-gray-500 mt-6">
+        Free 30-minute call. No pressure. No sales pitch. Just strategy.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-800 bg-opacity-40">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="max-w-2xl mx-auto">
+        <h2 class="text-4xl md:text-5xl font-bold mb-8 text-center">
+          Let's Build Together
+        </h2>
+
+        <div class="bg-gray-900 border border-gray-700 rounded-lg p-10">
+          <form id="contact-form" class="space-y-6">
+            <div>
+              <label for="name" class="block text-sm font-semibold mb-2">Your Name</label>
+              <input type="text" id="name" name="name" required
+                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all"
+                placeholder="Your name">
+            </div>
+
+            <div>
+              <label for="email" class="block text-sm font-semibold mb-2">Your Email</label>
+              <input type="email" id="email" name="email" required
+                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all"
+                placeholder="you@example.com">
+            </div>
+
+            <div>
+              <label for="business" class="block text-sm font-semibold mb-2">Your Business / Offer</label>
+              <input type="text" id="business" name="business" required
+                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all"
+                placeholder="What are you selling?">
+            </div>
+
+            <div>
+              <label for="goal" class="block text-sm font-semibold mb-2">Your Main Goal Right Now</label>
+              <select id="goal" name="goal" required
+                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all">
+                <option value="">Select...</option>
+                <option value="build-first-funnel">Build my first funnel</option>
+                <option value="improve-conversions">Improve existing funnel performance</option>
+                <option value="scale-ads">Scale my ad spend profitably</option>
+                <option value="build-complete-system">Build a complete revenue system</option>
+                <option value="other">Something else</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="message" class="block text-sm font-semibold mb-2">Tell me more about your situation (optional)</label>
+              <textarea id="message" name="message" rows="5"
+                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all resize-none"
+                placeholder="What's your current situation? What have you tried? What's your budget range?"></textarea>
+            </div>
+
+            <button type="submit"
+              class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all">
+              Book My Strategy Call
+            </button>
+
+            <p class="text-gray-400 text-center text-sm">
+              I typically respond within 24 hours. We'll schedule a time that works for you.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 border-t border-gray-800 py-12">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4">
+            Noble<span class="text-blue-500">Osinachi</span>
+          </h3>
+          <p class="text-gray-400 text-sm">
+            Full Stack Sales Funnel Engineer. Building revenue systems for ambitious founders.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-4">Services</h4>
+          <ul class="text-gray-400 text-sm space-y-2">
+            <li><a href="#what-i-do" class="hover:text-blue-400 transition-all">Video Creatives</a></li>
+            <li><a href="#what-i-do" class="hover:text-blue-400 transition-all">Conversion Copy</a></li>
+            <li><a href="#what-i-do" class="hover:text-blue-400 transition-all">Funnel Builds</a></li>
+            <li><a href="#what-i-do" class="hover:text-blue-400 transition-all">Ad Management</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-4">Connect</h4>
+          <ul class="text-gray-400 text-sm space-y-2">
+            <li><a href="https://twitter.com/NobleOsinachi" target="_blank" class="hover:text-blue-400 transition-all">Twitter</a></li>
+            <li><a href="https://linkedin.com/in/NobleOsinachi" target="_blank" class="hover:text-blue-400 transition-all">LinkedIn</a></li>
+            <li><a href="https://instagram.com/NobleOsinachi" target="_blank" class="hover:text-blue-400 transition-all">Instagram</a></li>
+            <li><a href="https://youtube.com/@NobleOsinachi" target="_blank" class="hover:text-blue-400 transition-all">YouTube</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-semibold mb-4">Pages</h4>
+          <ul class="text-gray-400 text-sm space-y-2">
+            <li><a href="#home" class="hover:text-blue-400 transition-all">Home</a></li>
+            <li><a href="#packages" class="hover:text-blue-400 transition-all">Packages</a></li>
+            <li><a href="#faq" class="hover:text-blue-400 transition-all">FAQ</a></li>
+            <li><a href="#contact" class="hover:text-blue-400 transition-all">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-800 pt-8">
+        <p class="text-gray-500 text-sm text-center">
+          &copy; 2025 Noble Osinachi. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div class="fixed bottom-8 right-8">
+    <a href="#home"
+      class="bg-blue-600 hover:bg-blue-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-all">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </div>
+
+  <!-- Mobile Navigation Menu -->
+  <div class="fixed inset-0 bg-gray-900 bg-opacity-95 z-50 hidden" id="mobile-menu">
+    <div class="container mx-auto px-4 py-6">
+      <div class="flex justify-between items-center mb-8">
+        <h1 class="text-2xl font-bold">
+          Noble<span class="text-blue-500">Osinachi</span>
+        </h1>
+        <button class="focus:outline-none" id="close-menu">
+          <i class="fas fa-times text-2xl"></i>
+        </button>
+      </div>
+
+      <div class="flex flex-col space-y-6">
+        <a href="#home" class="text-xl font-medium">Home</a>
+        <a href="#what-i-do" class="text-xl font-medium">What I Do</a>
+        <a href="#why-different" class="text-xl font-medium">Why Different</a>
+        <a href="#process" class="text-xl font-medium">Process</a>
+        <a href="#packages" class="text-xl font-medium">Packages</a>
+        <a href="#testimonials" class="text-xl font-medium">Testimonials</a>
+        <a href="#faq" class="text-xl font-medium">FAQ</a>
+        <a href="#contact" class="text-xl font-medium">Contact</a>
+      </div>
+
+      <div class="mt-10 flex justify-center space-x-6">
+        <a href="https://instagram.com/NobleOsinachi" target="_blank" class="text-gray-400 hover:text-blue-500">
+          <i class="fab fa-instagram text-2xl"></i>
+        </a>
+        <a href="https://twitter.com/NobleOsinachi" target="_blank" class="text-gray-400 hover:text-blue-500">
+          <i class="fab fa-twitter text-2xl"></i>
+        </a>
+        <a href="https://linkedin.com/in/NobleOsinachi" target="_blank" class="text-gray-400 hover:text-blue-500">
+          <i class="fab fa-linkedin text-2xl"></i>
+        </a>
+        <a href="https://youtube.com/@NobleOsinachi" target="_blank" class="text-gray-400 hover:text-blue-500">
+          <i class="fab fa-youtube text-2xl"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    // Mobile Menu Logic
+    document.addEventListener("DOMContentLoaded", function () {
+      const mobileMenuButton = document.querySelector(".md\\:hidden button");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const closeMenuButton = document.getElementById("close-menu");
+      const mobileMenuLinks = document.querySelectorAll("#mobile-menu a");
+
+      if (mobileMenuButton && mobileMenu && closeMenuButton) {
+        mobileMenuButton.addEventListener("click", function () {
+          mobileMenu.classList.remove("hidden");
+        });
+
+        closeMenuButton.addEventListener("click", function () {
+          mobileMenu.classList.add("hidden");
+        });
+
+        mobileMenuLinks.forEach((link) => {
+          link.addEventListener("click", function () {
+            mobileMenu.classList.add("hidden");
+          });
+        });
+      }
+
+      // Contact Form Logic
+      const contactForm = document.getElementById("contact-form");
+      if (contactForm) {
+        contactForm.addEventListener("submit", async function (e) {
+          e.preventDefault();
+
+          const nameInput = document.getElementById("name");
+          const emailInput = document.getElementById("email");
+          const businessInput = document.getElementById("business");
+          const goalInput = document.getElementById("goal");
+          const messageInput = document.getElementById("message");
+          const submitButton = contactForm.querySelector("button[type='submit']");
+          const originalBtnText = submitButton.innerHTML;
+
+          if (!nameInput.value || !emailInput.value || !businessInput.value || !goalInput.value) {
+            alert("Please fill in all required fields");
+            return;
+          }
+
+          submitButton.disabled = true;
+          submitButton.innerHTML = "Sending...";
+          submitButton.style.cursor = "not-allowed";
+          submitButton.classList.add("opacity-50");
+
+          try {
+            const url = "https://nobleosinachi-email-api.onrender.com/funnel-engineer-form";
+
+            const response = await fetch(url, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                name: nameInput.value,
+                email: emailInput.value,
+                business: businessInput.value,
+                goal: goalInput.value,
+                message: messageInput.value,
+              }),
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+              const formContainer = contactForm.parentElement;
+              const originalFormHTML = formContainer.innerHTML;
+
+              formContainer.innerHTML = `
+                <div class="text-center py-8">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-green-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <h3 class="text-2xl font-bold mb-2">Message Sent!</h3>
+                  <p class="text-gray-300">Thank you for reaching out. I'll review your information and be in touch within 24 hours.</p>
+                </div>
+              `;
+
+              setTimeout(() => {
+                formContainer.innerHTML = originalFormHTML;
+                const restoredForm = formContainer.querySelector("form");
+                if (restoredForm) {
+                  restoredForm.addEventListener("submit", arguments.callee);
+                }
+              }, 5000);
+            } else {
+              alert(result.message || "Something went wrong. Please try again.");
+              submitButton.disabled = false;
+              submitButton.innerHTML = originalBtnText;
+              submitButton.style.cursor = "pointer";
+              submitButton.classList.remove("opacity-50");
+            }
+          } catch (error) {
+            console.error("Error submitting form:", error);
+            alert("Failed to send message. Please try again later.");
+            submitButton.disabled = false;
+            submitButton.innerHTML = originalBtnText;
+            submitButton.style.cursor = "pointer";
+            submitButton.classList.remove("opacity-50");
+          }
+        });
+      }
+
+      // FAQ Toggle Logic
+      window.toggleFaq = function(element) {
+        const isActive = element.classList.contains("active");
+        
+        // Close all other FAQs
+        document.querySelectorAll(".faq-item").forEach(item => {
+          item.classList.remove("active");
+        });
+
+        // Toggle current FAQ
+        if (!isActive) {
+          element.classList.add("active");
+          const chevron = element.querySelector(".fa-chevron-down");
+          if (chevron) {
+            chevron.style.transform = "rotate(180deg)";
+          }
+        }
+      };
+    });
+  </script>
+</body>
+
+</html>
