@@ -1,0 +1,213 @@
+Product Name: Indoor Golf Putting Mat – Must EXACTLY match the uploaded image.
+*The product shown in the video MUST be IDENTICAL to the uploaded golf mat image. ZERO deviation.
+
+Exact Dimensions (MUST APPEAR IN FINAL PROMPT):
+
+Width: 9.84 inches
+
+Length: 122 inches
+
+Elevated End Height: 16.4 inches
+
+Number of Holes: 2
+
+Hole 1: 3.5 inches
+
+Hole 2: 2.5 inches
+
+Exact Visual Design Requirements (MUST MATCH IMAGE PERFECTLY):
+
+Green artificial turf
+
+White alignment/measurement lines
+
+Wooden frame
+
+Wooden ball-return track on the right side
+
+Two holes located on the elevated end
+
+Same colors, same proportions, same layout, same details as the uploaded image
+
+NO design changes allowed
+
+NO alternate versions
+
+NO color shifts
+
+✅ CHARACTER REQUIREMENTS (NON-NEGOTIABLE)
+1. DO NOT CHANGE APPEARANCE
+
+Must remain the same dark-skinned Nigerian man for the entire video.
+
+No skin tone changes.
+
+No hairstyle changes.
+
+No wardrobe changes.
+
+✅ CAMERA STYLE
+3. CAMERA STYLE
+
+Vertical smartphone-style UGC video.
+
+Subtle handheld movement only — natural, realistic, NOT shaky.
+
+No cinematic motion.
+
+No zooming unless naturally handheld.
+
+✅ ENVIRONMENT LOCK (LIVING ROOM MUST STAY CONSISTENT)
+4. ENVIRONMENT LOCK
+
+The scene MUST always show the same warm Lagos living room, with:
+
+Natural daylight filtering through sheer white curtains
+
+Warm, cozy lighting
+
+Stable color temperature
+
+Consistent furniture layout
+
+Sora must NOT alter the couch, walls, décor, colors, or lighting
+
+This environment must NOT change during the clip.
+
+✅ PRODUCT CONSISTENCY
+5. PRODUCT CONSISTENCY
+
+The golf putting mat MUST look exactly like the uploaded image.
+
+The dimensions listed above MUST be used in the prompt.
+
+NO alternative putting mats.
+
+NO color changes.
+
+NO shape changes.
+
+NO brand swaps.
+
+Must show the wooden frame, green turf, white lines, and ball-return lane exactly as pictured.
+
+✅ PERFORMANCE RULES
+6. PERFORMANCE LIMITS
+
+No exaggerated acting.
+
+No dancing, running, walking, or lying down.
+
+Natural voice tone — calm, real, warm Nigerian accent.
+
+No shouting.
+
+✅ AUDIO RULES
+7. AUDIO RULES
+
+Natural room audio ONLY.
+
+Light background music is allowed.
+
+NO sound effects.
+
+NO autotune.
+
+NO reverb.
+
+No voice filters.
+
+✅ ADDITIONAL SCENE RULES
+8. NO DISTRACTING ELEMENTS
+
+His wife sitting on the couch using her phone is allowed.
+
+NO pets allowed.
+
+NO other people should enter the room.
+
+No sudden emotional shifts.
+
+Warm, steady mood throughout.
+
+TV Rule
+
+The TV in the background MUST show a football match playing.
+
+Must look like a real TV broadcast — not fake graphics.
+
+Drinks Rule
+
+Drinks in the shot MUST be minimal.
+
+Must NOT appear like alcohol promotion.
+
+✅ VIDEO LENGTH REQUIREMENT
+
+The video MUST be exactly 10 seconds. NO SHORTER. NO LONGER.
+
+✅ STRICT REQUIREMENTS FOR THE FINAL PROMPT YOU WANT
+
+When I generate the final Sora prompt, it MUST:
+
+✔ Include all product dimensions exactly:
+
+Width: 9.84 inches
+
+Length: 122 inches
+
+Elevated End Height: 16.4 inches
+
+Hole 1: 3.5 inches
+
+Hole 2: 2.5 inches
+
+✔ Clearly state MULTIPLE TIMES that:
+
+The golf product in the clip MUST MATCH your uploaded image exactly.
+
+No deviation from the uploaded mat design is allowed.
+
+✔ Follow your UGC template and creative rules.
+✔ Stay under 7,800 characters.
+
+
+
+```A single continuous 10-second vertical video shot on iPhone 15 Pro at 24fps capturing a natural moment in a modern Nigerian living room during golden hour. The camera holds a static medium shot throughout, never moving or cutting, positioned to frame the entire scene from a slight angle.
+
+LIGHTING & ATMOSPHERE: Warm golden hour sunlight (around 4 PM) filters through cream-colored curtains on the right side of the frame, creating soft diffused amber light with a color temperature of 3200K. The natural light casts gentle elongated shadows across the floor at a 50-degree angle. The room glows with that specific late afternoon warmth where everything feels peaceful and lived-in. Subtle light rays create a hazy atmospheric quality. The lighting remains perfectly consistent throughout the entire 10 seconds—no flicker, no intensity changes, just steady warm natural illumination.
+
+ENVIRONMENT & SETTING: Contemporary middle-class Nigerian living room with smooth beige tiled flooring (realistic ceramic tile texture with subtle grout lines and natural reflectivity). Cream walls with minimal decoration. A white ceiling fan rotates slowly and steadily overhead at approximately 60 RPM, creating very subtle moving shadows. Comfortable dark brown leather sofa partially visible in the background left. Small potted plant on a side table. The space feels clean, organized, and authentically lived-in—not staged or sterile.
+
+CHARACTER: Nigerian man (character reference: @mr-david-50) wearing comfortable casual clothes—grey polo shirt and brown shorts. Maintain complete visual consistency with the reference character. Medium brown skin tone with realistic texture showing natural pores and subtle skin variation. Relaxed confident posture. His expression shifts naturally from calm contemplation to subtle anticipation as he approaches the mat.
+
+GOLF MAT SPECIFICATIONS (CRITICAL - EXACT DIMENSIONS):
+- Width: 9.84 inches (approximately 25 cm - this is a NARROW putting mat)
+- Length: 122 inches (approximately 10.2 feet or 310 cm)
+- The mat is rolled up initially into a compact cylinder approximately 10 inches in diameter and 10 inches wide
+- Material: Green artificial turf with rubber backing
+- Elevated end height when fully set up: 16.4 inches (but not visible in this unrolling scene)
+- The mat is NARROW—less than 10 inches wide, similar to a yoga mat width
+- When rolled, it appears as a small manageable cylinder, not a large bulky roll
+- Color: Vibrant artificial turf green with realistic synthetic grass texture
+
+ACTION SEQUENCE: 
+0:00-0:03 - Man stands in the center-left of frame, looking toward the corner where the small rolled putting mat rests against the wall. The rolled mat is compact and unobtrusive—about the size of a small poster tube. His body language is relaxed, contemplative. He shifts his weight naturally from one foot to the other. A slight smile of anticipation forms on his face—genuine, not performed. His eyes focus on the mat with that "time to finally do this" energy.
+
+0:03-0:05 - He walks toward the mat with natural gait—realistic weight transfer, subtle arm swing, authentic human movement with micro-adjustments. His bare feet make soft contact sounds against the tile floor. Three to four natural steps across the room. The ceiling fan continues its steady rotation above.
+
+0:05-0:07 - He bends at the knees (not just the waist—proper ergonomic form) and picks up the rolled mat with ONE HAND or both hands close together—it's compact and lightweight enough to handle easily. His fingers wrap around the narrow 10-inch diameter cylinder naturally. The mat weighs approximately 3-4 pounds—light and manageable. He lifts it with minimal effort, standing upright smoothly. He steps back toward the center of the frame, positioning himself to unroll it.
+
+0:07-0:10 - He places one end of the rolled mat on the tile floor and begins unrolling it away from himself. CRITICAL REALISTIC PHYSICS WITH ACCURATE DIMENSIONS: The mat unrolls in a NARROW strip—only 9.84 inches wide, creating a long thin green path across the floor like a runner. The artificial turf backing has natural stiffness and slight resistance. It doesn't flop loosely or unroll too fast. As each section touches the floor, it makes subtle contact sounds (soft thud of rubber backing on ceramic tile). The narrow mat initially curls slightly upward at the edges due to being rolled, then gradually flattens with realistic material memory. The green turf surface shows proper texture detail—individual synthetic grass blades visible, slight variation in color depth. The unrolling motion is smooth but not perfectly uniform—realistic human hand movements guiding it. By 0:10, approximately 8-9 feet of the 10.2-foot mat is unrolled across the tile floor in a narrow green strip, lying naturally with authentic weight distribution. The narrow width (less than 10 inches) is clearly visible—this is NOT a wide carpet, but a focused putting lane.
+
+AUDIO DESIGN: Diegetic sounds only. Soft footsteps on tile (muted, natural resonance). Gentle rustling of the mat material as it's picked up—light, not heavy. The distinct sound of rubber backing unrolling and making contact with ceramic tile—subtle successive *thud-thud-thud* sounds as each section lays flat, but quieter than a heavy mat due to the narrow width. Very quiet ambient room tone: barely audible ceiling fan motor hum, distant Lagos neighborhood sounds through closed windows (faint car horn far away, birds). Natural breathing from the man (not exaggerated, just present). No music. No voice-over. Pure environmental authenticity.
+
+TECHNICAL SPECS & CONTINUITY: Maintain perfect visual consistency with character reference @mr-david-50—grey polo shirt and brown shorts throughout, face remains identical, skin tone stays consistent, body proportions never shift. The putting mat dimensions are EXACT: 9.84 inches wide by 122 inches long. iPhone 15 Pro aesthetic: slightly flatter color grade than cinema cameras, natural sensor noise in shadows, authentic depth of field with background slightly soft but not overly bokeh'd. Realistic motion blur on movement. The tile floor maintains consistent reflectivity and texture. The ceiling fan never speeds up, slows down, or jumps position. All physics are grounded—no floating objects, no warping materials, no unnatural body movements.
+
+MATERIAL PHYSICS: The narrow putting mat (9.84 inches wide) behaves like real artificial turf on rubber backing: slight stiffness requiring deliberate unrolling force, natural curl resistance as it's been rolled up for a while, authentic weight causing it to settle firmly on the tile rather than lifting or shifting, realistic friction between the rubber backing and smooth ceramic surface causing it to grip slightly rather than slide freely. The narrow edges curl up slightly for 1-2 seconds after being unrolled before slowly flattening—genuine material memory behavior. The narrow width means less overall material resistance compared to a wide mat.
+
+VISUAL SCALE REFERENCE: When fully unrolled on the floor, the mat creates a narrow green strip approximately 10 feet long but LESS THAN 10 INCHES WIDE—roughly the width of a standard sheet of paper (8.5 inches). This narrow profile is clearly visible against the beige tile floor, creating a focused putting lane rather than a wide practice area. The proportions are realistic for an indoor putting trainer designed for precision practice.
+
+EMOTIONAL TONE: This is a quiet personal moment of intention. No dramatic energy, no sales pitch, no manufactured excitement. Just a man deciding to take 10 seconds to set up something for himself. The anticipation in his expression is subtle and genuine—he knows this small action is about to create space for focus and improvement. The compact, manageable size of the mat makes the setup feel effortless and accessible. The scene breathes with calm determination. By the end, he's looking down at the narrow green putting strip with quiet satai```
+
+
