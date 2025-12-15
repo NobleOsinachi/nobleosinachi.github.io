@@ -1,81 +1,1201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-720Y6D4QNV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-720Y6D4QNV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-720Y6D4QNV');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-720Y6D4QNV');
+    </script>
 
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh"
-        content="5; URL='https://notion.so/Noble-s-Copywriting-Portfolio-1d1b19afc47180898208fc93a81be97b'" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Noble’s Copywriting Portfolio</title>
+
+    <!-- Primary Meta -->
+    <title>Noble Osinachi | Direct Response Copywriter</title>
+    <meta name="description"
+        content="Direct response copywriter helping brands turn browsers into buyers. 4+ years experience crafting conversion-optimized emails, landing pages, and ads that drive measurable results." />
+    <meta name="keywords"
+        content="Noble Osinachi, copywriter, direct response copywriting, email marketing, landing pages, sales copy, conversion optimization" />
+    <meta name="author" content="Noble Osinachi" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Noble Osinachi - Direct Response Copywriter" />
+    <meta property="og:description"
+        content="Helping brands turn browsers into buyers through conversion-optimized copy that drives measurable results." />
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+
+    <!-- Stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <!-- Fonts & Custom Styles -->
     <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            background: linear-gradient(135deg, #6a11cb, #2575fc);
-            /* Blueish purple gradient */
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
+            font-family: "Inter", sans-serif;
+            scroll-behavior: smooth;
         }
 
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 0.5rem;
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
 
-        p {
-            font-size: 1rem;
-            opacity: 0.9;
+        .gradient-bg-alt {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
         }
 
-        a {
-            color: #fff;
-            text-decoration: underline;
+        .text-gradient {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
-        .spinner {
-            margin-top: 2rem;
-            border: 4px solid rgba(255, 255, 255, 0.2);
-            border-top: 4px solid #fff;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
+        .service-card {
+            transition: all 0.3s ease;
         }
 
-        @keyframes spin {
-            0% {
-                transform: rotate(0deg);
-            }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.2);
+        }
 
-            100% {
-                transform: rotate(360deg);
-            }
+        .portfolio-card {
+            transition: all 0.3s ease;
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px rgba(102, 126, 234, 0.25);
+        }
+
+        .stat-card {
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: scale(1.05);
+        }
+
+        .nav-link {
+            position: relative;
+        }
+
+        .nav-link::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .testimonial-card {
+            transition: transform 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: scale(1.02);
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        .benefit-icon {
+            transition: all 0.3s ease;
+        }
+
+        .benefit-icon:hover {
+            transform: rotate(10deg) scale(1.1);
         }
     </style>
 </head>
 
-<body>
-    <h1>Redirecting to Noble’s Copywriting Portfolio...</h1>
-    <p>If you're not automatically redirected, <a
-            href="https://notion.so/Noble-s-Copywriting-Portfolio-1d1b19afc47180898208fc93a81be97b">click here</a>.
-    </p>
-    <div class="spinner"></div>
+<body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-filter backdrop-blur-sm border-b border-gray-800">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <h1 class="text-2xl font-bold">
+                    Noble<span class="text-purple-500">Osinachi</span>
+                </h1>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link font-medium text-sm">Home</a>
+                <a href="#results" class="nav-link font-medium text-sm">Results</a>
+                <a href="#services" class="nav-link font-medium text-sm">Services</a>
+                <a href="#portfolio" class="nav-link font-medium text-sm">Portfolio</a>
+                <a href="#process" class="nav-link font-medium text-sm">Process</a>
+                <a href="#testimonials" class="nav-link font-medium text-sm">Testimonials</a>
+                <a href="#contact" class="nav-link font-medium text-sm">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="focus:outline-none" id="menu-button">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 pb-20 gradient-bg">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-12 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <div class="inline-block bg-white bg-opacity-10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
+                    <span class="text-sm font-semibold">💼 4+ Years Turning Words Into Revenue</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    Copy That Turns <span class="text-yellow-300">Browsers</span> Into <span
+                        class="text-green-300">Buyers</span>
+                </h1>
+                <p class="text-xl text-gray-100 mb-3 leading-relaxed">
+                    Hi, I'm Noble Osinachi — a direct response copywriter who helps brands grow revenue through
+                    conversion-optimized emails, landing pages, and ads.
+                </p>
+                <p class="text-lg text-gray-200 mb-8 leading-relaxed">
+                    I've helped 6+ brands across multiple industries increase their sales and online presence with copy
+                    that connects emotionally and converts consistently.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                    <a href="#contact"
+                        class="cta-button text-white font-bold py-4 px-8 rounded-lg inline-block text-center">
+                        📩 Start Your Project
+                    </a>
+                    <a href="#portfolio"
+                        class="bg-white bg-opacity-10 backdrop-blur-sm hover:bg-opacity-20 text-white font-semibold py-4 px-8 rounded-lg inline-block text-center transition-all">
+                        📂 View Portfolio
+                    </a>
+                </div>
+                <div class="flex gap-6">
+                    <a href="https://linkedin.com/in/NobleOsinachi" target="_blank"
+                        class="text-gray-200 hover:text-purple-300 transition-all" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                    <a href="https://x.com/NobleOsinachi" target="_blank"
+                        class="text-gray-200 hover:text-purple-300 transition-all" aria-label="X (Twitter)">
+                        <i class="fab fa-x-twitter text-2xl"></i>
+                    </a>
+                    <a href="https://instagram.com/NobleOsinachi" target="_blank"
+                        class="text-gray-200 hover:text-purple-300 transition-all" aria-label="Instagram">
+                        <i class="fab fa-instagram text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <div class="relative">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg blur-2xl opacity-40">
+                    </div>
+                    <div class="relative bg-gray-800 border-2 border-purple-500 rounded-lg overflow-hidden shadow-2xl">
+                        <img src="/images/nobleosinachi.png" alt="Noble Osinachi - Direct Response Copywriter"
+                            class="w-full h-auto object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="py-20 bg-gray-800 bg-opacity-40">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    📊 Results That <span class="text-gradient">Matter</span>
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    I don't just write pretty words. I write copy that moves the needle on your bottom line.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <div
+                    class="stat-card bg-gradient-to-br from-purple-900 to-purple-800 border border-purple-700 rounded-lg p-8 text-center">
+                    <div class="text-5xl font-bold text-purple-300 mb-2">6+</div>
+                    <p class="text-gray-200 font-semibold">Brands Grown</p>
+                    <p class="text-gray-400 text-sm mt-2">Across multiple industries</p>
+                </div>
+
+                <div
+                    class="stat-card bg-gradient-to-br from-pink-900 to-pink-800 border border-pink-700 rounded-lg p-8 text-center">
+                    <div class="text-5xl font-bold text-pink-300 mb-2">4+</div>
+                    <p class="text-gray-200 font-semibold">Years Experience</p>
+                    <p class="text-gray-400 text-sm mt-2">In direct response copy</p>
+                </div>
+
+                <div
+                    class="stat-card bg-gradient-to-br from-blue-900 to-blue-800 border border-blue-700 rounded-lg p-8 text-center">
+                    <div class="text-5xl font-bold text-blue-300 mb-2">42%</div>
+                    <p class="text-gray-200 font-semibold">Opt-in Rate</p>
+                    <p class="text-gray-400 text-sm mt-2">SaaS lead magnet page</p>
+                </div>
+
+                <div
+                    class="stat-card bg-gradient-to-br from-green-900 to-green-800 border border-green-700 rounded-lg p-8 text-center">
+                    <div class="text-5xl font-bold text-green-300 mb-2">100%</div>
+                    <p class="text-gray-200 font-semibold">Results-Driven</p>
+                    <p class="text-gray-400 text-sm mt-2">Every project focused on ROI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 gradient-bg">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    🎯 How I Help Your <span class="text-yellow-300">Business Grow</span>
+                </h2>
+                <p class="text-xl text-gray-100 max-w-3xl mx-auto">
+                    Conversion-focused copywriting services designed to increase revenue, engagement, and customer
+                    loyalty.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Email Copywriting -->
+                <div
+                    class="service-card bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-4xl">📩</span>
+                        </div>
+                        <h3 class="text-2xl font-bold">Email Sequences</h3>
+                    </div>
+                    <p class="text-gray-100 mb-6">
+                        Transform your email list into a revenue-generating machine with welcome sequences, promo
+                        campaigns, and nurture flows that build trust and drive sales.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                            <span class="text-gray-200">Welcome sequences that convert</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                            <span class="text-gray-200">Cart abandonment recovery</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                            <span class="text-gray-200">Launch & promo campaigns</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Landing Pages -->
+                <div
+                    class="service-card bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-4xl">🛬</span>
+                        </div>
+                        <h3 class="text-2xl font-bold">Landing Pages</h3>
+                    </div>
+                    <p class="text-gray-100 mb-6">
+                        High-converting landing pages that turn traffic into leads and customers. Optimized for clarity,
+                        persuasion, and action.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                            <span class="text-gray-200">Lead magnet opt-in pages</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                            <span class="text-gray-200">Product/service sales pages</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                            <span class="text-gray-200">Webinar registration pages</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Sales Copy -->
+                <div
+                    class="service-card bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-4xl">💸</span>
+                        </div>
+                        <h3 class="text-2xl font-bold">Sales Copy & Ads</h3>
+                    </div>
+                    <p class="text-gray-100 mb-6">
+                        Persuasive sales copy and ad creative that speaks directly to your customer's desires and
+                        objections, turning prospects into paying customers.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                            <span class="text-gray-200">Long-form sales pages</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                            <span class="text-gray-200">Facebook & Google ad copy</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                            <span class="text-gray-200">Video sales scripts (VSL)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div
+                class="mt-16 p-8 bg-white bg-opacity-10 backdrop-blur-sm rounded-lg border border-white border-opacity-20 text-center">
+                <h3 class="text-3xl font-bold mb-4">🎬 Bonus: Video Scripting & Editing</h3>
+                <p class="text-xl text-gray-100 mb-6 max-w-3xl mx-auto">
+                    I also craft compelling video scripts and handle editing for video ads and VSLs that capture
+                    attention and drive conversions.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full text-sm font-semibold">🎥 VSL
+                        Scripts</span>
+                    <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full text-sm font-semibold">✂️ Video
+                        Editing</span>
+                    <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full text-sm font-semibold">📺 Ad
+                        Creatives</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-800 bg-opacity-40">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    📂 Featured <span class="text-gradient">Work</span>
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    A curated selection of my best conversion-driving copy across emails, landing pages, and sales
+                    campaigns.
+                </p>
+            </div>
+
+            <!-- Email Copywriting -->
+            <div class="mb-16">
+                <h3 class="text-3xl font-bold mb-8 flex items-center">
+                    <span class="text-4xl mr-4">📩</span> Email Copywriting
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div
+                        class="portfolio-card bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500">
+                        <div
+                            class="h-48 bg-gradient-to-br from-purple-900 to-blue-900 flex items-center justify-center">
+                            <i class="fas fa-envelope-open-text text-6xl text-purple-400 opacity-30"></i>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-3">Welcome Sequence for SaaS Startup</h4>
+                            <p class="text-gray-400 mb-4 text-sm">
+                                5-email nurture sequence that onboards new users and drives them to upgrade from free to
+                                paid plans.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs font-semibold">SaaS</span>
+                                <span
+                                    class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold">Welcome
+                                    Series</span>
+                            </div>
+                            <a href="#contact"
+                                class="inline-flex items-center text-purple-400 hover:text-purple-300 font-semibold text-sm">
+                                Request Sample <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div
+                        class="portfolio-card bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500">
+                        <div class="h-48 bg-gradient-to-br from-pink-900 to-red-900 flex items-center justify-center">
+                            <i class="fas fa-shopping-cart text-6xl text-pink-400 opacity-30"></i>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-3">Abandoned Cart Recovery Email</h4>
+                            <p class="text-gray-400 mb-4 text-sm">
+                                Strategic 3-email sequence that recovers lost sales with urgency, social proof, and
+                                irresistible incentives.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-pink-900 text-pink-200 px-3 py-1 rounded-full text-xs font-semibold">eCommerce</span>
+                                <span
+                                    class="bg-red-900 text-red-200 px-3 py-1 rounded-full text-xs font-semibold">Recovery</span>
+                            </div>
+                            <a href="#contact"
+                                class="inline-flex items-center text-purple-400 hover:text-purple-300 font-semibold text-sm">
+                                Request Sample <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div
+                        class="portfolio-card bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500">
+                        <div
+                            class="h-48 bg-gradient-to-br from-orange-900 to-yellow-900 flex items-center justify-center">
+                            <i class="fas fa-tags text-6xl text-orange-400 opacity-30"></i>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-3">Black Friday Promo Series</h4>
+                            <p class="text-gray-400 mb-4 text-sm">
+                                4-email launch campaign that built anticipation, created urgency, and maximized sales
+                                during a limited-time offer.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-orange-900 text-orange-200 px-3 py-1 rounded-full text-xs font-semibold">Campaign</span>
+                                <span
+                                    class="bg-yellow-900 text-yellow-200 px-3 py-1 rounded-full text-xs font-semibold">Launch</span>
+                            </div>
+                            <a href="#contact"
+                                class="inline-flex items-center text-purple-400 hover:text-purple-300 font-semibold text-sm">
+                                Request Sample <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Landing Pages -->
+            <div class="mb-16">
+                <h3 class="text-3xl font-bold mb-8 flex items-center">
+                    <span class="text-4xl mr-4">🛬</span> Landing Pages
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div
+                        class="portfolio-card bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500">
+                        <div class="h-48 bg-gradient-to-br from-green-900 to-teal-900 flex items-center justify-center">
+                            <i class="fas fa-dumbbell text-6xl text-green-400 opacity-30"></i>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-3">Fitness Coach Landing Page</h4>
+                            <p class="text-gray-400 mb-4">
+                                High-converting sales page for a personal training program that addresses pain points
+                                and showcases transformation results.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-green-900 text-green-200 px-3 py-1 rounded-full text-xs font-semibold">Fitness</span>
+                                <span
+                                    class="bg-teal-900 text-teal-200 px-3 py-1 rounded-full text-xs font-semibold">Sales
+                                    Page</span>
+                            </div>
+                            <a href="#contact"
+                                class="inline-flex items-center text-purple-400 hover:text-purple-300 font-semibold text-sm">
+                                Request Sample <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div
+                        class="portfolio-card bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500">
+                        <div
+                            class="h-48 bg-gradient-to-br from-blue-900 to-indigo-900 flex items-center justify-center">
+                            <i class="fas fa-magnet text-6xl text-blue-400 opacity-30"></i>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-3">SaaS Lead Magnet Page</h4>
+                            <p class="text-gray-400 mb-4">
+                                Optimized opt-in page that achieved a 42% conversion rate by clearly communicating value
+                                and reducing friction.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold">SaaS</span>
+                                <span
+                                    class="bg-indigo-900 text-indigo-200 px-3 py-1 rounded-full text-xs font-semibold">42%
+                                    CVR</span>
+                            </div>
+                            <a href="#contact"
+                                class="inline-flex items-center text-purple-400 hover:text-purple-300 font-semibold text-sm">
+                                Request Sample <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sales Copy & Video -->
+            <div class="mb-16">
+                <h3 class="text-3xl font-bold mb-8 flex items-center">
+                    <span class="text-4xl mr-4">💸</span> Sales Copy & Video
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div
+                        class="portfolio-card bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500">
+                        <div
+                            class="h-48 bg-gradient-to-br from-purple-900 to-pink-900 flex items-center justify-center">
+                            <i class="fas fa-sparkles text-6xl text-purple-400 opacity-30"></i>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-3">eCommerce Product Page</h4>
+                            <p class="text-gray-400 mb-4 text-sm">
+                                Persuasive product description for a skincare brand that highlights benefits, addresses
+                                objections, and drives add-to-cart.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs font-semibold">eCommerce</span>
+                            </div>
+                            <a href="#contact"
+                                class="inline-flex items-center text-purple-400 hover:text-purple-300 font-semibold text-sm">
+                                Request Sample <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div
+                        class="portfolio-card bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500">
+                        <div class="h-48 bg-gradient-to-br from-red-900 to-orange-900 flex items-center justify-center">
+                            <i class="fas fa-video text-6xl text-red-400 opacity-30"></i>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-3">Self Defense Flashlight VSL</h4>
+                            <p class="text-gray-400 mb-4 text-sm">
+                                Compelling video script and editing for a direct response ad that tells a story and
+                                drives immediate action.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-red-900 text-red-200 px-3 py-1 rounded-full text-xs font-semibold">VSL</span>
+                                <span
+                                    class="bg-orange-900 text-orange-200 px-3 py-1 rounded-full text-xs font-semibold">Video</span>
+                            </div>
+                            <a href="https://youtu.be/b3MCIe5WKFc" target="_blank"
+                                class="inline-flex items-center text-purple-400 hover:text-purple-300 font-semibold text-sm">
+                                Watch Video <i class="fas fa-external-link-alt ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div
+                        class="portfolio-card bg-gray-900 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500">
+                        <div class="h-48 bg-gradient-to-br from-blue-900 to-cyan-900 flex items-center justify-center">
+                            <i class="fas fa-credit-card text-6xl text-blue-400 opacity-30"></i>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-3">VestPay Video Ad Creative</h4>
+                            <p class="text-gray-400 mb-4 text-sm">
+                                Engaging video advertisement that communicates fintech value proposition and builds
+                                trust with potential users.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold">Fintech</span>
+                                <span class="bg-cyan-900 text-cyan-200 px-3 py-1 rounded-full text-xs font-semibold">Ad
+                                    Creative</span>
+                            </div>
+                            <a href="https://youtu.be/zdiKFr_95JA/" target="_blank"
+                                class="inline-flex items-center text-purple-400 hover:text-purple-300 font-semibold text-sm">
+                                Watch Video <i class="fas fa-external-link-alt ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <p class="text-gray-400 mb-6">Looking for something specific? I have more samples available.</p>
+                <a href="#contact"
+                    class="cta-button text-white font-bold py-4 px-12 rounded-lg inline-block transition-all">
+                    📨 Request Specific Samples
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="py-20 gradient-bg">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    ⚙️ My <span class="text-yellow-300">Process</span>
+                </h2>
+                <p class="text-xl text-gray-100 max-w-3xl mx-auto">
+                    A proven framework that turns your marketing goals into conversion-driving copy.
+                </p>
+            </div>
+
+            <div class="max-w-4xl mx-auto space-y-8">
+                <div
+                    class="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-8">
+                    <div class="flex items-start">
+                        <div
+                            class="bg-white bg-opacity-20 rounded-full w-12 h-12 flex items-center justify-center mr-6 flex-shrink-0">
+                            <span class="text-2xl font-bold">1</span>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-3">🎯 Discovery & Strategy</h3>
+                            <p class="text-gray-100 mb-3">
+                                I dive deep into your business, target audience, and goals. We identify pain points,
+                                desires, and the key messages that will resonate with your ideal customers.
+                            </p>
+                            <p class="text-gray-200 text-sm">
+                                Deliverable: Strategy document with customer insights and messaging framework
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-8">
+                    <div class="flex items-start">
+                        <div
+                            class="bg-white bg-opacity-20 rounded-full w-12 h-12 flex items-center justify-center mr-6 flex-shrink-0">
+                            <span class="text-2xl font-bold">2</span>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-3">🔍 Research & Analysis</h3>
+                            <p class="text-gray-100 mb-3">
+                                I analyze your competitors, study your best customers, and research market trends. This
+                                ensures your copy stands out and speaks directly to what your audience wants.
+                            </p>
+                            <p class="text-gray-200 text-sm">
+                                Deliverable: Competitive analysis and customer language research
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-8">
+                    <div class="flex items-start">
+                        <div
+                            class="bg-white bg-opacity-20 rounded-full w-12 h-12 flex items-center justify-center mr-6 flex-shrink-0">
+                            <span class="text-2xl font-bold">3</span>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-3">✍️ Copywriting & Creation</h3>
+                            <p class="text-gray-100 mb-3">
+                                I craft conversion-focused copy using proven frameworks and persuasion principles. Every
+                                word is chosen to guide your reader toward taking action.
+                            </p>
+                            <p class="text-gray-200 text-sm">
+                                Deliverable: First draft with strategic explanations for key decisions
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-8">
+                    <div class="flex items-start">
+                        <div
+                            class="bg-white bg-opacity-20 rounded-full w-12 h-12 flex items-center justify-center mr-6 flex-shrink-0">
+                            <span class="text-2xl font-bold">4</span>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-3">🔄 Revision & Refinement</h3>
+                            <p class="text-gray-100 mb-3">
+                                Based on your feedback, I refine the copy to perfection. We iterate until you're
+                                completely satisfied and confident in the results.
+                            </p>
+                            <p class="text-gray-200 text-sm">
+                                Deliverable: Polished final copy with revision rounds included
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-8">
+                    <div class="flex items-start">
+                        <div
+                            class="bg-white bg-opacity-20 rounded-full w-12 h-12 flex items-center justify-center mr-6 flex-shrink-0">
+                            <span class="text-2xl font-bold">5</span>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-3">📊 Launch & Optimize</h3>
+                            <p class="text-gray-100 mb-3">
+                                After launch, I'm available to analyze performance and suggest optimizations to improve
+                                conversions even further.
+                            </p>
+                            <p class="text-gray-200 text-sm">
+                                Deliverable: Performance review and optimization recommendations
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-800 bg-opacity-40">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    💬 What Clients <span class="text-gradient">Say</span>
+                </h2>
+                <p class="text-xl text-gray-300">
+                    Real results from real businesses I've helped grow.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-gray-900 border border-gray-700 rounded-lg p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">
+                        "Noble's email sequences completely transformed our customer onboarding. We saw a 35% increase
+                        in conversions from free to paid plans within the first month."
+                    </p>
+                    <div>
+                        <p class="font-semibold">Sarah K.</p>
+                        <p class="text-gray-400 text-sm">SaaS Founder</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-gray-900 border border-gray-700 rounded-lg p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">
+                        "The landing page Noble wrote for us achieved a 42% opt-in rate. His understanding of our
+                        audience and ability to communicate value was exceptional."
+                    </p>
+                    <div>
+                        <p class="font-semibold">Michael T.</p>
+                        <p class="text-gray-400 text-sm">Marketing Director</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-gray-900 border border-gray-700 rounded-lg p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">
+                        "Working with Noble was seamless. He understood our brand voice immediately and delivered copy
+                        that not only sounded like us but actually drove sales."
+                    </p>
+                    <div>
+                        <p class="font-semibold">Jessica R.</p>
+                        <p class="text-gray-400 text-sm">eCommerce Owner</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-gray-900 border border-gray-700 rounded-lg p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">
+                        "His abandoned cart emails recovered thousands in lost revenue. Noble knows how to write copy
+                        that persuades without being pushy."
+                    </p>
+                    <div>
+                        <p class="font-semibold">David L.</p>
+                        <p class="text-gray-400 text-sm">Online Retailer</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-gray-900 border border-gray-700 rounded-lg p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">
+                        "Noble's video scripts brought our product to life. The VSL he created for us has become our
+                        highest-converting sales asset."
+                    </p>
+                    <div>
+                        <p class="font-semibold">Amanda P.</p>
+                        <p class="text-gray-400 text-sm">Product Manager</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-gray-900 border border-gray-700 rounded-lg p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">
+                        "Professional, responsive, and results-driven. Noble delivered exactly what we needed and made
+                        the entire process smooth and enjoyable."
+                    </p>
+                    <div>
+                        <p class="font-semibold">Carlos M.</p>
+                        <p class="text-gray-400 text-sm">Fitness Coach</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Work With Me Section -->
+    <section class="py-20 gradient-bg-alt">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    🤝 Why Work With <span class="text-yellow-300">Me</span>
+                </h2>
+                <p class="text-xl text-gray-100 max-w-3xl mx-auto">
+                    I'm not just a copywriter—I'm a growth partner invested in your success.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div
+                    class="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-6 text-center">
+                    <div class="benefit-icon text-5xl mb-4">🎯</div>
+                    <h3 class="text-xl font-bold mb-3">Results-Focused</h3>
+                    <p class="text-gray-100">
+                        Every word I write is designed to drive measurable business outcomes, not just sound pretty.
+                    </p>
+                </div>
+
+                <div
+                    class="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-6 text-center">
+                    <div class="benefit-icon text-5xl mb-4">⚡</div>
+                    <h3 class="text-xl font-bold mb-3">Fast Turnaround</h3>
+                    <p class="text-gray-100">
+                        I respect your deadlines and deliver quality work on time, every time.
+                    </p>
+                </div>
+
+                <div
+                    class="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-6 text-center">
+                    <div class="benefit-icon text-5xl mb-4">🧠</div>
+                    <h3 class="text-xl font-bold mb-3">Deep Research</h3>
+                    <p class="text-gray-100">
+                        I don't guess—I research your audience, competitors, and market to craft copy that converts.
+                    </p>
+                </div>
+
+                <div
+                    class="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-6 text-center">
+                    <div class="benefit-icon text-5xl mb-4">💡</div>
+                    <h3 class="text-xl font-bold mb-3">Strategic Thinking</h3>
+                    <p class="text-gray-100">
+                        I bring marketing strategy to the table, not just words on a page.
+                    </p>
+                </div>
+
+                <div
+                    class="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-6 text-center">
+                    <div class="benefit-icon text-5xl mb-4">🔄</div>
+                    <h3 class="text-xl font-bold mb-3">Unlimited Revisions</h3>
+                    <p class="text-gray-100">
+                        Your satisfaction is guaranteed. I'll refine until you're 100% happy with the result.
+                    </p>
+                </div>
+
+                <div
+                    class="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-6 text-center">
+                    <div class="benefit-icon text-5xl mb-4">📞</div>
+                    <h3 class="text-xl font-bold mb-3">Clear Communication</h3>
+                    <p class="text-gray-100">
+                        No ghosting, no confusion. I keep you updated every step of the way.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-800 bg-opacity-40">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+            <div class="max-w-2xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 text-center">
+                    📬 Let's <span class="text-gradient">Start Growing</span>
+                </h2>
+                <p class="text-xl text-gray-300 text-center mb-12">
+                    Ready to turn more browsers into buyers? Let's talk about your project.
+                </p>
+
+                <div class="bg-gray-900 border border-gray-700 rounded-lg p-10">
+                    <form id="contact-form" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-semibold mb-2">Your Name *</label>
+                            <input type="text" id="name" name="name" required
+                                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-purple-500 focus:outline-none transition-all"
+                                placeholder="John Doe">
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-semibold mb-2">Your Email *</label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-purple-500 focus:outline-none transition-all"
+                                placeholder="john@example.com">
+                        </div>
+
+                        <div>
+                            <label for="project" class="block text-sm font-semibold mb-2">What do you need help with?
+                                *</label>
+                            <select id="project" name="project" required
+                                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-purple-500 focus:outline-none transition-all">
+                                <option value="">Select a service...</option>
+                                <option value="email">Email Copywriting</option>
+                                <option value="landing">Landing Pages</option>
+                                <option value="sales">Sales Copy & Ads</option>
+                                <option value="video">Video Scripts</option>
+                                <option value="other">Something Else</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-sm font-semibold mb-2">Tell me about your
+                                project</label>
+                            <textarea id="message" name="message" rows="5"
+                                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-purple-500 focus:outline-none transition-all resize-none"
+                                placeholder="Share details about your business, goals, timeline, and any specific requirements..."></textarea>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full cta-button text-white font-bold py-4 px-6 rounded-lg transition-all">
+                            📨 Send Message
+                        </button>
+
+                        <p class="text-gray-400 text-center text-sm mt-4">
+                            I typically respond within 24 hours. Let's grow your business together!
+                        </p>
+                    </form>
+
+                    <div class="mt-10 pt-10 border-t border-gray-700">
+                        <h3 class="font-semibold mb-6 text-center">Or connect with me on social media:</h3>
+                        <div class="flex flex-col sm:flex-row justify-center gap-6">
+                            <a href="https://linkedin.com/in/NobleOsinachi" target="_blank"
+                                class="text-center text-gray-300 hover:text-purple-400 transition-all">
+                                <i class="fab fa-linkedin text-3xl mb-2"></i>
+                                <p class="text-sm">LinkedIn</p>
+                            </a>
+                            <a href="https://x.com/NobleOsinachi" target="_blank"
+                                class="text-center text-gray-300 hover:text-purple-400 transition-all">
+                                <i class="fab fa-x-twitter text-3xl mb-2"></i>
+                                <p class="text-sm">X (Twitter)</p>
+                            </a>
+                            <a href="https://instagram.com/NobleOsinachi" target="_blank"
+                                class="text-center text-gray-300 hover:text-purple-400 transition-all">
+                                <i class="fab fa-instagram text-3xl mb-2"></i>
+                                <p class="text-sm">Instagram</p>
+                            </a>
+                            <a href="mailto:noble@example.com"
+                                class="text-center text-gray-300 hover:text-purple-400 transition-all">
+                                <i class="fas fa-envelope text-3xl mb-2"></i>
+                                <p class="text-sm">Email</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">
+                        Noble<span class="text-purple-500">Osinachi</span>
+                    </h3>
+                    <p class="text-gray-400 text-sm">
+                        Direct response copywriter helping brands turn browsers into buyers through conversion-optimized
+                        copy.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><a href="#services" class="hover:text-purple-400 transition-all">Email Copywriting</a></li>
+                        <li><a href="#services" class="hover:text-purple-400 transition-all">Landing Pages</a></li>
+                        <li><a href="#services" class="hover:text-purple-400 transition-all">Sales Copy</a></li>
+                        <li><a href="#services" class="hover:text-purple-400 transition-all">Video Scripts</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Connect</h4>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><a href="https://x.com/NobleOsinachi" target="_blank"
+                                class="hover:text-purple-400 transition-all">X (Twitter)</a></li>
+                        <li><a href="https://linkedin.com/in/NobleOsinachi" target="_blank"
+                                class="hover:text-purple-400 transition-all">LinkedIn</a></li>
+                        <li><a href="https://instagram.com/NobleOsinachi" target="_blank"
+                                class="hover:text-purple-400 transition-all">Instagram</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><a href="#home" class="hover:text-purple-400 transition-all">Home</a></li>
+                        <li><a href="#portfolio" class="hover:text-purple-400 transition-all">Portfolio</a></li>
+                        <li><a href="#process" class="hover:text-purple-400 transition-all">Process</a></li>
+                        <li><a href="#contact" class="hover:text-purple-400 transition-all">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8">
+                <p class="text-gray-500 text-sm text-center">
+                    &copy; 2025 Noble Osinachi. All rights reserved. Built for conversions.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="fixed bottom-8 right-8">
+        <a href="#home"
+            class="bg-purple-600 hover:bg-purple-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-all"
+            aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="fixed inset-0 bg-gray-900 bg-opacity-95 z-50 hidden" id="mobile-menu">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex justify-between items-center mb-8">
+                <h1 class="text-2xl font-bold">
+                    Noble<span class="text-purple-500">Osinachi</span>
+                </h1>
+                <button class="focus:outline-none" id="close-menu">
+                    <i class="fas fa-times text-2xl"></i>
+                </button>
+            </div>
+
+            <div class="flex flex-col space-y-6">
+                <a href="#home" class="text-xl font-medium">Home</a>
+                <a href="#results" class="text-xl font-medium">Results</a>
+                <a href="#services" class="text-xl font-medium">Services</a>
+                <a href="#portfolio" class="text-xl font-medium">Portfolio</a>
+                <a href="#process" class="text-xl font-medium">Process</a>
+                <a href="#testimonials" class="text-xl font-medium">Testimonials</a>
+                <a href="#contact" class="text-xl font-medium">Contact</a>
+            </div>
+
+            <div class="mt-10 flex justify-center space-x-6">
+                <a href="https://linkedin.com/in/NobleOsinachi" target="_blank"
+                    class="text-gray-400 hover:text-purple-500">
+                    <i class="fab fa-linkedin text-2xl"></i>
+                </a>
+                <a href="https://x.com/NobleOsinachi" target="_blank" class="text-gray-400 hover:text-purple-500">
+                    <i class="fab fa-x-twitter text-2xl"></i>
+                </a>
+                <a href="https://instagram.com/NobleOsinachi" target="_blank"
+                    class="text-gray-400 hover:text-purple-500">
+                    <i class="fab fa-instagram text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Logic
+        document.addEventListener("DOMContentLoaded", function () {
+                    const mobileMenuButton = document.querySelector(".md\\:hidden button");
+                    const mobileMenu = document.getElementById("mobile-menu");
+                    const closeMenuButton = document.getElementById("close-menu");
+                    const mobileMenuLinks = document.querySelectorAll("#mobile-menu a");
+
+                    if (mobileMenuButton && mobileMenu && closeMenuButton) {
+                        mobileMenuButton.addEventListener("click", function () {
+                            mobileMenu.classList.remove("hidden");
+                        });
+
+                        closeMenuButton.addEventListener("click", function () {
+                            mobileMenu.classList.add("hidden");
+                        });
+
+                        mobileMenuLinks.forEach((link) => {
+                            link.addEventListener("click", function () {
+                                mobileMenu.classList.add("hidden");
+                            });
+                        });
+                    }
+
+                    // Contact form handling
+                    const contactForm = document.getElementById("contact-form");
+                    if (contactForm) {
+                        contactForm.addEventListener("submit", function (e) {
+                            e.preventDefault();
+
+                            const submitButton = contactForm.querySelector("button[type='submit']");
+                            const originalText = submitButton.innerHTML;
+
+                            submitButton.disabled = true;
+                            submitButton.innerHTML = "✅ Message Sent!";
+                            submitButton.classList.add("opacity-75");
+
+                            alert(
+                                "Thanks for reaching out! I'll get back to you within 24 hours. Feel free to connect on social media as well."
+                            );
+
+                            setTimeout(() => {
+                                submitButton.disabled = false;
+                                submitButton.innerHTML = originalText;
+                                submitButton.classList.remove("opacity-75");
+                                contactForm.reset();
+                            }, 3000);
+                        });
+                    }
+                    // Smooth scroll for anchor links
+                    document.querySelectorAll("a[href^='#']").forEach(anchor => {
+                        anchor.addEventListener("click", function (e) {
+                            const targetId = this.getAttribute("href");
+
+                            if (targetId.length > 1) {
+                                const targetElement = document.querySelector(targetId);
+                                if (targetElement) {
+                                    e.preventDefault();
+                                    targetElement.scrollIntoView({
+                                        behavior: "smooth",
+                                        block: "start"
+                                    });
+                                }
+                            }
+                        });
+                    });
+    </script>
 </body>
 
 </html>
