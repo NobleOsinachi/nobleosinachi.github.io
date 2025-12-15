@@ -1132,69 +1132,75 @@
     <script>
         // Mobile Menu Logic
         document.addEventListener("DOMContentLoaded", function () {
-                    const mobileMenuButton = document.querySelector(".md\\:hidden button");
-                    const mobileMenu = document.getElementById("mobile-menu");
-                    const closeMenuButton = document.getElementById("close-menu");
-                    const mobileMenuLinks = document.querySelectorAll("#mobile-menu a");
 
-                    if (mobileMenuButton && mobileMenu && closeMenuButton) {
-                        mobileMenuButton.addEventListener("click", function () {
-                            mobileMenu.classList.remove("hidden");
-                        });
+            const menuButton = document.getElementById("menu-button");
+            const mobileMenu = document.getElementById("mobile-menu");
+            const closeButton = document.getElementById("close-menu");
+            const menuLinks = mobileMenu.querySelectorAll("a");
 
-                        closeMenuButton.addEventListener("click", function () {
-                            mobileMenu.classList.add("hidden");
-                        });
+            // Open menu
+            menuButton.addEventListener("click", () => {
+                mobileMenu.classList.remove("hidden");
+                document.body.style.overflow = "hidden"; // prevent background scroll
+            });
 
-                        mobileMenuLinks.forEach((link) => {
-                            link.addEventListener("click", function () {
-                                mobileMenu.classList.add("hidden");
-                            });
-                        });
-                    }
+            // Close menu (X button)
+            closeButton.addEventListener("click", () => {
+                mobileMenu.classList.add("hidden");
+                document.body.style.overflow = "";
+            });
 
-                    // Contact form handling
-                    const contactForm = document.getElementById("contact-form");
-                    if (contactForm) {
-                        contactForm.addEventListener("submit", function (e) {
+            // Close menu when clicking a link
+            menuLinks.forEach(link => {
+                link.addEventListener("click", () => {
+                    mobileMenu.classList.add("hidden");
+                    document.body.style.overflow = "";
+                });
+            });
+
+            // Contact form handling
+            const contactForm = document.getElementById("contact-form");
+            if (contactForm) {
+                contactForm.addEventListener("submit", function (e) {
+                    e.preventDefault();
+
+                    const submitButton = contactForm.querySelector("button[type='submit']");
+                    const originalText = submitButton.innerHTML;
+
+                    submitButton.disabled = true;
+                    submitButton.innerHTML = "✅ Message Sent!";
+                    submitButton.classList.add("opacity-75");
+
+                    alert(
+                        "Thanks for reaching out! I'll get back to you within 24 hours. Feel free to connect on social media as well."
+                    );
+
+                    setTimeout(() => {
+                        submitButton.disabled = false;
+                        submitButton.innerHTML = originalText;
+                        submitButton.classList.remove("opacity-75");
+                        contactForm.reset();
+                    }, 3000);
+                });
+            }
+            // Smooth scroll for anchor links
+            document.querySelectorAll("a[href^='#']").forEach(anchor => {
+                anchor.addEventListener("click", function (e) {
+                    const targetId = this.getAttribute("href");
+
+                    if (targetId.length > 1) {
+                        const targetElement = document.querySelector(targetId);
+                        if (targetElement) {
                             e.preventDefault();
-
-                            const submitButton = contactForm.querySelector("button[type='submit']");
-                            const originalText = submitButton.innerHTML;
-
-                            submitButton.disabled = true;
-                            submitButton.innerHTML = "✅ Message Sent!";
-                            submitButton.classList.add("opacity-75");
-
-                            alert(
-                                "Thanks for reaching out! I'll get back to you within 24 hours. Feel free to connect on social media as well."
-                            );
-
-                            setTimeout(() => {
-                                submitButton.disabled = false;
-                                submitButton.innerHTML = originalText;
-                                submitButton.classList.remove("opacity-75");
-                                contactForm.reset();
-                            }, 3000);
-                        });
+                            targetElement.scrollIntoView({
+                                behavior: "smooth",
+                                block: "start"
+                            });
+                        }
                     }
-                    // Smooth scroll for anchor links
-                    document.querySelectorAll("a[href^='#']").forEach(anchor => {
-                        anchor.addEventListener("click", function (e) {
-                            const targetId = this.getAttribute("href");
-
-                            if (targetId.length > 1) {
-                                const targetElement = document.querySelector(targetId);
-                                if (targetElement) {
-                                    e.preventDefault();
-                                    targetElement.scrollIntoView({
-                                        behavior: "smooth",
-                                        block: "start"
-                                    });
-                                }
-                            }
-                        });
-                    });
+                });
+            });
+        });
     </script>
 </body>
 
