@@ -1,263 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Instant redirect to /video-editor -->
+    <!-- <meta http-equiv="refresh" content="0; url=/video-editor/" /> -->
 
-<head>
+    <!-- Canonical URL (VERY important for SEO & Google indexing) -->
+    <link rel="canonical" href="https://nobleosinachi.com/video-editor/" />
 
-  <!-- Instant redirect to /video-editor -->
-  <!-- <meta http-equiv="refresh" content="0; url=/video-editor/" /> -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-720Y6D4QNV"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-  <!-- Canonical URL (VERY important for SEO & Google indexing) -->
-  <link rel="canonical" href="https://nobleosinachi.github.io/video-editor/" />
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-720Y6D4QNV"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+      gtag("config", "G-720Y6D4QNV");
+    </script>
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    gtag('config', 'G-720Y6D4QNV');
-  </script>
+    <!-- Primary Meta -->
+    <title>Portfolio | Noble Osinachi</title>
+    <meta
+      name="description"
+      content="Welcome to Noble Osinachi's Portfolio. Explore the work of a Full-Stack Software Developer, specializing in JavaScript, React, Node.js, and responsive web design. Also skilled in Short Form Content Video Editing and Direct Response Email Copywriting. Discover projects, code samples, and insights from a tech enthusiast dedicated to delivering high-quality, innovative solutions."
+    />
+    <meta
+      name="keywords"
+      content="Noble Osinachi, Noble Osinachi portfolio, Noble full stack developer, personal portfolio Noble Osinachi, tech bro final boss, Sir Noble, portfolio design, portfolio website, personal portfolio, full stack web developer, web developer portfolio, software engineer portfolio, frontend developer, backend developer, JavaScript developer, React developer, Node.js developer, developer portfolio examples, tech portfolio, programming portfolio, coder portfolio, web development, software development, responsive design, UX/UI design, coding projects, tech enthusiast, professional portfolio, developer showcase, digital portfolio"
+    />
+    <link rel="canonical" href="https://nobleosinachi.com/" />
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0a0a0a" />
 
-  <!-- Primary Meta -->
-  <title>Portfolio | Noble Osinachi</title>
-  <meta name="description"
-    content="Welcome to Noble Osinachi's Portfolio. Explore the work of a Full-Stack Software Developer, specializing in JavaScript, React, Node.js, and responsive web design. Also skilled in Short Form Content Video Editing and Direct Response Email Copywriting. Discover projects, code samples, and insights from a tech enthusiast dedicated to delivering high-quality, innovative solutions." />
-  <meta name="keywords"
-    content="Noble Osinachi, Noble Osinachi portfolio, Noble full stack developer, personal portfolio Noble Osinachi, tech bro final boss, Sir Noble, portfolio design, portfolio website, personal portfolio, full stack web developer, web developer portfolio, software engineer portfolio, frontend developer, backend developer, JavaScript developer, React developer, Node.js developer, developer portfolio examples, tech portfolio, programming portfolio, coder portfolio, web development, software development, responsive design, UX/UI design, coding projects, tech enthusiast, professional portfolio, developer showcase, digital portfolio" />
-  <link rel="canonical" href="https://nobleosinachi.github.io/" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Portfolio | Noble Osinachi" />
+    <meta
+      property="og:description"
+      content="Explore Noble Osinachi's portfolio — Full-Stack Developer, Video Editor, and Copywriter."
+    />
+    <meta
+      property="og:image"
+      content="https://nobleosinachi.com/images/preview.png"
+    />
+    <meta property="og:url" content="https://nobleosinachi.com/" />
+    <meta property="og:type" content="website" />
 
-  <!-- PWA Manifest -->
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#0a0a0a">
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Portfolio | Noble Osinachi" />
+    <meta
+      name="twitter:description"
+      content="Full-Stack Developer & Video Editor | Noble Osinachi's professional portfolio."
+    />
+    <meta
+      name="twitter:image"
+      content="https://nobleosinachi.com/images/preview.png"
+    />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:title" content="Portfolio | Noble Osinachi">
-  <meta property="og:description"
-    content="Explore Noble Osinachi's portfolio — Full-Stack Developer, Video Editor, and Copywriter.">
-  <meta property="og:image" content="https://nobleosinachi.github.io/images/preview.png">
-  <meta property="og:url" content="https://nobleosinachi.github.io/">
-  <meta property="og:type" content="website">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <!-- Twitter Cards -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Portfolio | Noble Osinachi">
-  <meta name="twitter:description"
-    content="Full-Stack Developer & Video Editor | Noble Osinachi's professional portfolio.">
-  <meta name="twitter:image" content="https://nobleosinachi.github.io/images/preview.png">
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/favicon-192.png" sizes="192x192" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+  </head>
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!-- Favicons -->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
-  <link rel="icon" href="/favicon-192.png" sizes="192x192" type="image/png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
-</head>
-
-
-<body oncontextmenu="return false">
-
-  <!-- pre loader -->
-  <!-- <div class="loader-container">
+  <body oncontextmenu="return false">
+    <!-- pre loader -->
+    <!-- <div class="loader-container">
   <img draggable="false" src="./images/preloader.gif" alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content">
 </div> -->
 
-  <!-- navbar starts -->
-  <header>
-    <img src="./images/logo.png"
-      alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content">
-    <!-- <a href="/" class="logo"><i class="fab fa-cubes"></i> Noble</a> -->
+    <!-- navbar starts -->
+    <header>
+      <img
+        src="./images/logo.png"
+        alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content"
+      />
+      <!-- <a href="/" class="logo"><i class="fab fa-cubes"></i> Noble</a> -->
 
-    <div id="menu" class="fas fa-bars"></div>
-    <nav class="navbar">
-      <ul>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#video-editor">video-editor</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <!-- navbar ends -->
-
-
-  <!-- hero section starts -->
-  <section class="home" id="home">
-    <div id="particles-js"></div>
-
-    <div class="content">
-      <br>
-      <br>
-      <h2>Hi There,<br /> I'm Noble <span>Osinachi</span></h2>
-      <p>i am into <span class="typing-text"></span></p>
-      <a href="#about" class="btn"><span>About Me</span>
-        <i class="fas fa-arrow-circle-down"></i>
-      </a>
-      <div class="socials">
-        <ul class="social-icons">
-          <li> <a class="fas fa-link" href="https://linktr.ee/NobleOsinachi" target="_blank"> </a>
-          </li>
-          <li><a class="linkedin" aria-label="LinkedIn" href="https://linkedin.com/in/NobleOsinachi" target="_blank"><i
-                class="fab fa-linkedin"></i></a></li>
-          <li><a class="github" aria-label="GitHub" href="https://github.com/NobleOsinachi" target="_blank"><i
-                class="fab fa-github"></i></a></li>
-          <li><a class="twitter" aria-label="Twitter" href="https://x.com/intent/follow?screen_name=NobleOsinachi"
-              target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <li><a class="telegram" aria-label="Telegram" href="https://t.me/NobleOsinachi" target="_blank"><i
-                class="fab fa-telegram-plane"></i></a></li>
-          <li><a class="instagram" aria-label="Instagram" href="https://instagram.com/NobleOsinachi"><i
-                class="fab fa-instagram" target="_blank"></i></a></li>
-          <li><a class="dev" aria-label="Dev" href="https://dev.to/NobleOsinachi" target="_blank"><i
-                class="fab fa-dev"></i></a></li>
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#video-editor">video-editor</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
-    </div>
-    <div class="image">
-      <img draggable="false" class="tilt" src="./images/hero.png"
-        alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content">
-    </div>
-  </section>
-  <!-- hero section ends -->
+      </nav>
+    </header>
+    <!-- navbar ends -->
 
-  <!-- about section starts -->
-  <section class="about" id="about">
-    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
-
-    <div class="row">
-
-      <div class="image">
-        <img draggable="false" class="tilt" src="./images/nobleosinachi.png"
-          alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content">
-      </div>
-
-
+    <!-- hero section starts -->
+    <section class="home" id="home">
+      <div id="particles-js"></div>
 
       <div class="content">
+        <br />
+        <br />
+        <h2>
+          Hi There,<br />
+          I'm Noble <span>Osinachi</span>
+        </h2>
+        <p>i am into <span class="typing-text"></span></p>
+        <a href="#about" class="btn"
+          ><span>About Me</span>
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+        <div class="socials">
+          <ul class="social-icons">
+            <li>
+              <a
+                class="fas fa-link"
+                href="https://linktr.ee/NobleOsinachi"
+                target="_blank"
+              >
+              </a>
+            </li>
+            <li>
+              <a
+                class="linkedin"
+                aria-label="LinkedIn"
+                href="https://linkedin.com/in/NobleOsinachi"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="github"
+                aria-label="GitHub"
+                href="https://github.com/NobleOsinachi"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="twitter"
+                aria-label="Twitter"
+                href="https://x.com/intent/follow?screen_name=NobleOsinachi"
+                target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="telegram"
+                aria-label="Telegram"
+                href="https://t.me/NobleOsinachi"
+                target="_blank"
+                ><i class="fab fa-telegram-plane"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="instagram"
+                aria-label="Instagram"
+                href="https://instagram.com/NobleOsinachi"
+                ><i class="fab fa-instagram" target="_blank"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="dev"
+                aria-label="Dev"
+                href="https://dev.to/NobleOsinachi"
+                target="_blank"
+                ><i class="fab fa-dev"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="image">
+        <img
+          draggable="false"
+          class="tilt"
+          src="./images/hero.png"
+          alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content"
+        />
+      </div>
+    </section>
+    <!-- hero section ends -->
 
+    <!-- about section starts -->
+    <section class="about" id="about">
+      <h2 class="heading">
+        <i class="fas fa-user-alt"></i> About <span>Me</span>
+      </h2>
 
+      <div class="row">
+        <div class="image">
+          <img
+            draggable="false"
+            class="tilt"
+            src="./images/nobleosinachi.png"
+            alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content"
+          />
+        </div>
 
-        <h3>I'm Noble Osinachi 👋</h3>
+        <div class="content">
+          <h3>I'm Noble Osinachi 👋</h3>
 
-        <span class="tag">Full Stack Software Developer | Versatile Copywriter | Creative Short-Form Video Editor</span>
+          <span class="tag"
+            >Full Stack Software Developer | Versatile Copywriter | Creative
+            Short-Form Video Editor</span
+          >
 
-        <p>I am a multi-faceted professional with a diverse skill set in software development, copywriting, and video
-          editing based in Lagos, Nigeria. As a graduate of Systems Engineering from the University of Lagos, I am
-          deeply committed to refining my abilities and developing innovative solutions.</p>
+          <p>
+            I am a multi-faceted professional with a diverse skill set in
+            software development, copywriting, and video editing based in Lagos,
+            Nigeria. As a graduate of Systems Engineering from the University of
+            Lagos, I am deeply committed to refining my abilities and developing
+            innovative solutions.
+          </p>
 
-        <p>My expertise in the MERN stack enables me to create high-quality WebApps, websites, and robust funnels. I am
-          constantly seeking new opportunities to grow, learn, and contribute my unique blend of talents to various
-          projects and industries.</p>
+          <p>
+            My expertise in the MERN stack enables me to create high-quality
+            WebApps, websites, and robust funnels. I am constantly seeking new
+            opportunities to grow, learn, and contribute my unique blend of
+            talents to various projects and industries.
+          </p>
 
+          <p>
+            With a passion for learning and building, combined with a versatile
+            background and a touch of creativity, I am confident in my ability
+            to add significant value and innovation to any team or project.
+          </p>
 
-        <p>With a passion for learning and building, combined with a versatile background and a touch of creativity, I
-          am confident in my ability to add significant value and innovation to any team or project.</p>
+          <div class="box-container">
+            <div class="box">
+              <p>
+                <span>email: </span>
+                <a
+                  href="mailto:nobleosinachi@icloud.com"
+                  style="text-transform: lowercase"
+                  >nobleosinachi@icloud.com</a
+                >
+              </p>
 
+              <p><span> place : </span> Lagos, Nigeria 100264</p>
+            </div>
+          </div>
 
-
-        <div class="box-container">
-          <div class="box">
-
-            <p><span>email: </span> <a href="mailto:nobleosinachi@icloud.com"
-                style="text-transform: lowercase;">nobleosinachi@icloud.com</a></p>
-
-            <p><span> place : </span> Lagos, Nigeria 100264 </p>
+          <div class="resumebtn">
+            <a href="/cv" target="_blank" class="btn"
+              ><span>Resume</span>
+              <i class="fas fa-chevron-right"></i>
+            </a>
           </div>
         </div>
-
-        <div class="resumebtn">
-          <a href="/cv" target="_blank" class="btn"><span>Resume</span>
-            <i class="fas fa-chevron-right"></i>
-          </a>
-        </div>
-
       </div>
-    </div>
-  </section>
-  <!-- about section ends -->
+    </section>
+    <!-- about section ends -->
 
-  <!-- skills section starts -->
-  <section class="skills" id="skills">
+    <!-- skills section starts -->
+    <section class="skills" id="skills">
+      <h2 class="heading">
+        <i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span>
+      </h2>
 
-    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
-
-    <div class="container">
-      <div class="row" id="skillsContainer">
-
-        <!-- 
+      <div class="container">
+        <div class="row" id="skillsContainer">
+          <!-- 
           <div class="bar">
               <div class="info">
                 <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
                 <span>AdobeXD</span>
               </div>
           </div> 
-        -->
-
+        --></div>
       </div>
-    </div>
-  </section>
-  <!-- skills section ends -->
+    </section>
+    <!-- skills section ends -->
 
+    <!-- education section starts -->
+    <section class="education" id="education">
+      <h1 class="heading">
+        <i class="fas fa-graduation-cap"></i> My <span>Education</span>
+      </h1>
 
-  <!-- education section starts -->
-  <section class="education" id="education">
+      <p class="qoute">
+        Education is not the learning of facts, but the training of the mind to
+        think.
+      </p>
 
-    <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
-
-    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
-
-    <div class="box-container">
-
-      <div class="box">
-        <div class="image">
-          <img draggable="false" src="./images/education/unilag.png" alt="University of Lagos, Akoka, Yaba, Lagos">
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="./images/education/unilag.png"
+              alt="University of Lagos, Akoka, Yaba, Lagos"
+            />
+          </div>
+          <div class="content">
+            <h3>Bachelor of Science in Systems Engineering</h3>
+            <p>University of Lagos, Akoka, Yaba, Lagos.</p>
+            <h4>2015 - 2021</h4>
+          </div>
         </div>
-        <div class="content">
-          <h3>Bachelor of Science in Systems Engineering</h3>
-          <p>University of Lagos, Akoka, Yaba, Lagos.</p>
-          <h4>2015 - 2021</h4>
+
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="./images/education/bmhsi.png"
+              alt="Baptist Model High School Ikola Ipaja"
+            />
+          </div>
+          <div class="content">
+            <h3>WASSCE - Applied Sciences</h3>
+            <p>Baptist Model High School, Ikola, Ipaja, Lagos.</p>
+            <h4>2014 | Completed</h4>
+          </div>
         </div>
       </div>
+    </section>
+    <!-- education section ends -->
 
-      <div class="box">
-        <div class="image">
-          <img draggable="false" src="./images/education/bmhsi.png" alt="Baptist Model High School Ikola Ipaja">
-        </div>
-        <div class="content">
-          <h3>WASSCE - Applied Sciences</h3>
-          <p>Baptist Model High School, Ikola, Ipaja, Lagos.</p>
-          <h4>2014 | Completed</h4>
-        </div>
-      </div>
+    <!-- work project section starts -->
+    <section class="work" id="work">
+      <h2 class="heading">
+        <i class="fas fa-laptop-code"></i> Projects <span>Made</span>
+      </h2>
 
-    </div>
-  </section>
-  <!-- education section ends -->
-
-
-  <!-- work project section starts -->
-  <section class="work" id="work">
-
-    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
-
-    <div class="box-container">
-
-      <!-- <div class="box tilt">
+      <div class="box-container">
+        <!-- <div class="box tilt">
       <img draggable="false" src="./images/projects/portfolio1.PNG" alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content" />
       <div class="content">
         <div class="tag">
@@ -272,224 +366,284 @@
         </div>
       </div>
     </div> -->
-
-    </div>
-
-    <div class="viewall">
-      <a href="/projects" class="btn"><span>View All</span>
-        <i class="fas fa-arrow-right"></i>
-      </a>
-    </div>
-
-  </section>
-  <!-- work project section ends -->
-
-
-
-
-  <!-- video-editor project section starts -->
-
-  <section class="about" id="video-editor">
-    <h2 class="heading"><i class="fas fa-film"></i> Video <span>Editor</span></h2>
-
-    <div class="row">
-      <div class="image">
-        <img draggable="false" class="tilted" src="./images/video-editor.png"
-          alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content"
-          style="width: min(50vw, 500px); height: auto; will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1); filter: none !important; ">
       </div>
 
-      <div class="content">
-        <h3>Professional Video Editing </h3>
-
-        <span class="tag">Short-Form Content | Direct Response Video Ads (DTC, VSL, UGC-Style)</span>
-
-        <p>I have helped e-commerce brands to create attention-grabbing & winning creatives
-          optimized for Meta Ads platforms and short attention spans.</p>
-
-        <p>My specialized editing approach combines professional polish with authentic,
-          conversion-focused storytelling that resonates with viewers and drives buyer action.</p>
-
-        <p>With a passion for continuous learning and building,
-          combined with a versatile background and a touch of
-          creativity, I am confident in my ability
-          to add significant value and innovation to any team or project.</p>
-
-        <div class="resumebtn">
-          <a href="/video-editor/" target="_blank" class="btn"><span>See Projects</span>
-            <i class="fas fa-chevron-right"></i>
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- video-editor project section ends -->
-
-
-  <!-- experience section starts -->
-  <section class="experience" id="experience">
-
-    <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
-
-    <div class="timeline">
-      <div class="container right">
-        <div class="content">
-          <div class="tag">
-            <h2>Self Employed</h2>
-          </div>
-          <div class="desc">
-            <h3>Software & Systems Engineer</h3>
-            <p>Oct 2015 - present</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container left">
-        <div class="content">
-          <div class="tag">
-            <h2>The InnerCity Mission for Children</h2>
-          </div>
-          <div class="desc">
-            <h3>Software Developer I </h3>
-            <p>Jan 2022 - Sept 2023</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container right">
-        <div class="content">
-          <div class="tag">
-            <h2>Infosight Limited</h2>
-          </div>
-          <div class="desc">
-            <h3>Software Developer | Internship</h3>
-            <p>Jul 2019 - Jan 2020</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container left">
-        <div class="content">
-          <div class="tag">
-            <h2>Elbon Concepts</h2>
-          </div>
-          <div class="desc">
-            <h3>Sofware Developer && Freelancer</h3>
-            <p>2015 - Date</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="morebtn">
-        <a href="/experience" class="btn"><span>View All</span>
+      <div class="viewall">
+        <a href="/projects" class="btn"
+          ><span>View All</span>
           <i class="fas fa-arrow-right"></i>
         </a>
       </div>
+    </section>
+    <!-- work project section ends -->
 
-    </div>
+    <!-- video-editor project section starts -->
 
-  </section>
-  <!-- experience section ends -->
+    <section class="about" id="video-editor">
+      <h2 class="heading">
+        <i class="fas fa-film"></i> Video <span>Editor</span>
+      </h2>
 
-  <!-- contact section starts -->
-  <section class="contact" id="contact">
-
-    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
-
-    <div class="container">
-      <div class="content">
-        <div class="image-box">
-          <img draggable="false" src="./images/contact1.png"
-            alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content">
+      <div class="row">
+        <div class="image">
+          <img
+            draggable="false"
+            class="tilted"
+            src="./images/video-editor.png"
+            alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content"
+            style="
+              width: min(50vw, 500px);
+              height: auto;
+              will-change: transform;
+              transform: perspective(1000px) rotateX(0deg) rotateY(0deg)
+                scale3d(1, 1, 1);
+              filter: none !important;
+            "
+          />
         </div>
 
-        <form id="contact-form">
-          <div class="form-group">
-            <div class="field">
-              <input type="text" name="name" placeholder="Name" required>
-              <i class='fas fa-user'></i>
-            </div>
-            <div class="field">
-              <input type="text" name="email" placeholder="Email" required>
-              <i class='fas fa-envelope'></i>
-            </div>
-            <div class="field">
-              <input type="text" name="project" placeholder="Project" required>
-              <i class='fas fa-briefcase'></i>
-            </div>
-            <div class="message">
-              <textarea placeholder="Message" name="message" required></textarea>
-              <i class="fas fa-comment-dots"></i>
-            </div>
+        <div class="content">
+          <h3>Professional Video Editing</h3>
+
+          <span class="tag"
+            >Short-Form Content | Direct Response Video Ads (DTC, VSL,
+            UGC-Style)</span
+          >
+
+          <p>
+            I have helped e-commerce brands to create attention-grabbing &
+            winning creatives optimized for Meta Ads platforms and short
+            attention spans.
+          </p>
+
+          <p>
+            My specialized editing approach combines professional polish with
+            authentic, conversion-focused storytelling that resonates with
+            viewers and drives buyer action.
+          </p>
+
+          <p>
+            With a passion for continuous learning and building, combined with a
+            versatile background and a touch of creativity, I am confident in my
+            ability to add significant value and innovation to any team or
+            project.
+          </p>
+
+          <div class="resumebtn">
+            <a href="/video-editor/" target="_blank" class="btn"
+              ><span>See Projects</span>
+              <i class="fas fa-chevron-right"></i>
+            </a>
           </div>
-          <div class="button-area">
-            <button type="submit">
-              Submit <i class="fa fa-paper-plane"></i>
-            </button>
-          </div>
-        </form>
-
-      </div>
-    </div>
-  </section>
-  <!-- contact section ends -->
-
-
-  <!-- footer section starts -->
-  <section class="footer">
-
-    <div class="box-container">
-
-      <div class="box">
-        <h3>Noble's Portfolio</h3>
-        <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br /> Keep Rising
-          🚀. Connect with me over live chat!</p>
-      </div>
-
-      <div class="box">
-        <h3>quick links</h3>
-        <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
-        <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
-        <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-        <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
-        <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
-      </div>
-
-      <div class="box">
-        <h3>contact info</h3>
-        <p> <i class="fas fa-phone"></i>+234 902 577 8189</p>
-        <p> <i class="fas fa-envelope"></i>nobleosinachi@icloud.com</p>
-        <p> <i class="fas fa-map-marked-alt"></i>Lagos, Nigeria, 100264</p>
-        <div class="share">
-
-
-
-
-          <a href="https://linkedin.com/in/NobleOsinachi" class="fab fa-linkedin" aria-label="LinkedIn"
-            target="_blank"></a>
-          <a href="https://github.com/NobleOsinachi" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
-          <a href="mailto:nobleosinachi@icloud.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
-          <a href="https://x.com/intent/follow?screen_name=NobleOsinachi" class="fab fa-twitter" aria-label="Twitter"
-            target="_blank"></a>
-          <a href="https://t.me/NobleOsinachi" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
         </div>
       </div>
-    </div>
+    </section>
+    <!-- video-editor project section ends -->
 
-    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
-        href="https://linkedin.com/in/NobleOsinachi"> Noble Osinachi</a></h1>
+    <!-- experience section starts -->
+    <section class="experience" id="experience">
+      <h2 class="heading"><i class="fas fa-briefcase"></i> Experience</h2>
 
-  </section>
-  <!-- footer section ends -->
+      <div class="timeline">
+        <div class="container right">
+          <div class="content">
+            <div class="tag">
+              <h2>Self Employed</h2>
+            </div>
+            <div class="desc">
+              <h3>Software & Systems Engineer</h3>
+              <p>Oct 2015 - present</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="container left">
+          <div class="content">
+            <div class="tag">
+              <h2>The InnerCity Mission for Children</h2>
+            </div>
+            <div class="desc">
+              <h3>Software Developer I</h3>
+              <p>Jan 2022 - Sept 2023</p>
+            </div>
+          </div>
+        </div>
 
-  <!-- scroll top btn -->
-  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
-  <!-- scroll back to top -->
+        <div class="container right">
+          <div class="content">
+            <div class="tag">
+              <h2>Infosight Limited</h2>
+            </div>
+            <div class="desc">
+              <h3>Software Developer | Internship</h3>
+              <p>Jul 2019 - Jan 2020</p>
+            </div>
+          </div>
+        </div>
 
-  <!--
+        <div class="container left">
+          <div class="content">
+            <div class="tag">
+              <h2>Elbon Concepts</h2>
+            </div>
+            <div class="desc">
+              <h3>Sofware Developer && Freelancer</h3>
+              <p>2015 - Date</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="morebtn">
+          <a href="/experience" class="btn"
+            ><span>View All</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- experience section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+      <h2 class="heading">
+        <i class="fas fa-headset"></i> Get in <span>Touch</span>
+      </h2>
+
+      <div class="container">
+        <div class="content">
+          <div class="image-box">
+            <img
+              draggable="false"
+              src="./images/contact1.png"
+              alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content"
+            />
+          </div>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <div class="field">
+                <input type="text" name="name" placeholder="Name" required />
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="field">
+                <input type="text" name="email" placeholder="Email" required />
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  name="project"
+                  placeholder="Project"
+                  required
+                />
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <div class="message">
+                <textarea
+                  placeholder="Message"
+                  name="message"
+                  required
+                ></textarea>
+                <i class="fas fa-comment-dots"></i>
+              </div>
+            </div>
+            <div class="button-area">
+              <button type="submit">
+                Submit <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Noble's Portfolio</h3>
+          <p>
+            Thank you for visiting my personal portfolio website. Connect with
+            me over socials. <br />
+            <br />
+            Keep Rising 🚀. Connect with me over live chat!
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"
+            ><i class="fas fa-chevron-circle-right"></i> skills</a
+          >
+          <a href="#education"
+            ><i class="fas fa-chevron-circle-right"></i> education</a
+          >
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"
+            ><i class="fas fa-chevron-circle-right"></i> experience</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <p><i class="fas fa-phone"></i>+234 902 577 8189</p>
+          <p><i class="fas fa-envelope"></i>nobleosinachi@icloud.com</p>
+          <p><i class="fas fa-map-marked-alt"></i>Lagos, Nigeria, 100264</p>
+          <div class="share">
+            <a
+              href="https://linkedin.com/in/NobleOsinachi"
+              class="fab fa-linkedin"
+              aria-label="LinkedIn"
+              target="_blank"
+            ></a>
+            <a
+              href="https://github.com/NobleOsinachi"
+              class="fab fa-github"
+              aria-label="GitHub"
+              target="_blank"
+            ></a>
+            <a
+              href="mailto:nobleosinachi@icloud.com"
+              class="fas fa-envelope"
+              aria-label="Mail"
+              target="_blank"
+            ></a>
+            <a
+              href="https://x.com/intent/follow?screen_name=NobleOsinachi"
+              class="fab fa-twitter"
+              aria-label="Twitter"
+              target="_blank"
+            ></a>
+            <a
+              href="https://t.me/NobleOsinachi"
+              class="fab fa-telegram-plane"
+              aria-label="Telegram"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        Designed with <i class="fa fa-heart pulse"></i> by
+        <a href="https://linkedin.com/in/NobleOsinachi"> Noble Osinachi</a>
+      </h1>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- scroll top btn -->
+    <a
+      href="#home"
+      aria-label="ScrollTop"
+      class="fas fa-angle-up"
+      id="scroll-top"
+    ></a>
+    <!-- scroll back to top -->
+
+    <!--
   <script>
     // Function to send GET request to your backend
     function pingBackend() {
@@ -510,35 +664,45 @@
   </script>
 -->
 
-  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
-  <!-- jquery cdn -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+    <!-- jquery cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-  <!-- typed.js cdn -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
-    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- typed.js cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+      integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-  <!-- particle.js links -->
-  <script src="./js/particles.min.js"></script>
-  <script src="./js/app.js"></script>
+    <!-- particle.js links -->
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/app.js"></script>
 
-  <!-- vanilla tilt.js links -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
-    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- vanilla tilt.js links -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+      integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-  <!-- scroll reveal anim -->
-  <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- scroll reveal anim -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
 
-  <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+    <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
-  <script src="./js/script.js"></script>
-
-</body>
-
+    <script src="./js/script.js"></script>
+  </body>
 </html>

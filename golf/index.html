@@ -1,577 +1,829 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luxury Mini Golf Set - Practice Like a Pro at Home | Nigeria</title>
-    <meta name="description"
-        content="Transform your home or office into a premium golf practice facility. The same putting mat used by executives and professionals worldwide. Free delivery across Nigeria.">
+    <meta
+      name="description"
+      content="Transform your home or office into a premium golf practice facility. The same putting mat used by executives and professionals worldwide. Free delivery across Nigeria."
+    />
 
     <!-- 🌐 Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://nobleosinachi.github.io/golf/">
-    <meta property="og:title" content="Premium Indoor Golf Putting Mat | NobleStore">
-    <meta property="og:description"
-        content="Practice golf at home in Nigeria. Realistic feel, automatic ball return, and perfect for families. Over 300 customers love it.">
-    <meta property="og:image" content="https://nobleosinachi.github.io/images/putting-mat-main.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nobleosinachi.com/golf/" />
+    <meta
+      property="og:title"
+      content="Premium Indoor Golf Putting Mat | NobleStore"
+    />
+    <meta
+      property="og:description"
+      content="Practice golf at home in Nigeria. Realistic feel, automatic ball return, and perfect for families. Over 300 customers love it."
+    />
+    <meta
+      property="og:image"
+      content="https://nobleosinachi.com/images/putting-mat-main.jpg"
+    />
 
     <!-- 🐦 Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://nobleosinachi.github.io/golf/">
-    <meta name="twitter:title" content="Premium Indoor Golf Putting Mat | NobleStore">
-    <meta name="twitter:description"
-        content="Practice golf at home in Nigeria. Realistic feel, automatic ball return, and perfect for families.">
-    <meta name="twitter:image" content="https://nobleosinachi.github.io/images/putting-mat-main.jpg">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://nobleosinachi.com/golf/" />
+    <meta
+      name="twitter:title"
+      content="Premium Indoor Golf Putting Mat | NobleStore"
+    />
+    <meta
+      name="twitter:description"
+      content="Practice golf at home in Nigeria. Realistic feel, automatic ball return, and perfect for families."
+    />
+    <meta
+      name="twitter:image"
+      content="https://nobleosinachi.com/images/putting-mat-main.jpg"
+    />
 
-    <script src="https://cdn.tailwindcss.com" data-turbo-track="reload"></script>
+    <script
+      src="https://cdn.tailwindcss.com"
+      data-turbo-track="reload"
+    ></script>
 
     <script src="https://cdn.jsdelivr.net/npm/tailwindcss@4.1.17/dist/lib.min.js"></script>
 
     <!-- ✅ Tailwind CSS working on GitHub Pages -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@4.1.17/index.min.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@4.1.17/index.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
+      body {
+        font-family: "Inter", sans-serif;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: "Playfair Display", serif;
+      }
+
+      .gradient-text {
+        background: linear-gradient(135deg, #1e3a20 0%, #2d5a2d 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .hero-gradient {
+        background: linear-gradient(
+          135deg,
+          #0f2614 0%,
+          #1a3d1f 50%,
+          #0f2614 100%
+        );
+      }
+
+      .card-hover {
+        transition: all 0.3s ease;
+      }
+
+      .card-hover:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+      }
+
+      .pulse-animation {
+        animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
         }
 
-        h1,
-        h2,
-        h3,
-        h4 {
-            font-family: 'Playfair Display', serif;
+        50% {
+          opacity: 0.7;
         }
+      }
 
-        .gradient-text {
-            background: linear-gradient(135deg, #1e3a20 0%, #2d5a2d 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
+      .sticky-cta {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+      }
 
-        .hero-gradient {
-            background: linear-gradient(135deg, #0f2614 0%, #1a3d1f 50%, #0f2614 100%);
-        }
+      .sticky-cta.visible {
+        transform: translateY(0);
+      }
 
-        .card-hover {
-            transition: all 0.3s ease;
-        }
-
-        .card-hover:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-        }
-
-        .pulse-animation {
-            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-        }
-
-        @keyframes pulse {
-
-            0%,
-            100% {
-                opacity: 1;
-            }
-
-            50% {
-                opacity: 0.7;
-            }
-        }
-
-        .sticky-cta {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            z-index: 50;
-            transform: translateY(100%);
-            transition: transform 0.3s ease;
-        }
-
-        .sticky-cta.visible {
-            transform: translateY(0);
-        }
-
-        .check-icon::before {
-            content: "✓";
-            color: #22c55e;
-            font-weight: bold;
-            margin-right: 8px;
-        }
+      .check-icon::before {
+        content: "✓";
+        color: #22c55e;
+        font-weight: bold;
+        margin-right: 8px;
+      }
     </style>
-</head>
+  </head>
 
-<body class="bg-gray-50">
-
+  <body class="bg-gray-50">
     <!-- Announcement Bar -->
     <div class="bg-red-600 text-white py-2 text-center text-sm font-semibold">
-        🔥 LIMITED STOCK ALERT: Only 47 Units Left This Month! Order Now Before We're Sold Out
+      🔥 LIMITED STOCK ALERT: Only 47 Units Left This Month! Order Now Before
+      We're Sold Out
     </div>
 
     <!-- Hero Section -->
-    <section class="hero-gradient text-white py-16 md:py-24 relative overflow-hidden">
-        <div class="absolute inset-0 opacity-10">
-            <div class="absolute top-0 left-0 w-96 h-96 bg-green-400 rounded-full blur-3xl"></div>
-            <div class="absolute bottom-0 right-0 w-96 h-96 bg-emerald-400 rounded-full blur-3xl"></div>
-        </div>
+    <section
+      class="hero-gradient text-white py-16 md:py-24 relative overflow-hidden"
+    >
+      <div class="absolute inset-0 opacity-10">
+        <div
+          class="absolute top-0 left-0 w-96 h-96 bg-green-400 rounded-full blur-3xl"
+        ></div>
+        <div
+          class="absolute bottom-0 right-0 w-96 h-96 bg-emerald-400 rounded-full blur-3xl"
+        ></div>
+      </div>
 
-        <div class="container mx-auto px-4 relative z-10">
-            <div class="max-w-4xl mx-auto text-center">
-                <div
-                    class="inline-block bg-yellow-400 text-gray-900 px-4 py-2 rounded-full text-sm font-bold mb-6 pulse-animation">
-                    ⛳ AS SEEN IN EXECUTIVE CLUBS WORLDWIDE
-                </div>
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-4xl mx-auto text-center">
+          <div
+            class="inline-block bg-yellow-400 text-gray-900 px-4 py-2 rounded-full text-sm font-bold mb-6 pulse-animation"
+          >
+            ⛳ AS SEEN IN EXECUTIVE CLUBS WORLDWIDE
+          </div>
 
-                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-                    Master Your Golf Game <span class="text-yellow-400">Without Ever</span> Leaving Your Home or Office
-                </h1>
+          <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+            Master Your Golf Game
+            <span class="text-yellow-400">Without Ever</span> Leaving Your Home
+            or Office
+          </h1>
 
-                <p class="text-xl md:text-2xl mb-4 text-gray-200 leading-relaxed">
-                    The same professional-grade putting mat used by CEOs, executives, and golf champions to sharpen
-                    their skills daily.
-                </p>
+          <p class="text-xl md:text-2xl mb-4 text-gray-200 leading-relaxed">
+            The same professional-grade putting mat used by CEOs, executives,
+            and golf champions to sharpen their skills daily.
+          </p>
 
-                <p class="text-lg mb-8 text-gray-300">
-                    <span class="line-through">₦350,000</span>
-                    <br>
-                    <span class="text-3xl font-bold text-yellow-400">₦255,000</span>
-                    <br>
-                    <span class="bg-red-600 text-white px-3 py-1 rounded-full text-sm ml-2">Save ₦95,000!</span>
-                </p>
+          <p class="text-lg mb-8 text-gray-300">
+            <span class="line-through">₦350,000</span>
+            <br />
+            <span class="text-3xl font-bold text-yellow-400">₦255,000</span>
+            <br />
+            <span
+              class="bg-red-600 text-white px-3 py-1 rounded-full text-sm ml-2"
+              >Save ₦95,000!</span
+            >
+          </p>
 
-                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-                    <a href="#order"
-                        class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-4 px-8 rounded-full text-lg transition-all transform hover:scale-105 shadow-2xl inline-flex items-center">
-                        ORDER YOUR SET NOW
-                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                        </svg>
-                    </a>
-                    <a href="#packages"
-                        class="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-4 px-8 rounded-full text-lg transition-all">
-                        VIEW PACKAGES
-                    </a>
-                </div>
+          <div
+            class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"
+          >
+            <a
+              href="#order"
+              class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-4 px-8 rounded-full text-lg transition-all transform hover:scale-105 shadow-2xl inline-flex items-center"
+            >
+              ORDER YOUR SET NOW
+              <svg
+                class="w-5 h-5 ml-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 7l5 5m0 0l-5 5m5-5H6"
+                />
+              </svg>
+            </a>
+            <a
+              href="#packages"
+              class="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-4 px-8 rounded-full text-lg transition-all"
+            >
+              VIEW PACKAGES
+            </a>
+          </div>
 
-                <div class="flex flex-wrap justify-center gap-6 text-sm">
-                    <div class="flex items-center">
-                        <svg class="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                clip-rule="evenodd" />
-                        </svg>
-                        FREE Delivery Nationwide
-                    </div>
-                    <div class="flex items-center">
-                        <svg class="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                clip-rule="evenodd" />
-                        </svg>
-                        Arrives in 1-5 Days
-                    </div>
-                    <div class="flex items-center">
-                        <svg class="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                clip-rule="evenodd" />
-                        </svg>
-                        100% Quality Guaranteed
-                    </div>
-                </div>
+          <div class="flex flex-wrap justify-center gap-6 text-sm">
+            <div class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-400 mr-2"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              FREE Delivery Nationwide
             </div>
+            <div class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-400 mr-2"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              Arrives in 1-5 Days
+            </div>
+            <div class="flex items-center">
+              <svg
+                class="w-5 h-5 text-green-400 mr-2"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              100% Quality Guaranteed
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Trust Badges -->
     <section class="py-8 bg-white border-y border-gray-200">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-wrap justify-center items-center gap-8 text-center text-gray-600 text-sm">
-                <div class="flex items-center">
-                    <svg class="w-6 h-6 text-green-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
-                        <path fill-rule="evenodd"
-                            d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    <span class="font-semibold">1,200+ Units Sold</span>
-                </div>
-                <div class="flex items-center">
-                    <svg class="w-6 h-6 text-yellow-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                        <path
-                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <span class="font-semibold">4.9/5 Star Rating</span>
-                </div>
-                <div class="flex items-center">
-                    <svg class="w-6 h-6 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd"
-                            d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    <span class="font-semibold">Trusted in 32+ States</span>
-                </div>
-            </div>
+      <div class="container mx-auto px-4">
+        <div
+          class="flex flex-wrap justify-center items-center gap-8 text-center text-gray-600 text-sm"
+        >
+          <div class="flex items-center">
+            <svg
+              class="w-6 h-6 text-green-600 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+              <path
+                fill-rule="evenodd"
+                d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="font-semibold">1,200+ Units Sold</span>
+          </div>
+          <div class="flex items-center">
+            <svg
+              class="w-6 h-6 text-yellow-500 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+              />
+            </svg>
+            <span class="font-semibold">4.9/5 Star Rating</span>
+          </div>
+          <div class="flex items-center">
+            <svg
+              class="w-6 h-6 text-blue-600 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="font-semibold">Trusted in 32+ States</span>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Problem Section -->
     <section class="py-16 md:py-24 bg-gradient-to-b from-gray-50 to-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto">
-                <h2 class="text-3xl md:text-5xl font-bold text-center mb-6 gradient-text">
-                    The Struggle Every Nigerian Golfer Faces...
-                </h2>
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+          <h2
+            class="text-3xl md:text-5xl font-bold text-center mb-6 gradient-text"
+          >
+            The Struggle Every Nigerian Golfer Faces...
+          </h2>
 
-                <p class="text-xl text-gray-700 text-center mb-12">
-                    You love golf. You want to improve. But there's a problem.
-                </p>
+          <p class="text-xl text-gray-700 text-center mb-12">
+            You love golf. You want to improve. But there's a problem.
+          </p>
 
-                <div class="grid md:grid-cols-2 gap-6 mb-12">
-                    <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
-                        <div class="flex items-start">
-                            <span class="text-3xl mr-4">😤</span>
-                            <div>
-                                <h3 class="font-bold text-lg mb-2 text-gray-900">Golf Club Memberships Are Expensive
-                                </h3>
-                                <p class="text-gray-700">₦500,000 to ₦800,000+ just to join. Plus green fees of ₦10,000+
-                                    per visit. That's a fortune!</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
-                        <div class="flex items-start">
-                            <span class="text-3xl mr-4">⏰</span>
-                            <div>
-                                <h3 class="font-bold text-lg mb-2 text-gray-900">No Time for Regular Practice</h3>
-                                <p class="text-gray-700">Between work, traffic, and family commitments, finding 4 hours
-                                    for a round of golf is nearly impossible.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
-                        <div class="flex items-start">
-                            <span class="text-3xl mr-4">📉</span>
-                            <div>
-                                <h3 class="font-bold text-lg mb-2 text-gray-900">Your Game Isn't Improving</h3>
-                                <p class="text-gray-700">You only play once every few weeks. Your putting is
-                                    inconsistent. You're embarrassed when playing with clients or partners.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
-                        <div class="flex items-start">
-                            <span class="text-3xl mr-4">🏢</span>
-                            <div>
-                                <h3 class="font-bold text-lg mb-2 text-gray-900">Limited Access to Quality Courses</h3>
-                                <p class="text-gray-700">Nigeria has fewer than 50 golf courses, and only 4-5 meet
-                                    international standards. Getting tee times is a nightmare.</p>
-                            </div>
-                        </div>
-                    </div>
+          <div class="grid md:grid-cols-2 gap-6 mb-12">
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+              <div class="flex items-start">
+                <span class="text-3xl mr-4">😤</span>
+                <div>
+                  <h3 class="font-bold text-lg mb-2 text-gray-900">
+                    Golf Club Memberships Are Expensive
+                  </h3>
+                  <p class="text-gray-700">
+                    ₦500,000 to ₦800,000+ just to join. Plus green fees of
+                    ₦10,000+ per visit. That's a fortune!
+                  </p>
                 </div>
-
-                <div class="bg-gradient-to-r from-green-600 to-green-700 text-white rounded-2xl p-8 text-center">
-                    <h3 class="text-2xl md:text-3xl font-bold mb-4">
-                        What if you could practice your putting every single day... right in your home or office?
-                    </h3>
-                    <p class="text-lg opacity-90">
-                        Imagine shaving 5-10 strokes off your game without spending a fortune or wasting time in
-                        traffic.
-                    </p>
-                </div>
+              </div>
             </div>
+
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+              <div class="flex items-start">
+                <span class="text-3xl mr-4">⏰</span>
+                <div>
+                  <h3 class="font-bold text-lg mb-2 text-gray-900">
+                    No Time for Regular Practice
+                  </h3>
+                  <p class="text-gray-700">
+                    Between work, traffic, and family commitments, finding 4
+                    hours for a round of golf is nearly impossible.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+              <div class="flex items-start">
+                <span class="text-3xl mr-4">📉</span>
+                <div>
+                  <h3 class="font-bold text-lg mb-2 text-gray-900">
+                    Your Game Isn't Improving
+                  </h3>
+                  <p class="text-gray-700">
+                    You only play once every few weeks. Your putting is
+                    inconsistent. You're embarrassed when playing with clients
+                    or partners.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+              <div class="flex items-start">
+                <span class="text-3xl mr-4">🏢</span>
+                <div>
+                  <h3 class="font-bold text-lg mb-2 text-gray-900">
+                    Limited Access to Quality Courses
+                  </h3>
+                  <p class="text-gray-700">
+                    Nigeria has fewer than 50 golf courses, and only 4-5 meet
+                    international standards. Getting tee times is a nightmare.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-gradient-to-r from-green-600 to-green-700 text-white rounded-2xl p-8 text-center"
+          >
+            <h3 class="text-2xl md:text-3xl font-bold mb-4">
+              What if you could practice your putting every single day... right
+              in your home or office?
+            </h3>
+            <p class="text-lg opacity-90">
+              Imagine shaving 5-10 strokes off your game without spending a
+              fortune or wasting time in traffic.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Solution Section -->
     <section class="py-16 md:py-24 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-6xl mx-auto">
-                <div class="text-center mb-12">
-                    <h2 class="text-4xl md:text-5xl font-bold mb-6 gradient-text">
-                        Introducing Your Personal Golf Academy at Home
-                    </h2>
-                    <p class="text-xl text-gray-700 max-w-3xl mx-auto">
-                        The Luxury Mini Golf Set is the professional-grade training system used by executives, business
-                        leaders, and serious golfers worldwide to master their putting game.
-                    </p>
-                </div>
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <div class="text-center mb-12">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 gradient-text">
+              Introducing Your Personal Golf Academy at Home
+            </h2>
+            <p class="text-xl text-gray-700 max-w-3xl mx-auto">
+              The Luxury Mini Golf Set is the professional-grade training system
+              used by executives, business leaders, and serious golfers
+              worldwide to master their putting game.
+            </p>
+          </div>
 
-                <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
-                    <div>
-                        <img src="/images/1.jpg" alt="Luxury Mini Golf Set" class="rounded-2xl shadow-2xl">
-                    </div>
-                    <div>
-                        <h3 class="text-3xl font-bold mb-6 text-gray-900">Everything You Need to Practice Like a Pro
-                        </h3>
-                        <div class="space-y-4">
-                            <div class="flex items-start">
-                                <div class="bg-green-100 rounded-full p-2 mr-4 flex-shrink-0">
-                                    <svg class="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-lg text-gray-900">Premium Dual-Speed Turf</h4>
-                                    <p class="text-gray-600">Mimics real golf course conditions. Practice on authentic
-                                        tournament-grade putting surface.</p>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start">
-                                <div class="bg-green-100 rounded-full p-2 mr-4 flex-shrink-0">
-                                    <svg class="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-lg text-gray-900">Automatic Ball Return System</h4>
-                                    <p class="text-gray-600">Never bend down to retrieve balls. The ball automatically
-                                        returns to you for non-stop practice.</p>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start">
-                                <div class="bg-green-100 rounded-full p-2 mr-4 flex-shrink-0">
-                                    <svg class="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-lg text-gray-900">Built-In Slope for Realistic Practice
-                                    </h4>
-                                    <p class="text-gray-600">Subtle incline trains you for both uphill and downhill
-                                        putts you'll face on the course.</p>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start">
-                                <div class="bg-green-100 rounded-full p-2 mr-4 flex-shrink-0">
-                                    <svg class="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-lg text-gray-900">Precision Alignment Guides</h4>
-                                    <p class="text-gray-600">Built-in markers help you perfect your aim and build muscle
-                                        memory for consistent strokes.</p>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start">
-                                <div class="bg-green-100 rounded-full p-2 mr-4 flex-shrink-0">
-                                    <svg class="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-lg text-gray-900">Portable & Easy to Store</h4>
-                                    <p class="text-gray-600">Rolls up in seconds. Use in your office, living room, or
-                                        take it anywhere.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product Gallery -->
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <img src="/images/feature-1.jpg" alt="Golf Set Feature 1"
-                        class="rounded-lg shadow-lg hover:scale-105 transition-transform">
-                    <img src="/images/feature-2.jpg" alt="Golf Set Feature 2"
-                        class="rounded-lg shadow-lg hover:scale-105 transition-transform">
-                    <img src="/images/feature-3.jpg" alt="Golf Set Feature 3"
-                        class="rounded-lg shadow-lg hover:scale-105 transition-transform">
-                    <img src="/images/feature-4.jpg" alt="Golf Set Feature 4"
-                        class="rounded-lg shadow-lg hover:scale-105 transition-transform">
-                </div>
+          <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <img
+                src="/images/1.jpg"
+                alt="Luxury Mini Golf Set"
+                class="rounded-2xl shadow-2xl"
+              />
             </div>
+            <div>
+              <h3 class="text-3xl font-bold mb-6 text-gray-900">
+                Everything You Need to Practice Like a Pro
+              </h3>
+              <div class="space-y-4">
+                <div class="flex items-start">
+                  <div class="bg-green-100 rounded-full p-2 mr-4 flex-shrink-0">
+                    <svg
+                      class="w-6 h-6 text-green-600"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-lg text-gray-900">
+                      Premium Dual-Speed Turf
+                    </h4>
+                    <p class="text-gray-600">
+                      Mimics real golf course conditions. Practice on authentic
+                      tournament-grade putting surface.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="bg-green-100 rounded-full p-2 mr-4 flex-shrink-0">
+                    <svg
+                      class="w-6 h-6 text-green-600"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-lg text-gray-900">
+                      Automatic Ball Return System
+                    </h4>
+                    <p class="text-gray-600">
+                      Never bend down to retrieve balls. The ball automatically
+                      returns to you for non-stop practice.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="bg-green-100 rounded-full p-2 mr-4 flex-shrink-0">
+                    <svg
+                      class="w-6 h-6 text-green-600"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-lg text-gray-900">
+                      Built-In Slope for Realistic Practice
+                    </h4>
+                    <p class="text-gray-600">
+                      Subtle incline trains you for both uphill and downhill
+                      putts you'll face on the course.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="bg-green-100 rounded-full p-2 mr-4 flex-shrink-0">
+                    <svg
+                      class="w-6 h-6 text-green-600"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-lg text-gray-900">
+                      Precision Alignment Guides
+                    </h4>
+                    <p class="text-gray-600">
+                      Built-in markers help you perfect your aim and build
+                      muscle memory for consistent strokes.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="bg-green-100 rounded-full p-2 mr-4 flex-shrink-0">
+                    <svg
+                      class="w-6 h-6 text-green-600"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-lg text-gray-900">
+                      Portable & Easy to Store
+                    </h4>
+                    <p class="text-gray-600">
+                      Rolls up in seconds. Use in your office, living room, or
+                      take it anywhere.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Gallery -->
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <img
+              src="/images/feature-1.jpg"
+              alt="Golf Set Feature 1"
+              class="rounded-lg shadow-lg hover:scale-105 transition-transform"
+            />
+            <img
+              src="/images/feature-2.jpg"
+              alt="Golf Set Feature 2"
+              class="rounded-lg shadow-lg hover:scale-105 transition-transform"
+            />
+            <img
+              src="/images/feature-3.jpg"
+              alt="Golf Set Feature 3"
+              class="rounded-lg shadow-lg hover:scale-105 transition-transform"
+            />
+            <img
+              src="/images/feature-4.jpg"
+              alt="Golf Set Feature 4"
+              class="rounded-lg shadow-lg hover:scale-105 transition-transform"
+            />
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Benefits Section -->
     <section class="py-16 md:py-24 bg-gradient-to-b from-green-50 to-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-6xl mx-auto">
-                <h2 class="text-4xl md:text-5xl font-bold text-center mb-6 gradient-text">
-                    Why Successful Nigerians Are Choosing This Over Golf Club Memberships
-                </h2>
-                <p class="text-xl text-gray-700 text-center mb-12 max-w-3xl mx-auto">
-                    Save time, money, and dramatically improve your game with daily practice in the comfort of your own
-                    space.
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <h2
+            class="text-4xl md:text-5xl font-bold text-center mb-6 gradient-text"
+          >
+            Why Successful Nigerians Are Choosing This Over Golf Club
+            Memberships
+          </h2>
+          <p class="text-xl text-gray-700 text-center mb-12 max-w-3xl mx-auto">
+            Save time, money, and dramatically improve your game with daily
+            practice in the comfort of your own space.
+          </p>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            <div
+              class="bg-white rounded-xl p-8 shadow-lg card-hover text-center"
+            >
+              <div
+                class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+              >
+                <svg
+                  class="w-8 h-8 text-green-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-2xl font-bold mb-3 text-gray-900">
+                Save ₦445,000+ Annually
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Instead of ₦500,000 membership + ₦10,000 per visit (4x month =
+                ₦480,000/year), pay just ₦255,000 once.
+              </p>
+              <div class="bg-green-50 rounded-lg p-4 text-left">
+                <p class="text-sm text-gray-700">
+                  <span class="font-bold">Typical Club Cost:</span>
+                  ₦980,000/year
                 </p>
-
-                <div class="grid md:grid-cols-3 gap-8">
-                    <div class="bg-white rounded-xl p-8 shadow-lg card-hover text-center">
-                        <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-2xl font-bold mb-3 text-gray-900">Save ₦445,000+ Annually</h3>
-                        <p class="text-gray-600 mb-4">
-                            Instead of ₦500,000 membership + ₦10,000 per visit (4x month = ₦480,000/year), pay just
-                            ₦255,000 once.
-                        </p>
-                        <div class="bg-green-50 rounded-lg p-4 text-left">
-                            <p class="text-sm text-gray-700"><span class="font-bold">Typical Club Cost:</span>
-                                ₦980,000/year</p>
-                            <p class="text-sm text-gray-700"><span class="font-bold">Your Investment:</span> ₦255,000
-                                one-time</p>
-                            <p class="text-lg font-bold text-green-600 mt-2">Savings: ₦725,000+</p>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-xl p-8 shadow-lg card-hover text-center">
-                        <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                            </svg>
-                        </div>
-                        <h3 class="text-2xl font-bold mb-3 text-gray-900">Dramatically Improve Your Game</h3>
-                        <p class="text-gray-600 mb-4">
-                            Practice 15 minutes daily at home = better than 4 hours once a month. Build muscle memory
-                            and confidence.
-                        </p>
-                        <div class="bg-blue-50 rounded-lg p-4 text-left">
-                            <p class="text-sm text-gray-700 check-icon">Lower your handicap by 5-10 strokes</p>
-                            <p class="text-sm text-gray-700 check-icon">Sink more putts under pressure</p>
-                            <p class="text-sm text-gray-700 check-icon">Impress clients and partners</p>
-                            <p class="text-sm text-gray-700 check-icon">Build unshakeable confidence</p>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-xl p-8 shadow-lg card-hover text-center">
-                        <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-2xl font-bold mb-3 text-gray-900">Practice Anytime, Anywhere</h3>
-                        <p class="text-gray-600 mb-4">
-                            No traffic. No waiting. No wasted time. Practice in your pajamas at 6am or during lunch
-                            break at the office.
-                        </p>
-                        <div class="bg-purple-50 rounded-lg p-4 text-left">
-                            <p class="text-sm text-gray-700 check-icon">Morning practice before work</p>
-                            <p class="text-sm text-gray-700 check-icon">Office break stress relief</p>
-                            <p class="text-sm text-gray-700 check-icon">Evening family fun</p>
-                            <p class="text-sm text-gray-700 check-icon">Weekend tournaments at home</p>
-                        </div>
-                    </div>
-                </div>
+                <p class="text-sm text-gray-700">
+                  <span class="font-bold">Your Investment:</span> ₦255,000
+                  one-time
+                </p>
+                <p class="text-lg font-bold text-green-600 mt-2">
+                  Savings: ₦725,000+
+                </p>
+              </div>
             </div>
+
+            <div
+              class="bg-white rounded-xl p-8 shadow-lg card-hover text-center"
+            >
+              <div
+                class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+              >
+                <svg
+                  class="w-8 h-8 text-blue-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-2xl font-bold mb-3 text-gray-900">
+                Dramatically Improve Your Game
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Practice 15 minutes daily at home = better than 4 hours once a
+                month. Build muscle memory and confidence.
+              </p>
+              <div class="bg-blue-50 rounded-lg p-4 text-left">
+                <p class="text-sm text-gray-700 check-icon">
+                  Lower your handicap by 5-10 strokes
+                </p>
+                <p class="text-sm text-gray-700 check-icon">
+                  Sink more putts under pressure
+                </p>
+                <p class="text-sm text-gray-700 check-icon">
+                  Impress clients and partners
+                </p>
+                <p class="text-sm text-gray-700 check-icon">
+                  Build unshakeable confidence
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="bg-white rounded-xl p-8 shadow-lg card-hover text-center"
+            >
+              <div
+                class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+              >
+                <svg
+                  class="w-8 h-8 text-purple-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-2xl font-bold mb-3 text-gray-900">
+                Practice Anytime, Anywhere
+              </h3>
+              <p class="text-gray-600 mb-4">
+                No traffic. No waiting. No wasted time. Practice in your pajamas
+                at 6am or during lunch break at the office.
+              </p>
+              <div class="bg-purple-50 rounded-lg p-4 text-left">
+                <p class="text-sm text-gray-700 check-icon">
+                  Morning practice before work
+                </p>
+                <p class="text-sm text-gray-700 check-icon">
+                  Office break stress relief
+                </p>
+                <p class="text-sm text-gray-700 check-icon">
+                  Evening family fun
+                </p>
+                <p class="text-sm text-gray-700 check-icon">
+                  Weekend tournaments at home
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Social Proof Section -->
     <section class="py-16 md:py-24 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-6xl mx-auto">
-                <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 gradient-text">
-                    What Nigerian Golf Enthusiasts Are Saying
-                </h2>
-                <p class="text-xl text-gray-600 text-center mb-12">
-                    Join over 1,200 satisfied customers who are mastering their golf game at home
-                </p>
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <h2
+            class="text-4xl md:text-5xl font-bold text-center mb-4 gradient-text"
+          >
+            What Nigerian Golf Enthusiasts Are Saying
+          </h2>
+          <p class="text-xl text-gray-600 text-center mb-12">
+            Join over 1,200 satisfied customers who are mastering their golf
+            game at home
+          </p>
 
-                <div class="grid md:grid-cols-3 gap-8 mb-12">
-                    <div class="bg-gray-50 rounded-xl p-6 shadow-md">
-                        <div class="flex items-center mb-4">
-                            <div class="flex text-yellow-400">
-                                ★★★★★
-                            </div>
-                        </div>
-                        <p class="text-gray-700 mb-4 italic">
-                            "As an executive who travels frequently, I barely had time to visit Ikoyi Club. This putting
-                            mat changed everything. I practice 20 minutes every morning and my putting improved
-                            drastically. Worth every kobo!"
-                        </p>
-                        <div class="flex items-center">
-                            <div
-                                class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold mr-3">
-                                CA
-                            </div>
-                            <div>
-                                <p class="font-bold text-gray-900">Chike A.</p>
-                                <p class="text-sm text-gray-600">CEO, Lagos</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 shadow-md">
-                        <div class="flex items-center mb-4">
-                            <div class="flex text-yellow-400">
-                                ★★★★★
-                            </div>
-                        </div>
-                        <p class="text-gray-700 mb-4 italic">
-                            "I bought this for my husband and he's obsessed! He practices every evening after work. His
-                            game has improved so much that he's now beating his business partners. Best gift I ever
-                            bought. Quality is excellent!"
-                        </p>
-                        <div class="flex items-center">
-                            <div
-                                class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold mr-3">
-                                BO
-                            </div>
-                            <div>
-                                <p class="font-bold text-gray-900">Blessing O.</p>
-                                <p class="text-sm text-gray-600">Port Harcourt</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 shadow-md">
-                        <div class="flex items-center mb-4">
-                            <div class="flex text-yellow-400">
-                                ★★★★★
-                            </div>
-                        </div>
-                        <p class="text-gray-700 mb-4 italic">
-                            "The automatic ball return is genius! I set it up in my office and use it during breaks. My
-                            colleagues are jealous. The quality is better than what I've seen at some clubs. Highly
-                            recommend."
-                        </p>
-                        <div class="flex items-center">
-                            <div
-                                class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold mr-3">
-                                OE
-                            </div>
-                            <div>
-                                <p class="font-bold text-gray-900">Olumide E.</p>
-                                <p class="text-sm text-gray-600">Business Owner, Abuja</p>
-                            </div>
-                        </div>
-                    </div>
+          <div class="grid md:grid-cols-3 gap-8 mb-12">
+            <div class="bg-gray-50 rounded-xl p-6 shadow-md">
+              <div class="flex items-center mb-4">
+                <div class="flex text-yellow-400">★★★★★</div>
+              </div>
+              <p class="text-gray-700 mb-4 italic">
+                "As an executive who travels frequently, I barely had time to
+                visit Ikoyi Club. This putting mat changed everything. I
+                practice 20 minutes every morning and my putting improved
+                drastically. Worth every kobo!"
+              </p>
+              <div class="flex items-center">
+                <div
+                  class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold mr-3"
+                >
+                  CA
                 </div>
+                <div>
+                  <p class="font-bold text-gray-900">Chike A.</p>
+                  <p class="text-sm text-gray-600">CEO, Lagos</p>
+                </div>
+              </div>
+            </div>
 
-                <!-- Customer Images -->
-                <!-- <h3 class="text-3xl font-bold text-center mb-8 text-gray-900">See It In Action</h3>
+            <div class="bg-gray-50 rounded-xl p-6 shadow-md">
+              <div class="flex items-center mb-4">
+                <div class="flex text-yellow-400">★★★★★</div>
+              </div>
+              <p class="text-gray-700 mb-4 italic">
+                "I bought this for my husband and he's obsessed! He practices
+                every evening after work. His game has improved so much that
+                he's now beating his business partners. Best gift I ever bought.
+                Quality is excellent!"
+              </p>
+              <div class="flex items-center">
+                <div
+                  class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold mr-3"
+                >
+                  BO
+                </div>
+                <div>
+                  <p class="font-bold text-gray-900">Blessing O.</p>
+                  <p class="text-sm text-gray-600">Port Harcourt</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 rounded-xl p-6 shadow-md">
+              <div class="flex items-center mb-4">
+                <div class="flex text-yellow-400">★★★★★</div>
+              </div>
+              <p class="text-gray-700 mb-4 italic">
+                "The automatic ball return is genius! I set it up in my office
+                and use it during breaks. My colleagues are jealous. The quality
+                is better than what I've seen at some clubs. Highly recommend."
+              </p>
+              <div class="flex items-center">
+                <div
+                  class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold mr-3"
+                >
+                  OE
+                </div>
+                <div>
+                  <p class="font-bold text-gray-900">Olumide E.</p>
+                  <p class="text-sm text-gray-600">Business Owner, Abuja</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Customer Images -->
+          <!-- <h3 class="text-3xl font-bold text-center mb-8 text-gray-900">See It In Action</h3>
                 <div class="grid md:grid-cols-3 gap-4">
                     <img src="/images/review-1.jpg"
                         alt="Customer Review" class="rounded-lg shadow-lg w-full h-64 object-cover">
@@ -581,811 +833,1184 @@
                         alt="Customer Review" class="rounded-lg shadow-lg w-full h-64 object-cover">
                 </div> -->
 
-                <!-- Customer UGC Videos -->
-                <h3 class="text-3xl font-bold text-center mb-8 text-gray-900">See It In Action</h3>
-                <div class="grid md:grid-cols-3 gap-4">
-                    <div class="rounded-lg shadow-lg overflow-hidden">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/NcVdyFFOJ0I"
-                            title="Golf Mat in Action" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="rounded-lg shadow-lg overflow-hidden">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/qdo9hz-lbhw"
-                            title="Golf Mat in Action" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="rounded-lg shadow-lg overflow-hidden">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/67JziUnpMTg"
-                            title="Golf Mat in Action" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-
-
-
+          <!-- Customer UGC Videos -->
+          <h3 class="text-3xl font-bold text-center mb-8 text-gray-900">
+            See It In Action
+          </h3>
+          <div class="grid md:grid-cols-3 gap-4">
+            <div class="rounded-lg shadow-lg overflow-hidden">
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/NcVdyFFOJ0I"
+                title="Golf Mat in Action"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
-
-
-
-
+            <div class="rounded-lg shadow-lg overflow-hidden">
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/qdo9hz-lbhw"
+                title="Golf Mat in Action"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="rounded-lg shadow-lg overflow-hidden">
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/67JziUnpMTg"
+                title="Golf Mat in Action"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Use Cases Section -->
     <section class="py-16 md:py-24 bg-gradient-to-b from-gray-50 to-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-6xl mx-auto">
-                <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
-                    Perfect For Every Lifestyle
-                </h2>
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <h2
+            class="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text"
+          >
+            Perfect For Every Lifestyle
+          </h2>
 
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="relative rounded-2xl overflow-hidden shadow-xl group">
-                        <img src="https://noblestore.com.ng/GOLF/wp-content/uploads/sites/13/2025/01/indoor-play-300x250-1.webp"
-                            alt="Indoor Practice" class="w-full h-80 object-cover">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
-                            <div>
-                                <h3 class="text-3xl font-bold text-white mb-2">🏠 Indoor Play</h3>
-                                <p class="text-gray-200">Practice in your living room, bedroom, or home office. Perfect
-                                    for rainy days or late-night practice sessions.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="relative rounded-2xl overflow-hidden shadow-xl group">
-                        <img src="https://noblestore.com.ng/GOLF/wp-content/uploads/sites/13/2025/01/outdoor-play-300x250-1.webp"
-                            alt="Outdoor Practice" class="w-full h-80 object-cover">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
-                            <div>
-                                <h3 class="text-3xl font-bold text-white mb-2">⛳ Outdoor Play</h3>
-                                <p class="text-gray-200">Take it to your garden, compound, or outdoor space.
-                                    Weather-resistant material built for Nigerian climate.</p>
-                            </div>
-                        </div>
-                    </div>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="relative rounded-2xl overflow-hidden shadow-xl group">
+              <img
+                src="https://noblestore.com.ng/GOLF/wp-content/uploads/sites/13/2025/01/indoor-play-300x250-1.webp"
+                alt="Indoor Practice"
+                class="w-full h-80 object-cover"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8"
+              >
+                <div>
+                  <h3 class="text-3xl font-bold text-white mb-2">
+                    🏠 Indoor Play
+                  </h3>
+                  <p class="text-gray-200">
+                    Practice in your living room, bedroom, or home office.
+                    Perfect for rainy days or late-night practice sessions.
+                  </p>
                 </div>
-
-                <div class="grid md:grid-cols-4 gap-6 mt-12">
-                    <div class="text-center">
-                        <div class="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <span class="text-4xl">👔</span>
-                        </div>
-                        <h4 class="font-bold text-lg mb-2">For Executives</h4>
-                        <p class="text-gray-600 text-sm">Quick practice breaks during your workday</p>
-                    </div>
-
-                    <div class="text-center">
-                        <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <span class="text-4xl">👨‍👩‍👧‍👦</span>
-                        </div>
-                        <h4 class="font-bold text-lg mb-2">For Families</h4>
-                        <p class="text-gray-600 text-sm">Fun activity everyone can enjoy together</p>
-                    </div>
-
-                    <div class="text-center">
-                        <div class="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <span class="text-4xl">🎯</span>
-                        </div>
-                        <h4 class="font-bold text-lg mb-2">For Beginners</h4>
-                        <p class="text-gray-600 text-sm">Learn proper technique before hitting the course</p>
-                    </div>
-
-                    <div class="text-center">
-                        <div class="bg-yellow-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <span class="text-4xl">🏆</span>
-                        </div>
-                        <h4 class="font-bold text-lg mb-2">For Pros</h4>
-                        <p class="text-gray-600 text-sm">Maintain your edge with daily practice</p>
-                    </div>
-                </div>
+              </div>
             </div>
+
+            <div class="relative rounded-2xl overflow-hidden shadow-xl group">
+              <img
+                src="https://noblestore.com.ng/GOLF/wp-content/uploads/sites/13/2025/01/outdoor-play-300x250-1.webp"
+                alt="Outdoor Practice"
+                class="w-full h-80 object-cover"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8"
+              >
+                <div>
+                  <h3 class="text-3xl font-bold text-white mb-2">
+                    ⛳ Outdoor Play
+                  </h3>
+                  <p class="text-gray-200">
+                    Take it to your garden, compound, or outdoor space.
+                    Weather-resistant material built for Nigerian climate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-4 gap-6 mt-12">
+            <div class="text-center">
+              <div
+                class="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4"
+              >
+                <span class="text-4xl">👔</span>
+              </div>
+              <h4 class="font-bold text-lg mb-2">For Executives</h4>
+              <p class="text-gray-600 text-sm">
+                Quick practice breaks during your workday
+              </p>
+            </div>
+
+            <div class="text-center">
+              <div
+                class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4"
+              >
+                <span class="text-4xl">👨‍👩‍👧‍👦</span>
+              </div>
+              <h4 class="font-bold text-lg mb-2">For Families</h4>
+              <p class="text-gray-600 text-sm">
+                Fun activity everyone can enjoy together
+              </p>
+            </div>
+
+            <div class="text-center">
+              <div
+                class="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4"
+              >
+                <span class="text-4xl">🎯</span>
+              </div>
+              <h4 class="font-bold text-lg mb-2">For Beginners</h4>
+              <p class="text-gray-600 text-sm">
+                Learn proper technique before hitting the course
+              </p>
+            </div>
+
+            <div class="text-center">
+              <div
+                class="bg-yellow-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4"
+              >
+                <span class="text-4xl">🏆</span>
+              </div>
+              <h4 class="font-bold text-lg mb-2">For Pros</h4>
+              <p class="text-gray-600 text-sm">
+                Maintain your edge with daily practice
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Pricing Packages Section -->
     <section id="packages" class="py-16 md:py-24 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-7xl mx-auto">
-                <h2 class="text-4xl md:text-5xl font-bold text-center mb-6 gradient-text">
-                    Choose Your Package
-                </h2>
-                <p class="text-xl text-gray-600 text-center mb-4">
-                    Limited-time pricing. Stock running low. Order now before prices increase!
-                </p>
-                <div class="text-center mb-12">
-                    <span class="inline-block bg-red-100 text-red-800 px-4 py-2 rounded-full font-bold">
-                        ⏰ Only 47 Units Left This Month!
-                    </span>
+      <div class="container mx-auto px-4">
+        <div class="max-w-7xl mx-auto">
+          <h2
+            class="text-4xl md:text-5xl font-bold text-center mb-6 gradient-text"
+          >
+            Choose Your Package
+          </h2>
+          <p class="text-xl text-gray-600 text-center mb-4">
+            Limited-time pricing. Stock running low. Order now before prices
+            increase!
+          </p>
+          <div class="text-center mb-12">
+            <span
+              class="inline-block bg-red-100 text-red-800 px-4 py-2 rounded-full font-bold"
+            >
+              ⏰ Only 47 Units Left This Month!
+            </span>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            <!-- Basic Package -->
+            <div
+              class="bg-white border-2 border-gray-200 rounded-2xl p-8 card-hover relative"
+            >
+              <div class="text-center mb-6">
+                <h3 class="text-2xl font-bold mb-2 text-gray-900">
+                  BASIC PACKAGE
+                </h3>
+                <p class="text-gray-600 mb-4">For Individual Practice</p>
+                <div class="mb-4">
+                  <img
+                    src="/images/package-1.jpg"
+                    alt="Basic Package"
+                    class="w-32 h-32 mx-auto object-contain"
+                  />
                 </div>
-
-                <div class="grid md:grid-cols-3 gap-8">
-                    <!-- Basic Package -->
-                    <div class="bg-white border-2 border-gray-200 rounded-2xl p-8 card-hover relative">
-                        <div class="text-center mb-6">
-                            <h3 class="text-2xl font-bold mb-2 text-gray-900">BASIC PACKAGE</h3>
-                            <p class="text-gray-600 mb-4">For Individual Practice</p>
-                            <div class="mb-4">
-                                <img src="/images/package-1.jpg" alt="Basic Package"
-                                    class="w-32 h-32 mx-auto object-contain">
-                            </div>
-                            <p class="text-gray-500 line-through text-lg mb-2">₦350,000</p>
-                            <div class="text-5xl font-bold text-gray-900 mb-2">₦255,000</div>
-                            <div
-                                class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold inline-block">
-                                Save ₦95,000
-                            </div>
-                        </div>
-
-                        <ul class="space-y-3 mb-8">
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="text-gray-700">1 x Mini Golf Set (Complete Kit)</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="text-gray-700">Premium dual-speed turf</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="text-gray-700">Automatic ball return</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="text-gray-700">Alignment guides included</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="text-gray-700 font-bold">FREE Shipping Nationwide</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="text-gray-700">1-5 Days Delivery</span>
-                            </li>
-                        </ul>
-
-                        <a href="#order"
-                            class="block w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 rounded-xl text-center transition-all transform hover:scale-105">
-                            ORDER NOW
-                        </a>
-                    </div>
-
-                    <!-- Family Package (Most Popular) -->
-                    <div
-                        class="bg-gradient-to-br from-green-600 to-green-700 border-4 border-yellow-400 rounded-2xl p-8 card-hover relative transform md:scale-105 shadow-2xl">
-                        <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                            <span
-                                class="bg-yellow-400 text-gray-900 px-6 py-2 rounded-full font-bold text-sm shadow-lg">
-                                ⭐ MOST POPULAR
-                            </span>
-                        </div>
-
-                        <div class="text-center mb-6 text-white">
-                            <h3 class="text-2xl font-bold mb-2">FAMILY PACKAGE</h3>
-                            <p class="mb-4 text-green-100">Perfect for Home & Office</p>
-                            <div class="mb-4">
-                                <img src="/images/package-2.png" alt="Family Package"
-                                    class="w-32 h-32 mx-auto object-contain opacity-90">
-                            </div>
-                            <p class="text-green-200 line-through text-lg mb-2">₦700,000</p>
-                            <div class="text-5xl font-bold mb-2">₦475,000</div>
-                            <div
-                                class="bg-yellow-400 text-gray-900 px-3 py-1 rounded-full text-sm font-bold inline-block">
-                                Save ₦225,000!
-                            </div>
-                        </div>
-
-                        <ul class="space-y-3 mb-8 text-white">
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-400 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span>2 x Mini Golf Sets</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-400 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span>One for home, one for office!</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-400 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span>Everything from Basic x2</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-400 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="font-bold">Best Value - ₦112,500 per set!</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-400 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="font-bold">FREE Priority Shipping</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-400 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span>1-3 Days Express Delivery</span>
-                            </li>
-                        </ul>
-
-                        <a href="#order"
-                            class="block w-full bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-4 px-6 rounded-xl text-center transition-all transform hover:scale-105 shadow-lg">
-                            GET BEST DEAL
-                        </a>
-                    </div>
-
-                    <!-- Friendship Package -->
-                    <div class="bg-white border-2 border-gray-200 rounded-2xl p-8 card-hover relative">
-                        <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                            <span class="bg-blue-600 text-white px-6 py-2 rounded-full font-bold text-sm shadow-lg">
-                                🎁 BEST VALUE
-                            </span>
-                        </div>
-
-                        <div class="text-center mb-6">
-                            <h3 class="text-2xl font-bold mb-2 text-gray-900">FRIENDSHIP PACKAGE</h3>
-                            <p class="text-gray-600 mb-4">Share with Friends & Family</p>
-                            <div class="mb-4">
-                                <img src="/images/package-3.png" alt="Friendship Package"
-                                    class="w-32 h-32 mx-auto object-contain">
-                            </div>
-                            <p class="text-gray-500 line-through text-lg mb-2">₦1,050,000</p>
-                            <div class="text-5xl font-bold text-gray-900 mb-2">₦672,000</div>
-                            <div
-                                class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-bold inline-block">
-                                Save ₦378,000!
-                            </div>
-                        </div>
-
-                        <ul class="space-y-3 mb-8">
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="text-gray-700">3 x Mini Golf Sets</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="text-gray-700">Perfect for gifting!</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="text-gray-700">Everything from Basic x3</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="text-gray-700 font-bold">Only ₦224,000 per set!</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="text-gray-700 font-bold">FREE VIP Shipping</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1" fill="currentColor"
-                                    viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                <span class="text-gray-700">1-3 Days Express Delivery</span>
-                            </li>
-                        </ul>
-
-                        <a href="#order"
-                            class="block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl text-center transition-all transform hover:scale-105">
-                            ORDER NOW
-                        </a>
-                    </div>
+                <p class="text-gray-500 line-through text-lg mb-2">₦350,000</p>
+                <div class="text-5xl font-bold text-gray-900 mb-2">
+                  ₦255,000
                 </div>
-
-                <div class="mt-12 text-center">
-                    <div class="bg-yellow-50 border-2 border-yellow-400 rounded-xl p-6 max-w-2xl mx-auto">
-                        <p class="text-lg font-bold text-gray-900 mb-2">🎁 BULK ORDER DISCOUNT</p>
-                        <p class="text-gray-700">Need more than 3 sets? Contact us for corporate/bulk pricing. Perfect
-                            for companies, golf clubs, or gifts for your team!</p>
-                    </div>
+                <div
+                  class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold inline-block"
+                >
+                  Save ₦95,000
                 </div>
+              </div>
+
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-gray-700"
+                    >1 x Mini Golf Set (Complete Kit)</span
+                  >
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-gray-700">Premium dual-speed turf</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-gray-700">Automatic ball return</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-gray-700">Alignment guides included</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-gray-700 font-bold"
+                    >FREE Shipping Nationwide</span
+                  >
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-gray-700">1-5 Days Delivery</span>
+                </li>
+              </ul>
+
+              <a
+                href="#order"
+                class="block w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 rounded-xl text-center transition-all transform hover:scale-105"
+              >
+                ORDER NOW
+              </a>
             </div>
+
+            <!-- Family Package (Most Popular) -->
+            <div
+              class="bg-gradient-to-br from-green-600 to-green-700 border-4 border-yellow-400 rounded-2xl p-8 card-hover relative transform md:scale-105 shadow-2xl"
+            >
+              <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                <span
+                  class="bg-yellow-400 text-gray-900 px-6 py-2 rounded-full font-bold text-sm shadow-lg"
+                >
+                  ⭐ MOST POPULAR
+                </span>
+              </div>
+
+              <div class="text-center mb-6 text-white">
+                <h3 class="text-2xl font-bold mb-2">FAMILY PACKAGE</h3>
+                <p class="mb-4 text-green-100">Perfect for Home & Office</p>
+                <div class="mb-4">
+                  <img
+                    src="/images/package-2.png"
+                    alt="Family Package"
+                    class="w-32 h-32 mx-auto object-contain opacity-90"
+                  />
+                </div>
+                <p class="text-green-200 line-through text-lg mb-2">₦700,000</p>
+                <div class="text-5xl font-bold mb-2">₦475,000</div>
+                <div
+                  class="bg-yellow-400 text-gray-900 px-3 py-1 rounded-full text-sm font-bold inline-block"
+                >
+                  Save ₦225,000!
+                </div>
+              </div>
+
+              <ul class="space-y-3 mb-8 text-white">
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-yellow-400 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span>2 x Mini Golf Sets</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-yellow-400 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span>One for home, one for office!</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-yellow-400 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span>Everything from Basic x2</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-yellow-400 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="font-bold">Best Value - ₦112,500 per set!</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-yellow-400 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="font-bold">FREE Priority Shipping</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-yellow-400 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span>1-3 Days Express Delivery</span>
+                </li>
+              </ul>
+
+              <a
+                href="#order"
+                class="block w-full bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-4 px-6 rounded-xl text-center transition-all transform hover:scale-105 shadow-lg"
+              >
+                GET BEST DEAL
+              </a>
+            </div>
+
+            <!-- Friendship Package -->
+            <div
+              class="bg-white border-2 border-gray-200 rounded-2xl p-8 card-hover relative"
+            >
+              <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                <span
+                  class="bg-blue-600 text-white px-6 py-2 rounded-full font-bold text-sm shadow-lg"
+                >
+                  🎁 BEST VALUE
+                </span>
+              </div>
+
+              <div class="text-center mb-6">
+                <h3 class="text-2xl font-bold mb-2 text-gray-900">
+                  FRIENDSHIP PACKAGE
+                </h3>
+                <p class="text-gray-600 mb-4">Share with Friends & Family</p>
+                <div class="mb-4">
+                  <img
+                    src="/images/package-3.png"
+                    alt="Friendship Package"
+                    class="w-32 h-32 mx-auto object-contain"
+                  />
+                </div>
+                <p class="text-gray-500 line-through text-lg mb-2">
+                  ₦1,050,000
+                </p>
+                <div class="text-5xl font-bold text-gray-900 mb-2">
+                  ₦672,000
+                </div>
+                <div
+                  class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-bold inline-block"
+                >
+                  Save ₦378,000!
+                </div>
+              </div>
+
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-gray-700">3 x Mini Golf Sets</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-gray-700">Perfect for gifting!</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-gray-700">Everything from Basic x3</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-gray-700 font-bold"
+                    >Only ₦224,000 per set!</span
+                  >
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-gray-700 font-bold">FREE VIP Shipping</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    class="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-gray-700">1-3 Days Express Delivery</span>
+                </li>
+              </ul>
+
+              <a
+                href="#order"
+                class="block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl text-center transition-all transform hover:scale-105"
+              >
+                ORDER NOW
+              </a>
+            </div>
+          </div>
+
+          <div class="mt-12 text-center">
+            <div
+              class="bg-yellow-50 border-2 border-yellow-400 rounded-xl p-6 max-w-2xl mx-auto"
+            >
+              <p class="text-lg font-bold text-gray-900 mb-2">
+                🎁 BULK ORDER DISCOUNT
+              </p>
+              <p class="text-gray-700">
+                Need more than 3 sets? Contact us for corporate/bulk pricing.
+                Perfect for companies, golf clubs, or gifts for your team!
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Guarantee Section -->
     <section class="py-16 bg-gradient-to-b from-green-50 to-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto">
-                <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border-4 border-green-600">
-                    <div class="text-center mb-8">
-                        <div class="w-24 h-24 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                            </svg>
-                        </div>
-                        <h2 class="text-4xl font-bold mb-4 gradient-text">Our 100% Quality Guarantee</h2>
-                        <p class="text-xl text-gray-700">
-                            We stand behind the quality of every Mini Golf Set we deliver
-                        </p>
-                    </div>
-
-                    <div class="grid md:grid-cols-3 gap-6 mb-8">
-                        <div class="text-center">
-                            <div class="text-4xl mb-3">✅</div>
-                            <h3 class="font-bold text-lg mb-2">Premium Materials</h3>
-                            <p class="text-gray-600 text-sm">Tournament-grade turf that lasts for years</p>
-                        </div>
-                        <div class="text-center">
-                            <div class="text-4xl mb-3">✅</div>
-                            <h3 class="font-bold text-lg mb-2">Tested & Verified</h3>
-                            <p class="text-gray-600 text-sm">Each set is quality-checked before shipping</p>
-                        </div>
-                        <div class="text-center">
-                            <div class="text-4xl mb-3">✅</div>
-                            <h3 class="font-bold text-lg mb-2">Support Included</h3>
-                            <p class="text-gray-600 text-sm">Our team is here to help with any questions</p>
-                        </div>
-                    </div>
-
-                    <div class="bg-green-50 rounded-xl p-6 text-center">
-                        <p class="text-gray-700 text-lg mb-4">
-                            If you're not completely satisfied with your Mini Golf Set, contact us within 7 days of
-                            delivery. We'll make it right or provide a full refund. No questions asked.
-                        </p>
-                        <p class="font-bold text-green-700 text-xl">Your satisfaction is 100% guaranteed!</p>
-                    </div>
-                </div>
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+          <div
+            class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border-4 border-green-600"
+          >
+            <div class="text-center mb-8">
+              <div
+                class="w-24 h-24 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-6"
+              >
+                <svg
+                  class="w-12 h-12 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                  />
+                </svg>
+              </div>
+              <h2 class="text-4xl font-bold mb-4 gradient-text">
+                Our 100% Quality Guarantee
+              </h2>
+              <p class="text-xl text-gray-700">
+                We stand behind the quality of every Mini Golf Set we deliver
+              </p>
             </div>
+
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+              <div class="text-center">
+                <div class="text-4xl mb-3">✅</div>
+                <h3 class="font-bold text-lg mb-2">Premium Materials</h3>
+                <p class="text-gray-600 text-sm">
+                  Tournament-grade turf that lasts for years
+                </p>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl mb-3">✅</div>
+                <h3 class="font-bold text-lg mb-2">Tested & Verified</h3>
+                <p class="text-gray-600 text-sm">
+                  Each set is quality-checked before shipping
+                </p>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl mb-3">✅</div>
+                <h3 class="font-bold text-lg mb-2">Support Included</h3>
+                <p class="text-gray-600 text-sm">
+                  Our team is here to help with any questions
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-green-50 rounded-xl p-6 text-center">
+              <p class="text-gray-700 text-lg mb-4">
+                If you're not completely satisfied with your Mini Golf Set,
+                contact us within 7 days of delivery. We'll make it right or
+                provide a full refund. No questions asked.
+              </p>
+              <p class="font-bold text-green-700 text-xl">
+                Your satisfaction is 100% guaranteed!
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- FAQ Section -->
     <section class="py-16 md:py-24 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto">
-                <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">
-                    Frequently Asked Questions
-                </h2>
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+          <h2
+            class="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text"
+          >
+            Frequently Asked Questions
+          </h2>
 
-                <div class="space-y-4">
-                    <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
-                        <summary class="font-bold text-lg text-gray-900 list-none flex justify-between items-center">
-                            How long does delivery take?
-                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
-                        </summary>
-                        <p class="text-gray-700 mt-4 pl-2">
-                            We deliver nationwide within 1-5 business days. Lagos, Abuja, and Port Harcourt typically
-                            receive orders within 1-3 days. Other states within 3-5 days. All shipping is FREE!
-                        </p>
-                    </details>
+          <div class="space-y-4">
+            <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+              <summary
+                class="font-bold text-lg text-gray-900 list-none flex justify-between items-center"
+              >
+                How long does delivery take?
+                <span class="text-2xl group-open:rotate-45 transition-transform"
+                  >+</span
+                >
+              </summary>
+              <p class="text-gray-700 mt-4 pl-2">
+                We deliver nationwide within 1-5 business days. Lagos, Abuja,
+                and Port Harcourt typically receive orders within 1-3 days.
+                Other states within 3-5 days. All shipping is FREE!
+              </p>
+            </details>
 
-                    <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
-                        <summary class="font-bold text-lg text-gray-900 list-none flex justify-between items-center">
-                            Do I need to pay before delivery?
-                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
-                        </summary>
-                        <p class="text-gray-700 mt-4 pl-2">
-                            We accept payment on delivery (Cash on Delivery) for most locations. You can also pay online
-                            via bank transfer or card payment if you prefer. Our customer service team will confirm your
-                            preferred payment method when they call to verify your order.
-                        </p>
-                    </details>
+            <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+              <summary
+                class="font-bold text-lg text-gray-900 list-none flex justify-between items-center"
+              >
+                Do I need to pay before delivery?
+                <span class="text-2xl group-open:rotate-45 transition-transform"
+                  >+</span
+                >
+              </summary>
+              <p class="text-gray-700 mt-4 pl-2">
+                We accept payment on delivery (Cash on Delivery) for most
+                locations. You can also pay online via bank transfer or card
+                payment if you prefer. Our customer service team will confirm
+                your preferred payment method when they call to verify your
+                order.
+              </p>
+            </details>
 
-                    <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
-                        <summary class="font-bold text-lg text-gray-900 list-none flex justify-between items-center">
-                            Is this suitable for beginners?
-                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
-                        </summary>
-                        <p class="text-gray-700 mt-4 pl-2">
-                            Absolutely! The Mini Golf Set is perfect for all skill levels. The alignment guides help
-                            beginners learn proper technique, while the premium turf surface provides experienced
-                            players with realistic practice conditions. Whether you're just starting or have been
-                            playing for years, this mat will improve your game.
-                        </p>
-                    </details>
+            <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+              <summary
+                class="font-bold text-lg text-gray-900 list-none flex justify-between items-center"
+              >
+                Is this suitable for beginners?
+                <span class="text-2xl group-open:rotate-45 transition-transform"
+                  >+</span
+                >
+              </summary>
+              <p class="text-gray-700 mt-4 pl-2">
+                Absolutely! The Mini Golf Set is perfect for all skill levels.
+                The alignment guides help beginners learn proper technique,
+                while the premium turf surface provides experienced players with
+                realistic practice conditions. Whether you're just starting or
+                have been playing for years, this mat will improve your game.
+              </p>
+            </details>
 
-                    <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
-                        <summary class="font-bold text-lg text-gray-900 list-none flex justify-between items-center">
-                            How much space do I need?
-                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
-                        </summary>
-                        <p class="text-gray-700 mt-4 pl-2">
-                            The mat is approximately 3 meters (10 feet) long and 0.3 meters (1 foot) wide. You can use
-                            it in most living rooms, bedrooms, offices, or hallways. It rolls up for easy storage when
-                            not in use.
-                        </p>
-                    </details>
+            <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+              <summary
+                class="font-bold text-lg text-gray-900 list-none flex justify-between items-center"
+              >
+                How much space do I need?
+                <span class="text-2xl group-open:rotate-45 transition-transform"
+                  >+</span
+                >
+              </summary>
+              <p class="text-gray-700 mt-4 pl-2">
+                The mat is approximately 3 meters (10 feet) long and 0.3 meters
+                (1 foot) wide. You can use it in most living rooms, bedrooms,
+                offices, or hallways. It rolls up for easy storage when not in
+                use.
+              </p>
+            </details>
 
-                    <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
-                        <summary class="font-bold text-lg text-gray-900 list-none flex justify-between items-center">
-                            Can I use this outdoors?
-                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
-                        </summary>
-                        <p class="text-gray-700 mt-4 pl-2">
-                            Yes! The Mini Golf Set is designed for both indoor and outdoor use. The durable,
-                            weather-resistant materials can withstand outdoor conditions. Many customers use it in their
-                            gardens, compounds, or outdoor spaces.
-                        </p>
-                    </details>
+            <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+              <summary
+                class="font-bold text-lg text-gray-900 list-none flex justify-between items-center"
+              >
+                Can I use this outdoors?
+                <span class="text-2xl group-open:rotate-45 transition-transform"
+                  >+</span
+                >
+              </summary>
+              <p class="text-gray-700 mt-4 pl-2">
+                Yes! The Mini Golf Set is designed for both indoor and outdoor
+                use. The durable, weather-resistant materials can withstand
+                outdoor conditions. Many customers use it in their gardens,
+                compounds, or outdoor spaces.
+              </p>
+            </details>
 
-                    <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
-                        <summary class="font-bold text-lg text-gray-900 list-none flex justify-between items-center">
-                            What's included in the package?
-                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
-                        </summary>
-                        <p class="text-gray-700 mt-4 pl-2">
-                            Each set includes: Premium dual-speed putting mat with built-in slope, automatic ball return
-                            mechanism, precision alignment guides, durable base, and everything you need for immediate
-                            setup. No additional purchases required!
-                        </p>
-                    </details>
+            <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+              <summary
+                class="font-bold text-lg text-gray-900 list-none flex justify-between items-center"
+              >
+                What's included in the package?
+                <span class="text-2xl group-open:rotate-45 transition-transform"
+                  >+</span
+                >
+              </summary>
+              <p class="text-gray-700 mt-4 pl-2">
+                Each set includes: Premium dual-speed putting mat with built-in
+                slope, automatic ball return mechanism, precision alignment
+                guides, durable base, and everything you need for immediate
+                setup. No additional purchases required!
+              </p>
+            </details>
 
-                    <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
-                        <summary class="font-bold text-lg text-gray-900 list-none flex justify-between items-center">
-                            How do I maintain the mat?
-                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
-                        </summary>
-                        <p class="text-gray-700 mt-4 pl-2">
-                            Maintenance is simple! Just wipe the surface with a damp cloth when needed. The premium turf
-                            is designed to maintain its quality with minimal care. No special products or intensive
-                            cleaning required.
-                        </p>
-                    </details>
+            <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+              <summary
+                class="font-bold text-lg text-gray-900 list-none flex justify-between items-center"
+              >
+                How do I maintain the mat?
+                <span class="text-2xl group-open:rotate-45 transition-transform"
+                  >+</span
+                >
+              </summary>
+              <p class="text-gray-700 mt-4 pl-2">
+                Maintenance is simple! Just wipe the surface with a damp cloth
+                when needed. The premium turf is designed to maintain its
+                quality with minimal care. No special products or intensive
+                cleaning required.
+              </p>
+            </details>
 
-                    <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
-                        <summary class="font-bold text-lg text-gray-900 list-none flex justify-between items-center">
-                            Why is this better than practicing at a golf club?
-                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
-                        </summary>
-                        <p class="text-gray-700 mt-4 pl-2">
-                            Consistency is key to improving your golf game. With the Mini Golf Set, you can practice
-                            every day for 15-20 minutes in the comfort of your home or office. This daily practice is
-                            far more effective than once-a-week club visits. Plus, you save ₦725,000+ per year compared
-                            to club memberships and green fees!
-                        </p>
-                    </details>
-                </div>
-            </div>
+            <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+              <summary
+                class="font-bold text-lg text-gray-900 list-none flex justify-between items-center"
+              >
+                Why is this better than practicing at a golf club?
+                <span class="text-2xl group-open:rotate-45 transition-transform"
+                  >+</span
+                >
+              </summary>
+              <p class="text-gray-700 mt-4 pl-2">
+                Consistency is key to improving your golf game. With the Mini
+                Golf Set, you can practice every day for 15-20 minutes in the
+                comfort of your home or office. This daily practice is far more
+                effective than once-a-week club visits. Plus, you save ₦725,000+
+                per year compared to club memberships and green fees!
+              </p>
+            </details>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Final CTA Section -->
     <section class="py-16 md:py-24 hero-gradient text-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto text-center">
-                <h2 class="text-4xl md:text-5xl font-bold mb-6">
-                    Don't Let Another Week Pass Without Improving Your Golf Game
-                </h2>
-                <p class="text-xl mb-8 text-gray-200">
-                    Join 1,200+ Nigerian golf enthusiasts who are already practicing like pros at home. Limited stock
-                    available this month!
-                </p>
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-4xl md:text-5xl font-bold mb-6">
+            Don't Let Another Week Pass Without Improving Your Golf Game
+          </h2>
+          <p class="text-xl mb-8 text-gray-200">
+            Join 1,200+ Nigerian golf enthusiasts who are already practicing
+            like pros at home. Limited stock available this month!
+          </p>
 
-                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
-                    <div class="grid md:grid-cols-3 gap-6 text-center">
-                        <div>
-                            <div class="text-4xl font-bold text-yellow-400 mb-2">47</div>
-                            <p class="text-gray-300">Units Left</p>
-                        </div>
-                        <div>
-                            <div class="text-4xl font-bold text-yellow-400 mb-2">₦725k+</div>
-                            <p class="text-gray-300">Total Savings</p>
-                        </div>
-                        <div>
-                            <div class="text-4xl font-bold text-yellow-400 mb-2">1-5</div>
-                            <p class="text-gray-300">Days Delivery</p>
-                        </div>
-                    </div>
+          <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
+            <div class="grid md:grid-cols-3 gap-6 text-center">
+              <div>
+                <div class="text-4xl font-bold text-yellow-400 mb-2">47</div>
+                <p class="text-gray-300">Units Left</p>
+              </div>
+              <div>
+                <div class="text-4xl font-bold text-yellow-400 mb-2">
+                  ₦725k+
                 </div>
-
-                <a href="#order"
-                    class="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-5 px-10 rounded-full text-xl transition-all transform hover:scale-105 shadow-2xl mb-6">
-                    SECURE YOUR SET NOW
-                    <svg class="w-6 h-6 inline-block ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                </a>
-
-                <p class="text-gray-300">
-                    ⚡ Limited time offer. Prices may increase once current stock is sold out.
-                </p>
+                <p class="text-gray-300">Total Savings</p>
+              </div>
+              <div>
+                <div class="text-4xl font-bold text-yellow-400 mb-2">1-5</div>
+                <p class="text-gray-300">Days Delivery</p>
+              </div>
             </div>
+          </div>
+
+          <a
+            href="#order"
+            class="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-5 px-10 rounded-full text-xl transition-all transform hover:scale-105 shadow-2xl mb-6"
+          >
+            SECURE YOUR SET NOW
+            <svg
+              class="w-6 h-6 inline-block ml-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </a>
+
+          <p class="text-gray-300">
+            ⚡ Limited time offer. Prices may increase once current stock is
+            sold out.
+          </p>
         </div>
+      </div>
     </section>
 
     <!-- Order Form Section -->
     <section id="order" class="py-16 md:py-24 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <div class="max-w-2xl mx-auto">
-                <div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12">
-                    <div class="text-center mb-8">
-                        <h2 class="text-4xl font-bold mb-4 gradient-text">Complete Your Order</h2>
-                        <p class="text-gray-600">Fill in your details below. We'll call to confirm within 2 hours.</p>
-                    </div>
-
-                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6">
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2">Full Name *</label>
-                            <input type="text" name="name" required
-                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
-                                placeholder="Enter your full name">
-                        </div>
-
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2">Phone Number *</label>
-                            <input type="tel" name="phone" required
-                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
-                                placeholder="080XXXXXXXX">
-                        </div>
-
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2">Email Address</label>
-                            <input type="email" name="email"
-                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
-                                placeholder="your@email.com (optional)">
-                        </div>
-
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2">Select Package *</label>
-                            <select name="package" required
-                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all">
-                                <option value="">-- Choose Package --</option>
-                                <option value="basic">Basic Package - ₦255,000 (1 Set)</option>
-                                <option value="family">Family Package - ₦475,000 (2 Sets) ⭐ MOST POPULAR</option>
-                                <option value="friendship">Friendship Package - ₦672,000 (3 Sets)</option>
-                            </select>
-                        </div>
-
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2">Delivery Address *</label>
-                            <textarea name="address" required rows="3"
-                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
-                                placeholder="Enter your complete delivery address"></textarea>
-                        </div>
-
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2">City/State *</label>
-                            <input type="text" name="city" required
-                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
-                                placeholder="e.g., Lagos, Abuja, Port Harcourt">
-                        </div>
-
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2">Preferred Payment Method</label>
-                            <select name="payment"
-                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all">
-                                <option value="cod">Pay on Delivery (Cash on Delivery)</option>
-                                <option value="transfer">Bank Transfer</option>
-                                <option value="card">Card Payment</option>
-                            </select>
-                        </div>
-
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2">Additional Comments</label>
-                            <textarea name="comments" rows="2"
-                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
-                                placeholder="Any special instructions? (optional)"></textarea>
-                        </div>
-
-                        <div class="bg-green-50 border-2 border-green-600 rounded-xl p-4">
-                            <h3 class="font-bold text-lg text-gray-900 mb-2">What Happens Next?</h3>
-                            <ol class="space-y-2 text-gray-700 text-sm">
-                                <li class="flex items-start">
-                                    <span
-                                        class="bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">1</span>
-                                    <span>You submit this form</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <span
-                                        class="bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">2</span>
-                                    <span>Our customer service team calls you within 2 hours to confirm your
-                                        order</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <span
-                                        class="bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">3</span>
-                                    <span>We process and ship your Mini Golf Set</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <span
-                                        class="bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">4</span>
-                                    <span>You receive your order within 1-5 days</span>
-                                </li>
-                            </ol>
-                        </div>
-
-                        <button type="submit"
-                            class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-5 px-8 rounded-xl text-xl transition-all transform hover:scale-105 shadow-xl">
-                            COMPLETE ORDER NOW
-                        </button>
-
-                        <p class="text-center text-sm text-gray-600">
-                            🔒 Your information is safe and secure. We respect your privacy.
-                        </p>
-                    </form>
-                </div>
+      <div class="container mx-auto px-4">
+        <div class="max-w-2xl mx-auto">
+          <div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-8">
+              <h2 class="text-4xl font-bold mb-4 gradient-text">
+                Complete Your Order
+              </h2>
+              <p class="text-gray-600">
+                Fill in your details below. We'll call to confirm within 2
+                hours.
+              </p>
             </div>
+
+            <form
+              action="https://formspree.io/f/YOUR_FORM_ID"
+              method="POST"
+              class="space-y-6"
+            >
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2"
+                  >Full Name *</label
+                >
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
+                  placeholder="Enter your full name"
+                />
+              </div>
+
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2"
+                  >Phone Number *</label
+                >
+                <input
+                  type="tel"
+                  name="phone"
+                  required
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
+                  placeholder="080XXXXXXXX"
+                />
+              </div>
+
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
+                  placeholder="your@email.com (optional)"
+                />
+              </div>
+
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2"
+                  >Select Package *</label
+                >
+                <select
+                  name="package"
+                  required
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
+                >
+                  <option value="">-- Choose Package --</option>
+                  <option value="basic">
+                    Basic Package - ₦255,000 (1 Set)
+                  </option>
+                  <option value="family">
+                    Family Package - ₦475,000 (2 Sets) ⭐ MOST POPULAR
+                  </option>
+                  <option value="friendship">
+                    Friendship Package - ₦672,000 (3 Sets)
+                  </option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2"
+                  >Delivery Address *</label
+                >
+                <textarea
+                  name="address"
+                  required
+                  rows="3"
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
+                  placeholder="Enter your complete delivery address"
+                ></textarea>
+              </div>
+
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2"
+                  >City/State *</label
+                >
+                <input
+                  type="text"
+                  name="city"
+                  required
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
+                  placeholder="e.g., Lagos, Abuja, Port Harcourt"
+                />
+              </div>
+
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2"
+                  >Preferred Payment Method</label
+                >
+                <select
+                  name="payment"
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
+                >
+                  <option value="cod">
+                    Pay on Delivery (Cash on Delivery)
+                  </option>
+                  <option value="transfer">Bank Transfer</option>
+                  <option value="card">Card Payment</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2"
+                  >Additional Comments</label
+                >
+                <textarea
+                  name="comments"
+                  rows="2"
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-green-600 focus:ring-2 focus:ring-green-200 outline-none transition-all"
+                  placeholder="Any special instructions? (optional)"
+                ></textarea>
+              </div>
+
+              <div class="bg-green-50 border-2 border-green-600 rounded-xl p-4">
+                <h3 class="font-bold text-lg text-gray-900 mb-2">
+                  What Happens Next?
+                </h3>
+                <ol class="space-y-2 text-gray-700 text-sm">
+                  <li class="flex items-start">
+                    <span
+                      class="bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold"
+                      >1</span
+                    >
+                    <span>You submit this form</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span
+                      class="bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold"
+                      >2</span
+                    >
+                    <span
+                      >Our customer service team calls you within 2 hours to
+                      confirm your order</span
+                    >
+                  </li>
+                  <li class="flex items-start">
+                    <span
+                      class="bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold"
+                      >3</span
+                    >
+                    <span>We process and ship your Mini Golf Set</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span
+                      class="bg-green-600 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold"
+                      >4</span
+                    >
+                    <span>You receive your order within 1-5 days</span>
+                  </li>
+                </ol>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-5 px-8 rounded-xl text-xl transition-all transform hover:scale-105 shadow-xl"
+              >
+                COMPLETE ORDER NOW
+              </button>
+
+              <p class="text-center text-sm text-gray-600">
+                🔒 Your information is safe and secure. We respect your privacy.
+              </p>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
-        <div class="container mx-auto px-4">
-            <div class="max-w-6xl mx-auto">
-                <div class="grid md:grid-cols-4 gap-8 mb-8">
-                    <div>
-                        <h3 class="font-bold text-xl mb-4">Luxury Mini Golf</h3>
-                        <p class="text-gray-400 text-sm">
-                            Premium golf training equipment for serious players. Practice like a pro at home.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h4 class="font-bold mb-4">Quick Links</h4>
-                        <ul class="space-y-2 text-sm text-gray-400">
-                            <li><a href="#packages" class="hover:text-yellow-400 transition-colors">Packages &
-                                    Pricing</a></li>
-                            <li><a href="#order" class="hover:text-yellow-400 transition-colors">Order Now</a></li>
-                            <li><a href="#" class="hover:text-yellow-400 transition-colors">Delivery Info</a></li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4 class="font-bold mb-4">Customer Support</h4>
-                        <ul class="space-y-2 text-sm text-gray-400">
-                            <li>📞 Call/WhatsApp:</li>
-                            <li><a href="tel:09064289665" class="text-yellow-400 font-bold hover:text-yellow-300">090
-                                    6428 9665</a></li>
-                            <li>📧 Email: support@noblestore.com.ng</li>
-                            <li>⏰ Mon-Sat: 8am - 8pm</li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4 class="font-bold mb-4">Guarantee</h4>
-                        <ul class="space-y-2 text-sm text-gray-400">
-                            <li>✅ 100% Quality Guaranteed</li>
-                            <li>✅ FREE Nationwide Delivery</li>
-                            <li>✅ 1-5 Days Shipping</li>
-                            <li>✅ Secure Payment Options</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="border-t border-gray-800 pt-8 text-center">
-                    <p class="text-gray-400 text-sm">
-                        © 2025 NobleStore Nigeria. All rights reserved. | We deliver nationwide across all 36 states.
-                    </p>
-                </div>
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <div class="grid md:grid-cols-4 gap-8 mb-8">
+            <div>
+              <h3 class="font-bold text-xl mb-4">Luxury Mini Golf</h3>
+              <p class="text-gray-400 text-sm">
+                Premium golf training equipment for serious players. Practice
+                like a pro at home.
+              </p>
             </div>
+
+            <div>
+              <h4 class="font-bold mb-4">Quick Links</h4>
+              <ul class="space-y-2 text-sm text-gray-400">
+                <li>
+                  <a
+                    href="#packages"
+                    class="hover:text-yellow-400 transition-colors"
+                    >Packages & Pricing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#order"
+                    class="hover:text-yellow-400 transition-colors"
+                    >Order Now</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-yellow-400 transition-colors"
+                    >Delivery Info</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="font-bold mb-4">Customer Support</h4>
+              <ul class="space-y-2 text-sm text-gray-400">
+                <li>📞 Call/WhatsApp:</li>
+                <li>
+                  <a
+                    href="tel:09064289665"
+                    class="text-yellow-400 font-bold hover:text-yellow-300"
+                    >090 6428 9665</a
+                  >
+                </li>
+                <li>📧 Email: support@noblestore.com.ng</li>
+                <li>⏰ Mon-Sat: 8am - 8pm</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="font-bold mb-4">Guarantee</h4>
+              <ul class="space-y-2 text-sm text-gray-400">
+                <li>✅ 100% Quality Guaranteed</li>
+                <li>✅ FREE Nationwide Delivery</li>
+                <li>✅ 1-5 Days Shipping</li>
+                <li>✅ Secure Payment Options</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="border-t border-gray-800 pt-8 text-center">
+            <p class="text-gray-400 text-sm">
+              © 2025 NobleStore Nigeria. All rights reserved. | We deliver
+              nationwide across all 36 states.
+            </p>
+          </div>
         </div>
+      </div>
     </footer>
 
     <!-- Sticky CTA Bar -->
-    <div class="sticky-cta bg-green-600 text-white py-4 shadow-2xl" id="stickyCTA">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col sm:flex-row items-center justify-between">
-                <div class="text-center sm:text-left mb-3 sm:mb-0">
-                    <p class="font-bold text-lg">Ready to Master Your Golf Game?</p>
-                    <p class="text-sm text-green-100">Only 47 units left! Order now before price increase.</p>
-                </div>
-                <a href="#order"
-                    class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-3 px-6 rounded-full transition-all transform hover:scale-105 shadow-lg whitespace-nowrap">
-                    ORDER NOW - ₦255,000
-                </a>
-            </div>
+    <div
+      class="sticky-cta bg-green-600 text-white py-4 shadow-2xl"
+      id="stickyCTA"
+    >
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col sm:flex-row items-center justify-between">
+          <div class="text-center sm:text-left mb-3 sm:mb-0">
+            <p class="font-bold text-lg">Ready to Master Your Golf Game?</p>
+            <p class="text-sm text-green-100">
+              Only 47 units left! Order now before price increase.
+            </p>
+          </div>
+          <a
+            href="#order"
+            class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-3 px-6 rounded-full transition-all transform hover:scale-105 shadow-lg whitespace-nowrap"
+          >
+            ORDER NOW - ₦255,000
+          </a>
         </div>
+      </div>
     </div>
 
     <script>
-        // Sticky CTA functionality
-        const stickyCTA = document.getElementById('stickyCTA');
-        let lastScrollTop = 0;
+      // Sticky CTA functionality
+      const stickyCTA = document.getElementById("stickyCTA");
+      let lastScrollTop = 0;
 
-        window.addEventListener('scroll', function () {
-            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      window.addEventListener("scroll", function () {
+        let scrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
 
-            if (scrollTop > 800) {
-                stickyCTA.classList.add('visible');
-            } else {
-                stickyCTA.classList.remove('visible');
-            }
+        if (scrollTop > 800) {
+          stickyCTA.classList.add("visible");
+        } else {
+          stickyCTA.classList.remove("visible");
+        }
 
-            lastScrollTop = scrollTop;
-        });
+        lastScrollTop = scrollTop;
+      });
 
-        // Smooth scroll for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
             });
+          }
         });
+      });
     </script>
-</body>
-
+  </body>
 </html>

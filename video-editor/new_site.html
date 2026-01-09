@@ -1,960 +1,1294 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-720Y6D4QNV"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-720Y6D4QNV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      gtag("config", "G-720Y6D4QNV");
+    </script>
 
-  gtag('config', 'G-720Y6D4QNV');
-</script>
+    <meta charset="UTF-8" />
+    <!-- Primary Meta Tags -->
+    <meta
+      name="title"
+      content="Noble Osinachi - Professional Video Editor | Short-Form Content & Direct Response Video Adverts"
+    />
+    <meta
+      name="description"
+      content="I help brands turn boring content into scroll-stopping, high-converting videos. Let's work together."
+    />
 
-  <meta charset="UTF-8">
-  <!-- Primary Meta Tags -->
-  <meta name="title"
-    content="Noble Osinachi - Professional Video Editor | Short-Form Content & Direct Response Video Adverts">
-  <meta name="description"
-    content="I help brands turn boring content into scroll-stopping, high-converting videos. Let's work together.">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nobleosinachi.com/" />
+    <meta
+      property="og:title"
+      content="Noble Osinachi - Professional Video Editor | Short-Form Content & Direct Response Video Adverts"
+    />
+    <meta
+      property="og:description"
+      content="I help brands turn boring content into scroll-stopping, high-converting videos. Let's work together."
+    />
+    <meta
+      property="og:image"
+      content="https://nobleosinachi.com/images/preview.png"
+    />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://nobleosinachi.github.io/">
-  <meta property="og:title"
-    content="Noble Osinachi - Professional Video Editor | Short-Form Content & Direct Response Video Adverts">
-  <meta property="og:description"
-    content="I help brands turn boring content into scroll-stopping, high-converting videos. Let's work together.">
-  <meta property="og:image" content="https://nobleosinachi.github.io/images/preview.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://nobleosinachi.com/" />
+    <meta
+      property="twitter:title"
+      content="Noble Osinachi - Professional Video Editor | Short-Form Content & Direct Response Video Adverts"
+    />
+    <meta
+      property="twitter:description"
+      content="I help brands turn boring content into scroll-stopping, high-converting videos. Let's work together."
+    />
+    <meta
+      property="twitter:image"
+      content="https://nobleosinachi.com/images/preview.png"
+    />
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://nobleosinachi.github.io/">
-  <meta property="twitter:title"
-    content="Noble Osinachi - Professional Video Editor | Short-Form Content & Direct Response Video Adverts">
-  <meta property="twitter:description"
-    content="I help brands turn boring content into scroll-stopping, high-converting videos. Let's work together.">
-  <meta property="twitter:image" content="https://nobleosinachi.github.io/images/preview.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noble Osinachi - Professional Video Editor</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
+      body {
+        font-family: "Poppins", sans-serif;
+        scroll-behavior: smooth;
+      }
 
+      .gradient-bg {
+        background: linear-gradient(90deg, #0f172a 0%, #1e293b 100%);
+      }
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Noble Osinachi - Professional Video Editor</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+      .text-gradient {
+        background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
 
-    body {
-      font-family: 'Poppins', sans-serif;
-      scroll-behavior: smooth;
-    }
+      .service-card {
+        transition: all 0.3s ease;
+      }
 
-    .gradient-bg {
-      background: linear-gradient(90deg, #0f172a 0%, #1e293b 100%);
-    }
+      .service-card:hover {
+        transform: translateY(-5px);
+      }
 
-    .text-gradient {
-      background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+      .testimonial-card {
+        transition: transform 0.3s ease;
+      }
 
-    .service-card {
-      transition: all 0.3s ease;
-    }
+      .testimonial-card:hover {
+        transform: scale(1.02);
+      }
 
-    .service-card:hover {
-      transform: translateY(-5px);
-    }
+      .social-icon {
+        transition: all 0.3s ease;
+      }
 
-    .testimonial-card {
-      transition: transform 0.3s ease;
-    }
+      .social-icon:hover {
+        transform: translateY(-3px);
+        color: #60a5fa;
+      }
 
-    .testimonial-card:hover {
-      transform: scale(1.02);
-    }
+      .nav-link {
+        position: relative;
+      }
 
-    .social-icon {
-      transition: all 0.3s ease;
-    }
+      .nav-link::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -2px;
+        left: 0;
+        background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
+        transition: width 0.3s ease;
+      }
 
-    .social-icon:hover {
-      transform: translateY(-3px);
-      color: #60a5fa;
-    }
-
-    .nav-link {
-      position: relative;
-    }
-
-    .nav-link::after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 2px;
-      bottom: -2px;
-      left: 0;
-      background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
-      transition: width 0.3s ease;
-    }
-
-    .nav-link:hover::after {
-      width: 100%;
-    }
-  </style>
-  <script>
-    document.getElementById('pingButton').addEventListener('click', function () {
-      fetch('https://nobleosinachi-email-api.onrender.com/', {
-          method: 'GET',
-          mode: 'no-cors', // 'no-cors' is needed to avoid CORS issues
-        })
-        .then(() => {
-          console.log('Email API is reachable!');
-        })
-        .catch((error) => {
-          console.log('Email API is not reachable.');
+      .nav-link:hover::after {
+        width: 100%;
+      }
+    </style>
+    <script>
+      document
+        .getElementById("pingButton")
+        .addEventListener("click", function () {
+          fetch("https://nobleosinachi-email-api.onrender.com/", {
+            method: "GET",
+            mode: "no-cors", // 'no-cors' is needed to avoid CORS issues
+          })
+            .then(() => {
+              console.log("Email API is reachable!");
+            })
+            .catch((error) => {
+              console.log("Email API is not reachable.");
+            });
         });
-    });
-  </script>
-</head>
+    </script>
+  </head>
 
-<body class="bg-gray-900 text-white container mx-auto">
-  <!-- Navigation -->
-  <nav class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-filter backdrop-blur-sm border-b border-gray-800">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="flex items-center">
-        <h1 class="text-2xl font-bold">Noble<span class="text-blue-500">Osinachi</span></h1>
-      </div>
-      <div class="hidden md:flex space-x-8">
-        <a href="#home" class="nav-link font-medium">Home</a>
-        <a href="#about" class="nav-link font-medium">About</a>
-        <a href="#services" class="nav-link font-medium">Services</a>
-        <a href="#portfolio" class="nav-link font-medium">Portfolio</a>
-        <a href="#testimonials" class="nav-link font-medium">Testimonials</a>
-        <a href="#contact" class="nav-link font-medium">Contact</a>
-      </div>
-      <div class="md:hidden">
-        <button class="focus:outline-none">
-          <i class="fas fa-bars text-2xl"></i>
-        </button>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-
-  <section id="home" class="pt-20 pb-20 gradient-bg">
-    <!-- <div class="container mx-auto px-4 flex flex-col md:flex-row items-center"> -->
-    <div class="container mx-auto px-4 sm:px-6 lg:px-12 flex flex-col md:flex-row items-center">
-
-      <div class="md:w-1/2 mb-10 md:mb-0">
-        <h1 class="text-4xl md:text-6xl font-bold mb-4">Turn <span class="text-gradient">Boring Content</span> Into
-          <span class="text-gradient">Viral Gold</span></h1>
-        <p class="text-xl text-gray-300 mb-8">Professional video editor crafting high-converting content for brands
-          that
-          drives real engagement and sales.</p>
-        <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-          <a href="#contact"
-            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg inline-block text-center">Start
-            a Project</a>
-          <a href="#portfolio"
-            class="bg-transparent hover:bg-gray-800 text-blue-400 font-semibold py-3 px-6 border border-blue-500 hover:border-transparent rounded-lg inline-block text-center">View
-            My Work</a>
+  <body class="bg-gray-900 text-white container mx-auto">
+    <!-- Navigation -->
+    <nav
+      class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-filter backdrop-blur-sm border-b border-gray-800"
+    >
+      <div
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center">
+          <h1 class="text-2xl font-bold">
+            Noble<span class="text-blue-500">Osinachi</span>
+          </h1>
+        </div>
+        <div class="hidden md:flex space-x-8">
+          <a href="#home" class="nav-link font-medium">Home</a>
+          <a href="#about" class="nav-link font-medium">About</a>
+          <a href="#services" class="nav-link font-medium">Services</a>
+          <a href="#portfolio" class="nav-link font-medium">Portfolio</a>
+          <a href="#testimonials" class="nav-link font-medium">Testimonials</a>
+          <a href="#contact" class="nav-link font-medium">Contact</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none">
+            <i class="fas fa-bars text-2xl"></i>
+          </button>
         </div>
       </div>
-      <div class="md:w-1/2 flex justify-center">
-        <div
-          class="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-blue-900 bg-opacity-20 flex items-center justify-center">
-          <div class="absolute w-full h-full rounded-full border-4 border-blue-500 border-opacity-50 animate-pulse">
-          </div>
-          <img src="../images/nobleosinachi.png" alt="Noble Osinachi"
-            class="rounded-full w-56 h-56 md:w-72 md:h-72 object-cover border-4 border-blue-600">
-        </div>
-      </div>
-    </div>
-  </section>
+    </nav>
 
+    <!-- Hero Section -->
 
-
-  <section id="intro-vsl" class="gradient-bg py-10">
-    <div style="max-width: 960px; margin: 0 auto; padding: 2rem 1rem;">
-      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-        <iframe src="https://youtube.com/embed/YecAgTPbCIE" frameborder="0" allowfullscreen
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-        </iframe>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- About Section -->
-  <section id="about" class="py-20 bg-gray-900">
-    <div class="container mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">About <span class="text-blue-500">Me</span></h2>
-        <div class="w-16 h-1 bg-blue-500 mx-auto"></div>
-      </div>
-      <div class="flex flex-col md:flex-row items-center">
+    <section id="home" class="pt-20 pb-20 gradient-bg">
+      <!-- <div class="container mx-auto px-4 flex flex-col md:flex-row items-center"> -->
+      <div
+        class="container mx-auto px-4 sm:px-6 lg:px-12 flex flex-col md:flex-row items-center"
+      >
         <div class="md:w-1/2 mb-10 md:mb-0">
-          <h3 class="text-2xl font-bold mb-6">I'm Noble, <span class="text-blue-500">Expert Video Editor</span></h3>
-          <p class="text-gray-300 mb-6">With over 4 years of experience in video editing and direct response marketing,
-            I help brands transform their content into engagement-driving, conversion-focused videos that deliver real
-            results.</p>
-          <p class="text-gray-300 mb-6">I combine my expertise in persuasion techniques, human behavior, and psychology
-            to craft videos that stop the scroll, engage viewers, and drive conversions.</p>
-          <div class="grid grid-cols-2 gap-4 mb-6">
-            <div>
-              <p class="font-semibold mb-1">Experience:</p>
-              <p class="text-blue-400">4+ Years</p>
-            </div>
-            <div>
-              <p class="font-semibold mb-1">Specialization:</p>
-              <p class="text-blue-400">Short-Form Video & Ads</p>
-            </div>
-            <div>
-              <p class="font-semibold mb-1">Location:</p>
-              <p class="text-blue-400">Lagos, Nigeria</p>
-            </div>
-            <div>
-              <p class="font-semibold mb-1">Availability:</p>
-              <p class="text-blue-400">Full-time</p>
-            </div>
-          </div>
-          <div class="flex space-x-3">
-            <a href="https://instagram.com/NobleOsinachi" target="_blank"
-              class="social-icon text-gray-400 hover:text-blue-500">
-              <i class="fab fa-instagram text-2xl"></i>
-            </a>
-            <a href="https://𝕏.com/NobleOsinachi" target="_blank"
-              class="social-icon text-gray-400 hover:text-blue-500">
-              <i class="fab fa-twitter text-2xl"></i>
-            </a>
-            <a href="https://linkedin.com/in/NobleOsinachi" target="_blank"
-              class="social-icon text-gray-400 hover:text-blue-500">
-              <i class="fab fa-linkedin text-2xl"></i>
-            </a>
-            <a href="https://youtube.com/@NobleOsinachi" target="_blank"
-              class="social-icon text-gray-400 hover:text-blue-500">
-              <i class="fab fa-youtube text-2xl"></i>
-            </a>
-            <a href="https://tiktok.com/@NobleOsinachi" target="_blank"
-              class="social-icon text-gray-400 hover:text-blue-500">
-              <i class="fab fa-tiktok text-2xl"></i>
-            </a>
+          <h1 class="text-4xl md:text-6xl font-bold mb-4">
+            Turn <span class="text-gradient">Boring Content</span> Into
+            <span class="text-gradient">Viral Gold</span>
+          </h1>
+          <p class="text-xl text-gray-300 mb-8">
+            Professional video editor crafting high-converting content for
+            brands that drives real engagement and sales.
+          </p>
+          <div
+            class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
+          >
+            <a
+              href="#contact"
+              class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg inline-block text-center"
+              >Start a Project</a
+            >
+            <a
+              href="#portfolio"
+              class="bg-transparent hover:bg-gray-800 text-blue-400 font-semibold py-3 px-6 border border-blue-500 hover:border-transparent rounded-lg inline-block text-center"
+              >View My Work</a
+            >
           </div>
         </div>
-        <div class="md:w-1/2 md:pl-10">
-          <div class="bg-gray-800 p-6 rounded-lg">
-            <h4 class="text-xl font-bold mb-4">My Skills & Tools</h4>
-            <div class="mb-4">
-              <div class="flex justify-between mb-1">
-                <span>Video Editing</span>
-                <span>95%</span>
-              </div>
-              <div class="w-full bg-gray-700 rounded-full h-2">
-                <div class="bg-blue-500 h-2 rounded-full" style="width: 95%"></div>
-              </div>
-            </div>
-            <div class="mb-4">
-              <div class="flex justify-between mb-1">
-                <span>Adobe Premiere Pro</span>
-                <span>90%</span>
-              </div>
-              <div class="w-full bg-gray-700 rounded-full h-2">
-                <div class="bg-blue-500 h-2 rounded-full" style="width: 90%"></div>
-              </div>
-            </div>
-            <div class="mb-4">
-              <div class="flex justify-between mb-1">
-                <span>CapCut</span>
-                <span>95%</span>
-              </div>
-              <div class="w-full bg-gray-700 rounded-full h-2">
-                <div class="bg-blue-500 h-2 rounded-full" style="width: 95%"></div>
-              </div>
-            </div>
-            <div class="mb-4">
-              <div class="flex justify-between mb-1">
-                <span>Direct Response Copywriting</span>
-                <span>85%</span>
-              </div>
-              <div class="w-full bg-gray-700 rounded-full h-2">
-                <div class="bg-blue-500 h-2 rounded-full" style="width: 85%"></div>
-              </div>
-            </div>
-            <div>
-              <div class="flex justify-between mb-1">
-                <span>After Effects</span>
-                <span>50%</span>
-              </div>
-              <div class="w-full bg-gray-700 rounded-full h-2">
-                <div class="bg-blue-500 h-2 rounded-full" style="width: 50%"></div>
-              </div>
-            </div>
+        <div class="md:w-1/2 flex justify-center">
+          <div
+            class="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-blue-900 bg-opacity-20 flex items-center justify-center"
+          >
+            <div
+              class="absolute w-full h-full rounded-full border-4 border-blue-500 border-opacity-50 animate-pulse"
+            ></div>
+            <img
+              src="../images/nobleosinachi.png"
+              alt="Noble Osinachi"
+              class="rounded-full w-56 h-56 md:w-72 md:h-72 object-cover border-4 border-blue-600"
+            />
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Services Section -->
-  <section id="services" class="py-20 bg-gray-800">
-    <div class="container mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="text-blue-500">Services</span></h2>
-        <div class="w-16 h-1 bg-blue-500 mx-auto mb-6"></div>
-        <p class="text-gray-300 max-w-2xl mx-auto">Specialized video editing services designed to help your brand stand
-          out and achieve measurable results.</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <!-- Service 1 -->
-        <div class="service-card bg-gray-900 rounded-xl p-6 shadow-lg border border-gray-700 hover:border-blue-500">
-          <div class="p-4 rounded-full bg-blue-900 bg-opacity-20 inline-block mb-4">
-            <i class="fas fa-video text-3xl text-blue-500"></i>
-          </div>
-          <h3 class="text-xl font-bold mb-3">High-Retention Short-Form Content</h3>
-          <p class="text-gray-400 mb-4">Convert long-form videos into bite-sized, attention-grabbing shorts that hook
-            viewers in the first 5 seconds. Perfect for TikTok, Instagram Reels, YouTube Shorts, and Facebook.</p>
-          <ul class="text-gray-400 space-y-2 mb-4">
-            <li class="flex items-start">
-              <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-              <span>Hook-driven intros that stop the scroll</span>
-            </li>
-            <li class="flex items-start">
-              <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-              <span>Engaging captions and visual elements</span>
-            </li>
-            <li class="flex items-start">
-              <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-              <span>Platform-specific optimization</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Service 2 -->
-        <div class="service-card bg-gray-900 rounded-xl p-6 shadow-lg border border-gray-700 hover:border-blue-500">
-          <div class="p-4 rounded-full bg-blue-900 bg-opacity-20 inline-block mb-4">
-            <i class="fas fa-bullhorn text-3xl text-blue-500"></i>
-          </div>
-          <h3 class="text-xl font-bold mb-3">Direct Response Video Ads</h3>
-          <p class="text-gray-400 mb-4">High-converting video sales letters (VSLs) and UGC-style ads designed to
-            maximize ROI and drive conversions for your products and services.</p>
-          <ul class="text-gray-400 space-y-2 mb-4">
-            <li class="flex items-start">
-              <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-              <span>Persuasive hooks and compelling narratives</span>
-            </li>
-            <li class="flex items-start">
-              <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-              <span>Conversion-focused structure</span>
-            </li>
-            <li class="flex items-start">
-              <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-              <span>Strong calls-to-action that drive sales</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Service 3 -->
-        <div class="service-card bg-gray-900 rounded-xl p-6 shadow-lg border border-gray-700 hover:border-blue-500">
-          <div class="p-4 rounded-full bg-blue-900 bg-opacity-20 inline-block mb-4">
-            <i class="fas fa-sync-alt text-3xl text-blue-500"></i>
-          </div>
-          <h3 class="text-xl font-bold mb-3">Content Repurposing</h3>
-          <p class="text-gray-400 mb-4">Transform your existing long-form content, podcasts, and videos into multiple
-            bite-sized, high-performing short videos for social media.</p>
-          <ul class="text-gray-400 space-y-2 mb-4">
-            <li class="flex items-start">
-              <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-              <span>Strategic content extraction</span>
-            </li>
-            <li class="flex items-start">
-              <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-              <span>Multi-platform optimization</span>
-            </li>
-            <li class="flex items-start">
-              <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-              <span>Maximize ROI from existing content</span>
-            </li>
-          </ul>
+    <section id="intro-vsl" class="gradient-bg py-10">
+      <div style="max-width: 960px; margin: 0 auto; padding: 2rem 1rem">
+        <div
+          style="
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+          "
+        >
+          <iframe
+            src="https://youtube.com/embed/YecAgTPbCIE"
+            frameborder="0"
+            allowfullscreen
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            "
+          >
+          </iframe>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-
-
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="py-20 bg-gray-900">
-    <div class="container mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="text-blue-500">Video Editing</span></h2>
-        <div class="w-16 h-1 bg-blue-500 mx-auto mb-6"></div>
-        <p class="text-gray-300 max-w-2xl mx-auto">Projects / Portfolio: A showcase of my work across different video
-          formats.</p>
-      </div>
-
-      <!-- Short-Form Content Category -->
-      <div class="mb-16">
-        <h3 class="text-2xl font-bold mb-8 text-center text-white">
-          🎬 Short-Form Content
-        </h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <!-- Luke Belmar Podcast -->
-          <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
-            <iframe width="100%" height="100%" src="https://youtube.com/embed/tAe-vn-U6rc" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
-            </iframe>
-          </div>
-          <!-- Meet Alex Sedlak, the 24 Year Old Millionaire who built a massive business on Whop -->
-          <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
-            <iframe width="100%" height="100%" src="https://youtube.com/embed/1FyRBvrmtx0" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
-            </iframe>
-          </div>
-          <!-- Billionaires in e-Commerce -->
-          <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
-            <iframe width="100%" height="100%" src="https://youtube.com/embed/htkuFZZKLYg" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
-            </iframe>
-          </div>
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-900">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            About <span class="text-blue-500">Me</span>
+          </h2>
+          <div class="w-16 h-1 bg-blue-500 mx-auto"></div>
         </div>
-      </div>
-
-      <!-- Adverts & VSLs Category -->
-      <div class="mb-16">
-        <h3 class="text-2xl font-bold mb-8 text-center text-white">
-          📢 Direct Response Adverts (VSL, UGC, Mashups)
-        </h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <!-- GRAMS28 Leather Folio -->
-          <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
-            <iframe width="100%" height="100%" src="https://youtube.com/embed/CSKa1maz_So" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
-            </iframe>
-          </div>
-          <!-- Replit VSL Matt Palmer -->
-          <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
-            <iframe width="100%" height="100%" src="https://youtube.com/embed/S6MLXV-qrFY" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
-            </iframe>
-          </div>
-          <!-- Self Defence Flash Light -->
-          <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
-            <iframe width="100%" height="100%" src="https://youtube.com/embed/b3MCIe5WKFc" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
-            </iframe>
-          </div>
-        </div>
-      </div>
-
-      <div class="text-center mt-10">
-        <a href="https://youtube.com/@NobleOsinachi" target="_blank"
-          class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-3 px-8 rounded-lg inline-flex items-center">
-          <i class="fab fa-youtube mr-2"></i> View Full Portfolio
-        </a>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="py-20 bg-gray-800">
-    <div class="container mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">Client <span class="text-blue-500">Testimonials</span></h2>
-        <div class="w-16 h-1 bg-blue-500 mx-auto mb-6"></div>
-        <p class="text-gray-300 max-w-2xl mx-auto">Don't just take my word for it. Here's what my clients have to say
-          about working with me.</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Testimonial 1 -->
-        <div class="testimonial-card bg-gray-900 p-6 rounded-lg border border-gray-700">
-          <div class="flex items-center mb-4">
-            <div class="text-yellow-400 flex">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-          </div>
-          <p class="text-gray-300 mb-6 italic">"He took our previous long-form conference videos and turned them into
-            short clips, and people are loving them! The videos look very sharp."</p>
-          <div class="flex items-center">
-            <div class="mr-4">
-              <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center">
-                <span class="text-xl font-bold text-blue-500">F</span>
-              </div>
-            </div>
-            <div>
-              <h4 class="font-bold">Fortune</h4>
-              <p class="text-gray-400 text-sm">Founder, Ecom Growth Factory</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Testimonial 2 -->
-        <div class="testimonial-card bg-gray-900 p-6 rounded-lg border border-gray-700">
-          <div class="flex items-center mb-4">
-            <div class="text-yellow-400 flex">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-          </div>
-          <p class="text-gray-300 mb-6 italic">"Those new creatives are performing really well. Over 65% watched past 30
-            seconds, and our CTR jumped by 28%. Great delivery. Can't thank you enough."</p>
-          <div class="flex items-center">
-            <div class="mr-4">
-              <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center">
-                <span class="text-xl font-bold text-blue-500">G</span>
-              </div>
-            </div>
-            <div>
-              <h4 class="font-bold">Gozzi</h4>
-              <p class="text-gray-400 text-sm">CEO, Hephzibah Stores</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Testimonial 3 -->
-        <div class="testimonial-card bg-gray-900 p-6 rounded-lg border border-gray-700">
-          <div class="flex items-center mb-4">
-            <div class="text-yellow-400 flex">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-          </div>
-          <p class="text-gray-300 mb-6 italic">"I won the grant! A lot of people even reposted the video pitch because
-            it came out really nice. Thanks for the quick turnaround on short notice."</p>
-          <div class="flex items-center">
-            <div class="mr-4">
-              <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center">
-                <span class="text-xl font-bold text-blue-500">C</span>
-              </div>
-            </div>
-            <div>
-              <h4 class="font-bold">Anonymous Client</h4>
-              <p class="text-gray-400 text-sm">Awarded $20,000 Mentorship Grant</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA Section -->
-  <section class="py-16 bg-gradient-to-r from-blue-900 to-indigo-900">
-    <div class="container mx-auto px-4">
-      <div class="bg-gray-900 rounded-2xl p-8 shadow-2xl border border-blue-500 max-w-4xl mx-auto">
-        <div class="text-center mb-8">
-          <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to <span class="text-gradient">Transform</span> Your
-            Content?</h2>
-          <p class="text-xl text-gray-300">Let's create high-performing videos that drive real engagement and
-            conversions.</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div class="bg-gray-800 p-6 rounded-xl">
-            <h3 class="text-xl font-bold mb-4 flex items-center">
-              <i class="fas fa-rocket text-blue-500 mr-2"></i> Boost Your Social Media
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 mb-10 md:mb-0">
+            <h3 class="text-2xl font-bold mb-6">
+              I'm Noble, <span class="text-blue-500">Expert Video Editor</span>
             </h3>
-            <p class="text-gray-300 mb-4">Get scroll-stopping short-form content that gets viewed, shared, and drives
-              audience growth across all platforms.</p>
-            <ul class="text-gray-400 space-y-2 mb-6">
+            <p class="text-gray-300 mb-6">
+              With over 4 years of experience in video editing and direct
+              response marketing, I help brands transform their content into
+              engagement-driving, conversion-focused videos that deliver real
+              results.
+            </p>
+            <p class="text-gray-300 mb-6">
+              I combine my expertise in persuasion techniques, human behavior,
+              and psychology to craft videos that stop the scroll, engage
+              viewers, and drive conversions.
+            </p>
+            <div class="grid grid-cols-2 gap-4 mb-6">
+              <div>
+                <p class="font-semibold mb-1">Experience:</p>
+                <p class="text-blue-400">4+ Years</p>
+              </div>
+              <div>
+                <p class="font-semibold mb-1">Specialization:</p>
+                <p class="text-blue-400">Short-Form Video & Ads</p>
+              </div>
+              <div>
+                <p class="font-semibold mb-1">Location:</p>
+                <p class="text-blue-400">Lagos, Nigeria</p>
+              </div>
+              <div>
+                <p class="font-semibold mb-1">Availability:</p>
+                <p class="text-blue-400">Full-time</p>
+              </div>
+            </div>
+            <div class="flex space-x-3">
+              <a
+                href="https://instagram.com/NobleOsinachi"
+                target="_blank"
+                class="social-icon text-gray-400 hover:text-blue-500"
+              >
+                <i class="fab fa-instagram text-2xl"></i>
+              </a>
+              <a
+                href="https://𝕏.com/NobleOsinachi"
+                target="_blank"
+                class="social-icon text-gray-400 hover:text-blue-500"
+              >
+                <i class="fab fa-twitter text-2xl"></i>
+              </a>
+              <a
+                href="https://linkedin.com/in/NobleOsinachi"
+                target="_blank"
+                class="social-icon text-gray-400 hover:text-blue-500"
+              >
+                <i class="fab fa-linkedin text-2xl"></i>
+              </a>
+              <a
+                href="https://youtube.com/@NobleOsinachi"
+                target="_blank"
+                class="social-icon text-gray-400 hover:text-blue-500"
+              >
+                <i class="fab fa-youtube text-2xl"></i>
+              </a>
+              <a
+                href="https://tiktok.com/@NobleOsinachi"
+                target="_blank"
+                class="social-icon text-gray-400 hover:text-blue-500"
+              >
+                <i class="fab fa-tiktok text-2xl"></i>
+              </a>
+            </div>
+          </div>
+          <div class="md:w-1/2 md:pl-10">
+            <div class="bg-gray-800 p-6 rounded-lg">
+              <h4 class="text-xl font-bold mb-4">My Skills & Tools</h4>
+              <div class="mb-4">
+                <div class="flex justify-between mb-1">
+                  <span>Video Editing</span>
+                  <span>95%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-blue-500 h-2 rounded-full"
+                    style="width: 95%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <div class="flex justify-between mb-1">
+                  <span>Adobe Premiere Pro</span>
+                  <span>90%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-blue-500 h-2 rounded-full"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <div class="flex justify-between mb-1">
+                  <span>CapCut</span>
+                  <span>95%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-blue-500 h-2 rounded-full"
+                    style="width: 95%"
+                  ></div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <div class="flex justify-between mb-1">
+                  <span>Direct Response Copywriting</span>
+                  <span>85%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-blue-500 h-2 rounded-full"
+                    style="width: 85%"
+                  ></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span>After Effects</span>
+                  <span>50%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-2">
+                  <div
+                    class="bg-blue-500 h-2 rounded-full"
+                    style="width: 50%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-800">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            My <span class="text-blue-500">Services</span>
+          </h2>
+          <div class="w-16 h-1 bg-blue-500 mx-auto mb-6"></div>
+          <p class="text-gray-300 max-w-2xl mx-auto">
+            Specialized video editing services designed to help your brand stand
+            out and achieve measurable results.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Service 1 -->
+          <div
+            class="service-card bg-gray-900 rounded-xl p-6 shadow-lg border border-gray-700 hover:border-blue-500"
+          >
+            <div
+              class="p-4 rounded-full bg-blue-900 bg-opacity-20 inline-block mb-4"
+            >
+              <i class="fas fa-video text-3xl text-blue-500"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">
+              High-Retention Short-Form Content
+            </h3>
+            <p class="text-gray-400 mb-4">
+              Convert long-form videos into bite-sized, attention-grabbing
+              shorts that hook viewers in the first 5 seconds. Perfect for
+              TikTok, Instagram Reels, YouTube Shorts, and Facebook.
+            </p>
+            <ul class="text-gray-400 space-y-2 mb-4">
               <li class="flex items-start">
                 <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-                <span>High-retention edits that keep viewers watching</span>
+                <span>Hook-driven intros that stop the scroll</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                <span>Engaging captions and visual elements</span>
               </li>
               <li class="flex items-start">
                 <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
                 <span>Platform-specific optimization</span>
               </li>
+            </ul>
+          </div>
+
+          <!-- Service 2 -->
+          <div
+            class="service-card bg-gray-900 rounded-xl p-6 shadow-lg border border-gray-700 hover:border-blue-500"
+          >
+            <div
+              class="p-4 rounded-full bg-blue-900 bg-opacity-20 inline-block mb-4"
+            >
+              <i class="fas fa-bullhorn text-3xl text-blue-500"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Direct Response Video Ads</h3>
+            <p class="text-gray-400 mb-4">
+              High-converting video sales letters (VSLs) and UGC-style ads
+              designed to maximize ROI and drive conversions for your products
+              and services.
+            </p>
+            <ul class="text-gray-400 space-y-2 mb-4">
               <li class="flex items-start">
                 <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-                <span>Fast turnaround times</span>
+                <span>Persuasive hooks and compelling narratives</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                <span>Conversion-focused structure</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                <span>Strong calls-to-action that drive sales</span>
               </li>
             </ul>
           </div>
 
-          <div class="bg-gray-800 p-6 rounded-xl">
-            <h3 class="text-xl font-bold mb-4 flex items-center">
-              <i class="fas fa-chart-line text-blue-500 mr-2"></i> Increase Your Conversions
-            </h3>
-            <p class="text-gray-300 mb-4">Get high-converting video ads and VSLs that turn viewers into customers and
-              drive real ROI.</p>
-            <ul class="text-gray-400 space-y-2 mb-6">
+          <!-- Service 3 -->
+          <div
+            class="service-card bg-gray-900 rounded-xl p-6 shadow-lg border border-gray-700 hover:border-blue-500"
+          >
+            <div
+              class="p-4 rounded-full bg-blue-900 bg-opacity-20 inline-block mb-4"
+            >
+              <i class="fas fa-sync-alt text-3xl text-blue-500"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Content Repurposing</h3>
+            <p class="text-gray-400 mb-4">
+              Transform your existing long-form content, podcasts, and videos
+              into multiple bite-sized, high-performing short videos for social
+              media.
+            </p>
+            <ul class="text-gray-400 space-y-2 mb-4">
               <li class="flex items-start">
                 <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-                <span>Persuasive direct response techniques</span>
+                <span>Strategic content extraction</span>
               </li>
               <li class="flex items-start">
                 <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-                <span>UGC-style ads that build trust</span>
+                <span>Multi-platform optimization</span>
               </li>
               <li class="flex items-start">
                 <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-                <span>Results-driven approach</span>
+                <span>Maximize ROI from existing content</span>
               </li>
             </ul>
           </div>
         </div>
-
-        <div class="text-center mt-8">
-          <a href="#contact"
-            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-lg inline-block transition-all">Let's
-            Work Together</a>
-        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Pricing Section -->
-
-
-  <!-- FAQ Section -->
-  <section class="py-20 bg-gray-900">
-    <div class="container mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">Frequently <span class="text-blue-500">Asked Questions</span>
-        </h2>
-        <div class="w-16 h-1 bg-blue-500 mx-auto mb-6"></div>
-        <p class="text-gray-300 max-w-2xl mx-auto">Got questions? I've got answers.</p>
-      </div>
-
-      <div class="max-w-3xl mx-auto">
-        <div class="mb-6 bg-gray-900 rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-3">What's your turnaround time?</h3>
-          <p class="text-gray-300">For standard projects, I deliver within 3-5 business days depending on the package
-            and complexity. For urgent requests, I offer expedited services at an additional fee. Just let me know your
-            timeline, and I'll do my best to accommodate.</p>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-900">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            My <span class="text-blue-500">Video Editing</span>
+          </h2>
+          <div class="w-16 h-1 bg-blue-500 mx-auto mb-6"></div>
+          <p class="text-gray-300 max-w-2xl mx-auto">
+            Projects / Portfolio: A showcase of my work across different video
+            formats.
+          </p>
         </div>
 
-        <div class="mb-6 bg-gray-900 rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-3">Do you provide revisions?</h3>
-          <p class="text-gray-300">Yes! All packages include 1-2 rounds of revisions to ensure you're completely
-            satisfied with the final product. Additional revision rounds can be arranged at a small additional fee.</p>
-        </div>
-
-        <div class="mb-6 bg-gray-900 rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-3">What type of files do you need from me?</h3>
-          <p class="text-gray-300">I can work with most video and audio formats. For content repurposing, simply provide
-            your long-form content (podcast, webinar, etc.), and I'll handle the rest. For custom projects, I'll provide
-            a detailed list of required assets after our initial consultation.</p>
-        </div>
-
-        <div class="mb-6 bg-gray-900 rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-3">Do you offer script writing services?</h3>
-          <p class="text-gray-300">Absolutely! With my background in direct response copywriting, I can craft compelling
-            scripts for your videos that drive engagement and conversions. This service can be added to any package or
-            purchased separately.</p>
-        </div>
-
-        <div class="bg-gray-900 rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-3">Which social platforms do you optimize for?</h3>
-          <p class="text-gray-300">I create optimized content for all major social platforms including TikTok, Instagram
-            Reels, YouTube Shorts, Facebook, and LinkedIn. Each platform has different requirements and best practices,
-            which I carefully consider during the editing process.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="py-20 bg-gray-800">
-    <div class="container mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's <span class="text-blue-500">Connect</span></h2>
-        <div class="w-16 h-1 bg-blue-500 mx-auto mb-6"></div>
-        <p class="text-gray-300 max-w-2xl mx-auto">Ready to take your content to the next level? Reach out and let's
-          discuss how I can help you achieve your goals.</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
-        <div>
-          <div class="bg-gray-800 p-8 rounded-xl shadow-lg">
-            <h3 class="text-2xl font-bold mb-6">Get In Touch</h3>
-
-            <form>
-              <div class="mb-4">
-                <label for="name" class="block text-gray-300 mb-2">Your Name</label>
-                <input required type="text" id="name"
-                  class="w-full bg-gray-700 border border-gray-600 rounded-lg py-3 px-4 text-white focus:outline-none focus:border-blue-500">
-              </div>
-
-              <div class="mb-4">
-                <label for="email" class="block text-gray-300 mb-2">Your Email</label>
-                <input required type="email" id="email"
-                  class="w-full bg-gray-700 border border-gray-600 rounded-lg py-3 px-4 text-white focus:outline-none focus:border-blue-500">
-              </div>
-
-              <div class="mb-4">
-                <label for="project" class="block text-gray-300 mb-2">Project Type</label>
-                <select required id="project"
-                  class="w-full bg-gray-700 border border-gray-600 rounded-lg py-3 px-4 text-white focus:outline-none focus:border-blue-500">
-                  <option>Short-Form Content</option>
-                  <option>UGC Ads</option>
-                  <option>Video Sales Letter (VSL)</option>
-                  <option>Content Repurposing</option>
-                  <option>Other</option>
-                </select>
-              </div>
-
-              <div class="mb-6">
-                <label for="message" class="block text-gray-300 mb-2">Project Details</label>
-                <textarea required id="message" rows="5"
-                  class="w-full bg-gray-700 border border-gray-600 rounded-lg py-3 px-4 text-white focus:outline-none focus:border-blue-500"></textarea>
-              </div>
-
-              <button type="submit"
-                class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-3 px-4 rounded-lg transition-all">Send
-                Message</button>
-            </form>
+        <!-- Short-Form Content Category -->
+        <div class="mb-16">
+          <h3 class="text-2xl font-bold mb-8 text-center text-white">
+            🎬 Short-Form Content
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Luke Belmar Podcast -->
+            <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://youtube.com/embed/tAe-vn-U6rc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+            <!-- Meet Alex Sedlak, the 24 Year Old Millionaire who built a massive business on Whop -->
+            <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://youtube.com/embed/1FyRBvrmtx0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+            <!-- Billionaires in e-Commerce -->
+            <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://youtube.com/embed/htkuFZZKLYg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
           </div>
         </div>
 
-        <div>
-          <div class="bg-gray-800 p-8 rounded-xl shadow-lg mb-8">
-            <h3 class="text-2xl font-bold mb-6">Connect With Me</h3>
+        <!-- Adverts & VSLs Category -->
+        <div class="mb-16">
+          <h3 class="text-2xl font-bold mb-8 text-center text-white">
+            📢 Direct Response Adverts (VSL, UGC, Mashups)
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- GRAMS28 Leather Folio -->
+            <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://youtube.com/embed/CSKa1maz_So"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+            <!-- Replit VSL Matt Palmer -->
+            <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://youtube.com/embed/S6MLXV-qrFY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+            <!-- Self Defence Flash Light -->
+            <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://youtube.com/embed/b3MCIe5WKFc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
 
-            <div class="space-y-4">
-              <a href="mailto:nobleosinachi@icloud.com"
-                class="flex items-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all">
-                <div class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4">
-                  <i class="fas fa-envelope text-blue-500"></i>
-                </div>
-                <div>
-                  <p class="font-semibold">Email</p>
-                  <p class="text-gray-400">nobleosinachi@icloud.com</p>
-                </div>
-              </a>
+        <div class="text-center mt-10">
+          <a
+            href="https://youtube.com/@NobleOsinachi"
+            target="_blank"
+            class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-3 px-8 rounded-lg inline-flex items-center"
+          >
+            <i class="fab fa-youtube mr-2"></i> View Full Portfolio
+          </a>
+        </div>
+      </div>
+    </section>
 
-              <a href="https://instagram.com/NobleOsinachi" target="_blank"
-                class="flex items-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all">
-                <div class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4">
-                  <i class="fab fa-instagram text-blue-500"></i>
-                </div>
-                <div>
-                  <p class="font-semibold">Instagram</p>
-                  <p class="text-gray-400">@NobleOsinachi</p>
-                </div>
-              </a>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-800">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Client <span class="text-blue-500">Testimonials</span>
+          </h2>
+          <div class="w-16 h-1 bg-blue-500 mx-auto mb-6"></div>
+          <p class="text-gray-300 max-w-2xl mx-auto">
+            Don't just take my word for it. Here's what my clients have to say
+            about working with me.
+          </p>
+        </div>
 
-              <a href="https://𝕏.com/NobleOsinachi" target="_blank"
-                class="flex items-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all">
-                <div class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4">
-                  <i class="fab fa-twitter text-blue-500"></i>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Testimonial 1 -->
+          <div
+            class="testimonial-card bg-gray-900 p-6 rounded-lg border border-gray-700"
+          >
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400 flex">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-300 mb-6 italic">
+              "He took our previous long-form conference videos and turned them
+              into short clips, and people are loving them! The videos look very
+              sharp."
+            </p>
+            <div class="flex items-center">
+              <div class="mr-4">
+                <div
+                  class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center"
+                >
+                  <span class="text-xl font-bold text-blue-500">F</span>
                 </div>
-                <div>
-                  <p class="font-semibold">Twitter</p>
-                  <p class="text-gray-400">@NobleOsinachi</p>
-                </div>
-              </a>
-
-              <a href="https://tiktok.com/@NobleOsinachi" target="_blank"
-                class="flex items-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all">
-                <div class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4">
-                  <i class="fab fa-tiktok text-blue-500"></i>
-                </div>
-                <div>
-                  <p class="font-semibold">TikTok</p>
-                  <p class="text-gray-400">@NobleOsinachi</p>
-                </div>
-              </a>
+              </div>
+              <div>
+                <h4 class="font-bold">Fortune</h4>
+                <p class="text-gray-400 text-sm">
+                  Founder, Ecom Growth Factory
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="bg-gradient-to-r from-blue-900 to-indigo-900 p-6 rounded-xl text-center">
-            <h3 class="text-xl font-bold mb-3">Ready for next-level content?</h3>
-            <p class="text-gray-300 mb-4">Book a free 15-minute consultation to discuss your project needs and goals.
+          <!-- Testimonial 2 -->
+          <div
+            class="testimonial-card bg-gray-900 p-6 rounded-lg border border-gray-700"
+          >
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400 flex">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-300 mb-6 italic">
+              "Those new creatives are performing really well. Over 65% watched
+              past 30 seconds, and our CTR jumped by 28%. Great delivery. Can't
+              thank you enough."
             </p>
-            <a href="https://calendly.com/nobleosinachi/30min" target="_blank"
-              class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
-              <i class="far fa-calendar-alt mr-2"></i> Schedule a Call
-            </a>
+            <div class="flex items-center">
+              <div class="mr-4">
+                <div
+                  class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center"
+                >
+                  <span class="text-xl font-bold text-blue-500">G</span>
+                </div>
+              </div>
+              <div>
+                <h4 class="font-bold">Gozzi</h4>
+                <p class="text-gray-400 text-sm">CEO, Hephzibah Stores</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div
+            class="testimonial-card bg-gray-900 p-6 rounded-lg border border-gray-700"
+          >
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400 flex">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-300 mb-6 italic">
+              "I won the grant! A lot of people even reposted the video pitch
+              because it came out really nice. Thanks for the quick turnaround
+              on short notice."
+            </p>
+            <div class="flex items-center">
+              <div class="mr-4">
+                <div
+                  class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center"
+                >
+                  <span class="text-xl font-bold text-blue-500">C</span>
+                </div>
+              </div>
+              <div>
+                <h4 class="font-bold">Anonymous Client</h4>
+                <p class="text-gray-400 text-sm">
+                  Awarded $20,000 Mentorship Grant
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="py-10 bg-gray-900 border-t border-gray-900">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-col md:flex-row justify-between items-center">
-        <div class="mb-6 md:mb-0">
-          <h1 class="text-2xl font-bold mb-2">Noble<span class="text-blue-500">Osinachi</span></h1>
-          <p class="text-gray-400">Professional Video Editor</p>
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-r from-blue-900 to-indigo-900">
+      <div class="container mx-auto px-4">
+        <div
+          class="bg-gray-900 rounded-2xl p-8 shadow-2xl border border-blue-500 max-w-4xl mx-auto"
+        >
+          <div class="text-center mb-8">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+              Ready to <span class="text-gradient">Transform</span> Your
+              Content?
+            </h2>
+            <p class="text-xl text-gray-300">
+              Let's create high-performing videos that drive real engagement and
+              conversions.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-gray-800 p-6 rounded-xl">
+              <h3 class="text-xl font-bold mb-4 flex items-center">
+                <i class="fas fa-rocket text-blue-500 mr-2"></i> Boost Your
+                Social Media
+              </h3>
+              <p class="text-gray-300 mb-4">
+                Get scroll-stopping short-form content that gets viewed, shared,
+                and drives audience growth across all platforms.
+              </p>
+              <ul class="text-gray-400 space-y-2 mb-6">
+                <li class="flex items-start">
+                  <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                  <span>High-retention edits that keep viewers watching</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                  <span>Platform-specific optimization</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                  <span>Fast turnaround times</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="bg-gray-800 p-6 rounded-xl">
+              <h3 class="text-xl font-bold mb-4 flex items-center">
+                <i class="fas fa-chart-line text-blue-500 mr-2"></i> Increase
+                Your Conversions
+              </h3>
+              <p class="text-gray-300 mb-4">
+                Get high-converting video ads and VSLs that turn viewers into
+                customers and drive real ROI.
+              </p>
+              <ul class="text-gray-400 space-y-2 mb-6">
+                <li class="flex items-start">
+                  <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                  <span>Persuasive direct response techniques</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                  <span>UGC-style ads that build trust</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                  <span>Results-driven approach</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="text-center mt-8">
+            <a
+              href="#contact"
+              class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-lg inline-block transition-all"
+              >Let's Work Together</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gray-900">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Frequently <span class="text-blue-500">Asked Questions</span>
+          </h2>
+          <div class="w-16 h-1 bg-blue-500 mx-auto mb-6"></div>
+          <p class="text-gray-300 max-w-2xl mx-auto">
+            Got questions? I've got answers.
+          </p>
         </div>
 
-        <div class="flex space-x-6 mb-6 md:mb-0">
-          <a href="https://instagram.com/NobleOsinachi" target="_blank"
-            class="social-icon text-gray-400 hover:text-blue-500">
-            <i class="fab fa-instagram text-xl"></i>
-          </a>
-          <a href="https://𝕏.com/NobleOsinachi" target="_blank" class="social-icon text-gray-400 hover:text-blue-500">
-            <i class="fab fa-twitter text-xl"></i>
-          </a>
-          <a href="https://linkedin.com/in/NobleOsinachi" target="_blank"
-            class="social-icon text-gray-400 hover:text-blue-500">
-            <i class="fab fa-linkedin text-xl"></i>
-          </a>
-          <a href="https://youtube.com/@NobleOsinachi" target="_blank"
-            class="social-icon text-gray-400 hover:text-blue-500">
-            <i class="fab fa-youtube text-xl"></i>
-          </a>
-          <a href="https://tiktok.com/@NobleOsinachi" target="_blank"
-            class="social-icon text-gray-400 hover:text-blue-500">
-            <i class="fab fa-tiktok text-xl"></i>
-          </a>
+        <div class="max-w-3xl mx-auto">
+          <div class="mb-6 bg-gray-900 rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-3">What's your turnaround time?</h3>
+            <p class="text-gray-300">
+              For standard projects, I deliver within 3-5 business days
+              depending on the package and complexity. For urgent requests, I
+              offer expedited services at an additional fee. Just let me know
+              your timeline, and I'll do my best to accommodate.
+            </p>
+          </div>
+
+          <div class="mb-6 bg-gray-900 rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-3">Do you provide revisions?</h3>
+            <p class="text-gray-300">
+              Yes! All packages include 1-2 rounds of revisions to ensure you're
+              completely satisfied with the final product. Additional revision
+              rounds can be arranged at a small additional fee.
+            </p>
+          </div>
+
+          <div class="mb-6 bg-gray-900 rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-3">
+              What type of files do you need from me?
+            </h3>
+            <p class="text-gray-300">
+              I can work with most video and audio formats. For content
+              repurposing, simply provide your long-form content (podcast,
+              webinar, etc.), and I'll handle the rest. For custom projects,
+              I'll provide a detailed list of required assets after our initial
+              consultation.
+            </p>
+          </div>
+
+          <div class="mb-6 bg-gray-900 rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-3">
+              Do you offer script writing services?
+            </h3>
+            <p class="text-gray-300">
+              Absolutely! With my background in direct response copywriting, I
+              can craft compelling scripts for your videos that drive engagement
+              and conversions. This service can be added to any package or
+              purchased separately.
+            </p>
+          </div>
+
+          <div class="bg-gray-900 rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-3">
+              Which social platforms do you optimize for?
+            </h3>
+            <p class="text-gray-300">
+              I create optimized content for all major social platforms
+              including TikTok, Instagram Reels, YouTube Shorts, Facebook, and
+              LinkedIn. Each platform has different requirements and best
+              practices, which I carefully consider during the editing process.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-800">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Let's <span class="text-blue-500">Connect</span>
+          </h2>
+          <div class="w-16 h-1 bg-blue-500 mx-auto mb-6"></div>
+          <p class="text-gray-300 max-w-2xl mx-auto">
+            Ready to take your content to the next level? Reach out and let's
+            discuss how I can help you achieve your goals.
+          </p>
         </div>
 
-        <div>
-          <p class="text-gray-500 text-sm">&copy; 2025 Noble Osinachi. All rights reserved.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+          <div>
+            <div class="bg-gray-800 p-8 rounded-xl shadow-lg">
+              <h3 class="text-2xl font-bold mb-6">Get In Touch</h3>
+
+              <form>
+                <div class="mb-4">
+                  <label for="name" class="block text-gray-300 mb-2"
+                    >Your Name</label
+                  >
+                  <input
+                    required
+                    type="text"
+                    id="name"
+                    class="w-full bg-gray-700 border border-gray-600 rounded-lg py-3 px-4 text-white focus:outline-none focus:border-blue-500"
+                  />
+                </div>
+
+                <div class="mb-4">
+                  <label for="email" class="block text-gray-300 mb-2"
+                    >Your Email</label
+                  >
+                  <input
+                    required
+                    type="email"
+                    id="email"
+                    class="w-full bg-gray-700 border border-gray-600 rounded-lg py-3 px-4 text-white focus:outline-none focus:border-blue-500"
+                  />
+                </div>
+
+                <div class="mb-4">
+                  <label for="project" class="block text-gray-300 mb-2"
+                    >Project Type</label
+                  >
+                  <select
+                    required
+                    id="project"
+                    class="w-full bg-gray-700 border border-gray-600 rounded-lg py-3 px-4 text-white focus:outline-none focus:border-blue-500"
+                  >
+                    <option>Short-Form Content</option>
+                    <option>UGC Ads</option>
+                    <option>Video Sales Letter (VSL)</option>
+                    <option>Content Repurposing</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+
+                <div class="mb-6">
+                  <label for="message" class="block text-gray-300 mb-2"
+                    >Project Details</label
+                  >
+                  <textarea
+                    required
+                    id="message"
+                    rows="5"
+                    class="w-full bg-gray-700 border border-gray-600 rounded-lg py-3 px-4 text-white focus:outline-none focus:border-blue-500"
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-3 px-4 rounded-lg transition-all"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div>
+            <div class="bg-gray-800 p-8 rounded-xl shadow-lg mb-8">
+              <h3 class="text-2xl font-bold mb-6">Connect With Me</h3>
+
+              <div class="space-y-4">
+                <a
+                  href="mailto:nobleosinachi@icloud.com"
+                  class="flex items-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all"
+                >
+                  <div
+                    class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4"
+                  >
+                    <i class="fas fa-envelope text-blue-500"></i>
+                  </div>
+                  <div>
+                    <p class="font-semibold">Email</p>
+                    <p class="text-gray-400">nobleosinachi@icloud.com</p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://instagram.com/NobleOsinachi"
+                  target="_blank"
+                  class="flex items-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all"
+                >
+                  <div
+                    class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4"
+                  >
+                    <i class="fab fa-instagram text-blue-500"></i>
+                  </div>
+                  <div>
+                    <p class="font-semibold">Instagram</p>
+                    <p class="text-gray-400">@NobleOsinachi</p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://𝕏.com/NobleOsinachi"
+                  target="_blank"
+                  class="flex items-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all"
+                >
+                  <div
+                    class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4"
+                  >
+                    <i class="fab fa-twitter text-blue-500"></i>
+                  </div>
+                  <div>
+                    <p class="font-semibold">Twitter</p>
+                    <p class="text-gray-400">@NobleOsinachi</p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://tiktok.com/@NobleOsinachi"
+                  target="_blank"
+                  class="flex items-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all"
+                >
+                  <div
+                    class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4"
+                  >
+                    <i class="fab fa-tiktok text-blue-500"></i>
+                  </div>
+                  <div>
+                    <p class="font-semibold">TikTok</p>
+                    <p class="text-gray-400">@NobleOsinachi</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div
+              class="bg-gradient-to-r from-blue-900 to-indigo-900 p-6 rounded-xl text-center"
+            >
+              <h3 class="text-xl font-bold mb-3">
+                Ready for next-level content?
+              </h3>
+              <p class="text-gray-300 mb-4">
+                Book a free 15-minute consultation to discuss your project needs
+                and goals.
+              </p>
+              <a
+                href="https://calendly.com/nobleosinachi/30min"
+                target="_blank"
+                class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg"
+              >
+                <i class="far fa-calendar-alt mr-2"></i> Schedule a Call
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 bg-gray-900 border-t border-gray-900">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-6 md:mb-0">
+            <h1 class="text-2xl font-bold mb-2">
+              Noble<span class="text-blue-500">Osinachi</span>
+            </h1>
+            <p class="text-gray-400">Professional Video Editor</p>
+          </div>
+
+          <div class="flex space-x-6 mb-6 md:mb-0">
+            <a
+              href="https://instagram.com/NobleOsinachi"
+              target="_blank"
+              class="social-icon text-gray-400 hover:text-blue-500"
+            >
+              <i class="fab fa-instagram text-xl"></i>
+            </a>
+            <a
+              href="https://𝕏.com/NobleOsinachi"
+              target="_blank"
+              class="social-icon text-gray-400 hover:text-blue-500"
+            >
+              <i class="fab fa-twitter text-xl"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/NobleOsinachi"
+              target="_blank"
+              class="social-icon text-gray-400 hover:text-blue-500"
+            >
+              <i class="fab fa-linkedin text-xl"></i>
+            </a>
+            <a
+              href="https://youtube.com/@NobleOsinachi"
+              target="_blank"
+              class="social-icon text-gray-400 hover:text-blue-500"
+            >
+              <i class="fab fa-youtube text-xl"></i>
+            </a>
+            <a
+              href="https://tiktok.com/@NobleOsinachi"
+              target="_blank"
+              class="social-icon text-gray-400 hover:text-blue-500"
+            >
+              <i class="fab fa-tiktok text-xl"></i>
+            </a>
+          </div>
+
+          <div>
+            <p class="text-gray-500 text-sm">
+              &copy; 2025 Noble Osinachi. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="fixed bottom-8 right-8">
+      <a
+        href="#home"
+        class="bg-blue-600 hover:bg-blue-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-all"
+      >
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <!-- Mobile Navigation Menu (Hidden by default) -->
+    <div
+      class="fixed inset-0 bg-gray-900 bg-opacity-95 z-50 hidden"
+      id="mobile-menu"
+    >
+      <div class="container mx-auto px-4 py-6">
+        <div class="flex justify-between items-center mb-8">
+          <h1 class="text-2xl font-bold">
+            Noble<span class="text-blue-500">Osinachi</span>
+          </h1>
+          <button class="focus:outline-none" id="close-menu">
+            <i class="fas fa-times text-2xl"></i>
+          </button>
+        </div>
+
+        <div class="flex flex-col space-y-6">
+          <a href="#home" class="text-xl font-medium">Home</a>
+          <a href="#about" class="text-xl font-medium">About</a>
+          <a href="#services" class="text-xl font-medium">Services</a>
+          <a href="#portfolio" class="text-xl font-medium">Portfolio</a>
+          <a href="#testimonials" class="text-xl font-medium">Testimonials</a>
+          <a href="#pricing" class="text-xl font-medium">Pricing</a>
+          <a href="#contact" class="text-xl font-medium">Contact</a>
+        </div>
+
+        <div class="mt-10 flex justify-center space-x-6">
+          <a
+            href="https://instagram.com/NobleOsinachi"
+            target="_blank"
+            class="text-gray-400 hover:text-blue-500"
+          >
+            <i class="fab fa-instagram text-2xl"></i>
+          </a>
+          <a
+            href="https://𝕏.com/NobleOsinachi"
+            target="_blank"
+            class="text-gray-400 hover:text-blue-500"
+          >
+            <i class="fab fa-twitter text-2xl"></i>
+          </a>
+          <a
+            href="https://linkedin.com/in/NobleOsinachi"
+            target="_blank"
+            class="text-gray-400 hover:text-blue-500"
+          >
+            <i class="fab fa-linkedin text-2xl"></i>
+          </a>
+          <a
+            href="https://tiktok.com/@NobleOsinachi"
+            target="_blank"
+            class="text-gray-400 hover:text-blue-500"
+          >
+            <i class="fab fa-tiktok text-2xl"></i>
+          </a>
         </div>
       </div>
     </div>
-  </footer>
 
-  <!-- Back to Top Button -->
-  <div class="fixed bottom-8 right-8">
-    <a href="#home"
-      class="bg-blue-600 hover:bg-blue-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-all">
-      <i class="fas fa-arrow-up"></i>
-    </a>
-  </div>
+    <!-- Simple JavaScript for mobile menu toggle and contact form -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // === Mobile Menu Logic ===
+        const mobileMenuButton = document.querySelector(".md\\:hidden button");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const closeMenuButton = document.getElementById("close-menu");
+        const mobileMenuLinks = document.querySelectorAll("#mobile-menu a");
 
-  <!-- Mobile Navigation Menu (Hidden by default) -->
-  <div class="fixed inset-0 bg-gray-900 bg-opacity-95 z-50 hidden" id="mobile-menu">
-    <div class="container mx-auto px-4 py-6">
-      <div class="flex justify-between items-center mb-8">
-        <h1 class="text-2xl font-bold">Noble<span class="text-blue-500">Osinachi</span></h1>
-        <button class="focus:outline-none" id="close-menu">
-          <i class="fas fa-times text-2xl"></i>
-        </button>
-      </div>
-
-      <div class="flex flex-col space-y-6">
-        <a href="#home" class="text-xl font-medium">Home</a>
-        <a href="#about" class="text-xl font-medium">About</a>
-        <a href="#services" class="text-xl font-medium">Services</a>
-        <a href="#portfolio" class="text-xl font-medium">Portfolio</a>
-        <a href="#testimonials" class="text-xl font-medium">Testimonials</a>
-        <a href="#pricing" class="text-xl font-medium">Pricing</a>
-        <a href="#contact" class="text-xl font-medium">Contact</a>
-      </div>
-
-      <div class="mt-10 flex justify-center space-x-6">
-        <a href="https://instagram.com/NobleOsinachi" target="_blank" class="text-gray-400 hover:text-blue-500">
-          <i class="fab fa-instagram text-2xl"></i>
-        </a>
-        <a href="https://𝕏.com/NobleOsinachi" target="_blank" class="text-gray-400 hover:text-blue-500">
-          <i class="fab fa-twitter text-2xl"></i>
-        </a>
-        <a href="https://linkedin.com/in/NobleOsinachi" target="_blank" class="text-gray-400 hover:text-blue-500">
-          <i class="fab fa-linkedin text-2xl"></i>
-        </a>
-        <a href="https://tiktok.com/@NobleOsinachi" target="_blank" class="text-gray-400 hover:text-blue-500">
-          <i class="fab fa-tiktok text-2xl"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Simple JavaScript for mobile menu toggle and contact form -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // === Mobile Menu Logic ===
-      const mobileMenuButton = document.querySelector('.md\\:hidden button');
-      const mobileMenu = document.getElementById('mobile-menu');
-      const closeMenuButton = document.getElementById('close-menu');
-      const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
-
-      if (mobileMenuButton && mobileMenu && closeMenuButton) {
-        mobileMenuButton.addEventListener('click', function () {
-          mobileMenu.classList.remove('hidden');
-        });
-
-        closeMenuButton.addEventListener('click', function () {
-          mobileMenu.classList.add('hidden');
-        });
-
-        mobileMenuLinks.forEach(link => {
-          link.addEventListener('click', function () {
-            mobileMenu.classList.add('hidden');
+        if (mobileMenuButton && mobileMenu && closeMenuButton) {
+          mobileMenuButton.addEventListener("click", function () {
+            mobileMenu.classList.remove("hidden");
           });
-        });
-      }
 
-      // === Contact Form Logic ===
-      const contactForm = document.querySelector('form');
+          closeMenuButton.addEventListener("click", function () {
+            mobileMenu.classList.add("hidden");
+          });
 
-      if (contactForm) {
-        contactForm.addEventListener('submit', async function (e) {
-          e.preventDefault();
-
-          const nameInput = document.getElementById('name');
-          const emailInput = document.getElementById('email');
-          const projectInput = document.getElementById('project');
-          const messageInput = document.getElementById('message');
-          const submitButton = document.querySelector('button[type="submit"]');
-
-          if (!nameInput.value || !emailInput.value || !messageInput.value) {
-            alert('Please fill in all required fields');
-            return;
-          }
-
-          submitButton.disabled = true;
-          submitButton.innerHTML = 'Sending...';
-
-          try {
-            // const url = "http://localhost:3000/submit-form";
-            const url = "https://nobleosinachi-email-api.onrender.com/submit-form";
-
-            const response = await fetch(url, {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json',
-              },
-              body: JSON.stringify({
-                name: nameInput.value,
-                email: emailInput.value,
-                project: projectInput.value,
-                message: messageInput.value
-              })
+          mobileMenuLinks.forEach((link) => {
+            link.addEventListener("click", function () {
+              mobileMenu.classList.add("hidden");
             });
+          });
+        }
 
-            const result = await response.json();
+        // === Contact Form Logic ===
+        const contactForm = document.querySelector("form");
 
-            if (result.success) {
-              const formContainer = contactForm.parentElement;
-              const originalFormHTML = formContainer.innerHTML;
+        if (contactForm) {
+          contactForm.addEventListener("submit", async function (e) {
+            e.preventDefault();
 
-              formContainer.innerHTML = `
+            const nameInput = document.getElementById("name");
+            const emailInput = document.getElementById("email");
+            const projectInput = document.getElementById("project");
+            const messageInput = document.getElementById("message");
+            const submitButton = document.querySelector(
+              'button[type="submit"]'
+            );
+
+            if (!nameInput.value || !emailInput.value || !messageInput.value) {
+              alert("Please fill in all required fields");
+              return;
+            }
+
+            submitButton.disabled = true;
+            submitButton.innerHTML = "Sending...";
+
+            try {
+              // const url = "http://localhost:3000/submit-form";
+              const url =
+                "https://nobleosinachi-email-api.onrender.com/submit-form";
+
+              const response = await fetch(url, {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                  name: nameInput.value,
+                  email: emailInput.value,
+                  project: projectInput.value,
+                  message: messageInput.value,
+                }),
+              });
+
+              const result = await response.json();
+
+              if (result.success) {
+                const formContainer = contactForm.parentElement;
+                const originalFormHTML = formContainer.innerHTML;
+
+                formContainer.innerHTML = `
   <div class="text-center py-8">
     <svg xmlns="http://w3.org/2000/svg" class="h-16 w-16 text-green-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
@@ -964,30 +1298,29 @@
   </div>
 `;
 
-              // Restore the form after 10 seconds
-              setTimeout(() => {
-                formContainer.innerHTML = originalFormHTML;
+                // Restore the form after 10 seconds
+                setTimeout(() => {
+                  formContainer.innerHTML = originalFormHTML;
 
+                  submitButton.disabled = false;
+                  submitButton.innerHTML = "Send Message";
+                }, 10000);
+              } else {
+                alert(
+                  result.message || "Something went wrong. Please try again."
+                );
                 submitButton.disabled = false;
-                submitButton.innerHTML = 'Send Message';
-              }, 10000);
-
-            } else {
-              alert(result.message || 'Something went wrong. Please try again.');
+                submitButton.innerHTML = "Send Message";
+              }
+            } catch (error) {
+              console.error("Error submitting form:", error);
+              alert("Failed to send message. Please try again later.");
               submitButton.disabled = false;
-              submitButton.innerHTML = 'Send Message';
+              submitButton.innerHTML = "Send Message";
             }
-          } catch (error) {
-            console.error('Error submitting form:', error);
-            alert('Failed to send message. Please try again later.');
-            submitButton.disabled = false;
-            submitButton.innerHTML = 'Send Message';
-          }
-        });
-      }
-    });
-  </script>
-
-</body>
-
+          });
+        }
+      });
+    </script>
+  </body>
 </html>
