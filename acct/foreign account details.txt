@@ -1,5 +1,4 @@
-geegpay
-
+Geegpay
 Account Holder: Noble Chukwukere
 Bank Name: Wells Fargo Bank, N.a.
 Account Number: 40630148376655803
@@ -7,7 +6,7 @@ Account Type: Checking
 Routing Number: 121000248
 Address: 580 California Street, San Francisco, CA 94104, US
 
-grey
+Grey
 Account holder : Noble Osinachi Chukwukere 
 ACCOUNT NUMBER : 219079729687 
 BANK NAME : Lead Bank 

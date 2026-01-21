@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
@@ -237,6 +237,8 @@
           "
         >
           <iframe
+            loading="lazy"
+            decoding="async"
             src="https://youtube.com/embed/YecAgTPbCIE"
             frameborder="0"
             allowfullscreen
@@ -539,12 +541,21 @@
             <!-- Luke Belmar Podcast -->
             <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
               <iframe
+                loading="lazy"
+                decoding="async"
                 width="100%"
                 height="100%"
                 src="https://youtube.com/embed/tAe-vn-U6rc"
                 title="YouTube video player"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                "
                 allowfullscreen
               >
               </iframe>
@@ -552,12 +563,21 @@
             <!-- Meet Alex Sedlak, the 24 Year Old Millionaire who built a massive business on Whop -->
             <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
               <iframe
+                loading="lazy"
+                decoding="async"
                 width="100%"
                 height="100%"
                 src="https://youtube.com/embed/1FyRBvrmtx0"
                 title="YouTube video player"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                "
                 allowfullscreen
               >
               </iframe>
@@ -565,12 +585,21 @@
             <!-- Billionaires in e-Commerce -->
             <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
               <iframe
+                loading="lazy"
+                decoding="async"
                 width="100%"
                 height="100%"
                 src="https://youtube.com/embed/htkuFZZKLYg"
                 title="YouTube video player"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                "
                 allowfullscreen
               >
               </iframe>
@@ -587,12 +616,21 @@
             <!-- GRAMS28 Leather Folio -->
             <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
               <iframe
+                loading="lazy"
+                decoding="async"
                 width="100%"
                 height="100%"
                 src="https://youtube.com/embed/CSKa1maz_So"
                 title="YouTube video player"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                "
                 allowfullscreen
               >
               </iframe>
@@ -600,12 +638,21 @@
             <!-- Replit VSL Matt Palmer -->
             <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
               <iframe
+                loading="lazy"
+                decoding="async"
                 width="100%"
                 height="100%"
                 src="https://youtube.com/embed/S6MLXV-qrFY"
                 title="YouTube video player"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                "
                 allowfullscreen
               >
               </iframe>
@@ -613,12 +660,21 @@
             <!-- Self Defence Flash Light -->
             <div class="bg-gray-800 rounded-lg overflow-hidden h-64">
               <iframe
+                loading="lazy"
+                decoding="async"
                 width="100%"
                 height="100%"
                 src="https://youtube.com/embed/b3MCIe5WKFc"
                 title="YouTube video player"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                "
                 allowfullscreen
               >
               </iframe>
@@ -1253,7 +1309,7 @@
             const projectInput = document.getElementById("project");
             const messageInput = document.getElementById("message");
             const submitButton = document.querySelector(
-              'button[type="submit"]'
+              'button[type="submit"]',
             );
 
             if (!nameInput.value || !emailInput.value || !messageInput.value) {
@@ -1307,7 +1363,7 @@
                 }, 10000);
               } else {
                 alert(
-                  result.message || "Something went wrong. Please try again."
+                  result.message || "Something went wrong. Please try again.",
                 );
                 submitButton.disabled = false;
                 submitButton.innerHTML = "Send Message";
