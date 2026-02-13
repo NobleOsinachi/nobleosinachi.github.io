@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <!-- homepage automatically redirect to /video-editor -->
+    <meta http-equiv="refresh" content="0; url=/video-editor" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-720Y6D4QNV"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-720Y6D4QNV");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta -->
+    <title>Noble Osinachi | Full Stack Software Developer & Engineer</title>
+    <meta
+      name="description"
+      content="Full Stack Software Developer with 10+ years of experience. I build scalable web applications, APIs, integrations, and systems. Specializing in Node.js, React, .NET, and cloud architecture. Available for hire."
+    />
+    <meta
+      name="keywords"
+      content="Noble Osinachi, full stack developer, software engineer, web developer, Node.js, React, backend developer, frontend developer, API development, web applications, developer portfolio"
+    />
+    <link rel="canonical" href="https://nobleosinachi.com/developer/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nobleosinachi.com/developer/" />
+    <meta property="og:title" content="Noble Osinachi - Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Full Stack Software Developer. 10+ years building scalable applications, APIs, and systems."
+    />
+    <meta
+      property="og:image"
+      content="https://nobleosinachi.com/images/preview.png"
+    />
+    <meta
+      property="og:site_name"
+      content="Noble Osinachi - Developer Portfolio"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://nobleosinachi.com/developer/" />
+    <meta
+      name="twitter:title"
+      content="Noble Osinachi - Full Stack Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="Full Stack Software Developer building scalable web applications and robust systems."
+    />
+    <meta
+      name="twitter:image"
+      content="https://nobleosinachi.com/images/preview.png"
+    />
+    <meta name="twitter:creator" content="@NobleOsinachi" />
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Noble Osinachi",
+        "url": "https://nobleosinachi.com/developer/",
+        "image": "https://nobleosinachi.com/images/preview.png",
+        "jobTitle": "Full Stack Software Developer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Freelance"
+        },
+        "sameAs": [
+          "https://twitter.com/NobleOsinachi",
+          "https://linkedin.com/in/NobleOsinachi",
+          "https://github.com/NobleOsinachi"
+        ]
+      }
+    </script>
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0a0a0a" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/favicon-192.png" sizes="192x192" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+
+    <!-- Stylesheets -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- Fonts -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        scroll-behavior: smooth;
+      }
+
+      .gradient-bg {
+        background: linear-gradient(90deg, #0f172a 0%, #1e293b 100%);
+      }
+
+      .text-gradient {
+        background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .service-card {
+        transition: all 0.3s ease;
+      }
+
+      .service-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .project-card {
+        transition: all 0.3s ease;
+      }
+
+      .project-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 25px 50px rgba(96, 165, 250, 0.2);
+      }
+
+      .skill-badge {
+        transition: all 0.3s ease;
+        display: inline-block;
+      }
+
+      .skill-badge:hover {
+        transform: scale(1.05) translateY(-2px);
+      }
+
+      .testimonial-card {
+        transition: transform 0.3s ease;
+      }
+
+      .testimonial-card:hover {
+        transform: scale(1.02);
+      }
+
+      .social-icon {
+        transition: all 0.3s ease;
+      }
+
+      .social-icon:hover {
+        transform: translateY(-3px);
+        color: #60a5fa;
+      }
+
+      .nav-link {
+        position: relative;
+      }
+
+      .nav-link::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -2px;
+        left: 0;
+        background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
+        transition: width 0.3s ease;
+      }
+
+      .nav-link:hover::after {
+        width: 100%;
+      }
+
+      .process-step {
+        position: relative;
+        padding-left: 60px;
+      }
+
+      .process-step::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(90deg, #60a5fa 0%, #e879f9 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: white;
+      }
+
+      .faq-item {
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .faq-item.active .faq-answer {
+        max-height: 500px;
+        opacity: 1;
+      }
+
+      .faq-answer {
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: all 0.3s ease;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav
+      class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-filter backdrop-blur-sm border-b border-gray-800"
+    >
+      <div
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center">
+          <h1 class="text-2xl font-bold">
+            Noble<span class="text-blue-500">Dev</span>
+          </h1>
+        </div>
+        <div class="hidden md:flex space-x-8">
+          <a href="#home" class="nav-link font-medium text-sm">Home</a>
+          <a href="#skills" class="nav-link font-medium text-sm">Skills</a>
+          <a href="#projects" class="nav-link font-medium text-sm">Projects</a>
+          <a href="#process" class="nav-link font-medium text-sm">Process</a>
+          <a href="#testimonials" class="nav-link font-medium text-sm"
+            >Testimonials</a
+          >
+          <a href="#faq" class="nav-link font-medium text-sm">FAQ</a>
+          <a href="#contact" class="nav-link font-medium text-sm">Contact</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-button">
+            <i class="fas fa-bars text-2xl"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 pb-20 gradient-bg">
+      <div
+        class="container mx-auto px-4 sm:px-6 lg:px-12 flex flex-col md:flex-row items-center gap-12"
+      >
+        <div class="md:w-1/2 mb-10 md:mb-0">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+            <span class="text-gradient">Full Stack Developer</span> Who Gets
+            Things Done
+          </h1>
+          <p class="text-xl text-gray-300 mb-3 leading-relaxed">
+            10+ years building scalable web applications, robust APIs, and
+            systems that drive business results.
+          </p>
+          <p class="text-lg text-gray-400 mb-8 leading-relaxed">
+            I combine clean code, smart architecture, and business thinking to
+            deliver solutions that don't just work—they scale, perform, and
+            adapt.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 mb-8">
+            <a
+              href="#contact"
+              class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg inline-block text-center transition-all"
+            >
+              Hire Me
+            </a>
+            <a
+              href="https://github.com/NobleOsinachi"
+              target="_blank"
+              class="bg-transparent hover:bg-gray-800 text-blue-400 font-semibold py-4 px-8 border border-blue-500 hover:border-transparent rounded-lg inline-block text-center transition-all"
+            >
+              View GitHub
+            </a>
+          </div>
+          <div class="flex gap-6">
+            <a
+              href="https://github.com/NobleOsinachi"
+              target="_blank"
+              class="text-gray-400 social-icon hover:text-blue-500"
+            >
+              <i class="fab fa-github text-2xl"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/NobleOsinachi"
+              target="_blank"
+              class="text-gray-400 social-icon hover:text-blue-500"
+            >
+              <i class="fab fa-linkedin text-2xl"></i>
+            </a>
+            <a
+              href="https://twitter.com/NobleOsinachi"
+              target="_blank"
+              class="text-gray-400 social-icon hover:text-blue-500"
+            >
+              <i class="fab fa-twitter text-2xl"></i>
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <div class="relative">
+            <div
+              class="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg blur-lg opacity-30"
+            ></div>
+            <div
+              class="relative bg-gray-800 border-2 border-gray-700 rounded-lg overflow-hidden shadow-2xl"
+            >
+              <img
+                src="https://nobleosinachi.com/images/nobleosinachi.png"
+                alt="Noble Osinachi - Full Stack Developer"
+                class="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-800 bg-opacity-40">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">
+            My <span class="text-gradient">Tech Stack</span>
+          </h2>
+          <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+            Tools and technologies I use to build fast, reliable, and scalable
+            systems.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+          <!-- Frontend -->
+          <div
+            class="service-card bg-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500"
+          >
+            <div class="flex items-center mb-6">
+              <div
+                class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-4"
+              >
+                <i class="fas fa-laptop-code text-white text-xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold">Frontend</h3>
+            </div>
+            <div class="space-y-3">
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-blue-900 text-blue-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >React</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-blue-900 text-blue-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >TypeScript</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-blue-900 text-blue-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Tailwind CSS</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-blue-900 text-blue-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Next.js</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-blue-900 text-blue-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Vue.js</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-blue-900 text-blue-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Redux</span
+                >
+              </div>
+            </div>
+            <p class="text-gray-400 mt-6 text-sm">
+              Building responsive, performant user interfaces that work across
+              all devices. Specializing in modern frameworks and state
+              management.
+            </p>
+          </div>
+
+          <!-- Backend -->
+          <div
+            class="service-card bg-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500"
+          >
+            <div class="flex items-center mb-6">
+              <div
+                class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-4"
+              >
+                <i class="fas fa-server text-white text-xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold">Backend</h3>
+            </div>
+            <div class="space-y-3">
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-purple-900 text-purple-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Node.js</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-purple-900 text-purple-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >.NET Core</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-purple-900 text-purple-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Express.js</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-purple-900 text-purple-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >REST APIs</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-purple-900 text-purple-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >GraphQL</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-purple-900 text-purple-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Microservices</span
+                >
+              </div>
+            </div>
+            <p class="text-gray-400 mt-6 text-sm">
+              Building fast, scalable server-side applications. Strong focus on
+              clean architecture, database design, and robust API development.
+            </p>
+          </div>
+
+          <!-- Databases & Tools -->
+          <div
+            class="service-card bg-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500"
+          >
+            <div class="flex items-center mb-6">
+              <div
+                class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-4"
+              >
+                <i class="fas fa-database text-white text-xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold">Databases & Data</h3>
+            </div>
+            <div class="space-y-3">
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-green-900 text-green-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >PostgreSQL</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-green-900 text-green-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >MongoDB</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-green-900 text-green-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >SQL Server</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-green-900 text-green-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Redis</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-green-900 text-green-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Firebase</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-green-900 text-green-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Data Modeling</span
+                >
+              </div>
+            </div>
+            <p class="text-gray-400 mt-6 text-sm">
+              Designing efficient database schemas, optimizing queries, and
+              choosing the right data solutions for different use cases.
+            </p>
+          </div>
+
+          <!-- DevOps & Tools -->
+          <div
+            class="service-card bg-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500"
+          >
+            <div class="flex items-center mb-6">
+              <div
+                class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mr-4"
+              >
+                <i class="fas fa-tools text-white text-xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold">DevOps & Tools</h3>
+            </div>
+            <div class="space-y-3">
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-orange-900 text-orange-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Docker</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-orange-900 text-orange-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Git & GitHub</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-orange-900 text-orange-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >CI/CD</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-orange-900 text-orange-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >AWS</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-orange-900 text-orange-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Linux</span
+                >
+              </div>
+              <div class="skill-badge">
+                <span
+                  class="inline-block bg-orange-900 text-orange-200 px-4 py-2 rounded-full text-sm font-semibold"
+                  >Testing & QA</span
+                >
+              </div>
+            </div>
+            <p class="text-gray-400 mt-6 text-sm">
+              Shipping reliable code with automated testing, CI/CD pipelines,
+              and cloud deployments. DevOps best practices throughout.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="p-8 bg-gradient-to-r from-blue-900 to-purple-900 rounded-lg text-center border border-blue-700"
+        >
+          <h3 class="text-2xl font-bold mb-3">Years of Experience</h3>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6">
+            <div>
+              <div class="text-4xl font-bold text-blue-400">10+</div>
+              <p class="text-gray-200 mt-2">Years Coding</p>
+            </div>
+            <div>
+              <div class="text-4xl font-bold text-purple-400">50+</div>
+              <p class="text-gray-200 mt-2">Projects Delivered</p>
+            </div>
+            <div>
+              <div class="text-4xl font-bold text-pink-400">40+</div>
+              <p class="text-gray-200 mt-2">Happy Clients</p>
+            </div>
+            <div>
+              <div class="text-4xl font-bold text-green-400">100%</div>
+              <p class="text-gray-200 mt-2">Reliable</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 gradient-bg">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">
+            Featured <span class="text-gradient">Projects</span>
+          </h2>
+          <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+            A selection of projects that showcase my ability to solve complex
+            problems and deliver real business value.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Project 1 -->
+          <div
+            class="project-card bg-gray-800 border border-gray-700 rounded-lg overflow-hidden hover:border-blue-500"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-blue-900 to-purple-900 flex items-center justify-center"
+            >
+              <i class="fas fa-chart-bar text-6xl text-blue-400 opacity-20"></i>
+            </div>
+            <div class="p-8">
+              <h3 class="text-2xl font-bold mb-3">Analytics Dashboard</h3>
+              <p class="text-gray-400 mb-6">
+                Real-time analytics platform for SaaS companies. Built with
+                React, Node.js, and PostgreSQL. Processes 1M+ data points daily
+                with sub-100ms query times.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span
+                  class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >React</span
+                >
+                <span
+                  class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >Node.js</span
+                >
+                <span
+                  class="bg-green-900 text-green-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >PostgreSQL</span
+                >
+                <span
+                  class="bg-orange-900 text-orange-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >AWS</span
+                >
+              </div>
+              <div class="border-t border-gray-700 pt-4">
+                <p class="text-sm text-gray-400 mb-3">
+                  <i class="fas fa-star text-yellow-400 mr-2"></i>Result:
+                  Reduced customer queries by 60%
+                </p>
+                <a
+                  href="#"
+                  class="inline-block text-blue-400 hover:text-blue-300 font-semibold transition-all"
+                >
+                  View Project <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div
+            class="project-card bg-gray-800 border border-gray-700 rounded-lg overflow-hidden hover:border-blue-500"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-purple-900 to-pink-900 flex items-center justify-center"
+            >
+              <i
+                class="fas fa-shopping-cart text-6xl text-purple-400 opacity-20"
+              ></i>
+            </div>
+            <div class="p-8">
+              <h3 class="text-2xl font-bold mb-3">E-commerce Platform</h3>
+              <p class="text-gray-400 mb-6">
+                Full-stack e-commerce solution with payment processing,
+                inventory management, and order tracking. Handles 10k+ daily
+                transactions.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span
+                  class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >Next.js</span
+                >
+                <span
+                  class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >.NET Core</span
+                >
+                <span
+                  class="bg-green-900 text-green-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >SQL Server</span
+                >
+                <span
+                  class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >Stripe</span
+                >
+              </div>
+              <div class="border-t border-gray-700 pt-4">
+                <p class="text-sm text-gray-400 mb-3">
+                  <i class="fas fa-star text-yellow-400 mr-2"></i>Result: $2M+
+                  annual revenue
+                </p>
+                <a
+                  href="#"
+                  class="inline-block text-blue-400 hover:text-blue-300 font-semibold transition-all"
+                >
+                  View Project <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div
+            class="project-card bg-gray-800 border border-gray-700 rounded-lg overflow-hidden hover:border-blue-500"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-green-900 to-blue-900 flex items-center justify-center"
+            >
+              <i class="fas fa-plug text-6xl text-green-400 opacity-20"></i>
+            </div>
+            <div class="p-8">
+              <h3 class="text-2xl font-bold mb-3">API Integration System</h3>
+              <p class="text-gray-400 mb-6">
+                Middleware platform connecting 15+ external services. Built with
+                Node.js and GraphQL. Manages 100k+ API calls daily with 99.9%
+                uptime.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span
+                  class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >GraphQL</span
+                >
+                <span
+                  class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >Node.js</span
+                >
+                <span
+                  class="bg-green-900 text-green-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >MongoDB</span
+                >
+                <span
+                  class="bg-orange-900 text-orange-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >Docker</span
+                >
+              </div>
+              <div class="border-t border-gray-700 pt-4">
+                <p class="text-sm text-gray-400 mb-3">
+                  <i class="fas fa-star text-yellow-400 mr-2"></i>Result: 99.9%
+                  uptime SLA
+                </p>
+                <a
+                  href="#"
+                  class="inline-block text-blue-400 hover:text-blue-300 font-semibold transition-all"
+                >
+                  View Project <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div
+            class="project-card bg-gray-800 border border-gray-700 rounded-lg overflow-hidden hover:border-blue-500"
+          >
+            <div
+              class="h-48 bg-gradient-to-br from-pink-900 to-orange-900 flex items-center justify-center"
+            >
+              <i
+                class="fas fa-mobile-alt text-6xl text-pink-400 opacity-20"
+              ></i>
+            </div>
+            <div class="p-8">
+              <h3 class="text-2xl font-bold mb-3">Mobile App Backend</h3>
+              <p class="text-gray-400 mb-6">
+                Scalable REST API for multi-platform mobile app. Features
+                real-time notifications, push messaging, and complex data
+                synchronization.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span
+                  class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >Node.js</span
+                >
+                <span
+                  class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >Firebase</span
+                >
+                <span
+                  class="bg-green-900 text-green-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >Redis</span
+                >
+                <span
+                  class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs font-semibold"
+                  >WebSockets</span
+                >
+              </div>
+              <div class="border-t border-gray-700 pt-4">
+                <p class="text-sm text-gray-400 mb-3">
+                  <i class="fas fa-star text-yellow-400 mr-2"></i>Result: 500k+
+                  active users
+                </p>
+                <a
+                  href="#"
+                  class="inline-block text-blue-400 hover:text-blue-300 font-semibold transition-all"
+                >
+                  View Project <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12 text-center">
+          <a
+            href="https://github.com/NobleOsinachi"
+            target="_blank"
+            class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-12 rounded-lg transition-all"
+          >
+            View All Projects on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- How I Work -->
+    <section id="process" class="py-20 bg-gray-800 bg-opacity-40">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">
+            How I <span class="text-gradient">Work</span>
+          </h2>
+          <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+            My proven process for delivering high-quality software, on time,
+            every time.
+          </p>
+        </div>
+
+        <div class="max-w-3xl mx-auto space-y-12">
+          <div class="process-step" style="--step-number: '1'">
+            <h3 class="text-2xl font-bold mb-2">Discovery & Requirements</h3>
+            <p class="text-gray-300 mb-3">
+              We start by understanding your goals, constraints, and technical
+              requirements. I ask the right questions to ensure we build the
+              right solution.
+            </p>
+            <p class="text-gray-400 text-sm">
+              Deliverable: Detailed requirements document & technical scope
+            </p>
+          </div>
+
+          <div class="process-step" style="--step-number: '2'">
+            <h3 class="text-2xl font-bold mb-2">Architecture & Planning</h3>
+            <p class="text-gray-300 mb-3">
+              I design a scalable architecture with you, making smart tech
+              choices based on your needs. We plan for growth from day one.
+            </p>
+            <p class="text-gray-400 text-sm">
+              Deliverable: Architecture diagrams, tech stack decision document,
+              timeline
+            </p>
+          </div>
+
+          <div class="process-step" style="--step-number: '3'">
+            <h3 class="text-2xl font-bold mb-2">Implementation & Iteration</h3>
+            <p class="text-gray-300 mb-3">
+              Building with clean code, regular testing, and continuous
+              integration. You get regular updates and can see progress every
+              step.
+            </p>
+            <p class="text-gray-400 text-sm">
+              Deliverable: Working features, staging environment, weekly demos
+            </p>
+          </div>
+
+          <div class="process-step" style="--step-number: '4'">
+            <h3 class="text-2xl font-bold mb-2">Testing & Deployment</h3>
+            <p class="text-gray-300 mb-3">
+              Comprehensive testing (unit, integration, end-to-end) and
+              production deployment with zero downtime. Full monitoring setup.
+            </p>
+            <p class="text-gray-400 text-sm">
+              Deliverable: Production deployment, monitoring, documentation
+            </p>
+          </div>
+
+          <div class="process-step" style="--step-number: '5'">
+            <h3 class="text-2xl font-bold mb-2">Support & Optimization</h3>
+            <p class="text-gray-300 mb-3">
+              Launch is just the beginning. I stay available for bug fixes,
+              performance optimization, and new features as your product
+              evolves.
+            </p>
+            <p class="text-gray-400 text-sm">
+              Deliverable: Production support, performance reports, roadmap
+              updates
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20 gradient-bg">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">
+            What Clients <span class="text-gradient">Say</span>
+          </h2>
+          <p class="text-xl text-gray-300">
+            Real feedback from startups, agencies, and established companies
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8"
+          >
+            <div class="flex items-center mb-4">
+              <div class="flex text-yellow-400">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-300 mb-6">
+              "Noble built our entire backend from scratch. It was rock solid
+              from day one. His code is clean, well-documented, and he explains
+              his decisions clearly. Highly recommend."
+            </p>
+            <div>
+              <p class="font-semibold">James O.</p>
+              <p class="text-gray-400 text-sm">Startup Founder, Fintech</p>
+            </div>
+          </div>
+
+          <div
+            class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8"
+          >
+            <div class="flex items-center mb-4">
+              <div class="flex text-yellow-400">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-300 mb-6">
+              "We had a broken legacy system. Noble refactored it, reduced load
+              time by 70%, and trained our team on best practices. Professional,
+              reliable, responsive."
+            </p>
+            <div>
+              <p class="font-semibold">Ada M.</p>
+              <p class="text-gray-400 text-sm">Product Manager, SaaS Company</p>
+            </div>
+          </div>
+
+          <div
+            class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8"
+          >
+            <div class="flex items-center mb-4">
+              <div class="flex text-yellow-400">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-300 mb-6">
+              "Noble built our mobile app API in record time and it scales
+              beautifully. Zero downtime, 99.9% reliability. He's a keeper."
+            </p>
+            <div>
+              <p class="font-semibold">Tunde A.</p>
+              <p class="text-gray-400 text-sm">Tech Lead, Mobile Company</p>
+            </div>
+          </div>
+
+          <div
+            class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8"
+          >
+            <div class="flex items-center mb-4">
+              <div class="flex text-yellow-400">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-300 mb-6">
+              "The API integration work was complex, but Noble handled it
+              flawlessly. The system now processes 100k calls daily without
+              breaking a sweat."
+            </p>
+            <div>
+              <p class="font-semibold">Sarah L.</p>
+              <p class="text-gray-400 text-sm">CTO, Platform Company</p>
+            </div>
+          </div>
+
+          <div
+            class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8"
+          >
+            <div class="flex items-center mb-4">
+              <div class="flex text-yellow-400">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-300 mb-6">
+              "Exceptional communication throughout the project. Noble kept us
+              in the loop, asked the right questions, and delivered exactly what
+              we needed."
+            </p>
+            <div>
+              <p class="font-semibold">Marcus W.</p>
+              <p class="text-gray-400 text-sm">
+                Agency Owner, Development Agency
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="testimonial-card bg-gray-800 border border-gray-700 rounded-lg p-8"
+          >
+            <div class="flex items-center mb-4">
+              <div class="flex text-yellow-400">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-300 mb-6">
+              "Noble is a full-stack problem solver. He doesn't just code—he
+              thinks about architecture, scalability, and business impact.
+              Exactly what we needed."
+            </p>
+            <div>
+              <p class="font-semibold">Chioma E.</p>
+              <p class="text-gray-400 text-sm">
+                VP Engineering, E-commerce Company
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="py-20 bg-gray-800 bg-opacity-40">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-4xl md:text-5xl font-bold mb-8 text-center">
+            About <span class="text-gradient">Me</span>
+          </h2>
+
+          <div class="bg-gray-900 border border-gray-700 rounded-lg p-10">
+            <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+              I've been writing code for over 10 years. Started as a junior
+              developer, worked my way through mid-level positions, and now I
+              build complete systems from the ground up.
+            </p>
+
+            <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+              I've worked with startups bootstrapping their MVP, established
+              companies refactoring legacy systems, and agencies building custom
+              solutions for their clients. I've seen every kind of technical
+              problem and learned how to solve them efficiently.
+            </p>
+
+            <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+              What I believe in: clean code isn't optional, architecture
+              matters, performance matters, reliability matters. I don't cut
+              corners. I don't deliver half-baked solutions. I build things that
+              last.
+            </p>
+
+            <div class="bg-gray-800 border border-gray-700 rounded-lg p-6 mb-6">
+              <h3 class="font-bold text-xl mb-4">My Approach:</h3>
+              <ul class="space-y-3">
+                <li class="flex gap-3">
+                  <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                  <span
+                    >I ask questions before I code. Understanding the problem
+                    comes first.</span
+                  >
+                </li>
+                <li class="flex gap-3">
+                  <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                  <span
+                    >I write code for humans first, machines second.
+                    Maintainability is key.</span
+                  >
+                </li>
+                <li class="flex gap-3">
+                  <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                  <span
+                    >I think about scale from day one, even if you're small
+                    today.</span
+                  >
+                </li>
+                <li class="flex gap-3">
+                  <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                  <span
+                    >I communicate clearly and regularly. You're never in the
+                    dark.</span
+                  >
+                </li>
+                <li class="flex gap-3">
+                  <i class="fas fa-check text-blue-500 flex-shrink-0 mt-1"></i>
+                  <span
+                    >I deliver on time. Deadlines matter. Your business depends
+                    on it.</span
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <p class="text-lg text-gray-300 leading-relaxed">
+              When you hire me, you're getting a developer who treats your
+              project like it's their own business. Your success is my success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 gradient-bg">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">
+            Common <span class="text-gradient">Questions</span>
+          </h2>
+          <p class="text-xl text-gray-300">
+            Everything you need to know about working with me
+          </p>
+        </div>
+
+        <div class="max-w-3xl mx-auto space-y-4">
+          <div
+            class="faq-item bg-gray-800 border border-gray-700 rounded-lg overflow-hidden"
+            onclick="toggleFaq(this)"
+          >
+            <div
+              class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-700 transition-all"
+            >
+              <h3 class="text-lg font-semibold">What's your availability?</h3>
+              <i class="fas fa-chevron-down transition-transform"></i>
+            </div>
+            <div class="faq-answer px-6 pb-6 text-gray-300">
+              <p>
+                I'm currently available for new projects. I typically work on
+                1-2 projects at a time to ensure quality and responsiveness. I
+                can start immediately or work around your timeline.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="faq-item bg-gray-800 border border-gray-700 rounded-lg overflow-hidden"
+            onclick="toggleFaq(this)"
+          >
+            <div
+              class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-700 transition-all"
+            >
+              <h3 class="text-lg font-semibold">
+                How do you handle project pricing?
+              </h3>
+              <i class="fas fa-chevron-down transition-transform"></i>
+            </div>
+            <div class="faq-answer px-6 pb-6 text-gray-300">
+              <p>I typically work with one of three models:</p>
+              <ul class="list-disc list-inside mt-3 space-y-2">
+                <li>
+                  <strong>Fixed price:</strong> For well-defined, scoped
+                  projects
+                </li>
+                <li>
+                  <strong>Time & materials:</strong> For exploration or ongoing
+                  work
+                </li>
+                <li>
+                  <strong>Retainer:</strong> For ongoing support and maintenance
+                </li>
+              </ul>
+              <p class="mt-3">
+                Let's discuss your specific needs and I'll recommend the right
+                model.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="faq-item bg-gray-800 border border-gray-700 rounded-lg overflow-hidden"
+            onclick="toggleFaq(this)"
+          >
+            <div
+              class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-700 transition-all"
+            >
+              <h3 class="text-lg font-semibold">
+                Do you work with non-technical founders?
+              </h3>
+              <i class="fas fa-chevron-down transition-transform"></i>
+            </div>
+            <div class="faq-answer px-6 pb-6 text-gray-300">
+              <p>
+                Absolutely. I've worked with many non-technical founders and I'm
+                used to explaining technical concepts in plain English. I guide
+                you through the process and make sure you understand the
+                decisions we're making.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="faq-item bg-gray-800 border border-gray-700 rounded-lg overflow-hidden"
+            onclick="toggleFaq(this)"
+          >
+            <div
+              class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-700 transition-all"
+            >
+              <h3 class="text-lg font-semibold">
+                What if I have a tight deadline?
+              </h3>
+              <i class="fas fa-chevron-down transition-transform"></i>
+            </div>
+            <div class="faq-answer px-6 pb-6 text-gray-300">
+              <p>
+                I can work on compressed timelines. I've delivered complex
+                projects in short windows before. Tight deadlines usually mean
+                increased cost and focused scope—but it's possible. Let's talk
+                about what you need.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="faq-item bg-gray-800 border border-gray-700 rounded-lg overflow-hidden"
+            onclick="toggleFaq(this)"
+          >
+            <div
+              class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-700 transition-all"
+            >
+              <h3 class="text-lg font-semibold">
+                Do you do ongoing maintenance and support?
+              </h3>
+              <i class="fas fa-chevron-down transition-transform"></i>
+            </div>
+            <div class="faq-answer px-6 pb-6 text-gray-300">
+              <p>
+                Yes. After launch, I offer ongoing support for bug fixes,
+                performance optimization, and new features. Many clients keep me
+                on retainer for this. It's much more cost-effective than trying
+                to find someone else later.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="faq-item bg-gray-800 border border-gray-700 rounded-lg overflow-hidden"
+            onclick="toggleFaq(this)"
+          >
+            <div
+              class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-700 transition-all"
+            >
+              <h3 class="text-lg font-semibold">
+                Can you work with my existing team?
+              </h3>
+              <i class="fas fa-chevron-down transition-transform"></i>
+            </div>
+            <div class="faq-answer px-6 pb-6 text-gray-300">
+              <p>
+                Yes, I love collaborating with other developers. I write code
+                that's easy for others to understand and maintain. I can mentor
+                junior developers and help established teams improve their
+                processes and architecture.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="faq-item bg-gray-800 border border-gray-700 rounded-lg overflow-hidden"
+            onclick="toggleFaq(this)"
+          >
+            <div
+              class="p-6 cursor-pointer flex justify-between items-center hover:bg-gray-700 transition-all"
+            >
+              <h3 class="text-lg font-semibold">
+                What's the typical project duration?
+              </h3>
+              <i class="fas fa-chevron-down transition-transform"></i>
+            </div>
+            <div class="faq-answer px-6 pb-6 text-gray-300">
+              <p>
+                Varies widely. MVP projects: 4-8 weeks. Medium-scale systems:
+                8-16 weeks. Large, complex systems: 4-6 months+. We'll establish
+                a clear timeline during discovery based on your scope and
+                complexity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-800 bg-opacity-40">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+        <div class="max-w-2xl mx-auto">
+          <h2 class="text-4xl md:text-5xl font-bold mb-8 text-center">
+            Ready to <span class="text-gradient">Work Together?</span>
+          </h2>
+
+          <div class="bg-gray-900 border border-gray-700 rounded-lg p-10">
+            <form id="contact-form" class="space-y-6">
+              <div>
+                <label for="name" class="block text-sm font-semibold mb-2"
+                  >Your Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all"
+                  placeholder="Your name"
+                />
+              </div>
+
+              <div>
+                <label for="email" class="block text-sm font-semibold mb-2"
+                  >Your Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all"
+                  placeholder="you@example.com"
+                />
+              </div>
+
+              <div>
+                <label for="project" class="block text-sm font-semibold mb-2"
+                  >Project Brief</label
+                >
+                <input
+                  type="text"
+                  id="project"
+                  name="project"
+                  required
+                  class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all"
+                  placeholder="What are you building?"
+                />
+              </div>
+
+              <div>
+                <label for="message" class="block text-sm font-semibold mb-2"
+                  >Tell me more (optional)</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-all resize-none"
+                  placeholder="Timeline, budget, specific tech preferences, team size, etc."
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all"
+              >
+                Send Message
+              </button>
+
+              <p class="text-gray-400 text-center text-sm">
+                I typically respond within 24 hours. Let's discuss your project.
+              </p>
+            </form>
+
+            <div class="mt-10 pt-10 border-t border-gray-700">
+              <h3 class="font-semibold mb-6 text-center">
+                Or reach out directly:
+              </h3>
+              <div class="flex flex-col sm:flex-row justify-center gap-6">
+                <a
+                  href="https://instagram.com/NobleOsinachi"
+                  target="_blank"
+                  class="text-center text-gray-300 hover:text-blue-400 transition-all"
+                >
+                  <i class="fab fa-instagram text-3xl mb-2"></i>
+                  <p class="text-sm">Instagram</p>
+                </a>
+                <a
+                  href="https://linkedin.com/in/NobleOsinachi"
+                  target="_blank"
+                  class="text-center text-gray-300 hover:text-blue-400 transition-all"
+                >
+                  <i class="fab fa-linkedin text-3xl mb-2"></i>
+                  <p class="text-sm">LinkedIn</p>
+                </a>
+                <a
+                  href="https://twitter.com/NobleOsinachi"
+                  target="_blank"
+                  class="text-center text-gray-300 hover:text-blue-400 transition-all"
+                >
+                  <i class="fab fa-twitter text-3xl mb-2"></i>
+                  <p class="text-sm">Twitter</p>
+                </a>
+                <a
+                  href="mailto:nobleosinachi@icloud.com"
+                  class="text-center text-gray-300 hover:text-blue-400 transition-all"
+                >
+                  <i class="fas fa-envelope text-3xl mb-2"></i>
+                  <p class="text-sm">Email</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+          <div>
+            <h3 class="text-xl font-bold mb-4">
+              Noble<span class="text-blue-500">Dev</span>
+            </h3>
+            <p class="text-gray-400 text-sm">
+              Full Stack Developer building scalable systems for ambitious
+              founders and growing companies.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-4">Services</h4>
+            <ul class="text-gray-400 text-sm space-y-2">
+              <li>
+                <a href="#skills" class="hover:text-blue-400 transition-all"
+                  >Full Stack Development</a
+                >
+              </li>
+              <li>
+                <a href="#skills" class="hover:text-blue-400 transition-all"
+                  >API Development</a
+                >
+              </li>
+              <li>
+                <a href="#skills" class="hover:text-blue-400 transition-all"
+                  >System Architecture</a
+                >
+              </li>
+              <li>
+                <a href="#skills" class="hover:text-blue-400 transition-all"
+                  >Maintenance & Support</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-4">Connect</h4>
+            <ul class="text-gray-400 text-sm space-y-2">
+              <li>
+                <a
+                  href="https://twitter.com/NobleOsinachi"
+                  target="_blank"
+                  class="hover:text-blue-400 transition-all"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://linkedin.com/in/NobleOsinachi"
+                  target="_blank"
+                  class="hover:text-blue-400 transition-all"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/NobleOsinachi"
+                  target="_blank"
+                  class="hover:text-blue-400 transition-all"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://dev.to/NobleOsinachi"
+                  target="_blank"
+                  class="hover:text-blue-400 transition-all"
+                  >Dev.to</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-4">Pages</h4>
+            <ul class="text-gray-400 text-sm space-y-2">
+              <li>
+                <a href="#home" class="hover:text-blue-400 transition-all"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#projects" class="hover:text-blue-400 transition-all"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a href="#faq" class="hover:text-blue-400 transition-all"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="hover:text-blue-400 transition-all"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-8">
+          <p class="text-gray-500 text-sm text-center">
+            &copy; 2026 Noble Osinachi. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="fixed bottom-8 right-8">
+      <a
+        href="#home"
+        class="bg-blue-600 hover:bg-blue-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-all"
+      >
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <div
+      class="fixed inset-0 bg-gray-900 bg-opacity-95 z-50 hidden"
+      id="mobile-menu"
+    >
+      <div class="container mx-auto px-4 py-6">
+        <div class="flex justify-between items-center mb-8">
+          <h1 class="text-2xl font-bold">
+            Noble<span class="text-blue-500">Dev</span>
+          </h1>
+          <button class="focus:outline-none" id="close-menu">
+            <i class="fas fa-times text-2xl"></i>
+          </button>
+        </div>
+
+        <div class="flex flex-col space-y-6">
+          <a href="#home" class="text-xl font-medium">Home</a>
+          <a href="#skills" class="text-xl font-medium">Skills</a>
+          <a href="#projects" class="text-xl font-medium">Projects</a>
+          <a href="#process" class="text-xl font-medium">Process</a>
+          <a href="#testimonials" class="text-xl font-medium">Testimonials</a>
+          <a href="#faq" class="text-xl font-medium">FAQ</a>
+          <a href="#contact" class="text-xl font-medium">Contact</a>
+        </div>
+
+        <div class="mt-10 flex justify-center space-x-6">
+          <a
+            href="https://github.com/NobleOsinachi"
+            target="_blank"
+            class="text-gray-400 hover:text-blue-500"
+          >
+            <i class="fab fa-github text-2xl"></i>
+          </a>
+          <a
+            href="https://linkedin.com/in/NobleOsinachi"
+            target="_blank"
+            class="text-gray-400 hover:text-blue-500"
+          >
+            <i class="fab fa-linkedin text-2xl"></i>
+          </a>
+          <a
+            href="https://twitter.com/NobleOsinachi"
+            target="_blank"
+            class="text-gray-400 hover:text-blue-500"
+          >
+            <i class="fab fa-twitter text-2xl"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script>
+      // Mobile Menu Logic
+      document.addEventListener("DOMContentLoaded", function () {
+        const mobileMenuButton = document.querySelector(".md\\:hidden button");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const closeMenuButton = document.getElementById("close-menu");
+        const mobileMenuLinks = document.querySelectorAll("#mobile-menu a");
+
+        if (mobileMenuButton && mobileMenu && closeMenuButton) {
+          mobileMenuButton.addEventListener("click", function () {
+            mobileMenu.classList.remove("hidden");
+          });
+
+          closeMenuButton.addEventListener("click", function () {
+            mobileMenu.classList.add("hidden");
+          });
+
+          mobileMenuLinks.forEach((link) => {
+            link.addEventListener("click", function () {
+              mobileMenu.classList.add("hidden");
+            });
+          });
+        }
+
+        // Contact Form Logic
+        const contactForm = document.getElementById("contact-form");
+        if (contactForm) {
+          contactForm.addEventListener("submit", async function (e) {
+            e.preventDefault();
+
+            const nameInput = document.getElementById("name");
+            const emailInput = document.getElementById("email");
+            const projectInput = document.getElementById("project");
+            const messageInput = document.getElementById("message");
+            const submitButton = contactForm.querySelector(
+              "button[type='submit']"
+            );
+            const originalBtnText = submitButton.innerHTML;
+
+            if (!nameInput.value || !emailInput.value || !projectInput.value) {
+              alert("Please fill in all required fields");
+              return;
+            }
+
+            submitButton.disabled = true;
+            submitButton.innerHTML = "Sending...";
+            submitButton.style.cursor = "not-allowed";
+            submitButton.classList.add("opacity-50");
+
+            try {
+              const url =
+                "https://nobleosinachi-email-api.onrender.com/homepage-form";
+
+              const response = await fetch(url, {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                  name: nameInput.value,
+                  email: emailInput.value,
+                  project: projectInput.value,
+                  message: messageInput.value,
+                }),
+              });
+
+              const result = await response.json();
+
+              if (result.success) {
+                const formContainer = contactForm.parentElement;
+                const originalFormHTML = formContainer.innerHTML;
+
+                formContainer.innerHTML = `
+                <div class="text-center py-8">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-green-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <h3 class="text-2xl font-bold mb-2">Message Sent!</h3>
+                  <p class="text-gray-300">Thanks for reaching out. I'll review your project and get back to you soon.</p>
+                </div>
+              `;
+
+                setTimeout(() => {
+                  formContainer.innerHTML = originalFormHTML;
+                  const restoredForm = formContainer.querySelector("form");
+                  if (restoredForm) {
+                    restoredForm.addEventListener("submit", arguments.callee);
+                  }
+                }, 5000);
+              } else {
+                alert(
+                  result.message || "Something went wrong. Please try again."
+                );
+                submitButton.disabled = false;
+                submitButton.innerHTML = originalBtnText;
+                submitButton.style.cursor = "pointer";
+                submitButton.classList.remove("opacity-50");
+              }
+            } catch (error) {
+              console.error("Error submitting form:", error);
+              alert("Failed to send message. Please try again later.");
+              submitButton.disabled = false;
+              submitButton.innerHTML = originalBtnText;
+              submitButton.style.cursor = "pointer";
+              submitButton.classList.remove("opacity-50");
+            }
+          });
+        }
+
+        // FAQ Toggle Logic
+        window.toggleFaq = function (element) {
+          const isActive = element.classList.contains("active");
+
+          // Close all other FAQs
+          document.querySelectorAll(".faq-item").forEach((item) => {
+            item.classList.remove("active");
+          });
+
+          // Toggle current FAQ
+          if (!isActive) {
+            element.classList.add("active");
+            const chevron = element.querySelector(".fa-chevron-down");
+            if (chevron) {
+              chevron.style.transform = "rotate(180deg)";
+            }
+          }
+        };
+      });
+    </script>
+  </body>
+</html>
