@@ -1,0 +1,1931 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Noble Osinachi — Full Stack Developer, Sales Funnel Engineer & Content
+      Creator
+    </title>
+    <meta
+      name="description"
+      content="Noble Osinachi is a multipotentialite — Full Stack Developer, Sales Funnel Engineer, Video Content Creator, and Direct Response Copywriter based in Lagos, Nigeria."
+    />
+    <meta name="author" content="Noble Osinachi" />
+    <meta
+      property="og:title"
+      content="Noble Osinachi — Full Stack Developer & Sales Funnel Engineer"
+    />
+    <meta
+      property="og:description"
+      content="I architect high-converting sales funnels, build robust web applications, and create viral short-form content."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nobleosinachi.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@nobleosinachi" />
+    <link rel="canonical" href="https://nobleosinachi.com" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Noble Osinachi",
+        "url": "https://nobleosinachi.com",
+        "jobTitle": "Full Stack Developer & Sales Funnel Engineer",
+        "sameAs": [
+          "https://github.com/NobleOsinachi",
+          "https://linkedin.com/in/nobleosinachi",
+          "https://twitter.com/nobleosinachi",
+          "https://instagram.com/nobleosinachi"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lagos",
+          "addressCountry": "NG"
+        }
+      }
+    </script>
+
+    <style>
+      /* ===== RESET & BASE ===== */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --bg: hsl(222, 47%, 6%);
+        --fg: hsl(210, 40%, 92%);
+        --card: hsl(222, 40%, 10%);
+        --card-fg: hsl(210, 40%, 92%);
+        --primary: hsl(210, 100%, 60%);
+        --primary-fg: hsl(222, 47%, 6%);
+        --secondary: hsl(222, 30%, 14%);
+        --muted: hsl(215, 20%, 55%);
+        --accent: hsl(270, 80%, 65%);
+        --border: hsl(222, 30%, 16%);
+        --gradient-primary: linear-gradient(
+          135deg,
+          hsl(210, 100%, 60%),
+          hsl(270, 80%, 65%)
+        );
+        --gradient-text: linear-gradient(
+          135deg,
+          hsl(210, 100%, 70%),
+          hsl(270, 80%, 70%)
+        );
+        --shadow-card: 0 4px 24px hsl(222, 47%, 2%, 0.5);
+        --shadow-glow: 0 0 40px hsl(210, 100%, 60%, 0.15);
+        --radius: 0.75rem;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        background: var(--bg);
+        color: var(--fg);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Space Grotesk", sans-serif;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+
+      /* ===== UTILITIES ===== */
+      .text-gradient {
+        background: var(--gradient-text);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .bg-gradient-primary {
+        background: var(--gradient-primary);
+      }
+      .section {
+        padding: 6rem 0;
+        position: relative;
+      }
+      .section-header {
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+      .section-label {
+        color: var(--primary);
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+      }
+      .section-title {
+        font-size: clamp(2rem, 5vw, 3rem);
+        font-weight: 700;
+        margin-top: 0.75rem;
+      }
+      .section-subtitle {
+        color: var(--muted);
+        margin-top: 1rem;
+        max-width: 560px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .card {
+        padding: 1.75rem;
+        border-radius: 1rem;
+        background: var(--card);
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow-card);
+        transition:
+          border-color 0.3s,
+          transform 0.3s;
+      }
+      .card:hover {
+        border-color: hsl(210, 100%, 60%, 0.3);
+        transform: translateY(-4px);
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.875rem 1.75rem;
+        border-radius: var(--radius);
+        font-weight: 600;
+        font-size: 0.9rem;
+        cursor: pointer;
+        border: none;
+        transition:
+          opacity 0.2s,
+          background 0.2s;
+      }
+      .btn-primary {
+        background: var(--gradient-primary);
+        color: var(--primary-fg);
+      }
+      .btn-primary:hover {
+        opacity: 0.9;
+      }
+      .btn-outline {
+        background: transparent;
+        border: 1px solid var(--border);
+        color: var(--fg);
+      }
+      .btn-outline:hover {
+        background: var(--secondary);
+      }
+
+      .tag {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.75rem;
+        border-radius: 999px;
+        background: var(--secondary);
+        color: var(--muted);
+      }
+
+      .glow {
+        position: absolute;
+        border-radius: 50%;
+        pointer-events: none;
+        filter: blur(120px);
+        opacity: 0.5;
+      }
+
+      /* ===== ANIMATIONS ===== */
+      .fade-up {
+        opacity: 0;
+        transform: translateY(30px);
+        transition:
+          opacity 0.6s ease,
+          transform 0.6s ease;
+      }
+      .fade-up.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-12px);
+        }
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.4;
+        }
+      }
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+
+      .animate-float {
+        animation: float 4s ease-in-out infinite;
+      }
+      .animate-pulse {
+        animation: pulse 2s ease-in-out infinite;
+      }
+
+      /* ===== NAVBAR ===== */
+      .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        transition:
+          background 0.3s,
+          border-color 0.3s;
+        border-bottom: 1px solid transparent;
+      }
+      .navbar.scrolled {
+        background: hsl(222, 47%, 6%, 0.8);
+        backdrop-filter: blur(20px);
+        border-bottom-color: var(--border);
+      }
+      .navbar-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .navbar-logo {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+      }
+      .navbar-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+      }
+      .navbar-links a {
+        font-size: 0.875rem;
+        color: var(--muted);
+        transition: color 0.2s;
+      }
+      .navbar-links a:hover {
+        color: var(--fg);
+      }
+      .navbar-cta {
+        padding: 0.625rem 1.25rem;
+        border-radius: 0.5rem;
+        font-size: 0.875rem;
+        font-weight: 600;
+      }
+      .hamburger {
+        display: none;
+        background: none;
+        border: none;
+        color: var(--fg);
+        cursor: pointer;
+      }
+      .mobile-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.5rem;
+        background: hsl(222, 47%, 6%, 0.95);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid var(--border);
+      }
+      .mobile-menu.open {
+        display: flex;
+      }
+      .mobile-menu a {
+        color: var(--muted);
+        font-size: 1rem;
+      }
+      .mobile-menu a:hover {
+        color: var(--fg);
+      }
+
+      @media (max-width: 768px) {
+        .navbar-links,
+        .navbar .navbar-cta {
+          display: none;
+        }
+        .hamburger {
+          display: block;
+        }
+      }
+
+      /* ===== HERO ===== */
+      .hero {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        padding-top: 5rem;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: center;
+      }
+      .hero-badge {
+        display: inline-block;
+        padding: 0.375rem 1rem;
+        border-radius: 999px;
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        background: var(--secondary);
+        color: var(--primary);
+        margin-bottom: 1.5rem;
+      }
+      .hero h1 {
+        font-size: clamp(2.5rem, 6vw, 4rem);
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 1rem;
+      }
+      .hero-typed {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+        color: var(--muted);
+        height: 2.5rem;
+        margin-bottom: 1.5rem;
+      }
+      .hero-typed .cursor {
+        display: inline-block;
+        width: 2px;
+        height: 1.5rem;
+        background: var(--primary);
+        margin-left: 4px;
+        animation: blink 1s infinite;
+      }
+      .hero-desc {
+        color: var(--muted);
+        font-size: 1.05rem;
+        max-width: 500px;
+        margin-bottom: 2rem;
+      }
+      .hero-btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 2.5rem;
+      }
+      .hero-socials {
+        display: flex;
+        gap: 0.75rem;
+      }
+      .hero-socials a {
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.5rem;
+        background: var(--secondary);
+        color: var(--muted);
+        transition:
+          color 0.2s,
+          background 0.2s;
+      }
+      .hero-socials a:hover {
+        color: var(--primary);
+      }
+      .hero-photo-wrap {
+        display: flex;
+        justify-content: center;
+      }
+      .hero-photo-ring {
+        position: relative;
+      }
+      .hero-photo {
+        width: clamp(250px, 22vw, 384px);
+        height: clamp(250px, 22vw, 384px);
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid hsl(210, 100%, 60%, 0.3);
+      }
+      .hero-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .hero-ring {
+        position: absolute;
+        inset: -10%;
+        border-radius: 50%;
+        border: 2px solid hsl(210, 100%, 60%, 0.15);
+        pointer-events: none;
+      }
+      .hero-stats {
+        position: absolute;
+        bottom: 2rem;
+        left: 0;
+        right: 0;
+      }
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        background: hsl(222, 40%, 10%, 0.6);
+        backdrop-filter: blur(12px);
+        border: 1px solid var(--border);
+      }
+      .stat {
+        text-align: center;
+      }
+      .stat-value {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+      }
+      .stat-label {
+        font-size: 0.8rem;
+        color: var(--muted);
+        margin-top: 0.25rem;
+      }
+
+      @media (max-width: 1024px) {
+        .hero-grid {
+          grid-template-columns: 1fr;
+          text-align: center;
+        }
+        .hero-desc {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .hero-btns,
+        .hero-socials {
+          justify-content: center;
+        }
+        .hero-photo-wrap {
+          order: -1;
+        }
+      }
+      @media (max-width: 640px) {
+        .stats-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .hero-stats {
+          position: relative;
+          bottom: auto;
+          margin-top: 2rem;
+        }
+        .hero {
+          min-height: auto;
+          padding: 7rem 0 3rem;
+        }
+      }
+
+      /* ===== ABOUT ===== */
+      .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        align-items: start;
+      }
+      .about-text {
+        color: var(--muted);
+        line-height: 1.8;
+      }
+      .about-text p + p {
+        margin-top: 1.25rem;
+      }
+      .about-text strong {
+        color: var(--fg);
+        font-weight: 500;
+      }
+      .values-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.25rem;
+      }
+      .value-card {
+        padding: 1.5rem;
+        border-radius: 0.75rem;
+        background: var(--card);
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow-card);
+        transition: border-color 0.3s;
+      }
+      .value-card:hover {
+        border-color: hsl(210, 100%, 60%, 0.3);
+      }
+      .value-icon {
+        width: 2.75rem;
+        height: 2.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.5rem;
+        background: hsl(210, 100%, 60%, 0.1);
+        color: var(--primary);
+        margin-bottom: 1rem;
+      }
+      .value-title {
+        font-size: 0.95rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+      .value-desc {
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+
+      @media (max-width: 1024px) {
+        .about-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (max-width: 640px) {
+        .values-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* ===== SERVICES ===== */
+      .services-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+      }
+      .service-icon {
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.75rem;
+        margin-bottom: 1.25rem;
+      }
+      .service-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+      }
+      .service-desc {
+        font-size: 0.875rem;
+        color: var(--muted);
+        line-height: 1.7;
+        margin-bottom: 1.25rem;
+      }
+      .service-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      @media (max-width: 1024px) {
+        .services-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (max-width: 640px) {
+        .services-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* ===== TECH STACK ===== */
+      .tech-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+      }
+      .tech-category h3 {
+        font-size: 1.05rem;
+        font-weight: 600;
+        margin-bottom: 1.25rem;
+      }
+      .tech-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+      }
+      .tech-tag {
+        padding: 0.625rem 1rem;
+        border-radius: 0.75rem;
+        font-size: 0.85rem;
+        background: var(--card);
+        border: 1px solid var(--border);
+        color: var(--muted);
+        transition:
+          color 0.2s,
+          border-color 0.2s;
+        cursor: default;
+      }
+      .tech-tag:hover {
+        color: var(--primary);
+        border-color: hsl(210, 100%, 60%, 0.3);
+      }
+
+      @media (max-width: 768px) {
+        .tech-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* ===== PORTFOLIO ===== */
+      .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+      }
+      .project-cat {
+        font-size: 0.75rem;
+        color: var(--primary);
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .project-title {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 0.75rem 0;
+      }
+      .project-desc {
+        font-size: 0.875rem;
+        color: var(--muted);
+        line-height: 1.7;
+        margin-bottom: 1rem;
+      }
+      .project-result {
+        padding: 0.625rem 1rem;
+        border-radius: 0.5rem;
+        font-size: 0.85rem;
+        font-weight: 500;
+        background: hsl(210, 100%, 60%, 0.05);
+        border: 1px solid hsl(210, 100%, 60%, 0.1);
+        color: var(--primary);
+        margin-bottom: 1.25rem;
+      }
+      .portfolio-cta {
+        text-align: center;
+        margin-top: 2.5rem;
+      }
+
+      @media (max-width: 768px) {
+        .portfolio-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* ===== TESTIMONIALS ===== */
+      .testimonials-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+      }
+      .testimonial-quote {
+        color: var(--muted);
+        font-style: italic;
+        line-height: 1.7;
+        margin-bottom: 1.5rem;
+      }
+      .testimonial-author {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+      .testimonial-avatar {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 0.85rem;
+        color: var(--primary-fg);
+      }
+      .testimonial-name {
+        font-size: 0.875rem;
+        font-weight: 600;
+      }
+      .testimonial-role {
+        font-size: 0.75rem;
+        color: var(--muted);
+      }
+
+      @media (max-width: 768px) {
+        .testimonials-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* ===== CTA ===== */
+      .cta-box {
+        max-width: 720px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 3rem;
+        border-radius: 1.5rem;
+        background: var(--card);
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow-card);
+      }
+      .cta-box h2 {
+        font-size: clamp(1.75rem, 4vw, 2.75rem);
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+      }
+      .cta-box p {
+        color: var(--muted);
+        font-size: 1.05rem;
+        max-width: 500px;
+        margin: 0 auto 2.5rem;
+      }
+      .cta-btns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+      }
+
+      /* ===== CONTACT ===== */
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+      }
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+      }
+      .contact-form input,
+      .contact-form select,
+      .contact-form textarea {
+        width: 100%;
+        padding: 0.875rem 1.25rem;
+        border-radius: 0.75rem;
+        background: var(--card);
+        border: 1px solid var(--border);
+        color: var(--fg);
+        font-family: "Inter", sans-serif;
+        font-size: 0.9rem;
+        outline: none;
+        transition: border-color 0.2s;
+      }
+      .contact-form input::placeholder,
+      .contact-form textarea::placeholder {
+        color: var(--muted);
+      }
+      .contact-form input:focus,
+      .contact-form select:focus,
+      .contact-form textarea:focus {
+        border-color: hsl(210, 100%, 60%, 0.5);
+      }
+      .contact-form select option {
+        background: var(--card);
+        color: var(--fg);
+      }
+      .contact-form textarea {
+        resize: none;
+      }
+      .contact-form button {
+        padding: 1rem;
+        border-radius: 0.75rem;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      .contact-info-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-bottom: 1.25rem;
+      }
+      .contact-icon {
+        width: 2.75rem;
+        height: 2.75rem;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.75rem;
+        background: hsl(210, 100%, 60%, 0.1);
+        color: var(--primary);
+      }
+      .contact-label {
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+      .contact-value {
+        color: var(--fg);
+        transition: color 0.2s;
+      }
+      a.contact-value:hover {
+        color: var(--primary);
+      }
+      .available-card {
+        padding: 1.5rem;
+        border-radius: 1rem;
+        background: var(--card);
+        border: 1px solid var(--border);
+        margin-top: 2rem;
+      }
+      .available-dot {
+        width: 0.625rem;
+        height: 0.625rem;
+        border-radius: 50%;
+        background: var(--primary);
+        display: inline-block;
+      }
+
+      @media (max-width: 1024px) {
+        .contact-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* ===== FOOTER ===== */
+      .footer {
+        padding: 2.5rem 0;
+        border-top: 1px solid var(--border);
+      }
+      .footer-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .footer-copy {
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+      .footer-socials {
+        display: flex;
+        gap: 0.5rem;
+      }
+      .footer-socials a {
+        width: 2.25rem;
+        height: 2.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.5rem;
+        background: var(--secondary);
+        color: var(--muted);
+        transition: color 0.2s;
+      }
+      .footer-socials a:hover {
+        color: var(--primary);
+      }
+
+      @media (max-width: 640px) {
+        .footer-inner {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+    </style>
+
+    <style>
+      @font-face {
+        font-family: "CameraPlainVariable";
+        src: url("https://cdn.gpteng.co/mcp-widgets/v1/fonts/CameraPlainVariable.woff2")
+          format("woff2");
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      #lovable-badge {
+        --badge-bg: #1b1b1b;
+        --badge-text: #c5c1b9;
+        --badge-text-hover: #dcdad5;
+        --badge-radius: 6px;
+        --badge-padding: 8px;
+        --badge-gap: 6px;
+        --badge-shadow:
+          0 0 0 1px rgba(0, 0, 0, 0.88), 0 1px 0 0 rgba(0, 0, 0, 0.04),
+          0 2px 2px -1px rgba(0, 0, 0, 0.08),
+          0 4px 4px -2px rgba(0, 0, 0, 0.08),
+          0 8px 8px -4px rgba(0, 0, 0, 0.08),
+          0 16px 16px -8px rgba(0, 0, 0, 0.08);
+        --badge-transition-duration: 0.2s;
+        --badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+        --focus-color: #575ecf;
+        --focus-offset: 2px;
+        --focus-width: 2px;
+
+        position: fixed;
+        bottom: 12px;
+        right: 12px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        z-index: 1000000;
+        background-color: var(--badge-bg);
+        color: var(--badge-text);
+        border-radius: var(--badge-radius);
+        box-shadow: var(--badge-shadow);
+        font-size: 12px;
+        font-family:
+          CameraPlainVariable,
+          "CameraPlainVariable Fallback",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        font-weight: 400 !important;
+        text-transform: none !important;
+        font-feature-settings: normal !important;
+        transform: translateZ(0);
+        will-change: transform, opacity;
+      }
+
+      #lovable-badge-cta {
+        display: flex;
+        align-items: center;
+        gap: var(--badge-gap);
+        padding: 0 var(--badge-padding);
+        height: 100%;
+        color: inherit;
+        text-decoration: none;
+        white-space: nowrap;
+        border-radius: var(--badge-radius) 0 0 var(--badge-radius);
+        transition:
+          background-color var(--badge-transition-duration) ease,
+          color var(--badge-transition-duration) ease,
+          transform 0.1s ease;
+      }
+
+      #lovable-badge-cta:hover {
+        background: rgba(255, 255, 255, 0.04);
+        color: var(--badge-text-hover);
+      }
+
+      #lovable-badge-cta:active {
+        transform: scale(0.98);
+      }
+
+      #lovable-badge-cta:focus {
+        outline: none;
+      }
+
+      #lovable-badge-cta:focus-visible {
+        outline: var(--focus-width) solid var(--focus-color);
+        outline-offset: var(--focus-offset);
+        z-index: 1;
+      }
+
+      #lovable-badge-text {
+        line-height: 1;
+      }
+
+      #lovable-badge-divider {
+        width: 1px;
+        height: 24px;
+        background-color: rgba(255, 255, 255, 0.04);
+        flex-shrink: 0;
+      }
+
+      #lovable-badge-close {
+        width: 24px;
+        height: 24px;
+        min-width: 24px;
+        min-height: 24px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 var(--badge-radius) var(--badge-radius) 0;
+        flex-shrink: 0;
+        transition:
+          background-color var(--badge-transition-duration) ease,
+          transform 0.1s ease;
+      }
+
+      #lovable-badge-close:hover {
+        background: rgba(255, 255, 255, 0.04);
+      }
+
+      #lovable-badge-close:active {
+        transform: scale(0.92);
+      }
+
+      #lovable-badge-close:focus {
+        outline: none;
+      }
+
+      #lovable-badge-close:focus-visible {
+        outline: var(--focus-width) solid var(--focus-color);
+        outline-offset: calc(var(--focus-offset) * -1);
+        z-index: 1;
+      }
+
+      #lovable-badge-close svg path {
+        fill: var(--badge-text);
+        transition: fill var(--badge-transition-duration) ease;
+      }
+
+      #lovable-badge-close:hover svg path {
+        fill: var(--badge-text-hover);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        #lovable-badge-cta,
+        #lovable-badge-close,
+        #lovable-badge-close svg path {
+          transition: none;
+        }
+
+        #lovable-badge-cta:active,
+        #lovable-badge-close:active {
+          transform: none;
+        }
+      }
+
+      @media (prefers-contrast: high) {
+        #lovable-badge {
+          --badge-bg: #000;
+          --badge-text: #fff;
+          --badge-text-hover: #fff;
+          border: 2px solid currentColor;
+        }
+
+        #lovable-badge-cta:focus-visible,
+        #lovable-badge-close:focus-visible {
+          outline-width: 3px;
+        }
+      }
+    </style>
+    <script
+      defer
+      src="https://nobleosinachi.lovable.app/~flock.js"
+      data-proxy-url="https://nobleosinachi.lovable.app/~api/analytics"
+    ></script>
+    <meta
+      name="twitter:image"
+      content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8d2033ac-b4a2-4d9e-8fc6-b760666654d3/id-preview-9ebdd12c--49e0fa27-556b-4dbe-96ab-ef8bba6876d3.lovable.app-1771440719589.png"
+    />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-inner">
+        <a href="#home" class="navbar-logo"
+          >Noble<span class="text-gradient">Osinachi</span></a
+        >
+        <ul class="navbar-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a
+          href="#contact"
+          class="navbar-cta bg-gradient-primary btn-primary"
+          style="text-decoration: none"
+          >Hire Me</a
+        >
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <i data-lucide="menu" style="width: 24px; height: 24px"></i>
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="#home" onclick="closeMobile()">Home</a>
+        <a href="#about" onclick="closeMobile()">About</a>
+        <a href="#services" onclick="closeMobile()">Services</a>
+        <a href="#portfolio" onclick="closeMobile()">Work</a>
+        <a href="#contact" onclick="closeMobile()">Contact</a>
+        <a href="#contact" class="btn btn-primary" onclick="closeMobile()"
+          >Hire Me</a
+        >
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div
+        class="glow"
+        style="
+          width: 400px;
+          height: 400px;
+          background: hsl(210, 100%, 60%, 0.08);
+          top: 20%;
+          left: -100px;
+        "
+      ></div>
+      <div
+        class="glow"
+        style="
+          width: 400px;
+          height: 400px;
+          background: hsl(270, 80%, 65%, 0.08);
+          bottom: 20%;
+          right: -100px;
+        "
+      ></div>
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <span class="hero-badge">Welcome to My World</span>
+            <h1>Hi, I'm <span class="text-gradient">Noble Osinachi</span></h1>
+            <div class="hero-typed">
+              <span id="typed-text"></span><span class="cursor"></span>
+            </div>
+            <p class="hero-desc">
+              I architect high-converting sales funnels, build robust web
+              applications, and create viral short-form content. Combining
+              systems engineering precision with creative storytelling to drive
+              measurable growth.
+            </p>
+            <div class="hero-btns">
+              <a href="#contact" class="btn btn-primary"
+                >Get a Free Consultation</a
+              >
+              <a href="#portfolio" class="btn btn-outline">View My Work</a>
+            </div>
+            <div class="hero-socials">
+              <a
+                href="https://github.com/NobleOsinachi"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                ><i data-lucide="github"></i
+              ></a>
+              <a
+                href="https://linkedin.com/in/nobleosinachi"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                ><i data-lucide="linkedin"></i
+              ></a>
+              <a
+                href="https://twitter.com/nobleosinachi"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter"
+                ><i data-lucide="twitter"></i
+              ></a>
+              <a
+                href="https://instagram.com/nobleosinachi"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                ><i data-lucide="instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="hero-photo-wrap">
+            <div class="hero-photo-ring animate-float">
+              <div class="hero-photo">
+                <img
+                  src="https://nobleosinachi.com/images/nobleosinachi.png"
+                  alt="Noble Osinachi — Full Stack Developer and Multipotentialite"
+                  loading="eager"
+                />
+              </div>
+              <div class="hero-ring"></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="container">
+            <div class="stats-grid">
+              <div class="stat">
+                <div class="stat-value text-gradient">4+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value text-gradient">50+</div>
+                <div class="stat-label">Projects Delivered</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value text-gradient">30+</div>
+                <div class="stat-label">Happy Clients</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value text-gradient">100%</div>
+                <div class="stat-label">Satisfaction Rate</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title">
+            Who Is <span class="text-gradient">Noble Osinachi</span>?
+          </h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text fade-up">
+            <p>
+              I'm a multipotentialite who refuses to be confined to a single
+              box. With a Systems Engineering degree from the University of
+              Lagos and 4+ years of hands-on experience, I've mastered the art
+              of building complete sales funnel ecosystems — from backend
+              architecture to frontend interfaces, from compelling copy to viral
+              video content.
+            </p>
+            <p>
+              From writing my first line of code as a Systems Engineering
+              student to architecting enterprise-level applications for fintech
+              companies, my journey has been anything but conventional. I
+              discovered that the most powerful solutions come from
+              understanding both the technical and psychological aspects of what
+              makes people take action.
+            </p>
+            <p>
+              Today, I help businesses build complete sales funnel systems that
+              don't just look good — <strong>they convert</strong>. Whether it's
+              a high-performance web application, a scroll-stopping ad creative,
+              or persuasive sales copy, I bring a unique blend of technical
+              precision and creative insight to every project.
+            </p>
+          </div>
+          <div class="values-grid fade-up">
+            <div class="value-card">
+              <div class="value-icon"><i data-lucide="lightbulb"></i></div>
+              <div class="value-title">Innovation Over Convention</div>
+              <div class="value-desc">
+                Challenging the status quo to find better solutions.
+              </div>
+            </div>
+            <div class="value-card">
+              <div class="value-icon"><i data-lucide="target"></i></div>
+              <div class="value-title">Results-Driven</div>
+              <div class="value-desc">
+                Every project is measured by one metric: does it move the
+                needle?
+              </div>
+            </div>
+            <div class="value-card">
+              <div class="value-icon"><i data-lucide="users"></i></div>
+              <div class="value-title">Client Success First</div>
+              <div class="value-desc">
+                Your success is my success. Invested in outcomes, not outputs.
+              </div>
+            </div>
+            <div class="value-card">
+              <div class="value-icon"><i data-lucide="book-open"></i></div>
+              <div class="value-title">Continuous Learning</div>
+              <div class="value-desc">
+                Technology evolves, and so do I. Always learning, always
+                growing.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section
+      class="section"
+      id="services"
+      style="background: hsl(222, 40%, 10%, 0.3)"
+    >
+      <div
+        class="glow"
+        style="
+          width: 600px;
+          height: 600px;
+          background: hsl(210, 100%, 60%, 0.04);
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        "
+      ></div>
+      <div class="container" style="position: relative">
+        <div class="section-header fade-up">
+          <span class="section-label">Services</span>
+          <h2 class="section-title">
+            What I Do <span class="text-gradient">Best</span>
+          </h2>
+          <p class="section-subtitle">
+            Full-stack solutions that combine technical excellence with
+            conversion optimization
+          </p>
+        </div>
+        <div class="services-grid" id="services-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== TECH STACK ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-label">Tech Stack</span>
+          <h2 class="section-title">
+            My <span class="text-gradient">Arsenal</span>
+          </h2>
+          <p class="section-subtitle">
+            Technologies and tools I use to bring ideas to life
+          </p>
+        </div>
+        <div class="tech-grid fade-up" id="tech-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-label">Portfolio</span>
+          <h2 class="section-title">
+            Featured <span class="text-gradient">Work</span>
+          </h2>
+          <p class="section-subtitle">
+            A selection of projects that showcase my diverse skill set
+          </p>
+        </div>
+        <div class="portfolio-grid" id="portfolio-grid"></div>
+        <div class="portfolio-cta fade-up">
+          <a
+            href="https://github.com/NobleOsinachi"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >
+            View All Projects on GitHub
+            <i
+              data-lucide="external-link"
+              style="width: 16px; height: 16px"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="section" style="background: hsl(222, 40%, 10%, 0.3)">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-label">Testimonials</span>
+          <h2 class="section-title">
+            What Clients <span class="text-gradient">Say</span>
+          </h2>
+        </div>
+        <div class="testimonials-grid" id="testimonials-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="section">
+      <div
+        class="glow"
+        style="
+          width: 400px;
+          height: 400px;
+          background: hsl(210, 100%, 60%, 0.08);
+          top: 0;
+          left: 25%;
+        "
+      ></div>
+      <div
+        class="glow"
+        style="
+          width: 400px;
+          height: 400px;
+          background: hsl(270, 80%, 65%, 0.08);
+          bottom: 0;
+          right: 25%;
+        "
+      ></div>
+      <div class="container" style="position: relative">
+        <div class="cta-box fade-up">
+          <h2>
+            Ready to Build Something
+            <span class="text-gradient">Extraordinary</span>?
+          </h2>
+          <p>
+            Whether you need a high-converting sales funnel, a robust web
+            application, or viral content that drives results, I'm here to make
+            it happen.
+          </p>
+          <div class="cta-btns">
+            <a href="#contact" class="btn btn-primary"
+              >Start Your Project
+              <i data-lucide="arrow-right" style="width: 18px; height: 18px"></i
+            ></a>
+            <a
+              href="https://calendly.com/nobleosinachi/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline"
+            >
+              <i data-lucide="calendar" style="width: 18px; height: 18px"></i>
+              Schedule a Call
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-label">Contact</span>
+          <h2 class="section-title">
+            Let's <span class="text-gradient">Connect</span>
+          </h2>
+          <p class="section-subtitle">
+            Have a project in mind? Let's discuss how we can work together.
+          </p>
+        </div>
+        <div class="contact-grid fade-up">
+          <form class="contact-form" id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+            <select name="service" required>
+              <option value="" disabled selected>Service Needed</option>
+              <option>Full Stack Development</option>
+              <option>Sales Funnel Development</option>
+              <option>Video Editing</option>
+              <option>Copywriting</option>
+              <option>Blockchain Development</option>
+              <option>Complete Package</option>
+            </select>
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Project Details"
+              required
+            ></textarea>
+            <button
+              type="submit"
+              class="bg-gradient-primary"
+              style="color: var(--primary-fg)"
+            >
+              Send Message
+            </button>
+          </form>
+          <div>
+            <h3
+              style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem"
+            >
+              Get In Touch
+            </h3>
+            <div class="contact-info-item">
+              <div class="contact-icon"><i data-lucide="mail"></i></div>
+              <div>
+                <div class="contact-label">Email</div>
+                <a href="mailto:nobleosinachi@icloud.com" class="contact-value"
+                  >nobleosinachi@icloud.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i data-lucide="message-circle"></i>
+              </div>
+              <div>
+                <div class="contact-label">WhatsApp</div>
+                <a
+                  href="https://wa.link/x542jh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-value"
+                  >+234 090 2577 8189</a
+                >
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon"><i data-lucide="phone"></i></div>
+              <div>
+                <div class="contact-label">Phone</div>
+                <a href="tel:+2349025778189" class="contact-value"
+                  >+234 090 2577 8189</a
+                >
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+              <div>
+                <div class="contact-label">Location</div>
+                <span class="contact-value">Lagos, Nigeria</span>
+              </div>
+            </div>
+            <div class="available-card">
+              <h4 style="font-weight: 600; margin-bottom: 0.5rem">
+                Available for Freelance
+              </h4>
+              <p style="font-size: 0.875rem; color: var(--muted)">
+                I'm currently open to new projects and collaborations. Let's
+                create something amazing together!
+              </p>
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 0.5rem;
+                  margin-top: 0.75rem;
+                "
+              >
+                <span class="available-dot animate-pulse"></span>
+                <span style="font-size: 0.875rem; color: var(--primary)"
+                  >Available Now</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="navbar-logo">
+            Noble<span class="text-gradient">Osinachi</span>
+          </div>
+          <p class="footer-copy">
+            &copy; <span id="year"></span> Noble Osinachi. All rights reserved.
+          </p>
+          <div class="footer-socials">
+            <a
+              href="https://github.com/NobleOsinachi"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              ><i data-lucide="github" style="width: 16px; height: 16px"></i
+            ></a>
+            <a
+              href="https://linkedin.com/in/nobleosinachi"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              ><i data-lucide="linkedin" style="width: 16px; height: 16px"></i
+            ></a>
+            <a
+              href="https://twitter.com/nobleosinachi"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Twitter"
+              ><i data-lucide="twitter" style="width: 16px; height: 16px"></i
+            ></a>
+            <a
+              href="https://instagram.com/nobleosinachi"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              ><i data-lucide="instagram" style="width: 16px; height: 16px"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // ===== YEAR =====
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // ===== LUCIDE ICONS =====
+      lucide.createIcons();
+
+      // ===== NAVBAR SCROLL =====
+      window.addEventListener("scroll", () => {
+        document
+          .getElementById("navbar")
+          .classList.toggle("scrolled", window.scrollY > 50);
+      });
+
+      // ===== MOBILE MENU =====
+      const hamburger = document.getElementById("hamburger");
+      const mobileMenu = document.getElementById("mobile-menu");
+      hamburger.addEventListener("click", () => {
+        const open = mobileMenu.classList.toggle("open");
+        hamburger.innerHTML = open
+          ? '<i data-lucide="x" style="width:24px;height:24px;"></i>'
+          : '<i data-lucide="menu" style="width:24px;height:24px;"></i>';
+        lucide.createIcons();
+      });
+      function closeMobile() {
+        mobileMenu.classList.remove("open");
+        hamburger.innerHTML =
+          '<i data-lucide="menu" style="width:24px;height:24px;"></i>';
+        lucide.createIcons();
+      }
+
+      // ===== TYPEWRITER =====
+      const roles = [
+        "Full Stack Developer",
+        "Sales Funnel Engineer",
+        "Video Content Creator",
+        "Direct Response Copywriter",
+      ];
+      let roleIdx = 0,
+        charIdx = 0,
+        deleting = false;
+      const typedEl = document.getElementById("typed-text");
+      function typewrite() {
+        const word = roles[roleIdx];
+        if (!deleting) {
+          charIdx++;
+          typedEl.textContent = word.slice(0, charIdx);
+          if (charIdx === word.length) {
+            setTimeout(() => {
+              deleting = true;
+              typewrite();
+            }, 2000);
+            return;
+          }
+          setTimeout(typewrite, 80);
+        } else {
+          charIdx--;
+          typedEl.textContent = word.slice(0, charIdx);
+          if (charIdx === 0) {
+            deleting = false;
+            roleIdx = (roleIdx + 1) % roles.length;
+            setTimeout(typewrite, 200);
+            return;
+          }
+          setTimeout(typewrite, 50);
+        }
+      }
+      typewrite();
+
+      // ===== SCROLL ANIMATIONS =====
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) e.target.classList.add("visible");
+          });
+        },
+        { threshold: 0.1 },
+      );
+      document
+        .querySelectorAll(".fade-up")
+        .forEach((el) => observer.observe(el));
+
+      // ===== DYNAMIC CONTENT =====
+      // Services
+      const services = [
+        {
+          icon: "code",
+          title: "Full Stack Development",
+          desc: "Enterprise-grade web applications using ASP.NET, React, Next.js, and Node.js. Scalable systems that handle real-world complexity.",
+          tags: ["RESTful APIs", "Database Architecture", "Cloud Integration"],
+        },
+        {
+          icon: "filter",
+          title: "Sales Funnel Engineering",
+          desc: "Complete sales funnel systems with integrated payment processing, email automation, and conversion tracking.",
+          tags: [
+            "Landing Pages",
+            "Payment Gateways",
+            "Analytics & Optimization",
+          ],
+        },
+        {
+          icon: "video",
+          title: "Video Content Creation",
+          desc: "High-converting short-form videos for ads, social media, and VSLs. Content that stops the scroll and drives action.",
+          tags: ["UGC-Style Ads", "Video Sales Letters", "Content Repurposing"],
+        },
+        {
+          icon: "pen-tool",
+          title: "Direct Response Copywriting",
+          desc: "Persuasive copy that converts readers into customers. From email sequences to landing pages, words that sell.",
+          tags: ["Sales Page Copy", "Email Campaigns", "Ad Copy & Scripts"],
+        },
+        {
+          icon: "blocks",
+          title: "Blockchain Development",
+          desc: "Smart contract development with Solidity for decentralized applications. Web3 solutions for traditional business problems.",
+          tags: ["Smart Contracts", "DApp Development", "Web3 Integration"],
+        },
+        {
+          icon: "settings",
+          title: "Systems Engineering",
+          desc: "Optimizing complex systems for peak performance. Process automation to infrastructure design, solutions that scale.",
+          tags: [
+            "Process Automation",
+            "System Optimization",
+            "Performance Analysis",
+          ],
+        },
+      ];
+      document.getElementById("services-grid").innerHTML = services
+        .map(
+          (s) => `
+  <div class="card fade-up">
+    <div class="service-icon bg-gradient-primary" style="color:var(--primary-fg);"><i data-lucide="${s.icon}"></i></div>
+    <div class="service-title">${s.title}</div>
+    <div class="service-desc">${s.desc}</div>
+    <div class="service-tags">${s.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
+  </div>
+`,
+        )
+        .join("");
+
+      // Tech
+      const techCategories = [
+        {
+          title: "Backend & Databases",
+          techs: ["C#", ".NET", "Node.js", "SQL Server", "MongoDB", "MySQL"],
+        },
+        {
+          title: "Frontend & Frameworks",
+          techs: [
+            "React",
+            "Next.js",
+            "Angular",
+            "Tailwind CSS",
+            "Bootstrap",
+            "TypeScript",
+          ],
+        },
+        {
+          title: "Tools & Platforms",
+          techs: [
+            "Git",
+            "Docker",
+            "Premiere Pro",
+            "CapCut",
+            "Solidity",
+            "AI Tools",
+          ],
+        },
+      ];
+      document.getElementById("tech-grid").innerHTML = techCategories
+        .map(
+          (c) => `
+  <div class="tech-category">
+    <h3>${c.title}</h3>
+    <div class="tech-tags">${c.techs.map((t) => `<span class="tech-tag">${t}</span>`).join("")}</div>
+  </div>
+`,
+        )
+        .join("");
+
+      // Portfolio
+      const projects = [
+        {
+          category: "Full Stack · Payment Integration",
+          title: "Virtual Food Drive",
+          desc: "Global fundraising platform with Paystack, Stripe, and CashApp integration. Built with Next.js and Django, handling international donations with fraud detection and automated reporting.",
+          tags: ["Next.js", "Django", "Stripe API"],
+          result: "Processed 1000+ international donations",
+        },
+        {
+          category: "Automation · PHP",
+          title: "Automated Birthday eCard System",
+          desc: "Personalized birthday graphics generator with automated email delivery. Reduced design requests by 40% using PHP GD, MailGun API, and Cron jobs.",
+          tags: ["PHP", "MailGun", "Automation"],
+          result: "40% reduction in manual design work",
+        },
+        {
+          category: "Video Editing · Content Creation",
+          title: "Conference Content Repurposing",
+          desc: "Transformed long-form conference recordings into 50+ engaging short clips for Ecom Growth Factory. Achieved 65%+ retention rate and 28% CTR increase.",
+          tags: ["Premiere Pro", "CapCut", "Social Media"],
+          result: "65% retention rate · 28% CTR increase",
+        },
+        {
+          category: "Enterprise · .NET",
+          title: "YEFS Credit Workflow",
+          desc: "Enterprise fintech application for young entrepreneurs across Africa. Built with ASP.NET MVC, Entity Framework, and SQL Server for scalable loan management.",
+          tags: ["ASP.NET", "SQL Server", "Entity Framework"],
+          result: "Serving entrepreneurs across Africa",
+        },
+      ];
+      document.getElementById("portfolio-grid").innerHTML = projects
+        .map(
+          (p) => `
+  <div class="card fade-up">
+    <div class="project-cat">${p.category}</div>
+    <div class="project-title">${p.title}</div>
+    <div class="project-desc">${p.desc}</div>
+    <div class="project-result">📈 ${p.result}</div>
+    <div class="service-tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
+  </div>
+`,
+        )
+        .join("");
+
+      // Testimonials
+      const testimonials = [
+        {
+          quote:
+            "He took our conference videos and turned them into viral clips. People are loving them! The videos look very sharp and professional.",
+          name: "Fortune Chidera",
+          role: "Founder, Ecom Growth Factory",
+        },
+        {
+          quote:
+            "Those new creatives are performing really well. Over 65% watched past 30 seconds, and our CTR jumped by 28%. Can't thank you enough.",
+          name: "Gozzi",
+          role: "CEO, Hephzibah Stores",
+        },
+        {
+          quote:
+            "The editing is smooth, pacing is perfect, and it grabs attention. This kind of quality really makes a difference in conversion rates.",
+          name: "Adaeze Uche",
+          role: "CEO, Body Perfect Fitness",
+        },
+      ];
+      document.getElementById("testimonials-grid").innerHTML = testimonials
+        .map(
+          (t) => `
+  <div class="card fade-up">
+    <div style="color:hsl(210,100%,60%,0.3);margin-bottom:1rem;"><i data-lucide="quote" style="width:28px;height:28px;"></i></div>
+    <div class="testimonial-quote">"${t.quote}"</div>
+    <div class="testimonial-author">
+      <div class="testimonial-avatar bg-gradient-primary">${t.name[0]}</div>
+      <div><div class="testimonial-name">${t.name}</div><div class="testimonial-role">${t.role}</div></div>
+    </div>
+  </div>
+`,
+        )
+        .join("");
+
+      // Re-init icons + observers for dynamic content
+      lucide.createIcons();
+      document
+        .querySelectorAll(".fade-up:not(.visible)")
+        .forEach((el) => observer.observe(el));
+
+      // ===== CONTACT FORM =====
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const fd = new FormData(this);
+          const mailto = `mailto:nobleosinachi@icloud.com?subject=Project Inquiry: ${fd.get("service")}&body=Name: ${fd.get("name")}%0D%0AEmail: ${fd.get("email")}%0D%0AService: ${fd.get("service")}%0D%0A%0D%0A${fd.get("message")}`;
+          window.open(mailto);
+        });
+    </script>
+  </body>
+</html>
