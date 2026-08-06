@@ -5,14 +5,14 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-720Y6D4QNV"></script>
     <script>
-      window.dataLayer=window.dataLayer||[];
+      window.dataLayer = window.dataLayer || [];
 
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js",new Date());
+      gtag("js", new Date());
 
-      gtag("config","G-720Y6D4QNV");
+      gtag("config", "G-720Y6D4QNV");
     </script>
 
     <meta charset="UTF-8" />
@@ -34,7 +34,7 @@
     <meta property="og:title" content="Noble Osinachi - Video Editor for Direct Response Ads & Short-Form Content" />
     <meta property="og:description"
       content="Helping brands transform content into high-performing, scroll-stopping ads. Explore my video editing portfolio." />
-    <meta property="og:image" content="https://nobleosinachi.com/images/preview.png" />
+    <meta property="og:image" content="https://nobleosinachi.com/images/preview.jpg" />
     <meta property="og:site_name" content="Noble Osinachi Portfolio" />
 
     <!-- Twitter -->
@@ -43,7 +43,7 @@
     <meta name="twitter:title" content="Noble Osinachi - Professional Video Editor | UGC & Short-Form Ads" />
     <meta name="twitter:description"
       content="I edit videos that convert: ads, UGC, short-form content. Let's create together!" />
-    <meta name="twitter:image" content="https://nobleosinachi.com/images/preview.png" />
+    <meta name="twitter:image" content="https://nobleosinachi.com/images/preview.jpg" />
     <meta name="twitter:creator" content="@NobleOsinachi" />
 
     <!-- Schema Markup (SEO Boost) -->
@@ -53,7 +53,7 @@
         "@type": "Person",
         "name": "Noble Osinachi",
         "url": "https://nobleosinachi.com/video-editor/",
-        "image": "https://nobleosinachi.com/images/preview.png",
+        "image": "https://nobleosinachi.com/images/preview.jpg",
         "jobTitle": "Professional Video Editor",
         "worksFor": {
           "@type": "Organization",
@@ -1464,10 +1464,10 @@
     <!-- Simple JavaScript for mobile menu toggle and contact form -->
 
     <script>
-      document.addEventListener("DOMContentLoaded",function() {
+      document.addEventListener("DOMContentLoaded", function () {
         // Function to send GET request to your backend
         function pingBackend() {
-          fetch("https://nobleosinachi-email-api.onrender.com/",{
+          fetch("https://nobleosinachi-email-api.onrender.com/", {
             method: "GET",
             mode: "no-cors", // 'no-cors' to avoid CORS issues (if needed)
           })
@@ -1483,64 +1483,64 @@
         pingBackend();
 
         // === Mobile Menu Logic ===
-        const mobileMenuButton=document.querySelector(".md\\:hidden button");
-        const mobileMenu=document.getElementById("mobile-menu");
-        const closeMenuButton=document.getElementById("close-menu");
-        const mobileMenuLinks=document.querySelectorAll("#mobile-menu a");
+        const mobileMenuButton = document.querySelector(".md\\:hidden button");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const closeMenuButton = document.getElementById("close-menu");
+        const mobileMenuLinks = document.querySelectorAll("#mobile-menu a");
 
-        if(mobileMenuButton&&mobileMenu&&closeMenuButton) {
-          mobileMenuButton.addEventListener("click",function() {
+        if (mobileMenuButton && mobileMenu && closeMenuButton) {
+          mobileMenuButton.addEventListener("click", function () {
             mobileMenu.classList.remove("hidden");
           });
 
-          closeMenuButton.addEventListener("click",function() {
+          closeMenuButton.addEventListener("click", function () {
             mobileMenu.classList.add("hidden");
           });
 
           mobileMenuLinks.forEach((link) => {
-            link.addEventListener("click",function() {
+            link.addEventListener("click", function () {
               mobileMenu.classList.add("hidden");
             });
           });
         }
 
         // === Contact Form Logic ===
-        const contactForm=document.querySelector("form");
-        if(contactForm) {
-          contactForm.addEventListener("submit",async function(e) {
+        const contactForm = document.querySelector("form");
+        if (contactForm) {
+          contactForm.addEventListener("submit", async function (e) {
             e.preventDefault();
 
-            const contactSection=document.getElementById("get-in-touch");
-            if(contactSection) {
+            const contactSection = document.getElementById("get-in-touch");
+            if (contactSection) {
               contactSection.scrollIntoView({
                 behavior: "smooth",
               });
             }
 
-            const nameInput=document.getElementById("name");
-            const emailInput=document.getElementById("email");
-            const projectInput=document.getElementById("project");
-            const messageInput=document.getElementById("message");
-            const submitButton=document.querySelector(
+            const nameInput = document.getElementById("name");
+            const emailInput = document.getElementById("email");
+            const projectInput = document.getElementById("project");
+            const messageInput = document.getElementById("message");
+            const submitButton = document.querySelector(
               'button[type="submit"]',
             );
-            const originalBtnText=submitButton.innerHTML; // Capture the original button text
+            const originalBtnText = submitButton.innerHTML; // Capture the original button text
 
-            if(!nameInput.value||!emailInput.value||!messageInput.value) {
+            if (!nameInput.value || !emailInput.value || !messageInput.value) {
               alert("Please fill in all required fields");
               return;
             }
 
-            submitButton.disabled=true;
-            submitButton.innerHTML="Sending...";
-            submitButton.style.cursor="not-allowed";
+            submitButton.disabled = true;
+            submitButton.innerHTML = "Sending...";
+            submitButton.style.cursor = "not-allowed";
             submitButton.classList.add("opacity-50"); // optional: makes it visually look disabled
 
             try {
-              const url=
+              const url =
                 "https://nobleosinachi-email-api.onrender.com/video-editor-form";
 
-              const response=await fetch(url,{
+              const response = await fetch(url, {
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json",
@@ -1553,13 +1553,13 @@
                 }),
               });
 
-              const result=await response.json();
+              const result = await response.json();
 
-              if(result.success) {
-                const formContainer=contactForm.parentElement;
-                const originalFormHTML=formContainer.innerHTML;
+              if (result.success) {
+                const formContainer = contactForm.parentElement;
+                const originalFormHTML = formContainer.innerHTML;
 
-                formContainer.innerHTML=`
+                formContainer.innerHTML = `
 <div class="text-center py-8">
  <svg xmlns="http://w3.org/2000/svg" class="h-16 w-16 text-green-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24"
  stroke="currentColor">
@@ -1571,39 +1571,39 @@
 `;
 
                 setTimeout(() => {
-                  formContainer.innerHTML=originalFormHTML;
+                  formContainer.innerHTML = originalFormHTML;
 
                   // Re-query the button and reattach event listener
-                  const restoredForm=formContainer.querySelector("form");
-                  if(restoredForm) {
-                    restoredForm.addEventListener("submit",arguments.callee);
+                  const restoredForm = formContainer.querySelector("form");
+                  if (restoredForm) {
+                    restoredForm.addEventListener("submit", arguments.callee);
                   }
 
-                  const restoredButton=formContainer.querySelector(
+                  const restoredButton = formContainer.querySelector(
                     'button[type="submit"]',
                   );
-                  if(restoredButton) {
-                    restoredButton.disabled=false;
-                    restoredButton.innerHTML=originalBtnText;
-                    restoredButton.style.cursor="pointer"; // or 'default' depending on your design
+                  if (restoredButton) {
+                    restoredButton.disabled = false;
+                    restoredButton.innerHTML = originalBtnText;
+                    restoredButton.style.cursor = "pointer"; // or 'default' depending on your design
                     restoredButton.classList.remove("opacity-50");
                   }
-                },5000);
+                }, 5000);
               } else {
                 alert(
-                  result.message||"Something went wrong. Please try again.",
+                  result.message || "Something went wrong. Please try again.",
                 );
-                submitButton.disabled=false;
-                submitButton.innerHTML=originalBtnText;
-                submitButton.style.cursor="pointer"; // or 'default' depending on your design
+                submitButton.disabled = false;
+                submitButton.innerHTML = originalBtnText;
+                submitButton.style.cursor = "pointer"; // or 'default' depending on your design
                 submitButton.classList.remove("opacity-50");
               }
-            } catch(error) {
-              console.error("Error submitting form:",error);
+            } catch (error) {
+              console.error("Error submitting form:", error);
               alert("Failed to send message. Please try again later.");
-              submitButton.disabled=false;
-              submitButton.innerHTML=originalBtnText;
-              submitButton.style.cursor="pointer"; // or 'default' depending on your design
+              submitButton.disabled = false;
+              submitButton.innerHTML = originalBtnText;
+              submitButton.style.cursor = "pointer"; // or 'default' depending on your design
               submitButton.classList.remove("opacity-50");
             }
           });
