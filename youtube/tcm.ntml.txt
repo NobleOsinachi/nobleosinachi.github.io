@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Video Editing Portfolio — Noble Osinachi</title>
+
+  <meta
+    name="description"
+    content="A selection of long-form YouTube editing and audience retention work."
+  />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+      padding: 50px 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      color: #aaa;
+      font-size: 18px;
+    }
+
+    .videos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+
+    .video-card {
+      background: #181818;
+      border: 1px solid #292929;
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    .video-wrapper {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #000;
+    }
+
+    .video-wrapper iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+    .video-info {
+      padding: 18px;
+    }
+
+    .video-info h2 {
+      font-size: 18px;
+      margin-bottom: 7px;
+    }
+
+    .video-info p {
+      color: #999;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      color: #666;
+      margin-top: 60px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 800px) {
+      .videos {
+        grid-template-columns: 1fr;
+      }
+
+      header h1 {
+        font-size: 32px;
+      }
+
+      body {
+        padding: 30px 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>My Top YouTube Edits</h1>
+      <p>
+        A selection of my long-form YouTube editing and audience-retention work.
+      </p>
+    </header>
+
+
+    <main class="videos">
+
+      <!-- VIDEO 1 -->
+      <article class="video-card">
+        <div class="video-wrapper">
+          <iframe
+            src="https://drive.google.com/file/d/1wFBCoc42MAm3tQ2G7poBrOrEXnKyizWr/preview"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-info">
+          <h2>True Crime Edit #1</h2>
+          <p>Long-form storytelling, pacing, B-roll and retention-focused editing.</p>
+        </div>
+      </article>
+
+
+      <!-- VIDEO 2 -->
+      <article class="video-card">
+        <div class="video-wrapper">
+          <iframe
+            src="https://drive.google.com/file/d/1tQQWbQqG6tC3V0SxvBqseiUAi6o2LsqQ/preview"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-info">
+          <h2>True Crime Edit #2</h2>
+          <p>Long-form YouTube editing focused on pacing and viewer retention.</p>
+        </div>
+      </article>
+
+
+      <!-- VIDEO 3 -->
+      <article class="video-card">
+        <div class="video-wrapper">
+          <iframe
+            src="https://drive.google.com/file/d/1zftBhVgg-AMhFzeuABlEFeC_Aqjz0HYk/preview"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-info">
+          <h2>True Crime Edit #3</h2>
+          <p>Documentary-style editing with supporting visuals and sound design.</p>
+        </div>
+      </article>
+
+
+      <!-- VIDEO 4 -->
+      <article class="video-card">
+        <div class="video-wrapper">
+          <iframe
+            src="https://drive.google.com/file/d/1_DJpKAHa5rbeQtRU_8MLYs0TBsWvXW3_/preview"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-info">
+          <h2>True Crime Edit #4</h2>
+          <p>Retention-focused editing and narrative pacing.</p>
+        </div>
+      </article>
+
+
+      <!-- VIDEO 5 -->
+      <article class="video-card">
+        <div class="video-wrapper">
+          <iframe
+            src="https://drive.google.com/file/d/1oaHoKrumDQySM-mS_XU-ZFJ41eYWxS2r/preview"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-info">
+          <h2>True Crime Edit #5</h2>
+          <p>Visual storytelling, B-roll integration and sound design.</p>
+        </div>
+      </article>
+
+
+      <!-- VIDEO 6 -->
+      <article class="video-card">
+        <div class="video-wrapper">
+          <iframe
+            src="https://drive.google.com/file/d/1BgEVksozaWs7As9JImRxHATgcrYeQywS/preview"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-info">
+          <h2>True Crime Edit #6</h2>
+          <p>Long-form YouTube editing designed to maintain viewer attention.</p>
+        </div>
+      </article>
+
+
+      <!-- VIDEO 7 -->
+      <article class="video-card">
+        <div class="video-wrapper">
+          <iframe
+            src="https://drive.google.com/file/d/1ArsvovSDDGfwWDJOAWx7HtsDJTKdsJOg/preview"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-info">
+          <h2>True Crime Edit #7</h2>
+          <p>Story-driven editing with pacing and visual continuity.</p>
+        </div>
+      </article>
+
+
+      <!-- VIDEO 8 -->
+      <article class="video-card">
+        <div class="video-wrapper">
+          <iframe
+            src="https://drive.google.com/file/d/1tQ3jd9Nr-0vinrkIomxyAT2Oc5-0MK7h/preview"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-info">
+          <h2>True Crime Edit #8</h2>
+          <p>Audience-retention editing and documentary-style storytelling.</p>
+        </div>
+      </article>
+
+
+      <!-- VIDEO 9 -->
+      <article class="video-card">
+        <div class="video-wrapper">
+          <iframe
+            src="https://drive.google.com/file/d/1lo6AkuWC97uVkJobHga7_yqBbIjBKES4/preview"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-info">
+          <h2>True Crime Edit #9</h2>
+          <p>Long-form editing with visual storytelling and dynamic pacing.</p>
+        </div>
+      </article>
+
+
+      <!-- VIDEO 10 -->
+      <article class="video-card">
+        <div class="video-wrapper">
+          <iframe
+            src="https://drive.google.com/file/d/1kCPTDoj_ezPZEM9LvtfPT3Fv5wg-v_nO/preview"
+            allow="autoplay"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-info">
+          <h2>True Crime Edit #10</h2>
+          <p>Retention-focused YouTube editing and cinematic storytelling.</p>
+        </div>
+      </article>
+
+    </main>
+
+
+    <footer>
+      © 2026 Noble Osinachi — Video Editing Portfolio
+    </footer>
+
+  </div>
+
+</body>
+</html>
+
