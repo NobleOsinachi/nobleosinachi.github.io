@@ -144,11 +144,19 @@
         box-shadow: 0 0 30px rgba(96, 165, 250, 0.3);
       }
     </style>
-  </head>
 
-  <body class="bg-gray-900 text-white antialiased">
+    <!-- Shared Noble design system -->
+    <link rel="stylesheet" href="assets/site-system.css" />
+    <script defer src="assets/site-system.js"></script>
+<noscript><style>.site-header .site-menu-toggle{display:none}.site-header .site-links{display:flex;flex-wrap:wrap;gap:12px}.site-header-inner{flex-wrap:wrap;padding-block:14px}</style></noscript>
+</head>
+
+  <body class="site-remodel bg-gray-900 text-white antialiased">
+<a class="site-skip" href="#site-content">Skip to content</a>
+<header class="site-header"><div class="site-header-inner"><a class="site-brand" href="index.html"><span class="site-brand-mark" aria-hidden="true">NO.</span>Noble Osinachi</a><button class="site-menu-toggle" type="button" aria-controls="site-links" aria-expanded="false">Menu</button><nav aria-label="Main navigation"><ul class="site-links" id="site-links"><li><a href="index.html" aria-current="page">Home</a></li><li><a href="video-editor/index.html">Video editing</a></li><li><a href="developer-portfolio.html">Development</a></li><li><a href="copywriter/index.html">Copywriting</a></li><li><a class="site-nav-cta" href="#contact">Let’s talk ↗</a></li></ul></nav></div></header><div id="site-content" tabindex="-1"></div>
+
     <!-- Navigation -->
-    <nav class="fixed top-0 w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
+    <nav class="site-legacy-nav fixed top-0 w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
       <div class="container mx-auto px-4 lg:px-12">
         <div class="flex justify-between items-center h-16">
           <a href="#home" class="text-xl font-bold">
@@ -955,41 +963,6 @@
             What Clients <span class="text-gradient">Say</span>
           </h2>
           <div class="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6"></div>
-        </div>
-
-        <!-- videos -->
-
-        <!-- 🔥 VIDEO TESTIMONIALS (Added Before Text Ones) -->
-        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
-          <!-- Video 1 -->
-          <div
-            class="bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all">
-            <div class="aspect-[9/16]">
-              <iframe class="w-full h-full" src="https://youtube.com/embed/NobleOsinachi"
-                title="Client Testimonial Video" frameborder="0" allowfullscreen>
-              </iframe>
-            </div>
-          </div>
-
-          <!-- Video 2 -->
-          <div
-            class="bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 hover:border-purple-500 transition-all">
-            <div class="aspect-[9/16]">
-              <iframe class="w-full h-full" src="https://youtube.com/embed/NobleOsinachi"
-                title="Client Testimonial Video" frameborder="0" allowfullscreen>
-              </iframe>
-            </div>
-          </div>
-
-          <!-- Video 3 -->
-          <div
-            class="bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 hover:border-pink-500 transition-all">
-            <div class="aspect-[9/16]">
-              <iframe class="w-full h-full" src="https://youtube.com/embed/NobleOsinachi"
-                title="Client Testimonial Video" frameborder="0" allowfullscreen>
-              </iframe>
-            </div>
-          </div>
         </div>
 
         <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">

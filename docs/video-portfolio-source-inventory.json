@@ -9,7 +9,7 @@
       "id": "ai-creatives",
       "title": "AI Creatives",
       "eyebrow": "01 / Creative experimentation",
-      "description": "AI-generated worlds. Human-led storytelling. Product films and social ads shaped from concept to final cut.",
+      "description": "AI product films, UGC experiments and playful visual stories. Twelve different creative executions, from skincare to Sora.",
       "featured": true,
       "projects": [
         {
@@ -68,6 +68,186 @@
           "public": true,
           "verification": "Public YouTube oEmbed metadata; supplied channel or existing portfolio",
           "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-slXsCb1J4IM",
+          "host": "youtube",
+          "videoId": "slXsCb1J4IM",
+          "title": "Dog Narrowly Escapes Cops",
+          "sourceTitle": "Dog Narrowly Escapes Cops #shorts #sora2",
+          "description": "A playful Sora experiment built around a dog’s unlikely escape.",
+          "tags": [
+            "Sora",
+            "AI experiment"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=slXsCb1J4IM",
+          "thumbnail": "https://i.ytimg.com/vi/slXsCb1J4IM/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Source title names Sora 2; visible Sora watermark and dog-on-bicycle frame reviewed.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-llK9RS-c74E",
+          "host": "youtube",
+          "videoId": "llK9RS-c74E",
+          "title": "AI Talking Head · DTC Edit",
+          "sourceTitle": "Direct Response AI Talking Head DTC Edit | #Viral #Shorts",
+          "description": "A direct-response edit exploring AI talking-head presentation.",
+          "tags": [
+            "AI presenter",
+            "DTC edit"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=llK9RS-c74E",
+          "thumbnail": "https://i.ytimg.com/vi/llK9RS-c74E/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; AI talking-head production explicitly identified in the published title.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-KHbu7nwqh1E",
+          "host": "youtube",
+          "videoId": "KHbu7nwqh1E",
+          "title": "Indoor Golf · AI + UGC",
+          "sourceTitle": "UGC Stitched Ad for a Golf Set ⛳ | AI + Creative Autonomy #shorts #viralshorts",
+          "description": "A stitched golf-set creative combining AI-assisted production with a social ad format.",
+          "tags": [
+            "AI-assisted",
+            "UGC storytelling"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=KHbu7nwqh1E",
+          "thumbnail": "https://i.ytimg.com/vi/KHbu7nwqh1E/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Published title explicitly identifies AI + creative autonomy; indoor golf footage sampled.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-hnWzF-CmD1c",
+          "host": "youtube",
+          "videoId": "hnWzF-CmD1c",
+          "title": "Create AI UGC Videos",
+          "sourceTitle": "Create AI UGC videos for free!",
+          "description": "A short demonstration of an AI UGC workflow, presented in a creator-led format.",
+          "tags": [
+            "AI workflow",
+            "Creator tutorial"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=hnWzF-CmD1c",
+          "thumbnail": "https://i.ytimg.com/vi/hnWzF-CmD1c/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; AI workflow explicitly identified in source title; visible YouTube AI label and presenter reviewed.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-I46zXVeOTgs",
+          "host": "youtube",
+          "videoId": "I46zXVeOTgs",
+          "title": "Skincare Advertising With AI",
+          "sourceTitle": "Skincare Advertising With AI — Aichun Beauty Anti-Acne Cream #skincare #skincareroutine #sunscreen",
+          "description": "An AI-assisted skincare creative for Aichun Beauty anti-acne cream.",
+          "tags": [
+            "AI skincare",
+            "Product creative"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=I46zXVeOTgs",
+          "thumbnail": "https://i.ytimg.com/vi/I46zXVeOTgs/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Published source title explicitly identifies AI advertising.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-kdsQ9Vwbo5c",
+          "host": "youtube",
+          "videoId": "kdsQ9Vwbo5c",
+          "title": "ALIVO 05 · Before / After",
+          "sourceTitle": "ALIVO 05",
+          "description": "A caption-led ALIVO creative with a split-screen visual story.",
+          "tags": [
+            "AI creative",
+            "Campaign film"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=kdsQ9Vwbo5c",
+          "thumbnail": "https://i.ytimg.com/vi/kdsQ9Vwbo5c/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Visible YouTube AI label; distinct split-screen older-man composition reviewed.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-UUY86t2HiKU",
+          "host": "youtube",
+          "videoId": "UUY86t2HiKU",
+          "title": "ALIVO 09 · Consultation",
+          "sourceTitle": "ALIVO 09 ADVERT",
+          "description": "An ALIVO campaign film built around a consultation scene and on-screen captions.",
+          "tags": [
+            "Campaign film",
+            "Visual storytelling"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=UUY86t2HiKU",
+          "thumbnail": "https://i.ytimg.com/vi/UUY86t2HiKU/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Distinct consultation scene visually reviewed; AI-assisted classification inferred from generated-looking imagery within the established ALIVO campaign, not confirmed by a platform AI badge.",
+          "classificationConfidence": "medium",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-_upN3oKOuFg",
+          "host": "youtube",
+          "videoId": "_upN3oKOuFg",
+          "title": "ALIVO 01 · Tea Ritual",
+          "sourceTitle": "ALIVO AD 01",
+          "description": "An ALIVO campaign creative built around a tea-drinking scene.",
+          "tags": [
+            "Campaign film",
+            "Lifestyle creative"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=_upN3oKOuFg",
+          "thumbnail": "https://i.ytimg.com/vi/_upN3oKOuFg/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Distinct woman-with-tea composition visually reviewed; AI-assisted classification inferred from generated-looking imagery in the established ALIVO campaign, not confirmed by a platform AI badge.",
+          "classificationConfidence": "medium",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-v8s2t7qtjYE",
+          "host": "youtube",
+          "videoId": "v8s2t7qtjYE",
+          "title": "ALIVO 04 · Four-Panel Story",
+          "sourceTitle": "ALIVO 04 ADVERT2",
+          "description": "A four-panel ALIVO creative combining anatomical graphics with captions.",
+          "tags": [
+            "Campaign film",
+            "Visual composition"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=v8s2t7qtjYE",
+          "thumbnail": "https://i.ytimg.com/vi/v8s2t7qtjYE/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Distinct four-panel anatomical composition visually reviewed; AI-assisted classification inferred from imagery in the established ALIVO campaign, not confirmed by a platform AI badge.",
+          "classificationConfidence": "medium",
+          "verifiedOn": "2026-10-23"
         }
       ]
     },
@@ -75,7 +255,7 @@
       "id": "faceless-youtube",
       "title": "Faceless YouTube Videos",
       "eyebrow": "02 / Long-form storytelling",
-      "description": "Documentary-style edits that build a story through archival imagery, footage selection and visual sequencing.",
+      "description": "Long-form documentary edits. Nine films to watch now, with three new projects on the way.",
       "projects": [
         {
           "key": "adx-florence",
@@ -136,6 +316,140 @@
           "public": true,
           "verification": "Anonymous Drive preview HTTP 200, public thumbnail and browser playback; sharing unchanged",
           "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "drive-1wFBCoc42MAm3tQ2G7poBrOrEXnKyizWr",
+          "host": "drive",
+          "videoId": "1wFBCoc42MAm3tQ2G7poBrOrEXnKyizWr",
+          "title": "Big Pharma CEOs",
+          "sourceTitle": "15 Big Pharma CEOs Who Were Convicted Of Crimes NO SFX.mp4",
+          "description": "A faceless documentary about pharmaceutical executives convicted of crimes.",
+          "tags": [
+            "Faceless YouTube",
+            "Documentary edit"
+          ],
+          "aspectRatio": "16:9",
+          "sourceUrl": "https://drive.google.com/file/d/1wFBCoc42MAm3tQ2G7poBrOrEXnKyizWr/view",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1wFBCoc42MAm3tQ2G7poBrOrEXnKyizWr&sz=w1000",
+          "verified": true,
+          "public": true,
+          "verification": "Public supplied Drive folder listing; anonymous preview includes exact filename; public image thumbnail. Representative footage not yet reviewed for this additional selection.",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "drive-1zftBhVgg-AMhFzeuABlEFeC_Aqjz0HYk",
+          "host": "drive",
+          "videoId": "1zftBhVgg-AMhFzeuABlEFeC_Aqjz0HYk",
+          "title": "Teenage Siblings",
+          "sourceTitle": "15 Teenage Siblings Convicted Together.mp4",
+          "description": "A long-form documentary about teenage siblings convicted together.",
+          "tags": [
+            "Faceless YouTube",
+            "Documentary edit"
+          ],
+          "aspectRatio": "16:9",
+          "sourceUrl": "https://drive.google.com/file/d/1zftBhVgg-AMhFzeuABlEFeC_Aqjz0HYk/view",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1zftBhVgg-AMhFzeuABlEFeC_Aqjz0HYk&sz=w1000",
+          "verified": true,
+          "public": true,
+          "verification": "Public supplied Drive folder listing; anonymous preview includes exact filename; public image thumbnail. Representative footage not yet reviewed for this additional selection.",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "drive-1BgEVksozaWs7As9JImRxHATgcrYeQywS",
+          "host": "drive",
+          "videoId": "1BgEVksozaWs7As9JImRxHATgcrYeQywS",
+          "title": "Gang Leaders in the U.S.",
+          "sourceTitle": "18 Gang Leaders In The U.S. Who Were Convicted Of Crimes And Sentenced To Prison.mp4",
+          "description": "A crime documentary about gang leaders and their convictions in the United States.",
+          "tags": [
+            "Faceless YouTube",
+            "Documentary edit"
+          ],
+          "aspectRatio": "16:9",
+          "sourceUrl": "https://drive.google.com/file/d/1BgEVksozaWs7As9JImRxHATgcrYeQywS/view",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1BgEVksozaWs7As9JImRxHATgcrYeQywS&sz=w1000",
+          "verified": true,
+          "public": true,
+          "verification": "Public supplied Drive folder listing; anonymous preview includes exact filename; public image thumbnail. Representative footage not yet reviewed for this additional selection.",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "drive-1ArsvovSDDGfwWDJOAWx7HtsDJTKdsJOg",
+          "host": "drive",
+          "videoId": "1ArsvovSDDGfwWDJOAWx7HtsDJTKdsJOg",
+          "title": "Texas Men Behind Bars",
+          "sourceTitle": "21 Wealthy High Networth Texas Men Behind Bars And Their Crimes..mp4",
+          "description": "A long-form documentary about wealthy Texas men behind bars and their crimes.",
+          "tags": [
+            "Faceless YouTube",
+            "Documentary edit"
+          ],
+          "aspectRatio": "16:9",
+          "sourceUrl": "https://drive.google.com/file/d/1ArsvovSDDGfwWDJOAWx7HtsDJTKdsJOg/view",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1ArsvovSDDGfwWDJOAWx7HtsDJTKdsJOg&sz=w1000",
+          "verified": true,
+          "public": true,
+          "verification": "Public supplied Drive folder listing; anonymous preview includes exact filename; public image thumbnail. Representative footage not yet reviewed for this additional selection.",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "drive-1KW56afbBBXzjwTT63uFuGppo96pz3Sgb",
+          "host": "drive",
+          "videoId": "1KW56afbBBXzjwTT63uFuGppo96pz3Sgb",
+          "title": "Police Killings · Documentary",
+          "sourceTitle": "39 Racial Police Killings That Sparked National Outrage in the U.S..mp4",
+          "description": "A documentary about police killings and the public outrage surrounding them.",
+          "tags": [
+            "Faceless YouTube",
+            "Documentary edit"
+          ],
+          "aspectRatio": "16:9",
+          "sourceUrl": "https://drive.google.com/file/d/1KW56afbBBXzjwTT63uFuGppo96pz3Sgb/view",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1KW56afbBBXzjwTT63uFuGppo96pz3Sgb&sz=w1000",
+          "verified": true,
+          "public": true,
+          "verification": "Public supplied Drive folder listing; anonymous preview includes exact filename; public image thumbnail. Representative footage not yet reviewed for this additional selection.",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "drive-1tQ3jd9Nr-0vinrkIomxyAT2Oc5-0MK7h",
+          "host": "drive",
+          "videoId": "1tQ3jd9Nr-0vinrkIomxyAT2Oc5-0MK7h",
+          "title": "Athletes Who Committed Murder",
+          "sourceTitle": "Atheletes Who Commited Murder.mp4",
+          "description": "A documentary about athletes involved in murder cases.",
+          "tags": [
+            "Faceless YouTube",
+            "Documentary edit"
+          ],
+          "aspectRatio": "16:9",
+          "sourceUrl": "https://drive.google.com/file/d/1tQ3jd9Nr-0vinrkIomxyAT2Oc5-0MK7h/view",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1tQ3jd9Nr-0vinrkIomxyAT2Oc5-0MK7h&sz=w1000",
+          "verified": true,
+          "public": true,
+          "verification": "Public supplied Drive folder listing; anonymous preview includes exact filename; public image thumbnail. Representative footage not yet reviewed for this additional selection.",
+          "verifiedOn": "2026-10-23"
+        }
+      ],
+      "placeholders": [
+        {
+          "key": "faceless-coming-1",
+          "title": "Next documentary · 1",
+          "description": "New faceless YouTube edit. Video uploading soon.",
+          "status": "coming-soon"
+        },
+        {
+          "key": "faceless-coming-2",
+          "title": "Next documentary · 2",
+          "description": "New faceless YouTube edit. Video uploading soon.",
+          "status": "coming-soon"
+        },
+        {
+          "key": "faceless-coming-3",
+          "title": "Next documentary · 3",
+          "description": "New faceless YouTube edit. Video uploading soon.",
+          "status": "coming-soon"
         }
       ]
     },
@@ -143,7 +457,7 @@
       "id": "commercial-editing",
       "title": "Commercials & Video Editing",
       "eyebrow": "03 / Brand & product stories",
-      "description": "A focused selection of brand and product edits, from everyday luxury to practical product demonstrations.",
+      "description": "Product demonstrations, UGC edits and brand stories — twelve different ways to make the message land.",
       "projects": [
         {
           "key": "grams28",
@@ -201,6 +515,186 @@
           "public": true,
           "verification": "Public YouTube oEmbed metadata; supplied channel or existing portfolio",
           "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-bc-6ckyntEc",
+          "host": "youtube",
+          "videoId": "bc-6ckyntEc",
+          "title": "Indoor Portable Sauna",
+          "sourceTitle": "Indoor Portable Sauna UGC Edit #shorts @viralshorts",
+          "description": "A portable-sauna UGC edit created for vertical social viewing.",
+          "tags": [
+            "Product creative",
+            "Social advertising"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=bc-6ckyntEc",
+          "thumbnail": "https://i.ytimg.com/vi/bc-6ckyntEc/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Classification and description limited to the published title; no performance results asserted.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-O614OV0W0Bo",
+          "host": "youtube",
+          "videoId": "O614OV0W0Bo",
+          "title": "XG88 Pro · Smart Glasses",
+          "sourceTitle": "Smart Bluetooth Wireless Headset Glasses Mashup Creative XG88 Pro Creative #shorts #viral",
+          "description": "A mashup creative introducing Bluetooth headset glasses.",
+          "tags": [
+            "Product creative",
+            "Social advertising"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=O614OV0W0Bo",
+          "thumbnail": "https://i.ytimg.com/vi/O614OV0W0Bo/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Classification and description limited to the published title; no performance results asserted.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-paq0Jgf5JxA",
+          "host": "youtube",
+          "videoId": "paq0Jgf5JxA",
+          "title": "Treadmill · Product Creative",
+          "sourceTitle": "TREADMILL 01",
+          "description": "A vertical product creative featuring a treadmill.",
+          "tags": [
+            "Product creative",
+            "Social advertising"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=paq0Jgf5JxA",
+          "thumbnail": "https://i.ytimg.com/vi/paq0Jgf5JxA/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Classification and description limited to the published title; no performance results asserted.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-iruMRLawtXY",
+          "host": "youtube",
+          "videoId": "iruMRLawtXY",
+          "title": "Ridax · Sleep Better",
+          "sourceTitle": "Ridax 1 – Sleep Better 😴 | Winning UGC Ad Breakdown 👇 #shorts #viral",
+          "description": "A Ridax UGC ad built around its published sleep-focused angle.",
+          "tags": [
+            "Product creative",
+            "Social advertising"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=iruMRLawtXY",
+          "thumbnail": "https://i.ytimg.com/vi/iruMRLawtXY/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Classification and description limited to the published title; no performance results asserted.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-gE3aL7qr0yo",
+          "host": "youtube",
+          "videoId": "gE3aL7qr0yo",
+          "title": "Indoor Golf · Workplace Angle",
+          "sourceTitle": "Workplace Angle – Golf Putting Set",
+          "description": "A golf putting-set ad developed around a workplace scenario.",
+          "tags": [
+            "Product creative",
+            "Social advertising"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=gE3aL7qr0yo",
+          "thumbnail": "https://i.ytimg.com/vi/gE3aL7qr0yo/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Classification and description limited to the published title; no performance results asserted.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-aDr5Sly3wK8",
+          "host": "youtube",
+          "videoId": "aDr5Sly3wK8",
+          "title": "Skincare · Friend Recommendation",
+          "sourceTitle": "Anti-Acne Cream – Friend Recommendation Angle",
+          "description": "An anti-acne cream creative using a recommendation-led angle.",
+          "tags": [
+            "Product creative",
+            "Social advertising"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=aDr5Sly3wK8",
+          "thumbnail": "https://i.ytimg.com/vi/aDr5Sly3wK8/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Classification and description limited to the published title; no performance results asserted.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-jeaquXO58cA",
+          "host": "youtube",
+          "videoId": "jeaquXO58cA",
+          "title": "Ecom Brand · Before / After",
+          "sourceTitle": "Ecom Brand Before & After Edit – High-Impact Visual Transformation",
+          "description": "A before-and-after presentation of an ecommerce brand edit.",
+          "tags": [
+            "Product creative",
+            "Social advertising"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=jeaquXO58cA",
+          "thumbnail": "https://i.ytimg.com/vi/jeaquXO58cA/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Classification and description limited to the published title; no performance results asserted.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-uFwjli_xduA",
+          "host": "youtube",
+          "videoId": "uFwjli_xduA",
+          "title": "Smart Wear · Fashion Creative",
+          "sourceTitle": "Smart Wear Fashion Pioneer Creative - Bluetooth Sunglasses #shorts #viralshorts  #viral",
+          "description": "A Bluetooth sunglasses creative combining fashion and product presentation.",
+          "tags": [
+            "Product creative",
+            "Social advertising"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=uFwjli_xduA",
+          "thumbnail": "https://i.ytimg.com/vi/uFwjli_xduA/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Classification and description limited to the published title; no performance results asserted.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-MSfEY89m_1U",
+          "host": "youtube",
+          "videoId": "MSfEY89m_1U",
+          "title": "Ridax · Neighbours Angle",
+          "sourceTitle": "Ridax   Neighbors Are the Source",
+          "description": "A Ridax creative built around the published neighbours scenario.",
+          "tags": [
+            "Product creative",
+            "Social advertising"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=MSfEY89m_1U",
+          "thumbnail": "https://i.ytimg.com/vi/MSfEY89m_1U/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Classification and description limited to the published title; no performance results asserted.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
         }
       ]
     },
@@ -208,7 +702,7 @@
       "id": "short-form",
       "title": "Short-Form Content",
       "eyebrow": "04 / Ideas worth watching",
-      "description": "Speaker-led stories and podcast excerpts shaped for focused, vertical social viewing.",
+      "description": "Podcast cuts, educational ideas and creator stories shaped for the vertical feed.",
       "projects": [
         {
           "key": "luke-belmar-podcast",
@@ -265,6 +759,186 @@
           "verified": true,
           "public": true,
           "verification": "Public YouTube oEmbed metadata; supplied channel or existing portfolio",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-fexU1r4gRCI",
+          "host": "youtube",
+          "videoId": "fexU1r4gRCI",
+          "title": "A+ Players",
+          "sourceTitle": "A+ PLAYERS - Viral Short Form Edit Style #viral #shorts #capcut",
+          "description": "A short-form edit built around the A+ Players topic.",
+          "tags": [
+            "Short-form edit",
+            "Social storytelling"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=fexU1r4gRCI",
+          "thumbnail": "https://i.ytimg.com/vi/fexU1r4gRCI/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Topic and editing format supported by published source title.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-A2HprH4SpjM",
+          "host": "youtube",
+          "videoId": "A2HprH4SpjM",
+          "title": "Alex Hormozi · Edit Style",
+          "sourceTitle": "🎬 ALEX HORMOZI STYLE EDIT 🔥",
+          "description": "A vertical edit presented as an Alex Hormozi-style editing example.",
+          "tags": [
+            "Short-form edit",
+            "Social storytelling"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=A2HprH4SpjM",
+          "thumbnail": "https://i.ytimg.com/vi/A2HprH4SpjM/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Topic and editing format supported by published source title.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-qI_suOa9ze8",
+          "host": "youtube",
+          "videoId": "qI_suOa9ze8",
+          "title": "Long-Form to Short-Form",
+          "sourceTitle": "UPDATE Long Form Video Repurposing to High Impact Clip",
+          "description": "A clip repurposed from longer video content for social viewing.",
+          "tags": [
+            "Short-form edit",
+            "Social storytelling"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=qI_suOa9ze8",
+          "thumbnail": "https://i.ytimg.com/vi/qI_suOa9ze8/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Topic and editing format supported by published source title.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-EZcEYNTAcpQ",
+          "host": "youtube",
+          "videoId": "EZcEYNTAcpQ",
+          "title": "How to Find Ideas",
+          "sourceTitle": "🎙 “How to Find Ideas” – Precious Oriji & Precious Greg @CreativeSpaceStartups",
+          "description": "A short featuring Precious Oriji and Precious Greg from Creative Space Startups.",
+          "tags": [
+            "Short-form edit",
+            "Social storytelling"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=EZcEYNTAcpQ",
+          "thumbnail": "https://i.ytimg.com/vi/EZcEYNTAcpQ/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Topic and editing format supported by published source title.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-lQWYBTtDucs",
+          "host": "youtube",
+          "videoId": "lQWYBTtDucs",
+          "title": "E-Commerce Billionaires",
+          "sourceTitle": "e-Commerce Billionaires",
+          "description": "A focused vertical edit on the ecommerce billionaires topic.",
+          "tags": [
+            "Short-form edit",
+            "Social storytelling"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=lQWYBTtDucs",
+          "thumbnail": "https://i.ytimg.com/vi/lQWYBTtDucs/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Topic and editing format supported by published source title.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-Ef4RBNv58bA",
+          "host": "youtube",
+          "videoId": "Ef4RBNv58bA",
+          "title": "The Pygmalion Effect",
+          "sourceTitle": "The Pygmalion Effect #shorts #viralshorts",
+          "description": "A short-form story introducing the Pygmalion Effect.",
+          "tags": [
+            "Short-form edit",
+            "Social storytelling"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=Ef4RBNv58bA",
+          "thumbnail": "https://i.ytimg.com/vi/Ef4RBNv58bA/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Topic and editing format supported by published source title.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-waYNp0U2W3Y",
+          "host": "youtube",
+          "videoId": "waYNp0U2W3Y",
+          "title": "The Attractive Character",
+          "sourceTitle": "The ATTRACTIVE CHARACTER strategy #shorts #viralshorts #viral",
+          "description": "A short introducing the attractive-character strategy.",
+          "tags": [
+            "Short-form edit",
+            "Social storytelling"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=waYNp0U2W3Y",
+          "thumbnail": "https://i.ytimg.com/vi/waYNp0U2W3Y/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Topic and editing format supported by published source title.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-K2UE-PmKrVA",
+          "host": "youtube",
+          "videoId": "K2UE-PmKrVA",
+          "title": "Gratitude",
+          "sourceTitle": "Gratitude #motivation #viralshorts",
+          "description": "A motivational short focused on gratitude.",
+          "tags": [
+            "Short-form edit",
+            "Social storytelling"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=K2UE-PmKrVA",
+          "thumbnail": "https://i.ytimg.com/vi/K2UE-PmKrVA/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Topic and editing format supported by published source title.",
+          "classificationConfidence": "high",
+          "verifiedOn": "2026-10-23"
+        },
+        {
+          "key": "yt-3KyFYLLr9V4",
+          "host": "youtube",
+          "videoId": "3KyFYLLr9V4",
+          "title": "Embrace New Technology",
+          "sourceTitle": "Embrace New Technology #shorts #capcut #motivation",
+          "description": "A motivational social edit about embracing new technology.",
+          "tags": [
+            "Short-form edit",
+            "Social storytelling"
+          ],
+          "aspectRatio": "9:16",
+          "sourceUrl": "https://www.youtube.com/watch?v=3KyFYLLr9V4",
+          "thumbnail": "https://i.ytimg.com/vi/3KyFYLLr9V4/maxresdefault.jpg",
+          "verified": true,
+          "public": true,
+          "verification": "Public channel listing and YouTube oEmbed; Topic and editing format supported by published source title.",
+          "classificationConfidence": "high",
           "verifiedOn": "2026-10-23"
         }
       ]
@@ -918,7 +1592,11 @@
     "Drive selections: representative playback reviewed anonymously, not watched end-to-end. No sharing changes.",
     "Existing portfolio credits editing work posted by Ecom Growth Factory; retained as existing work, not represented as uploads to Noble’s own channel.",
     "Related uploads and variants excluded rather than used to inflate category counts.",
-    "No live deployment, sharing modification or new media upload performed."
+    "No live deployment, sharing modification or new media upload performed.",
+    "Expanded to 12 slots per category: 45 real projects plus 3 explicitly authorized coming-soon faceless slots.",
+    "Three additional ALIVO classifications are medium-confidence visual inferences; individual AI platform labels were not present. Source identities are verified.",
+    "Different campaign executions retained with distinct scene descriptions; repeated uploads and identical-title cycling duplicates excluded.",
+    "Additional public Drive files verified by filename-bearing anonymous preview and thumbnail; no specific footage techniques claimed for unreviewed selections."
   ],
   "thumbnailQualityChecks": [
     {
@@ -938,6 +1616,69 @@
     {
       "videoId": "Kkm_D6q3Buw",
       "url": "https://i.ytimg.com/vi/Kkm_D6q3Buw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "slXsCb1J4IM",
+      "url": "https://i.ytimg.com/vi/slXsCb1J4IM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "llK9RS-c74E",
+      "url": "https://i.ytimg.com/vi/llK9RS-c74E/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "KHbu7nwqh1E",
+      "url": "https://i.ytimg.com/vi/KHbu7nwqh1E/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "hnWzF-CmD1c",
+      "url": "https://i.ytimg.com/vi/hnWzF-CmD1c/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "I46zXVeOTgs",
+      "url": "https://i.ytimg.com/vi/I46zXVeOTgs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "kdsQ9Vwbo5c",
+      "url": "https://i.ytimg.com/vi/kdsQ9Vwbo5c/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "UUY86t2HiKU",
+      "url": "https://i.ytimg.com/vi/UUY86t2HiKU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "_upN3oKOuFg",
+      "url": "https://i.ytimg.com/vi/_upN3oKOuFg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "v8s2t7qtjYE",
+      "url": "https://i.ytimg.com/vi/v8s2t7qtjYE/maxresdefault.jpg",
       "width": 1280,
       "height": 720,
       "verified": true
@@ -964,6 +1705,69 @@
       "verified": true
     },
     {
+      "videoId": "bc-6ckyntEc",
+      "url": "https://i.ytimg.com/vi/bc-6ckyntEc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "O614OV0W0Bo",
+      "url": "https://i.ytimg.com/vi/O614OV0W0Bo/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "paq0Jgf5JxA",
+      "url": "https://i.ytimg.com/vi/paq0Jgf5JxA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "iruMRLawtXY",
+      "url": "https://i.ytimg.com/vi/iruMRLawtXY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "gE3aL7qr0yo",
+      "url": "https://i.ytimg.com/vi/gE3aL7qr0yo/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "aDr5Sly3wK8",
+      "url": "https://i.ytimg.com/vi/aDr5Sly3wK8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "jeaquXO58cA",
+      "url": "https://i.ytimg.com/vi/jeaquXO58cA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "uFwjli_xduA",
+      "url": "https://i.ytimg.com/vi/uFwjli_xduA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "MSfEY89m_1U",
+      "url": "https://i.ytimg.com/vi/MSfEY89m_1U/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
       "videoId": "tAe-vn-U6rc",
       "url": "https://i.ytimg.com/vi/tAe-vn-U6rc/maxresdefault.jpg",
       "width": 1280,
@@ -983,6 +1787,1798 @@
       "width": 1280,
       "height": 720,
       "verified": true
+    },
+    {
+      "videoId": "fexU1r4gRCI",
+      "url": "https://i.ytimg.com/vi/fexU1r4gRCI/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "A2HprH4SpjM",
+      "url": "https://i.ytimg.com/vi/A2HprH4SpjM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "qI_suOa9ze8",
+      "url": "https://i.ytimg.com/vi/qI_suOa9ze8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "EZcEYNTAcpQ",
+      "url": "https://i.ytimg.com/vi/EZcEYNTAcpQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "lQWYBTtDucs",
+      "url": "https://i.ytimg.com/vi/lQWYBTtDucs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "Ef4RBNv58bA",
+      "url": "https://i.ytimg.com/vi/Ef4RBNv58bA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "waYNp0U2W3Y",
+      "url": "https://i.ytimg.com/vi/waYNp0U2W3Y/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "K2UE-PmKrVA",
+      "url": "https://i.ytimg.com/vi/K2UE-PmKrVA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    },
+    {
+      "videoId": "3KyFYLLr9V4",
+      "url": "https://i.ytimg.com/vi/3KyFYLLr9V4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720,
+      "verified": true
+    }
+  ],
+  "youtubeExpandedCandidates": [
+    {
+      "id": "",
+      "verified": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "-2P2TUbciPA",
+      "verified": true,
+      "oembed": {
+        "title": "UGC Stitched",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/-2P2TUbciPA/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/-2P2TUbciPA?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"UGC Stitched\"></iframe>"
+      }
+    },
+    {
+      "id": "0CqhsIWC9uY",
+      "verified": true,
+      "oembed": {
+        "title": "How Do You Get Updates - Moses Uche #shorts #viral",
+        "author_name": "Ecom Growth Factory",
+        "author_url": "https://www.youtube.com/@EcomGrowthFactory",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/0CqhsIWC9uY/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/0CqhsIWC9uY?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"How Do You Get Updates - Moses Uche #shorts #viral\"></iframe>"
+      }
+    },
+    {
+      "id": "0oJPu6FvUYE",
+      "verified": true,
+      "oembed": {
+        "title": "MALE UGC",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/0oJPu6FvUYE/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/0oJPu6FvUYE?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"MALE UGC\"></iframe>"
+      }
+    },
+    {
+      "id": "1FyRBvrmtx0",
+      "verified": true,
+      "oembed": {
+        "title": "📈 From $0 to $600K in 3 Months #shorts #whop",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/1FyRBvrmtx0/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/1FyRBvrmtx0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"📈 From $0 to $600K in 3 Months #shorts #whop\"></iframe>"
+      }
+    },
+    {
+      "id": "1XYdJcbdz0s",
+      "verified": true,
+      "oembed": {
+        "title": "Don't Ignore That Pimple — Aichun Beauty Anti-Acne Cream (Direct Response Ad)",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/1XYdJcbdz0s/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/1XYdJcbdz0s?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Don&#39;t Ignore That Pimple — Aichun Beauty Anti-Acne Cream (Direct Response Ad)\"></iframe>"
+      }
+    },
+    {
+      "id": "2Byy7JDRypI",
+      "verified": true,
+      "oembed": {
+        "title": "spinning bike creative 15",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/2Byy7JDRypI/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/2Byy7JDRypI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"spinning bike creative 15\"></iframe>"
+      }
+    },
+    {
+      "id": "3KyFYLLr9V4",
+      "verified": true,
+      "oembed": {
+        "title": "Embrace New Technology #shorts #capcut #motivation",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/3KyFYLLr9V4/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/3KyFYLLr9V4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Embrace New Technology #shorts #capcut #motivation\"></iframe>"
+      }
+    },
+    {
+      "id": "5M0hY0c_7-0",
+      "verified": true,
+      "oembed": {
+        "title": "Indoor Cycling Bike 1",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/5M0hY0c_7-0/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/5M0hY0c_7-0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Indoor Cycling Bike 1\"></iframe>"
+      }
+    },
+    {
+      "id": "67JziUnpMTg",
+      "verified": true,
+      "oembed": {
+        "title": "Mr. Tunde - Abuja",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/67JziUnpMTg/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/67JziUnpMTg?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Mr. Tunde - Abuja\"></iframe>"
+      }
+    },
+    {
+      "id": "9ajH6ypxhOs",
+      "verified": true,
+      "oembed": {
+        "title": "ALIVO AD 03",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/9ajH6ypxhOs/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/9ajH6ypxhOs?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"ALIVO AD 03\"></iframe>"
+      }
+    },
+    {
+      "id": "A2HprH4SpjM",
+      "verified": true,
+      "oembed": {
+        "title": "🎬 ALEX HORMOZI STYLE EDIT 🔥",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/A2HprH4SpjM/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/A2HprH4SpjM?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"🎬 ALEX HORMOZI STYLE EDIT 🔥\"></iframe>"
+      }
+    },
+    {
+      "id": "BK9pxmjxymQ",
+      "verified": true,
+      "oembed": {
+        "title": "Indoor Cycling Bike 1",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/BK9pxmjxymQ/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/BK9pxmjxymQ?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Indoor Cycling Bike 1\"></iframe>"
+      }
+    },
+    {
+      "id": "BYD1Vqveoss",
+      "verified": true,
+      "oembed": {
+        "title": "ALIVO UGC AD 02",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/BYD1Vqveoss/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/BYD1Vqveoss?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"ALIVO UGC AD 02\"></iframe>"
+      }
+    },
+    {
+      "id": "BxzL7ch_LvM",
+      "verified": true,
+      "oembed": {
+        "title": "Indoor Portable Sauna 2 Creative #videoads  #viralshorts",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 150,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/BxzL7ch_LvM/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"150\" src=\"https://www.youtube.com/embed/BxzL7ch_LvM?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Indoor Portable Sauna 2 Creative #videoads  #viralshorts\"></iframe>"
+      }
+    },
+    {
+      "id": "CSKa1maz_So",
+      "verified": true,
+      "oembed": {
+        "title": "Everyday Luxury - GRAMS28 Leather Bag UGC Edit",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/CSKa1maz_So/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/CSKa1maz_So?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Everyday Luxury - GRAMS28 Leather Bag UGC Edit\"></iframe>"
+      }
+    },
+    {
+      "id": "EZcEYNTAcpQ",
+      "verified": true,
+      "oembed": {
+        "title": "🎙 “How to Find Ideas” – Precious Oriji & Precious Greg @CreativeSpaceStartups",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/EZcEYNTAcpQ/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/EZcEYNTAcpQ?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"🎙 “How to Find Ideas” – Precious Oriji &amp; Precious Greg @CreativeSpaceStartups\"></iframe>"
+      }
+    },
+    {
+      "id": "Ef4RBNv58bA",
+      "verified": true,
+      "oembed": {
+        "title": "The Pygmalion Effect #shorts #viralshorts",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/Ef4RBNv58bA/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/Ef4RBNv58bA?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"The Pygmalion Effect #shorts #viralshorts\"></iframe>"
+      }
+    },
+    {
+      "id": "En9MpIuXW9Q",
+      "verified": true,
+      "oembed": {
+        "title": "ALIVO 03",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/En9MpIuXW9Q/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/En9MpIuXW9Q?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"ALIVO 03\"></iframe>"
+      }
+    },
+    {
+      "id": "G39ycMcehRY",
+      "verified": true,
+      "oembed": {
+        "title": "The Skincare Reset — AI UGC Product Commercial for Aichun Beauty Anti-Acne Cream",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/G39ycMcehRY/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/G39ycMcehRY?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"The Skincare Reset — AI UGC Product Commercial for Aichun Beauty Anti-Acne Cream\"></iframe>"
+      }
+    },
+    {
+      "id": "I46zXVeOTgs",
+      "verified": true,
+      "oembed": {
+        "title": "Skincare Advertising With AI — Aichun Beauty Anti-Acne Cream #skincare #skincareroutine #sunscreen",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/I46zXVeOTgs/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/I46zXVeOTgs?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Skincare Advertising With AI — Aichun Beauty Anti-Acne Cream #skincare #skincareroutine #sunscreen\"></iframe>"
+      }
+    },
+    {
+      "id": "I4_hye73Uj0",
+      "verified": true,
+      "oembed": {
+        "title": "UGC + VO + CTA",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/I4_hye73Uj0/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/I4_hye73Uj0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"UGC + VO + CTA\"></iframe>"
+      }
+    },
+    {
+      "id": "K2UE-PmKrVA",
+      "verified": true,
+      "oembed": {
+        "title": "Gratitude #motivation #viralshorts",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/K2UE-PmKrVA/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/K2UE-PmKrVA?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Gratitude #motivation #viralshorts\"></iframe>"
+      }
+    },
+    {
+      "id": "KB_d7i2q43s",
+      "verified": true,
+      "oembed": {
+        "title": "spinning bike creative 15",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/KB_d7i2q43s/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/KB_d7i2q43s?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"spinning bike creative 15\"></iframe>"
+      }
+    },
+    {
+      "id": "KHbu7nwqh1E",
+      "verified": true,
+      "oembed": {
+        "title": "UGC Stitched Ad for a Golf Set ⛳ | AI + Creative Autonomy #shorts #viralshorts",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/KHbu7nwqh1E/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/KHbu7nwqh1E?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"UGC Stitched Ad for a Golf Set ⛳ | AI + Creative Autonomy #shorts #viralshorts\"></iframe>"
+      }
+    },
+    {
+      "id": "KJKjOX1tjRk",
+      "verified": true,
+      "oembed": {
+        "title": "Spinning Bike Creative - Direct Response Advert #shorts #viral",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 150,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/KJKjOX1tjRk/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"150\" src=\"https://www.youtube.com/embed/KJKjOX1tjRk?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Spinning Bike Creative - Direct Response Advert #shorts #viral\"></iframe>"
+      }
+    },
+    {
+      "id": "Kkm_D6q3Buw",
+      "verified": true,
+      "oembed": {
+        "title": "High-Converting RGB Desktop Fan VSL Using AI 🤖🔥",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/Kkm_D6q3Buw/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/Kkm_D6q3Buw?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"High-Converting RGB Desktop Fan VSL Using AI 🤖🔥\"></iframe>"
+      }
+    },
+    {
+      "id": "MSfEY89m_1U",
+      "verified": true,
+      "oembed": {
+        "title": "Ridax   Neighbors Are the Source",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 150,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/MSfEY89m_1U/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"150\" src=\"https://www.youtube.com/embed/MSfEY89m_1U?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Ridax   Neighbors Are the Source\"></iframe>"
+      }
+    },
+    {
+      "id": "MY2alpu77z8",
+      "verified": true,
+      "oembed": {
+        "title": "The Cholesterol Control Angle",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/MY2alpu77z8/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/MY2alpu77z8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"The Cholesterol Control Angle\"></iframe>"
+      }
+    },
+    {
+      "id": "MpPnloagiZE",
+      "verified": true,
+      "oembed": {
+        "title": "SPINNING BIKE NEW MOM ANGLE",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/MpPnloagiZE/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/MpPnloagiZE?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"SPINNING BIKE NEW MOM ANGLE\"></iframe>"
+      }
+    },
+    {
+      "id": "N1rKRrUcc04",
+      "verified": true,
+      "oembed": {
+        "title": "SPINNING BIKE 11 SUBTITLES",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/N1rKRrUcc04/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/N1rKRrUcc04?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"SPINNING BIKE 11 SUBTITLES\"></iframe>"
+      }
+    },
+    {
+      "id": "NcVdyFFOJ0I",
+      "verified": true,
+      "oembed": {
+        "title": "Samson - Port Harcourt",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/NcVdyFFOJ0I/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/NcVdyFFOJ0I?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Samson - Port Harcourt\"></iframe>"
+      }
+    },
+    {
+      "id": "O614OV0W0Bo",
+      "verified": true,
+      "oembed": {
+        "title": "Smart Bluetooth Wireless Headset Glasses Mashup Creative XG88 Pro Creative #shorts #viral",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/O614OV0W0Bo/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/O614OV0W0Bo?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Smart Bluetooth Wireless Headset Glasses Mashup Creative XG88 Pro Creative #shorts #viral\"></iframe>"
+      }
+    },
+    {
+      "id": "OEkILHmFGPo",
+      "verified": true,
+      "oembed": {
+        "title": "🎸",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/OEkILHmFGPo/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/OEkILHmFGPo?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"🎸\"></iframe>"
+      }
+    },
+    {
+      "id": "OXBT3Xklxus",
+      "verified": true,
+      "oembed": {
+        "title": "UGC 3",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/OXBT3Xklxus/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/OXBT3Xklxus?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"UGC 3\"></iframe>"
+      }
+    },
+    {
+      "id": "OrmnPTieEXE",
+      "verified": true,
+      "oembed": {
+        "title": "The Best University Ever! #shorts #motivation",
+        "author_name": "Ecom Growth Factory",
+        "author_url": "https://www.youtube.com/@EcomGrowthFactory",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/OrmnPTieEXE/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/OrmnPTieEXE?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"The Best University Ever! #shorts #motivation\"></iframe>"
+      }
+    },
+    {
+      "id": "QCa5n7iBhdA",
+      "verified": true,
+      "oembed": {
+        "title": "ALIVO TEA UGC AD 24",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/QCa5n7iBhdA/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/QCa5n7iBhdA?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"ALIVO TEA UGC AD 24\"></iframe>"
+      }
+    },
+    {
+      "id": "Qh9z7K1Q-2o",
+      "verified": true,
+      "oembed": {
+        "title": "Direct Response Video Editor - Noble Osinachi #shorts #viralshorts",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/Qh9z7K1Q-2o/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/Qh9z7K1Q-2o?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Direct Response Video Editor - Noble Osinachi #shorts #viralshorts\"></iframe>"
+      }
+    },
+    {
+      "id": "R9nfe1e3OTs",
+      "verified": true,
+      "oembed": {
+        "title": "What If Your Skincare Ad Looked Like This? | Aichun Beauty Anti-Acne Cream",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/R9nfe1e3OTs/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/R9nfe1e3OTs?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"What If Your Skincare Ad Looked Like This? | Aichun Beauty Anti-Acne Cream\"></iframe>"
+      }
+    },
+    {
+      "id": "S6MLXV-qrFY",
+      "verified": true,
+      "oembed": {
+        "title": "🎬 Replit VSL Edit | Minimalist, High-Impact Video Editing for SaaS Brands 🔧💡",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/S6MLXV-qrFY/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/S6MLXV-qrFY?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"🎬 Replit VSL Edit | Minimalist, High-Impact Video Editing for SaaS Brands 🔧💡\"></iframe>"
+      }
+    },
+    {
+      "id": "SmktMEj4I_I",
+      "verified": true,
+      "oembed": {
+        "title": "CYCLING BIKE 05",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/SmktMEj4I_I/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/SmktMEj4I_I?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"CYCLING BIKE 05\"></iframe>"
+      }
+    },
+    {
+      "id": "T-dp8FvADzI",
+      "verified": true,
+      "oembed": {
+        "title": "The Cholesterol Control Angle",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/T-dp8FvADzI/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/T-dp8FvADzI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"The Cholesterol Control Angle\"></iframe>"
+      }
+    },
+    {
+      "id": "Tvx8NXBizWI",
+      "verified": true,
+      "oembed": {
+        "title": "SPINNING BIKE NEW MOM ANGLE",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/Tvx8NXBizWI/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/Tvx8NXBizWI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"SPINNING BIKE NEW MOM ANGLE\"></iframe>"
+      }
+    },
+    {
+      "id": "UUY86t2HiKU",
+      "verified": true,
+      "oembed": {
+        "title": "ALIVO 09 ADVERT",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/UUY86t2HiKU/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/UUY86t2HiKU?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"ALIVO 09 ADVERT\"></iframe>"
+      }
+    },
+    {
+      "id": "UWMLglFRorM",
+      "verified": true,
+      "oembed": {
+        "title": "ACNE AD 02",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/UWMLglFRorM/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/UWMLglFRorM?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"ACNE AD 02\"></iframe>"
+      }
+    },
+    {
+      "id": "WfKmFz-gHRs",
+      "verified": true,
+      "oembed": {
+        "title": "From Breakouts to Better Skin — Aichun Beauty Anti-Acne Cream UGC Ad Creative",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/WfKmFz-gHRs/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/WfKmFz-gHRs?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"From Breakouts to Better Skin — Aichun Beauty Anti-Acne Cream UGC Ad Creative\"></iframe>"
+      }
+    },
+    {
+      "id": "XP1ifO4RidQ",
+      "verified": true,
+      "oembed": {
+        "title": "SPINNING BIKE 03",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/XP1ifO4RidQ/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/XP1ifO4RidQ?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"SPINNING BIKE 03\"></iframe>"
+      }
+    },
+    {
+      "id": "YecAgTPbCIE",
+      "verified": true,
+      "oembed": {
+        "title": "Video Editor Pitch - NobleOsinachi (Tech Bro Final Boss)",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/YecAgTPbCIE/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/YecAgTPbCIE?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Video Editor Pitch - NobleOsinachi (Tech Bro Final Boss)\"></iframe>"
+      }
+    },
+    {
+      "id": "ZDUau_Cf6GE",
+      "verified": true,
+      "oembed": {
+        "title": "Cycling Bike Creative – Premium Ad Edit (Premiere Pro)",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/ZDUau_Cf6GE/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/ZDUau_Cf6GE?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Cycling Bike Creative – Premium Ad Edit (Premiere Pro)\"></iframe>"
+      }
+    },
+    {
+      "id": "_upN3oKOuFg",
+      "verified": true,
+      "oembed": {
+        "title": "ALIVO AD 01",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/_upN3oKOuFg/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/_upN3oKOuFg?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"ALIVO AD 01\"></iframe>"
+      }
+    },
+    {
+      "id": "aDr5Sly3wK8",
+      "verified": true,
+      "oembed": {
+        "title": "Anti-Acne Cream – Friend Recommendation Angle",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/aDr5Sly3wK8/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/aDr5Sly3wK8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Anti-Acne Cream – Friend Recommendation Angle\"></iframe>"
+      }
+    },
+    {
+      "id": "b3MCIe5WKFc",
+      "verified": true,
+      "oembed": {
+        "title": "SELF DEFENCE FLASHLIGHT CREATIVE",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/b3MCIe5WKFc/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/b3MCIe5WKFc?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"SELF DEFENCE FLASHLIGHT CREATIVE\"></iframe>"
+      }
+    },
+    {
+      "id": "bc-6ckyntEc",
+      "verified": true,
+      "oembed": {
+        "title": "Indoor Portable Sauna UGC Edit #shorts @viralshorts",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 150,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/bc-6ckyntEc/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"150\" src=\"https://www.youtube.com/embed/bc-6ckyntEc?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Indoor Portable Sauna UGC Edit #shorts @viralshorts\"></iframe>"
+      }
+    },
+    {
+      "id": "blWV6AyM6NI",
+      "verified": true,
+      "oembed": {
+        "title": "CYCLING BIKE 05",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/blWV6AyM6NI/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/blWV6AyM6NI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"CYCLING BIKE 05\"></iframe>"
+      }
+    },
+    {
+      "id": "cC_TptTqyn0",
+      "verified": true,
+      "oembed": {
+        "title": "build a personal brand in 60s @mbajoshuac  #shorts #viral #viralshorts",
+        "author_name": "Ecom Growth Factory",
+        "author_url": "https://www.youtube.com/@EcomGrowthFactory",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/cC_TptTqyn0/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/cC_TptTqyn0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"build a personal brand in 60s @mbajoshuac  #shorts #viral #viralshorts\"></iframe>"
+      }
+    },
+    {
+      "id": "dCnqSrHn9e8",
+      "verified": true,
+      "oembed": {
+        "title": "15 October 2026",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/dCnqSrHn9e8/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/dCnqSrHn9e8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"15 October 2026\"></iframe>"
+      }
+    },
+    {
+      "id": "exkDwxBpJSU",
+      "verified": true,
+      "oembed": {
+        "title": "SPINNING BIKE 11 SUBTITLES",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/exkDwxBpJSU/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/exkDwxBpJSU?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"SPINNING BIKE 11 SUBTITLES\"></iframe>"
+      }
+    },
+    {
+      "id": "fexU1r4gRCI",
+      "verified": true,
+      "oembed": {
+        "title": "A+ PLAYERS - Viral Short Form Edit Style #viral #shorts #capcut",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/fexU1r4gRCI/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/fexU1r4gRCI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"A+ PLAYERS - Viral Short Form Edit Style #viral #shorts #capcut\"></iframe>"
+      }
+    },
+    {
+      "id": "gE3aL7qr0yo",
+      "verified": true,
+      "oembed": {
+        "title": "Workplace Angle – Golf Putting Set",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/gE3aL7qr0yo/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/gE3aL7qr0yo?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Workplace Angle – Golf Putting Set\"></iframe>"
+      }
+    },
+    {
+      "id": "hnWzF-CmD1c",
+      "verified": true,
+      "oembed": {
+        "title": "Create AI UGC videos for free!",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/hnWzF-CmD1c/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/hnWzF-CmD1c?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Create AI UGC videos for free!\"></iframe>"
+      }
+    },
+    {
+      "id": "htkuFZZKLYg",
+      "verified": true,
+      "oembed": {
+        "title": "Billionaires in e-Commerce #shorts #viral",
+        "author_name": "Ecom Growth Factory",
+        "author_url": "https://www.youtube.com/@EcomGrowthFactory",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/htkuFZZKLYg/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/htkuFZZKLYg?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Billionaires in e-Commerce #shorts #viral\"></iframe>"
+      }
+    },
+    {
+      "id": "i3qu7cnQKng",
+      "verified": true,
+      "oembed": {
+        "title": "Circle of Winners #shorts #capcut",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/i3qu7cnQKng/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/i3qu7cnQKng?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Circle of Winners #shorts #capcut\"></iframe>"
+      }
+    },
+    {
+      "id": "iruMRLawtXY",
+      "verified": true,
+      "oembed": {
+        "title": "Ridax 1 – Sleep Better 😴 | Winning UGC Ad Breakdown 👇 #shorts #viral",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 150,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/iruMRLawtXY/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"150\" src=\"https://www.youtube.com/embed/iruMRLawtXY?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Ridax 1 – Sleep Better 😴 | Winning UGC Ad Breakdown 👇 #shorts #viral\"></iframe>"
+      }
+    },
+    {
+      "id": "jeaquXO58cA",
+      "verified": true,
+      "oembed": {
+        "title": "Ecom Brand Before & After Edit – High-Impact Visual Transformation",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/jeaquXO58cA/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/jeaquXO58cA?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Ecom Brand Before &amp; After Edit – High-Impact Visual Transformation\"></iframe>"
+      }
+    },
+    {
+      "id": "kdsQ9Vwbo5c",
+      "verified": true,
+      "oembed": {
+        "title": "ALIVO 05",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/kdsQ9Vwbo5c/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/kdsQ9Vwbo5c?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"ALIVO 05\"></iframe>"
+      }
+    },
+    {
+      "id": "l83QYToX8aM",
+      "verified": true,
+      "oembed": {
+        "title": "18 October 2026",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/l83QYToX8aM/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/l83QYToX8aM?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"18 October 2026\"></iframe>"
+      }
+    },
+    {
+      "id": "lQWYBTtDucs",
+      "verified": true,
+      "oembed": {
+        "title": "e-Commerce Billionaires",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/lQWYBTtDucs/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/lQWYBTtDucs?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"e-Commerce Billionaires\"></iframe>"
+      }
+    },
+    {
+      "id": "llK9RS-c74E",
+      "verified": true,
+      "oembed": {
+        "title": "Direct Response AI Talking Head DTC Edit | #Viral #Shorts",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/llK9RS-c74E/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/llK9RS-c74E?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Direct Response AI Talking Head DTC Edit | #Viral #Shorts\"></iframe>"
+      }
+    },
+    {
+      "id": "nVrBZMBM3Pw",
+      "verified": true,
+      "oembed": {
+        "title": "Why YOU fail in Business #shorts #viral",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/nVrBZMBM3Pw/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/nVrBZMBM3Pw?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Why YOU fail in Business #shorts #viral\"></iframe>"
+      }
+    },
+    {
+      "id": "nuEodFneziU",
+      "verified": true,
+      "oembed": {
+        "title": "SPINNING BIKE 11 SUBTITLES",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/nuEodFneziU/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/nuEodFneziU?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"SPINNING BIKE 11 SUBTITLES\"></iframe>"
+      }
+    },
+    {
+      "id": "o2FNyrdBV0k",
+      "verified": true,
+      "oembed": {
+        "title": "Workplace Angle",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/o2FNyrdBV0k/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/o2FNyrdBV0k?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Workplace Angle\"></iframe>"
+      }
+    },
+    {
+      "id": "p6bGWG9K2Kg",
+      "verified": true,
+      "oembed": {
+        "title": "Sequence of Creation Motion Graphics Before & After #shorts #capcut",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/p6bGWG9K2Kg/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/p6bGWG9K2Kg?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Sequence of Creation Motion Graphics Before &amp; After #shorts #capcut\"></iframe>"
+      }
+    },
+    {
+      "id": "paq0Jgf5JxA",
+      "verified": true,
+      "oembed": {
+        "title": "TREADMILL 01",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/paq0Jgf5JxA/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/paq0Jgf5JxA?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"TREADMILL 01\"></iframe>"
+      }
+    },
+    {
+      "id": "qCoHdg-K3P8",
+      "verified": true,
+      "oembed": {
+        "title": "Tired Clear Your Mind Angle",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/qCoHdg-K3P8/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/qCoHdg-K3P8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Tired Clear Your Mind Angle\"></iframe>"
+      }
+    },
+    {
+      "id": "qI_suOa9ze8",
+      "verified": true,
+      "oembed": {
+        "title": "UPDATE Long Form Video Repurposing to High Impact Clip",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/qI_suOa9ze8/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/qI_suOa9ze8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"UPDATE Long Form Video Repurposing to High Impact Clip\"></iframe>"
+      }
+    },
+    {
+      "id": "qdo9hz-lbhw",
+      "verified": true,
+      "oembed": {
+        "title": "Mr Okafor & Friends – Lagos | Indoor Golf Set #shorts @viralshorts",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/qdo9hz-lbhw/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/qdo9hz-lbhw?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Mr Okafor &amp; Friends – Lagos | Indoor Golf Set #shorts @viralshorts\"></iframe>"
+      }
+    },
+    {
+      "id": "slXsCb1J4IM",
+      "verified": true,
+      "oembed": {
+        "title": "Dog Narrowly Escapes Cops #shorts #sora2",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/slXsCb1J4IM/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/slXsCb1J4IM?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Dog Narrowly Escapes Cops #shorts #sora2\"></iframe>"
+      }
+    },
+    {
+      "id": "tAe-vn-U6rc",
+      "verified": true,
+      "oembed": {
+        "title": "Luke Belmar Podcast Edit - Natt Jongsala Style Reference",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/tAe-vn-U6rc/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/tAe-vn-U6rc?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Luke Belmar Podcast Edit - Natt Jongsala Style Reference\"></iframe>"
+      }
+    },
+    {
+      "id": "tzhyySkdwAM",
+      "verified": true,
+      "oembed": {
+        "title": "ALIVO 06",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/tzhyySkdwAM/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/tzhyySkdwAM?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"ALIVO 06\"></iframe>"
+      }
+    },
+    {
+      "id": "uFwjli_xduA",
+      "verified": true,
+      "oembed": {
+        "title": "Smart Wear Fashion Pioneer Creative - Bluetooth Sunglasses #shorts #viralshorts  #viral",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/uFwjli_xduA/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/uFwjli_xduA?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Smart Wear Fashion Pioneer Creative - Bluetooth Sunglasses #shorts #viralshorts  #viral\"></iframe>"
+      }
+    },
+    {
+      "id": "uLuj0lYpZMU",
+      "verified": true,
+      "oembed": {
+        "title": "SPINNING BIKE NEW MOM ANGLE",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/uLuj0lYpZMU/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/uLuj0lYpZMU?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"SPINNING BIKE NEW MOM ANGLE\"></iframe>"
+      }
+    },
+    {
+      "id": "v8s2t7qtjYE",
+      "verified": true,
+      "oembed": {
+        "title": "ALIVO 04 ADVERT2",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/v8s2t7qtjYE/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/v8s2t7qtjYE?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"ALIVO 04 ADVERT2\"></iframe>"
+      }
+    },
+    {
+      "id": "vwSwEbPMmKw",
+      "verified": true,
+      "oembed": {
+        "title": "18 October 2026",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/vwSwEbPMmKw/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/vwSwEbPMmKw?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"18 October 2026\"></iframe>"
+      }
+    },
+    {
+      "id": "vxBqDoZvT8Y",
+      "verified": true,
+      "oembed": {
+        "title": "Spinning Bike v 3.0",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/vxBqDoZvT8Y/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/vxBqDoZvT8Y?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Spinning Bike v 3.0\"></iframe>"
+      }
+    },
+    {
+      "id": "waYNp0U2W3Y",
+      "verified": true,
+      "oembed": {
+        "title": "The ATTRACTIVE CHARACTER strategy #shorts #viralshorts #viral",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/waYNp0U2W3Y/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/waYNp0U2W3Y?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"The ATTRACTIVE CHARACTER strategy #shorts #viralshorts #viral\"></iframe>"
+      }
+    },
+    {
+      "id": "wtUGapS0Egk",
+      "verified": true,
+      "oembed": {
+        "title": "I've Been Battling Acne for Months, Then I Tried This Cream (Honest Update) #skincare #aichunbeauty",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/wtUGapS0Egk/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/wtUGapS0Egk?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"I&#39;ve Been Battling Acne for Months, Then I Tried This Cream (Honest Update) #skincare #aichunbeauty\"></iframe>"
+      }
+    },
+    {
+      "id": "zAg4_-RMXFU",
+      "verified": true,
+      "oembed": {
+        "title": "SPINNING BIKE 03",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/zAg4_-RMXFU/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/zAg4_-RMXFU?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"SPINNING BIKE 03\"></iframe>"
+      }
+    },
+    {
+      "id": "ze4XLtJmbsg",
+      "verified": true,
+      "oembed": {
+        "title": "Circle of Winners #shorts #edits",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/ze4XLtJmbsg/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/ze4XLtJmbsg?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Circle of Winners #shorts #edits\"></iframe>"
+      }
+    },
+    {
+      "id": "zquWxEZKjBE",
+      "verified": true,
+      "oembed": {
+        "title": "Ayoola - Sequence of Creation - Before & After",
+        "author_name": "Noble Knows All Things",
+        "author_url": "https://www.youtube.com/@NobleOsinachi",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/zquWxEZKjBE/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/zquWxEZKjBE?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Ayoola - Sequence of Creation - Before &amp; After\"></iframe>"
+      }
+    }
+  ],
+  "additionalDriveVerification": [
+    {
+      "id": "1wFBCoc42MAm3tQ2G7poBrOrEXnKyizWr",
+      "title": "15 Big Pharma CEOs Who Were Convicted Of Crimes NO SFX.mp4",
+      "status": 200,
+      "accessible": true,
+      "thumbnailType": "image/jpeg",
+      "thumbnailUrl": "https://drive.google.com/thumbnail?id=1wFBCoc42MAm3tQ2G7poBrOrEXnKyizWr&sz=w1000"
+    },
+    {
+      "id": "1zftBhVgg-AMhFzeuABlEFeC_Aqjz0HYk",
+      "title": "15 Teenage Siblings Convicted Together.mp4",
+      "status": 200,
+      "accessible": true,
+      "thumbnailType": "image/jpeg",
+      "thumbnailUrl": "https://drive.google.com/thumbnail?id=1zftBhVgg-AMhFzeuABlEFeC_Aqjz0HYk&sz=w1000"
+    },
+    {
+      "id": "1BgEVksozaWs7As9JImRxHATgcrYeQywS",
+      "title": "18 Gang Leaders In The U.S. Who Were Convicted Of Crimes And Sentenced To Prison.mp4",
+      "status": 200,
+      "accessible": true,
+      "thumbnailType": "image/jpeg",
+      "thumbnailUrl": "https://drive.google.com/thumbnail?id=1BgEVksozaWs7As9JImRxHATgcrYeQywS&sz=w1000"
+    },
+    {
+      "id": "1ArsvovSDDGfwWDJOAWx7HtsDJTKdsJOg",
+      "title": "21 Wealthy High Networth Texas Men Behind Bars And Their Crimes..mp4",
+      "status": 200,
+      "accessible": true,
+      "thumbnailType": "image/jpeg",
+      "thumbnailUrl": "https://drive.google.com/thumbnail?id=1ArsvovSDDGfwWDJOAWx7HtsDJTKdsJOg&sz=w1000"
+    },
+    {
+      "id": "1KW56afbBBXzjwTT63uFuGppo96pz3Sgb",
+      "title": "39 Racial Police Killings That Sparked National Outrage in the U.S..mp4",
+      "status": 200,
+      "accessible": true,
+      "thumbnailType": "image/jpeg",
+      "thumbnailUrl": "https://drive.google.com/thumbnail?id=1KW56afbBBXzjwTT63uFuGppo96pz3Sgb&sz=w1000"
+    },
+    {
+      "id": "1tQ3jd9Nr-0vinrkIomxyAT2Oc5-0MK7h",
+      "title": "Atheletes Who Commited Murder.mp4",
+      "status": 200,
+      "accessible": true,
+      "thumbnailType": "image/jpeg",
+      "thumbnailUrl": "https://drive.google.com/thumbnail?id=1tQ3jd9Nr-0vinrkIomxyAT2Oc5-0MK7h&sz=w1000"
     }
   ]
 }

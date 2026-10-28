@@ -1,47 +1,38 @@
 # Video editor portfolio
 
-The `/video-editor/` route remains static HTML, with the existing Tailwind CDN, Poppins font, slate background and blue accent. No dependency or framework was added.
+## Current library
 
-## Content and maintenance
+- AI Creatives: 12 films, first in the page.
+- Faceless YouTube Videos: 9 films plus 3 explicitly authorized “Coming soon” slots.
+- Commercials & Video Editing: 12 films.
+- Short-Form Content: 12 films.
 
-`portfolio-data.js` is the source of truth for category ordering, project identities, original titles, source URLs, aspect ratios, descriptions and verification evidence. AI Creatives is first. Each published category must have at least three projects and a count divisible by three. Never add variants or another hosting copy of the same film to inflate a category.
+There are **45 real source videos and 48 display slots**. The placeholders have no invented video ID or fake playback link, and are not included in the film count. Motion Graphics / VFX remains unpublished until enough distinct verified standalone work is available.
 
-After editing the data, run from the repository root:
+## Maintenance
+
+`portfolio-data.js` is the source of truth. Keep projects unique across categories, use genuine source URLs and record the evidence behind classifications. Original titles remain in the source audit even when display titles are shortened.
 
 ```sh
 node video-editor/build-portfolio.cjs
 node video-editor/validate-portfolio.cjs
-node --check video-editor/portfolio.js
+node scripts/validate-site.cjs
 ```
 
-The builder updates only the existing portfolio block and adds scoped styles / deferred scripts. It generates static links and cards, so the work remains available without JavaScript. Validation rejects invalid counts, duplicate projects/sources, invalid host IDs, mismatched source URLs and unverified/private projects, and checks that the rendered HTML matches the data.
+Every category currently targets 12 slots. Real project counts must still be multiples of three. The only placeholder set allowed is the three faceless slots authorized by the user. Once all three uploads are accessible, add their verified project records, remove the three `placeholders`, update the faceless category description, and run the commands above. The film summary is calculated from the data.
 
-Category counts are 3 AI Creatives, 3 Faceless YouTube Videos, 3 Commercials & Video Editing and 3 Short-Form Content. Motion Graphics & Visual Effects stays unpublished until three distinct, verified examples are available. Generic Video Editing was merged with Commercials to avoid repeating the same projects.
+## Playback
 
-## Media and interaction
+Thumbnails load lazily. A card opens a single native dialog and creates one iframe; closing it removes the iframe and returns focus. YouTube uses the official `/embed/VIDEO_ID` format with `autoplay=0`. Public Drive videos use `/file/d/FILE_ID/preview`. Players preserve 9:16 or 16:9 proportions and every real project has an original-source fallback link. Portfolio cards work as ordinary links without JavaScript.
 
-Thumbnails load lazily. Selecting a card opens a single native dialog and creates one iframe. No portfolio iframe is loaded at initial render. YouTube embeds use `https://www.youtube.com/embed/VIDEO_ID?playsinline=1&rel=0&autoplay=0`. Drive embeds use each public file's `/preview` URL. All cards and the player provide original-source links. No sound is started automatically. Closing the dialog removes the iframe, stops playback and returns focus to the opener. Escape, a labelled close button, and backdrop clicks close the dialog. Without dialog support, source links work normally.
+## Evidence and limits
 
-Portrait videos use 9:16 and the documentaries use 16:9. The browser UI was used to inspect representative footage, not every second of every video. Remote hosts may restrict playback or thumbnails later; original links remain available. No Drive sharing permissions were changed and no media were uploaded or rehosted.
+The candidate audit is `docs/video-portfolio-source-inventory.json`. Public YouTube availability, titles and authors were checked with oEmbed. The channel and selected AI imagery were inspected in a signed-out browser. Drive titles were checked against anonymous public previews and all nine thumbnails were verified. No sharing permissions changed.
 
-## Source audit
+Three ALIVO executions (`UUY86t2HiKU`, `_upN3oKOuFg`, `v8s2t7qtjYE`) have **medium-confidence AI classifications** based on visually reviewed generated-looking imagery and their established campaign context; they did not show individual YouTube AI labels. Confirm their production workflows when refining the audit. Other selected AI work has explicit source-title, AI-label, production-description or Sora-watermark evidence. Videos were not watched end to end. Additional documentary descriptions only describe their published topics; unreviewed techniques and performance results are not asserted.
 
-The candidate inventory was prepared before the final layout: `docs/video-portfolio-source-inventory.json`. YouTube availability, original titles and authors were checked with its public oEmbed endpoint. The Shorts channel was inspected in a signed-out browser. Drive files were listed and representative playback reviewed without sign-in; all three selected preview URLs and thumbnails returned anonymous HTTP 200 responses.
+Editing examples published by Ecom Growth Factory were already credited in the existing portfolio; they are not represented as uploads to Noble's own channel. Distinct ad executions are labelled separately; repeated uploads and identical-title cycling duplicates were excluded.
 
-AI selections:
+## Site-wide styling
 
-- `G39ycMcehRY` — The Skincare Reset: AI badge, representative footage and expanded production description (ChatGPT, Nano Banana, Sora 2, narration, Premiere Pro and CapCut).
-- `tzhyySkdwAM` — ALIVO 06: AI badge, captioned everyday-life scenes reviewed in the browser.
-- `Kkm_D6q3Buw` — RGB Desktop Fan VSL: expanded description verifies AI scripting, ElevenLabs narration, generated imagery and supplementary clips. Observed video dimensions 360×640, duration approximately 34 seconds.
-
-Faceless selections:
-
-- `1tQQWbQqG6tC3V0SxvBqseiUAi6o2LsqQ` — 14 Organized Crime Figures Inside ADX Florence Prison, 26:48.
-- `1oaHoKrumDQySM-mS_XU-ZFJ41eYWxS2r` — 16 Pilots Convicted Of Crime and Sentenced To Prison In The U.S., 28:02.
-- `1kCPTDoj_ezPZEM9LvtfPT3Fv5wg-v_nO` — Traitors In The U.S., 30:02.
-
-Short-form videos posted by Ecom Growth Factory are credited as editing work already embedded in the existing portfolio, not uploads to Noble's channel. Existing incorrect labels were replaced using verified source titles (for example, `uLuj0lYpZMU` is a spinning-bike ad, not an acne commercial). Other verified candidates remain in the audit, without being duplicated in the displayed categories. Replit was inspected and found to be a 16:9 unlisted video already linked in the old portfolio; it is not part of the initial curated display.
-
-## Scope
-
-Existing uncommitted changes were present before this task. The builder preserves the page outside the portfolio, apart from its three stylesheet/script references. Navigation, hero, testimonials, pricing, contact form, routes and unrelated files remain as they were. No commit, push, deployment or sharing change is part of this implementation.
+The whole video-editor page now shares `assets/site-system.css` and the common header with the rest of the site. See `docs/DESIGN-SYSTEM.md`. No commit, push, deployment, private-file exposure or upload was performed.

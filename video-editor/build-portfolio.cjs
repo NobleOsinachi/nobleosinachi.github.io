@@ -9,6 +9,7 @@ function renderPortfolio(config) {
   const problems = validatePortfolio(config);
   if (problems.length) throw new Error(problems.join('\n'));
   const total = config.categories.reduce((sum, category) => sum + category.projects.length, 0);
+  const upcoming = config.categories.reduce((sum, category) => sum + (category.placeholders || []).length, 0);
   const play = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg>';
   const nav = config.categories.map(category => `<li><a href="#${escape(category.id)}">${escape(category.title)}</a></li>`).join('\n');
   const categories = config.categories.map(category => `
@@ -17,7 +18,7 @@ function renderPortfolio(config) {
               <div><p class="pf-eyebrow">${escape(category.eyebrow)}</p>
                 <h3 id="${escape(category.id)}-title">${escape(category.title)}</h3>
                 <p class="pf-category-description">${escape(category.description)}</p></div>
-              <span class="pf-category-count">${String(category.projects.length).padStart(2,'0')} selected projects</span>
+              <span class="pf-category-count">${category.projects.length} films${category.placeholders?.length ? ` + ${category.placeholders.length} coming soon` : ''}</span>
             </header>
             <div class="pf-grid">
               ${category.projects.map(project => `<article class="pf-card" data-project-card="${escape(project.key)}">
@@ -34,6 +35,10 @@ function renderPortfolio(config) {
                   <div class="pf-card-footer"><a class="pf-source-link" href="${escape(project.sourceUrl)}" target="_blank" rel="noopener noreferrer" aria-label="View ${escape(project.title)} on ${project.host === 'drive' ? 'Google Drive' : 'YouTube'} (opens in a new tab)">${project.host === 'drive' ? 'View on Drive' : 'View on YouTube'} <span aria-hidden="true">↗</span></a><span class="pf-duration">${escape(project.duration || (project.aspectRatio === '9:16' ? 'Vertical video' : 'Landscape video'))}</span></div>
                 </div>
               </article>`).join('\n')}
+              ${(category.placeholders || []).map(project => `<article class="pf-card pf-card--coming" data-placeholder="${escape(project.key)}" aria-label="${escape(project.title)} — coming soon">
+                <div class="pf-coming"><span>Coming soon / Faceless YouTube</span><strong>Next story.<br>In the making.</strong></div>
+                <div class="pf-card-body"><h4>${escape(project.title)}</h4><p class="pf-card-description">${escape(project.description)}</p><p class="pf-coming-note">Video link will appear after upload.</p></div>
+              </article>`).join('\n')}
             </div>
           </section>`).join('\n');
   return `    <!-- Portfolio Section -->
@@ -42,8 +47,8 @@ function renderPortfolio(config) {
       <div class="pf-shell">
         <header class="pf-intro">
           <div><p class="pf-kicker">The work / Noble Osinachi</p>
-            <h2 id="portfolio-title">Selected work.<br><span>Made to be watched.</span></h2></div>
-          <div class="pf-intro-copy"><p>AI creatives, documentary edits and brand stories. Different formats. One focus: a story that holds your attention.</p><span class="pf-summary">${total} selected projects &nbsp; / &nbsp; ${config.categories.length} creative categories</span></div>
+            <h2 id="portfolio-title">The work.<br><span>Explore the range.</span></h2></div>
+          <div class="pf-intro-copy"><p>AI creatives, documentary edits and brand stories. Different formats. One focus: a story that holds your attention.</p><span class="pf-summary">${total} films &nbsp; / &nbsp; ${config.categories.length} creative categories${upcoming ? ` &nbsp; / &nbsp; ${upcoming} coming soon` : ''}</span></div>
         </header>
         <nav aria-label="Browse portfolio categories"><ul class="pf-nav">${nav}</ul></nav>
         ${categories}

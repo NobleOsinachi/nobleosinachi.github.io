@@ -19,9 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary Meta -->
-    <title>
-      Noble Osinachi | Video Editor for Ads, UGC & Short-Form Content
-    </title>
+    <title>Noble Osinachi | Video Editor & Creative Partner</title>
     <meta name="description"
       content="Professional video editor helping brands create scroll-stopping, high-converting ads, UGC, and short-form content. Book me today!" />
     <meta name="keywords"
@@ -31,7 +29,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://nobleosinachi.com/video-editor/" />
-    <meta property="og:title" content="Noble Osinachi - Video Editor for Direct Response Ads & Short-Form Content" />
+    <meta property="og:title" content="Noble Osinachi | Video Editor & Creative Partner" />
     <meta property="og:description"
       content="Helping brands transform content into high-performing, scroll-stopping ads. Explore my video editing portfolio." />
     <meta property="og:image" content="https://nobleosinachi.com/images/preview.jpg" />
@@ -40,7 +38,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://nobleosinachi.com/video-editor/" />
-    <meta name="twitter:title" content="Noble Osinachi - Professional Video Editor | UGC & Short-Form Ads" />
+    <meta name="twitter:title" content="Noble Osinachi | Video Editor & Creative Partner" />
     <meta name="twitter:description"
       content="I edit videos that convert: ads, UGC, short-form content. Let's create together!" />
     <meta name="twitter:image" content="https://nobleosinachi.com/images/preview.jpg" />
@@ -156,11 +154,52 @@
         width: 100%;
       }
     </style>
+
+    <!-- Shared Noble design system -->
+    <link rel="stylesheet" href="../assets/site-system.css" />
+    <script defer src="../assets/site-system.js"></script>
+    <noscript>
+      <style>
+        .site-header .site-menu-toggle {
+          display: none
+        }
+
+        .site-header .site-links {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 12px
+        }
+
+        .site-header-inner {
+          flex-wrap: wrap;
+          padding-block: 14px
+        }
+      </style>
+    </noscript>
   </head>
 
-  <body class="bg-gray-900 text-white container mx-auto">
+  <body class="site-remodel site-video bg-gray-900 text-white container mx-auto">
+    <a class="site-skip" href="#site-content">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header-inner"><a class="site-brand" href="../index.html"><span class="site-brand-mark"
+            aria-hidden="true">NO.</span>Noble Osinachi</a><button class="site-menu-toggle" type="button"
+          aria-controls="site-links" aria-expanded="false">Menu</button>
+        <nav aria-label="Main navigation">
+          <ul class="site-links" id="site-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="index.html" aria-current="page">Video editing</a></li>
+            <li><a href="../developer-portfolio.html">Development</a></li>
+            <li><a href="../copywriter/index.html">Copywriting</a></li>
+            <li><a class="site-nav-cta" href="#contact">Let’s talk ↗</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="site-content" tabindex="-1"></div>
+
     <!-- Navigation -->
-    <nav class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-filter backdrop-blur-sm border-b border-gray-800">
+    <nav
+      class="site-legacy-nav sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-filter backdrop-blur-sm border-b border-gray-800">
       <div class="container mx-auto px-4 py-4 flex justify-between items-center">
         <div class="flex items-center">
           <h1 class="text-2xl font-bold">
@@ -187,87 +226,31 @@
 
     <!-- Hero Section -->
 
-    <section id="home" class="pt-20 pb-20 gradient-bg">
-      <!-- <div class="container mx-auto px-4 flex flex-col md:flex-row items-center"> -->
-      <div class="container mx-auto px-4 sm:px-6 lg:px-12 flex flex-col md:flex-row items-center">
-        <div class="md:w-1/2 mb-10 md:mb-0">
-          <h3 class="text-4xl md:text-6xl font-bold mb-4">
+    <section id="home" aria-labelledby="ve-title">
+      <div class="ve-hero">
+        <div>
+          <p class="ve-eyebrow">Video editor & creative partner</p>
+          <h1 id="ve-title" class="ve-headline">
+            Direct Response <br><span>
+              Video Editor </span></h1>
 
-            <!-- 
-              Transform Average Ads Into High-Converting Machines ✅
-              Turn Any Content Into Click-Driven, Revenue-Generating Ads
-              From Meh to Magnetic: Craft Ads That Sell
-              Stop Wasting Views: Make Every Ad Convert
-              Boring Ads? Turn Them Into Profit-Pulling Gold
-              The Ad Editor’s Secret to Conversion Domination
-              Turn Low-Performing Content Into High-ROI Ads
-            -->
+          <p class="ve-description">I’m Noble. I help businesses turn attention into revenue with high-converting video
+            content. I turn ideas into AI-powered creatives, direct-response video ads, and high-retention social
+            content.</p>
 
-
-
-
-
-
-
-            I Help <span class="text-gradient">
-              Businesses & Creators
-
-            </span>
-            Turn
-
-
-            <span class="text-gradient">
-              Attention
-            </span>
-
-
-
-            Into
-
-
-            <span class="text-gradient">
-              Revenue
-            </span>
-
-
-
-            With
-
-
-            <span class="text-gradient">
-              High-Converting Video Content
-            </span>
-
-
-
-
-          </h3>
-          <p class="text-xl text-gray-300 mb-8">
-            I create direct response creatives, short-form videos, VSLs, UGC ads and AI Content engineered to stop the
-            scroll,
-            increase watch time, and convert viewers into customers through strategic editing, compelling storytelling,
-            and performance-driven creative.
-          </p>
-          <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-            <a href="#contact"
-              class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg inline-block text-center">Start
-              a Project</a>
-            <a href="#portfolio"
-              class="bg-transparent hover:bg-gray-800 text-blue-400 font-semibold py-3 px-6 border border-blue-500 hover:border-transparent rounded-lg inline-block text-center">View
-              My Work</a>
+          <div class="ve-actions"><a href="#portfolio">Explore my work ↘</a><a href="#contact">Start a project ↗</a>
           </div>
         </div>
-        <div class="md:w-1/2 flex justify-center">
-          <div
-            class="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-blue-900 bg-opacity-20 flex items-center justify-center">
-            <div class="absolute w-full h-full rounded-full border-4 border-blue-500 border-opacity-50 animate-pulse">
-            </div>
-            <img src="../images/nobleosinachi.png"
-              alt="Noble Osinachi Professional Video Editor VSL Short Form Content Creator Reels TikTok Instagram YouTube Shorts Social Media Marketing Expert Fast Turnaround High Quality Editing Motion Graphics Transitions Visual Effects Viral Content"
-              class="rounded-full w-56 h-56 md:w-72 md:h-72 object-cover border-4 border-blue-600" />
+        <div class="ve-hero-art"><img src="../images/nobleosinachi.png" alt="Noble Osinachi" width="320" height="400"
+            fetchpriority="high" />
+          <div class="ve-art-copy">
+            <p>Creative range.<br>One clear voice.</p><strong>AI.<br>Film.<br>Social.</strong><a href="#intro-vsl">Meet
+              your editor ↘</a>
           </div>
         </div>
       </div>
+      <div class="ve-disciplines"><span>AI creatives</span><span>Faceless YouTube</span><span>Video Creatives
+        </span><span>Short-form Content</span></div>
     </section>
 
     <section id="intro-vsl" class="gradient-bg py-10">
@@ -278,8 +261,8 @@
             height: 0;
             overflow: hidden;
           ">
-          <iframe loading="lazy" decoding="async" src="https://youtube.com/embed/YecAgTPbCIE" frameborder="0"
-            allowfullscreen style="
+          <iframe loading="lazy" decoding="async" title="Meet Noble Osinachi — video editor"
+            src="https://www.youtube.com/embed/YecAgTPbCIE?autoplay=0" frameborder="0" allowfullscreen style="
               position: absolute;
               top: 0;
               left: 0;
@@ -597,238 +580,1264 @@
     <section id="portfolio" class="bg-gray-900" aria-labelledby="portfolio-title">
       <div class="pf-shell">
         <header class="pf-intro">
-          <div><p class="pf-kicker">The work / Noble Osinachi</p>
-            <h2 id="portfolio-title">Selected work.<br><span>Made to be watched.</span></h2></div>
-          <div class="pf-intro-copy"><p>AI creatives, documentary edits and brand stories. Different formats. One focus: a story that holds your attention.</p><span class="pf-summary">12 selected projects &nbsp; / &nbsp; 4 creative categories</span></div>
+          <div>
+            <p class="pf-kicker">The work / Noble Osinachi</p>
+            <h2 id="portfolio-title">The work.<br><span>Explore the range.</span></h2>
+          </div>
+          <div class="pf-intro-copy">
+            <p>AI creatives, direct response video ads, faceless YouTube, documentary edits and brand stories.
+              Different formats. One focus: a story that holds your
+              attention.</p><span class="pf-summary">45 films &nbsp; / &nbsp; 4 creative categories</span>
+          </div>
         </header>
-        <nav aria-label="Browse portfolio categories"><ul class="pf-nav"><li><a href="#ai-creatives">AI Creatives</a></li>
-<li><a href="#faceless-youtube">Faceless YouTube Videos</a></li>
-<li><a href="#commercial-editing">Commercials &amp; Video Editing</a></li>
-<li><a href="#short-form">Short-Form Content</a></li></ul></nav>
+        <nav aria-label="Browse portfolio categories">
+          <ul class="pf-nav">
+            <li><a href="#ai-creatives">AI Creatives</a></li>
+            <li><a href="#faceless-youtube">Faceless YouTube Videos</a></li>
+            <li><a href="#commercial-editing">Commercials &amp; Video Editing</a></li>
+            <li><a href="#short-form">Short-Form Content</a></li>
+          </ul>
+        </nav>
 
-          <section id="ai-creatives" class="pf-category pf-category--featured" aria-labelledby="ai-creatives-title" tabindex="-1">
-            <header class="pf-category-heading">
-              <div><p class="pf-eyebrow">01 / Creative experimentation</p>
-                <h3 id="ai-creatives-title">AI Creatives</h3>
-                <p class="pf-category-description">AI-generated worlds. Human-led storytelling. Product films and social ads shaped from concept to final cut.</p></div>
-              <span class="pf-category-count">03 selected projects</span>
-            </header>
-            <div class="pf-grid">
-              <article class="pf-card" data-project-card="skincare-reset">
-                <a class="pf-preview" href="https://www.youtube.com/watch?v=G39ycMcehRY" target="_blank" rel="noopener noreferrer" data-project="skincare-reset" aria-label="Watch The Skincare Reset">
-                  <img src="https://i.ytimg.com/vi/G39ycMcehRY/maxresdefault.jpg" alt="Preview of The Skincare Reset" loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
-                  <span class="pf-image-fallback" aria-hidden="true">The Skincare Reset</span>
-                  <span class="pf-host">YOUTUBE</span>
-                  <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg> Watch project</span>
-                </a>
-                <div class="pf-card-body">
-                  <ul class="pf-tags" aria-label="Project format"><li>AI UGC</li><li>Product storytelling</li></ul>
-                  <h4>The Skincare Reset</h4>
-                  <p class="pf-card-description">An AI-assisted skincare commercial combining generated scenes, narration, product presentation and caption-led finishing.</p>
-                  <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=G39ycMcehRY" target="_blank" rel="noopener noreferrer" aria-label="View The Skincare Reset on YouTube (opens in a new tab)">View on YouTube <span aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
-                </div>
-              </article>
-<article class="pf-card" data-project-card="alivo-06">
-                <a class="pf-preview" href="https://www.youtube.com/watch?v=tzhyySkdwAM" target="_blank" rel="noopener noreferrer" data-project="alivo-06" aria-label="Watch ALIVO 06">
-                  <img src="https://i.ytimg.com/vi/tzhyySkdwAM/maxresdefault.jpg" alt="Preview of ALIVO 06" loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
-                  <span class="pf-image-fallback" aria-hidden="true">ALIVO 06</span>
-                  <span class="pf-host">YOUTUBE</span>
-                  <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg> Watch project</span>
-                </a>
-                <div class="pf-card-body">
-                  <ul class="pf-tags" aria-label="Project format"><li>AI creative</li><li>Social advertising</li></ul>
-                  <h4>ALIVO 06</h4>
-                  <p class="pf-card-description">An AI-assisted social ad pairing everyday-life scenes with bold, readable captions.</p>
-                  <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=tzhyySkdwAM" target="_blank" rel="noopener noreferrer" aria-label="View ALIVO 06 on YouTube (opens in a new tab)">View on YouTube <span aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
-                </div>
-              </article>
-<article class="pf-card" data-project-card="rgb-fan-vsl">
-                <a class="pf-preview" href="https://www.youtube.com/watch?v=Kkm_D6q3Buw" target="_blank" rel="noopener noreferrer" data-project="rgb-fan-vsl" aria-label="Watch RGB Desktop Fan · AI VSL">
-                  <img src="https://i.ytimg.com/vi/Kkm_D6q3Buw/maxresdefault.jpg" alt="Preview of RGB Desktop Fan · AI VSL" loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
-                  <span class="pf-image-fallback" aria-hidden="true">RGB Desktop Fan · AI VSL</span>
-                  <span class="pf-host">YOUTUBE</span>
-                  <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg> Watch project</span>
-                </a>
-                <div class="pf-card-body">
-                  <ul class="pf-tags" aria-label="Project format"><li>AI visuals</li><li>Product VSL</li></ul>
-                  <h4>RGB Desktop Fan · AI VSL</h4>
-                  <p class="pf-card-description">An AI-assisted product sales video: ChatGPT scripting, ElevenLabs narration and generated visuals brought together in the edit.</p>
-                  <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=Kkm_D6q3Buw" target="_blank" rel="noopener noreferrer" aria-label="View RGB Desktop Fan · AI VSL on YouTube (opens in a new tab)">View on YouTube <span aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
-                </div>
-              </article>
+        <section id="ai-creatives" class="pf-category pf-category--featured" aria-labelledby="ai-creatives-title"
+          tabindex="-1">
+          <header class="pf-category-heading">
+            <div>
+              <p class="pf-eyebrow">01 / Creative experimentation</p>
+              <h3 id="ai-creatives-title">AI Creatives</h3>
+              <p class="pf-category-description">AI product films, UGC experiments and playful visual stories. Twelve
+                different creative executions, from skincare to Sora.</p>
             </div>
-          </section>
+            <span class="pf-category-count">12 films</span>
+          </header>
+          <div class="pf-grid">
+            <article class="pf-card" data-project-card="skincare-reset">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=G39ycMcehRY" target="_blank"
+                rel="noopener noreferrer" data-project="skincare-reset" aria-label="Watch The Skincare Reset">
+                <img src="https://i.ytimg.com/vi/G39ycMcehRY/maxresdefault.jpg" alt="Preview of The Skincare Reset"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">The Skincare Reset</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>AI UGC</li>
+                  <li>Product storytelling</li>
+                </ul>
+                <h4>The Skincare Reset</h4>
+                <p class="pf-card-description">An AI-assisted skincare commercial combining generated scenes, narration,
+                  product presentation and caption-led finishing.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=G39ycMcehRY"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View The Skincare Reset on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="alivo-06">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=tzhyySkdwAM" target="_blank"
+                rel="noopener noreferrer" data-project="alivo-06" aria-label="Watch ALIVO 06">
+                <img src="https://i.ytimg.com/vi/tzhyySkdwAM/maxresdefault.jpg" alt="Preview of ALIVO 06" loading="lazy"
+                  decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">ALIVO 06</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>AI creative</li>
+                  <li>Social advertising</li>
+                </ul>
+                <h4>ALIVO 06</h4>
+                <p class="pf-card-description">An AI-assisted social ad pairing everyday-life scenes with bold, readable
+                  captions.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=tzhyySkdwAM"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View ALIVO 06 on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="rgb-fan-vsl">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=Kkm_D6q3Buw" target="_blank"
+                rel="noopener noreferrer" data-project="rgb-fan-vsl" aria-label="Watch RGB Desktop Fan · AI VSL">
+                <img src="https://i.ytimg.com/vi/Kkm_D6q3Buw/maxresdefault.jpg"
+                  alt="Preview of RGB Desktop Fan · AI VSL" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">RGB Desktop Fan · AI VSL</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>AI visuals</li>
+                  <li>Product VSL</li>
+                </ul>
+                <h4>RGB Desktop Fan · AI VSL</h4>
+                <p class="pf-card-description">An AI-assisted product sales video: ChatGPT scripting, ElevenLabs
+                  narration and generated visuals brought together in the edit.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=Kkm_D6q3Buw"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View RGB Desktop Fan · AI VSL on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-1XYdJcbdz0s">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=1XYdJcbdz0s" target="_blank"
+                rel="noopener noreferrer" data-project="yt-1XYdJcbdz0s" aria-label="Watch Aichun Beauty · Direct-Response Ad">
+                <img src="https://i.ytimg.com/vi/1XYdJcbdz0s/maxresdefault.jpg"
+                  alt="Preview of Aichun Beauty · Direct-Response Ad" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Aichun Beauty · Direct-Response Ad</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>AI video ad</li>
+                  <li>Direct response</li>
+                </ul>
+                <h4>Aichun Beauty · Direct-Response Ad</h4>
+                <p class="pf-card-description">An AI-assisted direct-response skincare ad combining a presenter-led opening with clear product presentation.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=1XYdJcbdz0s"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Aichun Beauty · Direct-Response Ad on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-llK9RS-c74E">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=llK9RS-c74E" target="_blank"
+                rel="noopener noreferrer" data-project="yt-llK9RS-c74E" aria-label="Watch AI Talking Head · DTC Edit">
+                <img src="https://i.ytimg.com/vi/llK9RS-c74E/maxresdefault.jpg"
+                  alt="Preview of AI Talking Head · DTC Edit" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">AI Talking Head · DTC Edit</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>AI presenter</li>
+                  <li>DTC edit</li>
+                </ul>
+                <h4>AI Talking Head · DTC Edit</h4>
+                <p class="pf-card-description">A direct-response edit exploring AI talking-head presentation.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=llK9RS-c74E"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View AI Talking Head · DTC Edit on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-KHbu7nwqh1E">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=KHbu7nwqh1E" target="_blank"
+                rel="noopener noreferrer" data-project="yt-KHbu7nwqh1E" aria-label="Watch Indoor Golf · AI + UGC">
+                <img src="https://i.ytimg.com/vi/KHbu7nwqh1E/maxresdefault.jpg" alt="Preview of Indoor Golf · AI + UGC"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Indoor Golf · AI + UGC</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>AI-assisted</li>
+                  <li>UGC storytelling</li>
+                </ul>
+                <h4>Indoor Golf · AI + UGC</h4>
+                <p class="pf-card-description">A stitched golf-set creative combining AI-assisted production with a
+                  social ad format.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=KHbu7nwqh1E"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Indoor Golf · AI + UGC on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-QCa5n7iBhdA">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=QCa5n7iBhdA" target="_blank"
+                rel="noopener noreferrer" data-project="yt-QCa5n7iBhdA" aria-label="Watch ALIVO Tea · UGC Ad 24">
+                <img src="https://i.ytimg.com/vi/QCa5n7iBhdA/maxresdefault.jpg" alt="Preview of ALIVO Tea · UGC Ad 24"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">ALIVO Tea · UGC Ad 24</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>AI UGC</li>
+                  <li>Product advertising</li>
+                </ul>
+                <h4>ALIVO Tea · UGC Ad 24</h4>
+                <p class="pf-card-description">An AI UGC tea creative pairing a product-in-hand presenter with bold on-screen captions.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=QCa5n7iBhdA"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View ALIVO Tea · UGC Ad 24 on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-I46zXVeOTgs">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=I46zXVeOTgs" target="_blank"
+                rel="noopener noreferrer" data-project="yt-I46zXVeOTgs" aria-label="Watch Skincare Advertising With AI">
+                <img src="https://i.ytimg.com/vi/I46zXVeOTgs/maxresdefault.jpg"
+                  alt="Preview of Skincare Advertising With AI" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Skincare Advertising With AI</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>AI skincare</li>
+                  <li>Product creative</li>
+                </ul>
+                <h4>Skincare Advertising With AI</h4>
+                <p class="pf-card-description">An AI-assisted skincare creative for Aichun Beauty anti-acne cream.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=I46zXVeOTgs"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Skincare Advertising With AI on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-kdsQ9Vwbo5c">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=kdsQ9Vwbo5c" target="_blank"
+                rel="noopener noreferrer" data-project="yt-kdsQ9Vwbo5c" aria-label="Watch ALIVO 05 · Before / After">
+                <img src="https://i.ytimg.com/vi/kdsQ9Vwbo5c/maxresdefault.jpg"
+                  alt="Preview of ALIVO 05 · Before / After" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">ALIVO 05 · Before / After</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>AI creative</li>
+                  <li>Campaign film</li>
+                </ul>
+                <h4>ALIVO 05 · Before / After</h4>
+                <p class="pf-card-description">A caption-led ALIVO creative with a split-screen visual story.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=kdsQ9Vwbo5c"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View ALIVO 05 · Before / After on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-UUY86t2HiKU">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=UUY86t2HiKU" target="_blank"
+                rel="noopener noreferrer" data-project="yt-UUY86t2HiKU" aria-label="Watch ALIVO 09 · Consultation">
+                <img src="https://i.ytimg.com/vi/UUY86t2HiKU/maxresdefault.jpg" alt="Preview of ALIVO 09 · Consultation"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">ALIVO 09 · Consultation</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Campaign film</li>
+                  <li>Visual storytelling</li>
+                </ul>
+                <h4>ALIVO 09 · Consultation</h4>
+                <p class="pf-card-description">An ALIVO campaign film built around a consultation scene and on-screen
+                  captions.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=UUY86t2HiKU"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View ALIVO 09 · Consultation on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-_upN3oKOuFg">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=_upN3oKOuFg" target="_blank"
+                rel="noopener noreferrer" data-project="yt-_upN3oKOuFg" aria-label="Watch ALIVO 01 · Tea Ritual">
+                <img src="https://i.ytimg.com/vi/_upN3oKOuFg/maxresdefault.jpg" alt="Preview of ALIVO 01 · Tea Ritual"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">ALIVO 01 · Tea Ritual</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Campaign film</li>
+                  <li>Lifestyle creative</li>
+                </ul>
+                <h4>ALIVO 01 · Tea Ritual</h4>
+                <p class="pf-card-description">An ALIVO campaign creative built around a tea-drinking scene.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=_upN3oKOuFg"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View ALIVO 01 · Tea Ritual on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-v8s2t7qtjYE">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=v8s2t7qtjYE" target="_blank"
+                rel="noopener noreferrer" data-project="yt-v8s2t7qtjYE" aria-label="Watch ALIVO 04 · Four-Panel Story">
+                <img src="https://i.ytimg.com/vi/v8s2t7qtjYE/maxresdefault.jpg"
+                  alt="Preview of ALIVO 04 · Four-Panel Story" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">ALIVO 04 · Four-Panel Story</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Campaign film</li>
+                  <li>Visual composition</li>
+                </ul>
+                <h4>ALIVO 04 · Four-Panel Story</h4>
+                <p class="pf-card-description">A four-panel ALIVO creative combining anatomical graphics with captions.
+                </p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=v8s2t7qtjYE"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View ALIVO 04 · Four-Panel Story on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
 
-          <section id="faceless-youtube" class="pf-category" aria-labelledby="faceless-youtube-title" tabindex="-1">
-            <header class="pf-category-heading">
-              <div><p class="pf-eyebrow">02 / Long-form storytelling</p>
-                <h3 id="faceless-youtube-title">Faceless YouTube Videos</h3>
-                <p class="pf-category-description">Documentary-style edits that build a story through archival imagery, footage selection and visual sequencing.</p></div>
-              <span class="pf-category-count">03 selected projects</span>
-            </header>
-            <div class="pf-grid">
-              <article class="pf-card" data-project-card="adx-florence">
-                <a class="pf-preview pf-preview--landscape" href="https://drive.google.com/file/d/1tQQWbQqG6tC3V0SxvBqseiUAi6o2LsqQ/view" target="_blank" rel="noopener noreferrer" data-project="adx-florence" aria-label="Watch Inside ADX Florence">
-                  <img src="https://drive.google.com/thumbnail?id=1tQQWbQqG6tC3V0SxvBqseiUAi6o2LsqQ&amp;sz=w1000" alt="Preview of Inside ADX Florence" loading="lazy" decoding="async" width="640" height="360" referrerpolicy="no-referrer" />
-                  <span class="pf-image-fallback" aria-hidden="true">Inside ADX Florence</span>
-                  <span class="pf-host">GOOGLE DRIVE</span>
-                  <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg> Watch project</span>
-                </a>
-                <div class="pf-card-body">
-                  <ul class="pf-tags" aria-label="Project format"><li>Faceless YouTube</li><li>Documentary editing</li></ul>
-                  <h4>Inside ADX Florence</h4>
-                  <p class="pf-card-description">Archival material and news footage sequenced into a long-form organized-crime documentary.</p>
-                  <div class="pf-card-footer"><a class="pf-source-link" href="https://drive.google.com/file/d/1tQQWbQqG6tC3V0SxvBqseiUAi6o2LsqQ/view" target="_blank" rel="noopener noreferrer" aria-label="View Inside ADX Florence on Google Drive (opens in a new tab)">View on Drive <span aria-hidden="true">↗</span></a><span class="pf-duration">26:48</span></div>
-                </div>
-              </article>
-<article class="pf-card" data-project-card="pilots-documentary">
-                <a class="pf-preview pf-preview--landscape" href="https://drive.google.com/file/d/1oaHoKrumDQySM-mS_XU-ZFJ41eYWxS2r/view" target="_blank" rel="noopener noreferrer" data-project="pilots-documentary" aria-label="Watch Pilots Behind Bars">
-                  <img src="https://drive.google.com/thumbnail?id=1oaHoKrumDQySM-mS_XU-ZFJ41eYWxS2r&amp;sz=w1000" alt="Preview of Pilots Behind Bars" loading="lazy" decoding="async" width="640" height="360" referrerpolicy="no-referrer" />
-                  <span class="pf-image-fallback" aria-hidden="true">Pilots Behind Bars</span>
-                  <span class="pf-host">GOOGLE DRIVE</span>
-                  <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg> Watch project</span>
-                </a>
-                <div class="pf-card-body">
-                  <ul class="pf-tags" aria-label="Project format"><li>Faceless YouTube</li><li>Documentary editing</li></ul>
-                  <h4>Pilots Behind Bars</h4>
-                  <p class="pf-card-description">A long-form documentary edit using portraits, archival imagery and visual sequences to introduce individual stories.</p>
-                  <div class="pf-card-footer"><a class="pf-source-link" href="https://drive.google.com/file/d/1oaHoKrumDQySM-mS_XU-ZFJ41eYWxS2r/view" target="_blank" rel="noopener noreferrer" aria-label="View Pilots Behind Bars on Google Drive (opens in a new tab)">View on Drive <span aria-hidden="true">↗</span></a><span class="pf-duration">28:02</span></div>
-                </div>
-              </article>
-<article class="pf-card" data-project-card="traitors-documentary">
-                <a class="pf-preview pf-preview--landscape" href="https://drive.google.com/file/d/1kCPTDoj_ezPZEM9LvtfPT3Fv5wg-v_nO/view" target="_blank" rel="noopener noreferrer" data-project="traitors-documentary" aria-label="Watch Traitors in the U.S.">
-                  <img src="https://drive.google.com/thumbnail?id=1kCPTDoj_ezPZEM9LvtfPT3Fv5wg-v_nO&amp;sz=w1000" alt="Preview of Traitors in the U.S." loading="lazy" decoding="async" width="640" height="360" referrerpolicy="no-referrer" />
-                  <span class="pf-image-fallback" aria-hidden="true">Traitors in the U.S.</span>
-                  <span class="pf-host">GOOGLE DRIVE</span>
-                  <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg> Watch project</span>
-                </a>
-                <div class="pf-card-body">
-                  <ul class="pf-tags" aria-label="Project format"><li>Faceless YouTube</li><li>Documentary editing</li></ul>
-                  <h4>Traitors in the U.S.</h4>
-                  <p class="pf-card-description">An archival-led documentary edit, combining historical imagery and footage in a long-form narrative.</p>
-                  <div class="pf-card-footer"><a class="pf-source-link" href="https://drive.google.com/file/d/1kCPTDoj_ezPZEM9LvtfPT3Fv5wg-v_nO/view" target="_blank" rel="noopener noreferrer" aria-label="View Traitors in the U.S. on Google Drive (opens in a new tab)">View on Drive <span aria-hidden="true">↗</span></a><span class="pf-duration">30:02</span></div>
-                </div>
-              </article>
-            </div>
-          </section>
+          </div>
+        </section>
 
-          <section id="commercial-editing" class="pf-category" aria-labelledby="commercial-editing-title" tabindex="-1">
-            <header class="pf-category-heading">
-              <div><p class="pf-eyebrow">03 / Brand &amp; product stories</p>
-                <h3 id="commercial-editing-title">Commercials &amp; Video Editing</h3>
-                <p class="pf-category-description">A focused selection of brand and product edits, from everyday luxury to practical product demonstrations.</p></div>
-              <span class="pf-category-count">03 selected projects</span>
-            </header>
-            <div class="pf-grid">
-              <article class="pf-card" data-project-card="grams28">
-                <a class="pf-preview" href="https://www.youtube.com/watch?v=CSKa1maz_So" target="_blank" rel="noopener noreferrer" data-project="grams28" aria-label="Watch Everyday Luxury · GRAMS28">
-                  <img src="https://i.ytimg.com/vi/CSKa1maz_So/maxresdefault.jpg" alt="Preview of Everyday Luxury · GRAMS28" loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
-                  <span class="pf-image-fallback" aria-hidden="true">Everyday Luxury · GRAMS28</span>
-                  <span class="pf-host">YOUTUBE</span>
-                  <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg> Watch project</span>
-                </a>
-                <div class="pf-card-body">
-                  <ul class="pf-tags" aria-label="Project format"><li>UGC edit</li><li>Product commercial</li></ul>
-                  <h4>Everyday Luxury · GRAMS28</h4>
-                  <p class="pf-card-description">A UGC-style edit for the GRAMS28 leather bag, bringing the product into an everyday-luxury story.</p>
-                  <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=CSKa1maz_So" target="_blank" rel="noopener noreferrer" aria-label="View Everyday Luxury · GRAMS28 on YouTube (opens in a new tab)">View on YouTube <span aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
-                </div>
-              </article>
-<article class="pf-card" data-project-card="premium-cycling">
-                <a class="pf-preview" href="https://www.youtube.com/watch?v=ZDUau_Cf6GE" target="_blank" rel="noopener noreferrer" data-project="premium-cycling" aria-label="Watch Premium Cycling Bike">
-                  <img src="https://i.ytimg.com/vi/ZDUau_Cf6GE/maxresdefault.jpg" alt="Preview of Premium Cycling Bike" loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
-                  <span class="pf-image-fallback" aria-hidden="true">Premium Cycling Bike</span>
-                  <span class="pf-host">YOUTUBE</span>
-                  <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg> Watch project</span>
-                </a>
-                <div class="pf-card-body">
-                  <ul class="pf-tags" aria-label="Project format"><li>Premiere Pro</li><li>Product commercial</li></ul>
-                  <h4>Premium Cycling Bike</h4>
-                  <p class="pf-card-description">A Premiere Pro commercial edit focused on the cycling bike and its product story.</p>
-                  <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=ZDUau_Cf6GE" target="_blank" rel="noopener noreferrer" aria-label="View Premium Cycling Bike on YouTube (opens in a new tab)">View on YouTube <span aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
-                </div>
-              </article>
-<article class="pf-card" data-project-card="self-defence-flashlight">
-                <a class="pf-preview" href="https://www.youtube.com/watch?v=b3MCIe5WKFc" target="_blank" rel="noopener noreferrer" data-project="self-defence-flashlight" aria-label="Watch Self Defence Flashlight">
-                  <img src="https://i.ytimg.com/vi/b3MCIe5WKFc/maxresdefault.jpg" alt="Preview of Self Defence Flashlight" loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
-                  <span class="pf-image-fallback" aria-hidden="true">Self Defence Flashlight</span>
-                  <span class="pf-host">YOUTUBE</span>
-                  <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg> Watch project</span>
-                </a>
-                <div class="pf-card-body">
-                  <ul class="pf-tags" aria-label="Project format"><li>Product demonstration</li><li>Ad editing</li></ul>
-                  <h4>Self Defence Flashlight</h4>
-                  <p class="pf-card-description">A product-led creative showcasing a self-defence flashlight in a compact social ad format.</p>
-                  <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=b3MCIe5WKFc" target="_blank" rel="noopener noreferrer" aria-label="View Self Defence Flashlight on YouTube (opens in a new tab)">View on YouTube <span aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
-                </div>
-              </article>
+        <section id="faceless-youtube" class="pf-category" aria-labelledby="faceless-youtube-title" tabindex="-1">
+          <header class="pf-category-heading">
+            <div>
+              <p class="pf-eyebrow">02 / Long-form storytelling</p>
+              <h3 id="faceless-youtube-title">Faceless YouTube Videos</h3>
+              <p class="pf-category-description">Long-form documentary edits. Nine films to watch now.</p>
             </div>
-          </section>
+            <span class="pf-category-count">9 films</span>
+          </header>
+          <div class="pf-grid">
+            <article class="pf-card" data-project-card="adx-florence">
+              <a class="pf-preview pf-preview--landscape"
+                href="https://drive.google.com/file/d/1tQQWbQqG6tC3V0SxvBqseiUAi6o2LsqQ/view" target="_blank"
+                rel="noopener noreferrer" data-project="adx-florence" aria-label="Watch Inside ADX Florence">
+                <img src="https://drive.google.com/thumbnail?id=1tQQWbQqG6tC3V0SxvBqseiUAi6o2LsqQ&amp;sz=w1000"
+                  alt="Preview of Inside ADX Florence" loading="lazy" decoding="async" width="640" height="360"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Inside ADX Florence</span>
+                <span class="pf-host">GOOGLE DRIVE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Faceless YouTube</li>
+                  <li>Documentary editing</li>
+                </ul>
+                <h4>Inside ADX Florence</h4>
+                <p class="pf-card-description">Archival material and news footage sequenced into a long-form
+                  organized-crime documentary.</p>
+                <div class="pf-card-footer"><a class="pf-source-link"
+                    href="https://drive.google.com/file/d/1tQQWbQqG6tC3V0SxvBqseiUAi6o2LsqQ/view" target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Inside ADX Florence on Google Drive (opens in a new tab)">View on Drive <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">26:48</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="pilots-documentary">
+              <a class="pf-preview pf-preview--landscape"
+                href="https://drive.google.com/file/d/1oaHoKrumDQySM-mS_XU-ZFJ41eYWxS2r/view" target="_blank"
+                rel="noopener noreferrer" data-project="pilots-documentary" aria-label="Watch Pilots Behind Bars">
+                <img src="https://drive.google.com/thumbnail?id=1oaHoKrumDQySM-mS_XU-ZFJ41eYWxS2r&amp;sz=w1000"
+                  alt="Preview of Pilots Behind Bars" loading="lazy" decoding="async" width="640" height="360"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Pilots Behind Bars</span>
+                <span class="pf-host">GOOGLE DRIVE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Faceless YouTube</li>
+                  <li>Documentary editing</li>
+                </ul>
+                <h4>Pilots Behind Bars</h4>
+                <p class="pf-card-description">A long-form documentary edit using portraits, archival imagery and visual
+                  sequences to introduce individual stories.</p>
+                <div class="pf-card-footer"><a class="pf-source-link"
+                    href="https://drive.google.com/file/d/1oaHoKrumDQySM-mS_XU-ZFJ41eYWxS2r/view" target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Pilots Behind Bars on Google Drive (opens in a new tab)">View on Drive <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">28:02</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="traitors-documentary">
+              <a class="pf-preview pf-preview--landscape"
+                href="https://drive.google.com/file/d/1kCPTDoj_ezPZEM9LvtfPT3Fv5wg-v_nO/view" target="_blank"
+                rel="noopener noreferrer" data-project="traitors-documentary" aria-label="Watch Traitors in the U.S.">
+                <img src="https://drive.google.com/thumbnail?id=1kCPTDoj_ezPZEM9LvtfPT3Fv5wg-v_nO&amp;sz=w1000"
+                  alt="Preview of Traitors in the U.S." loading="lazy" decoding="async" width="640" height="360"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Traitors in the U.S.</span>
+                <span class="pf-host">GOOGLE DRIVE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Faceless YouTube</li>
+                  <li>Documentary editing</li>
+                </ul>
+                <h4>Traitors in the U.S.</h4>
+                <p class="pf-card-description">An archival-led documentary edit, combining historical imagery and
+                  footage in a long-form narrative.</p>
+                <div class="pf-card-footer"><a class="pf-source-link"
+                    href="https://drive.google.com/file/d/1kCPTDoj_ezPZEM9LvtfPT3Fv5wg-v_nO/view" target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Traitors in the U.S. on Google Drive (opens in a new tab)">View on Drive <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">30:02</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="drive-1wFBCoc42MAm3tQ2G7poBrOrEXnKyizWr">
+              <a class="pf-preview pf-preview--landscape"
+                href="https://drive.google.com/file/d/1wFBCoc42MAm3tQ2G7poBrOrEXnKyizWr/view" target="_blank"
+                rel="noopener noreferrer" data-project="drive-1wFBCoc42MAm3tQ2G7poBrOrEXnKyizWr"
+                aria-label="Watch Big Pharma CEOs">
+                <img src="https://drive.google.com/thumbnail?id=1wFBCoc42MAm3tQ2G7poBrOrEXnKyizWr&amp;sz=w1000"
+                  alt="Preview of Big Pharma CEOs" loading="lazy" decoding="async" width="640" height="360"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Big Pharma CEOs</span>
+                <span class="pf-host">GOOGLE DRIVE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Faceless YouTube</li>
+                  <li>Documentary edit</li>
+                </ul>
+                <h4>Big Pharma CEOs</h4>
+                <p class="pf-card-description">A faceless documentary about pharmaceutical executives convicted of
+                  crimes.</p>
+                <div class="pf-card-footer"><a class="pf-source-link"
+                    href="https://drive.google.com/file/d/1wFBCoc42MAm3tQ2G7poBrOrEXnKyizWr/view" target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Big Pharma CEOs on Google Drive (opens in a new tab)">View on Drive <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Landscape video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="drive-1zftBhVgg-AMhFzeuABlEFeC_Aqjz0HYk">
+              <a class="pf-preview pf-preview--landscape"
+                href="https://drive.google.com/file/d/1zftBhVgg-AMhFzeuABlEFeC_Aqjz0HYk/view" target="_blank"
+                rel="noopener noreferrer" data-project="drive-1zftBhVgg-AMhFzeuABlEFeC_Aqjz0HYk"
+                aria-label="Watch Teenage Siblings">
+                <img src="https://drive.google.com/thumbnail?id=1zftBhVgg-AMhFzeuABlEFeC_Aqjz0HYk&amp;sz=w1000"
+                  alt="Preview of Teenage Siblings" loading="lazy" decoding="async" width="640" height="360"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Teenage Siblings</span>
+                <span class="pf-host">GOOGLE DRIVE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Faceless YouTube</li>
+                  <li>Documentary edit</li>
+                </ul>
+                <h4>Teenage Siblings</h4>
+                <p class="pf-card-description">A long-form documentary about teenage siblings convicted together.</p>
+                <div class="pf-card-footer"><a class="pf-source-link"
+                    href="https://drive.google.com/file/d/1zftBhVgg-AMhFzeuABlEFeC_Aqjz0HYk/view" target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Teenage Siblings on Google Drive (opens in a new tab)">View on Drive <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Landscape video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="drive-1BgEVksozaWs7As9JImRxHATgcrYeQywS">
+              <a class="pf-preview pf-preview--landscape"
+                href="https://drive.google.com/file/d/1BgEVksozaWs7As9JImRxHATgcrYeQywS/view" target="_blank"
+                rel="noopener noreferrer" data-project="drive-1BgEVksozaWs7As9JImRxHATgcrYeQywS"
+                aria-label="Watch Gang Leaders in the U.S.">
+                <img src="https://drive.google.com/thumbnail?id=1BgEVksozaWs7As9JImRxHATgcrYeQywS&amp;sz=w1000"
+                  alt="Preview of Gang Leaders in the U.S." loading="lazy" decoding="async" width="640" height="360"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Gang Leaders in the U.S.</span>
+                <span class="pf-host">GOOGLE DRIVE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Faceless YouTube</li>
+                  <li>Documentary edit</li>
+                </ul>
+                <h4>Gang Leaders in the U.S.</h4>
+                <p class="pf-card-description">A crime documentary about gang leaders and their convictions in the
+                  United States.</p>
+                <div class="pf-card-footer"><a class="pf-source-link"
+                    href="https://drive.google.com/file/d/1BgEVksozaWs7As9JImRxHATgcrYeQywS/view" target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Gang Leaders in the U.S. on Google Drive (opens in a new tab)">View on Drive <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Landscape video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="drive-1ArsvovSDDGfwWDJOAWx7HtsDJTKdsJOg">
+              <a class="pf-preview pf-preview--landscape"
+                href="https://drive.google.com/file/d/1ArsvovSDDGfwWDJOAWx7HtsDJTKdsJOg/view" target="_blank"
+                rel="noopener noreferrer" data-project="drive-1ArsvovSDDGfwWDJOAWx7HtsDJTKdsJOg"
+                aria-label="Watch Texas Men Behind Bars">
+                <img src="https://drive.google.com/thumbnail?id=1ArsvovSDDGfwWDJOAWx7HtsDJTKdsJOg&amp;sz=w1000"
+                  alt="Preview of Texas Men Behind Bars" loading="lazy" decoding="async" width="640" height="360"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Texas Men Behind Bars</span>
+                <span class="pf-host">GOOGLE DRIVE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Faceless YouTube</li>
+                  <li>Documentary edit</li>
+                </ul>
+                <h4>Texas Men Behind Bars</h4>
+                <p class="pf-card-description">A long-form documentary about wealthy Texas men behind bars and their
+                  crimes.</p>
+                <div class="pf-card-footer"><a class="pf-source-link"
+                    href="https://drive.google.com/file/d/1ArsvovSDDGfwWDJOAWx7HtsDJTKdsJOg/view" target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Texas Men Behind Bars on Google Drive (opens in a new tab)">View on Drive <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Landscape video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="drive-1KW56afbBBXzjwTT63uFuGppo96pz3Sgb">
+              <a class="pf-preview pf-preview--landscape"
+                href="https://drive.google.com/file/d/1KW56afbBBXzjwTT63uFuGppo96pz3Sgb/view" target="_blank"
+                rel="noopener noreferrer" data-project="drive-1KW56afbBBXzjwTT63uFuGppo96pz3Sgb"
+                aria-label="Watch Police Killings · Documentary">
+                <img src="https://drive.google.com/thumbnail?id=1KW56afbBBXzjwTT63uFuGppo96pz3Sgb&amp;sz=w1000"
+                  alt="Preview of Police Killings · Documentary" loading="lazy" decoding="async" width="640"
+                  height="360" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Police Killings · Documentary</span>
+                <span class="pf-host">GOOGLE DRIVE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Faceless YouTube</li>
+                  <li>Documentary edit</li>
+                </ul>
+                <h4>Police Killings · Documentary</h4>
+                <p class="pf-card-description">A documentary about police killings and the public outrage surrounding
+                  them.</p>
+                <div class="pf-card-footer"><a class="pf-source-link"
+                    href="https://drive.google.com/file/d/1KW56afbBBXzjwTT63uFuGppo96pz3Sgb/view" target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Police Killings · Documentary on Google Drive (opens in a new tab)">View on Drive
+                    <span aria-hidden="true">↗</span></a><span class="pf-duration">Landscape video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="drive-1tQ3jd9Nr-0vinrkIomxyAT2Oc5-0MK7h">
+              <a class="pf-preview pf-preview--landscape"
+                href="https://drive.google.com/file/d/1tQ3jd9Nr-0vinrkIomxyAT2Oc5-0MK7h/view" target="_blank"
+                rel="noopener noreferrer" data-project="drive-1tQ3jd9Nr-0vinrkIomxyAT2Oc5-0MK7h"
+                aria-label="Watch Athletes Who Committed Murder">
+                <img src="https://drive.google.com/thumbnail?id=1tQ3jd9Nr-0vinrkIomxyAT2Oc5-0MK7h&amp;sz=w1000"
+                  alt="Preview of Athletes Who Committed Murder" loading="lazy" decoding="async" width="640"
+                  height="360" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Athletes Who Committed Murder</span>
+                <span class="pf-host">GOOGLE DRIVE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Faceless YouTube</li>
+                  <li>Documentary edit</li>
+                </ul>
+                <h4>Athletes Who Committed Murder</h4>
+                <p class="pf-card-description">A documentary about athletes involved in murder cases.</p>
+                <div class="pf-card-footer"><a class="pf-source-link"
+                    href="https://drive.google.com/file/d/1tQ3jd9Nr-0vinrkIomxyAT2Oc5-0MK7h/view" target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Athletes Who Committed Murder on Google Drive (opens in a new tab)">View on Drive
+                    <span aria-hidden="true">↗</span></a><span class="pf-duration">Landscape video</span></div>
+              </div>
+            </article>
+          </div>
+        </section>
 
-          <section id="short-form" class="pf-category" aria-labelledby="short-form-title" tabindex="-1">
-            <header class="pf-category-heading">
-              <div><p class="pf-eyebrow">04 / Ideas worth watching</p>
-                <h3 id="short-form-title">Short-Form Content</h3>
-                <p class="pf-category-description">Speaker-led stories and podcast excerpts shaped for focused, vertical social viewing.</p></div>
-              <span class="pf-category-count">03 selected projects</span>
-            </header>
-            <div class="pf-grid">
-              <article class="pf-card" data-project-card="luke-belmar-podcast">
-                <a class="pf-preview" href="https://www.youtube.com/watch?v=tAe-vn-U6rc" target="_blank" rel="noopener noreferrer" data-project="luke-belmar-podcast" aria-label="Watch Luke Belmar · Podcast Edit">
-                  <img src="https://i.ytimg.com/vi/tAe-vn-U6rc/maxresdefault.jpg" alt="Preview of Luke Belmar · Podcast Edit" loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
-                  <span class="pf-image-fallback" aria-hidden="true">Luke Belmar · Podcast Edit</span>
-                  <span class="pf-host">YOUTUBE</span>
-                  <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg> Watch project</span>
-                </a>
-                <div class="pf-card-body">
-                  <ul class="pf-tags" aria-label="Project format"><li>Podcast edit</li><li>Vertical short</li></ul>
-                  <h4>Luke Belmar · Podcast Edit</h4>
-                  <p class="pf-card-description">A podcast excerpt shaped into a vertical short, with a Natt Jongsala-inspired editing approach.</p>
-                  <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=tAe-vn-U6rc" target="_blank" rel="noopener noreferrer" aria-label="View Luke Belmar · Podcast Edit on YouTube (opens in a new tab)">View on YouTube <span aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
-                </div>
-              </article>
-<article class="pf-card" data-project-card="moses-updates">
-                <a class="pf-preview" href="https://www.youtube.com/watch?v=0CqhsIWC9uY" target="_blank" rel="noopener noreferrer" data-project="moses-updates" aria-label="Watch How Do You Get Updates?">
-                  <img src="https://i.ytimg.com/vi/0CqhsIWC9uY/maxresdefault.jpg" alt="Preview of How Do You Get Updates?" loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
-                  <span class="pf-image-fallback" aria-hidden="true">How Do You Get Updates?</span>
-                  <span class="pf-host">YOUTUBE</span>
-                  <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg> Watch project</span>
-                </a>
-                <div class="pf-card-body">
-                  <ul class="pf-tags" aria-label="Project format"><li>Creator content</li><li>Vertical short</li></ul>
-                  <h4>How Do You Get Updates?</h4>
-                  <p class="pf-card-description">A creator-led excerpt with Moses Uche, focused on a single question for short-form social viewing.</p>
-                  <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=0CqhsIWC9uY" target="_blank" rel="noopener noreferrer" aria-label="View How Do You Get Updates? on YouTube (opens in a new tab)">View on YouTube <span aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
-                </div>
-              </article>
-<article class="pf-card" data-project-card="best-university">
-                <a class="pf-preview" href="https://www.youtube.com/watch?v=OrmnPTieEXE" target="_blank" rel="noopener noreferrer" data-project="best-university" aria-label="Watch The Best University Ever!">
-                  <img src="https://i.ytimg.com/vi/OrmnPTieEXE/maxresdefault.jpg" alt="Preview of The Best University Ever!" loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
-                  <span class="pf-image-fallback" aria-hidden="true">The Best University Ever!</span>
-                  <span class="pf-host">YOUTUBE</span>
-                  <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l13-8z"/></svg> Watch project</span>
-                </a>
-                <div class="pf-card-body">
-                  <ul class="pf-tags" aria-label="Project format"><li>Motivational edit</li><li>Vertical short</li></ul>
-                  <h4>The Best University Ever!</h4>
-                  <p class="pf-card-description">A motivational short built around a focused, speaker-led story.</p>
-                  <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=OrmnPTieEXE" target="_blank" rel="noopener noreferrer" aria-label="View The Best University Ever! on YouTube (opens in a new tab)">View on YouTube <span aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
-                </div>
-              </article>
+        <section id="commercial-editing" class="pf-category" aria-labelledby="commercial-editing-title" tabindex="-1">
+          <header class="pf-category-heading">
+            <div>
+              <p class="pf-eyebrow">03 / Brand &amp; product stories</p>
+              <h3 id="commercial-editing-title">Commercials &amp; Video Editing</h3>
+              <p class="pf-category-description">Product demonstrations, UGC edits and brand stories — twelve different
+                ways to make the message land.</p>
             </div>
-          </section>
-        <div class="pf-outro"><p>Have a story in mind?</p><div class="pf-outro-links">
-          <a href="https://www.youtube.com/@NobleOsinachi/shorts" target="_blank" rel="noopener noreferrer">More on YouTube ↗</a>
-          <a href="https://drive.google.com/drive/folders/1AwG1RAiTuax64fodzXXC81IOSDjpXc_6" target="_blank" rel="noopener noreferrer">Faceless video archive ↗</a>
-          <a href="/ecom-videos/">More video creatives ↗</a>
-          <a class="pf-contact" href="#contact">Let’s create together ↗</a>
-        </div></div>
+            <span class="pf-category-count">12 films</span>
+          </header>
+          <div class="pf-grid">
+            <article class="pf-card" data-project-card="grams28">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=CSKa1maz_So" target="_blank"
+                rel="noopener noreferrer" data-project="grams28" aria-label="Watch Everyday Luxury · GRAMS28">
+                <img src="https://i.ytimg.com/vi/CSKa1maz_So/maxresdefault.jpg"
+                  alt="Preview of Everyday Luxury · GRAMS28" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Everyday Luxury · GRAMS28</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>UGC edit</li>
+                  <li>Product commercial</li>
+                </ul>
+                <h4>Everyday Luxury · GRAMS28</h4>
+                <p class="pf-card-description">A UGC-style edit for the GRAMS28 leather bag, bringing the product into
+                  an everyday-luxury story.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=CSKa1maz_So"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Everyday Luxury · GRAMS28 on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="premium-cycling">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=ZDUau_Cf6GE" target="_blank"
+                rel="noopener noreferrer" data-project="premium-cycling" aria-label="Watch Premium Cycling Bike">
+                <img src="https://i.ytimg.com/vi/ZDUau_Cf6GE/maxresdefault.jpg" alt="Preview of Premium Cycling Bike"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Premium Cycling Bike</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Premiere Pro</li>
+                  <li>Product commercial</li>
+                </ul>
+                <h4>Premium Cycling Bike</h4>
+                <p class="pf-card-description">A Premiere Pro commercial edit focused on the cycling bike and its
+                  product story.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=ZDUau_Cf6GE"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Premium Cycling Bike on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="self-defence-flashlight">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=b3MCIe5WKFc" target="_blank"
+                rel="noopener noreferrer" data-project="self-defence-flashlight"
+                aria-label="Watch Self Defence Flashlight">
+                <img src="https://i.ytimg.com/vi/b3MCIe5WKFc/maxresdefault.jpg" alt="Preview of Self Defence Flashlight"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Self Defence Flashlight</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Product demonstration</li>
+                  <li>Ad editing</li>
+                </ul>
+                <h4>Self Defence Flashlight</h4>
+                <p class="pf-card-description">A product-led creative showcasing a self-defence flashlight in a compact
+                  social ad format.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=b3MCIe5WKFc"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Self Defence Flashlight on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-bc-6ckyntEc">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=bc-6ckyntEc" target="_blank"
+                rel="noopener noreferrer" data-project="yt-bc-6ckyntEc" aria-label="Watch Indoor Portable Sauna">
+                <img src="https://i.ytimg.com/vi/bc-6ckyntEc/maxresdefault.jpg" alt="Preview of Indoor Portable Sauna"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Indoor Portable Sauna</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Product creative</li>
+                  <li>Social advertising</li>
+                </ul>
+                <h4>Indoor Portable Sauna</h4>
+                <p class="pf-card-description">A portable-sauna UGC edit created for vertical social viewing.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=bc-6ckyntEc"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Indoor Portable Sauna on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-O614OV0W0Bo">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=O614OV0W0Bo" target="_blank"
+                rel="noopener noreferrer" data-project="yt-O614OV0W0Bo" aria-label="Watch XG88 Pro · Smart Glasses">
+                <img src="https://i.ytimg.com/vi/O614OV0W0Bo/maxresdefault.jpg"
+                  alt="Preview of XG88 Pro · Smart Glasses" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">XG88 Pro · Smart Glasses</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Product creative</li>
+                  <li>Social advertising</li>
+                </ul>
+                <h4>XG88 Pro · Smart Glasses</h4>
+                <p class="pf-card-description">A mashup creative introducing Bluetooth headset glasses.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=O614OV0W0Bo"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View XG88 Pro · Smart Glasses on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-paq0Jgf5JxA">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=paq0Jgf5JxA" target="_blank"
+                rel="noopener noreferrer" data-project="yt-paq0Jgf5JxA" aria-label="Watch Treadmill · Product Creative">
+                <img src="https://i.ytimg.com/vi/paq0Jgf5JxA/maxresdefault.jpg"
+                  alt="Preview of Treadmill · Product Creative" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Treadmill · Product Creative</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Product creative</li>
+                  <li>Social advertising</li>
+                </ul>
+                <h4>Treadmill · Product Creative</h4>
+                <p class="pf-card-description">A vertical product creative featuring a treadmill.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=paq0Jgf5JxA"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Treadmill · Product Creative on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-iruMRLawtXY">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=iruMRLawtXY" target="_blank"
+                rel="noopener noreferrer" data-project="yt-iruMRLawtXY" aria-label="Watch Ridax · Sleep Better">
+                <img src="https://i.ytimg.com/vi/iruMRLawtXY/maxresdefault.jpg" alt="Preview of Ridax · Sleep Better"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Ridax · Sleep Better</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Product creative</li>
+                  <li>Social advertising</li>
+                </ul>
+                <h4>Ridax · Sleep Better</h4>
+                <p class="pf-card-description">A Ridax UGC ad built around its published sleep-focused angle.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=iruMRLawtXY"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Ridax · Sleep Better on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-gE3aL7qr0yo">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=gE3aL7qr0yo" target="_blank"
+                rel="noopener noreferrer" data-project="yt-gE3aL7qr0yo"
+                aria-label="Watch Indoor Golf · Workplace Angle">
+                <img src="https://i.ytimg.com/vi/gE3aL7qr0yo/maxresdefault.jpg"
+                  alt="Preview of Indoor Golf · Workplace Angle" loading="lazy" decoding="async" width="360"
+                  height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Indoor Golf · Workplace Angle</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Product creative</li>
+                  <li>Social advertising</li>
+                </ul>
+                <h4>Indoor Golf · Workplace Angle</h4>
+                <p class="pf-card-description">A golf putting-set ad developed around a workplace scenario.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=gE3aL7qr0yo"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Indoor Golf · Workplace Angle on YouTube (opens in a new tab)">View on YouTube
+                    <span aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-aDr5Sly3wK8">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=aDr5Sly3wK8" target="_blank"
+                rel="noopener noreferrer" data-project="yt-aDr5Sly3wK8"
+                aria-label="Watch Skincare · Friend Recommendation">
+                <img src="https://i.ytimg.com/vi/aDr5Sly3wK8/maxresdefault.jpg"
+                  alt="Preview of Skincare · Friend Recommendation" loading="lazy" decoding="async" width="360"
+                  height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Skincare · Friend Recommendation</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Product creative</li>
+                  <li>Social advertising</li>
+                </ul>
+                <h4>Skincare · Friend Recommendation</h4>
+                <p class="pf-card-description">An anti-acne cream creative using a recommendation-led angle.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=aDr5Sly3wK8"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Skincare · Friend Recommendation on YouTube (opens in a new tab)">View on YouTube
+                    <span aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-jeaquXO58cA">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=jeaquXO58cA" target="_blank"
+                rel="noopener noreferrer" data-project="yt-jeaquXO58cA" aria-label="Watch Ecom Brand · Before / After">
+                <img src="https://i.ytimg.com/vi/jeaquXO58cA/maxresdefault.jpg"
+                  alt="Preview of Ecom Brand · Before / After" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Ecom Brand · Before / After</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Product creative</li>
+                  <li>Social advertising</li>
+                </ul>
+                <h4>Ecom Brand · Before / After</h4>
+                <p class="pf-card-description">A before-and-after presentation of an ecommerce brand edit.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=jeaquXO58cA"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Ecom Brand · Before / After on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-uFwjli_xduA">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=uFwjli_xduA" target="_blank"
+                rel="noopener noreferrer" data-project="yt-uFwjli_xduA"
+                aria-label="Watch Smart Wear · Fashion Creative">
+                <img src="https://i.ytimg.com/vi/uFwjli_xduA/maxresdefault.jpg"
+                  alt="Preview of Smart Wear · Fashion Creative" loading="lazy" decoding="async" width="360"
+                  height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Smart Wear · Fashion Creative</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Product creative</li>
+                  <li>Social advertising</li>
+                </ul>
+                <h4>Smart Wear · Fashion Creative</h4>
+                <p class="pf-card-description">A Bluetooth sunglasses creative combining fashion and product
+                  presentation.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=uFwjli_xduA"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Smart Wear · Fashion Creative on YouTube (opens in a new tab)">View on YouTube
+                    <span aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-MSfEY89m_1U">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=MSfEY89m_1U" target="_blank"
+                rel="noopener noreferrer" data-project="yt-MSfEY89m_1U" aria-label="Watch Ridax · Neighbours Angle">
+                <img src="https://i.ytimg.com/vi/MSfEY89m_1U/maxresdefault.jpg"
+                  alt="Preview of Ridax · Neighbours Angle" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Ridax · Neighbours Angle</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Product creative</li>
+                  <li>Social advertising</li>
+                </ul>
+                <h4>Ridax · Neighbours Angle</h4>
+                <p class="pf-card-description">A Ridax creative built around the published neighbours scenario.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=MSfEY89m_1U"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Ridax · Neighbours Angle on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+
+          </div>
+        </section>
+
+        <section id="short-form" class="pf-category" aria-labelledby="short-form-title" tabindex="-1">
+          <header class="pf-category-heading">
+            <div>
+              <p class="pf-eyebrow">04 / Ideas worth watching</p>
+              <h3 id="short-form-title">Short-Form Content</h3>
+              <p class="pf-category-description">Podcast cuts, educational ideas and creator stories shaped for the
+                vertical feed.</p>
+            </div>
+            <span class="pf-category-count">12 films</span>
+          </header>
+          <div class="pf-grid">
+            <article class="pf-card" data-project-card="luke-belmar-podcast">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=tAe-vn-U6rc" target="_blank"
+                rel="noopener noreferrer" data-project="luke-belmar-podcast"
+                aria-label="Watch Luke Belmar · Podcast Edit">
+                <img src="https://i.ytimg.com/vi/tAe-vn-U6rc/maxresdefault.jpg"
+                  alt="Preview of Luke Belmar · Podcast Edit" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Luke Belmar · Podcast Edit</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Podcast edit</li>
+                  <li>Vertical short</li>
+                </ul>
+                <h4>Luke Belmar · Podcast Edit</h4>
+                <p class="pf-card-description">A podcast excerpt shaped into a vertical short, with a Natt
+                  Jongsala-inspired editing approach.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=tAe-vn-U6rc"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Luke Belmar · Podcast Edit on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="moses-updates">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=0CqhsIWC9uY" target="_blank"
+                rel="noopener noreferrer" data-project="moses-updates" aria-label="Watch How Do You Get Updates?">
+                <img src="https://i.ytimg.com/vi/0CqhsIWC9uY/maxresdefault.jpg" alt="Preview of How Do You Get Updates?"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">How Do You Get Updates?</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Creator content</li>
+                  <li>Vertical short</li>
+                </ul>
+                <h4>How Do You Get Updates?</h4>
+                <p class="pf-card-description">A creator-led excerpt with Moses Uche, focused on a single question for
+                  short-form social viewing.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=0CqhsIWC9uY"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View How Do You Get Updates? on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="best-university">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=OrmnPTieEXE" target="_blank"
+                rel="noopener noreferrer" data-project="best-university" aria-label="Watch The Best University Ever!">
+                <img src="https://i.ytimg.com/vi/OrmnPTieEXE/maxresdefault.jpg"
+                  alt="Preview of The Best University Ever!" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">The Best University Ever!</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Motivational edit</li>
+                  <li>Vertical short</li>
+                </ul>
+                <h4>The Best University Ever!</h4>
+                <p class="pf-card-description">A motivational short built around a focused, speaker-led story.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=OrmnPTieEXE"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View The Best University Ever! on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-fexU1r4gRCI">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=fexU1r4gRCI" target="_blank"
+                rel="noopener noreferrer" data-project="yt-fexU1r4gRCI" aria-label="Watch A+ Players">
+                <img src="https://i.ytimg.com/vi/fexU1r4gRCI/maxresdefault.jpg" alt="Preview of A+ Players"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">A+ Players</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Short-form edit</li>
+                  <li>Social storytelling</li>
+                </ul>
+                <h4>A+ Players</h4>
+                <p class="pf-card-description">A short-form edit built around the A+ Players topic.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=fexU1r4gRCI"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View A+ Players on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-A2HprH4SpjM">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=A2HprH4SpjM" target="_blank"
+                rel="noopener noreferrer" data-project="yt-A2HprH4SpjM" aria-label="Watch Alex Hormozi · Edit Style">
+                <img src="https://i.ytimg.com/vi/A2HprH4SpjM/maxresdefault.jpg"
+                  alt="Preview of Alex Hormozi · Edit Style" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Alex Hormozi · Edit Style</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Short-form edit</li>
+                  <li>Social storytelling</li>
+                </ul>
+                <h4>Alex Hormozi · Edit Style</h4>
+                <p class="pf-card-description">A vertical edit presented as an Alex Hormozi-style editing example.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=A2HprH4SpjM"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Alex Hormozi · Edit Style on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-qI_suOa9ze8">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=qI_suOa9ze8" target="_blank"
+                rel="noopener noreferrer" data-project="yt-qI_suOa9ze8" aria-label="Watch Long-Form to Short-Form">
+                <img src="https://i.ytimg.com/vi/qI_suOa9ze8/maxresdefault.jpg" alt="Preview of Long-Form to Short-Form"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Long-Form to Short-Form</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Short-form edit</li>
+                  <li>Social storytelling</li>
+                </ul>
+                <h4>Long-Form to Short-Form</h4>
+                <p class="pf-card-description">A clip repurposed from longer video content for social viewing.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=qI_suOa9ze8"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Long-Form to Short-Form on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-EZcEYNTAcpQ">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=EZcEYNTAcpQ" target="_blank"
+                rel="noopener noreferrer" data-project="yt-EZcEYNTAcpQ" aria-label="Watch How to Find Ideas">
+                <img src="https://i.ytimg.com/vi/EZcEYNTAcpQ/maxresdefault.jpg" alt="Preview of How to Find Ideas"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">How to Find Ideas</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Short-form edit</li>
+                  <li>Social storytelling</li>
+                </ul>
+                <h4>How to Find Ideas</h4>
+                <p class="pf-card-description">A short featuring Precious Oriji and Precious Greg from Creative Space
+                  Startups.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=EZcEYNTAcpQ"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View How to Find Ideas on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-lQWYBTtDucs">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=lQWYBTtDucs" target="_blank"
+                rel="noopener noreferrer" data-project="yt-lQWYBTtDucs" aria-label="Watch E-Commerce Billionaires">
+                <img src="https://i.ytimg.com/vi/lQWYBTtDucs/maxresdefault.jpg" alt="Preview of E-Commerce Billionaires"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">E-Commerce Billionaires</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Short-form edit</li>
+                  <li>Social storytelling</li>
+                </ul>
+                <h4>E-Commerce Billionaires</h4>
+                <p class="pf-card-description">A focused vertical edit on the ecommerce billionaires topic.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=lQWYBTtDucs"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View E-Commerce Billionaires on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-Ef4RBNv58bA">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=Ef4RBNv58bA" target="_blank"
+                rel="noopener noreferrer" data-project="yt-Ef4RBNv58bA" aria-label="Watch The Pygmalion Effect">
+                <img src="https://i.ytimg.com/vi/Ef4RBNv58bA/maxresdefault.jpg" alt="Preview of The Pygmalion Effect"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">The Pygmalion Effect</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Short-form edit</li>
+                  <li>Social storytelling</li>
+                </ul>
+                <h4>The Pygmalion Effect</h4>
+                <p class="pf-card-description">A short-form story introducing the Pygmalion Effect.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=Ef4RBNv58bA"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View The Pygmalion Effect on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-waYNp0U2W3Y">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=waYNp0U2W3Y" target="_blank"
+                rel="noopener noreferrer" data-project="yt-waYNp0U2W3Y" aria-label="Watch The Attractive Character">
+                <img src="https://i.ytimg.com/vi/waYNp0U2W3Y/maxresdefault.jpg"
+                  alt="Preview of The Attractive Character" loading="lazy" decoding="async" width="360" height="640"
+                  referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">The Attractive Character</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Short-form edit</li>
+                  <li>Social storytelling</li>
+                </ul>
+                <h4>The Attractive Character</h4>
+                <p class="pf-card-description">A short introducing the attractive-character strategy.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=waYNp0U2W3Y"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View The Attractive Character on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-K2UE-PmKrVA">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=K2UE-PmKrVA" target="_blank"
+                rel="noopener noreferrer" data-project="yt-K2UE-PmKrVA" aria-label="Watch Gratitude">
+                <img src="https://i.ytimg.com/vi/K2UE-PmKrVA/maxresdefault.jpg" alt="Preview of Gratitude"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Gratitude</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Short-form edit</li>
+                  <li>Social storytelling</li>
+                </ul>
+                <h4>Gratitude</h4>
+                <p class="pf-card-description">A motivational short focused on gratitude.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=K2UE-PmKrVA"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Gratitude on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+            <article class="pf-card" data-project-card="yt-3KyFYLLr9V4">
+              <a class="pf-preview" href="https://www.youtube.com/watch?v=3KyFYLLr9V4" target="_blank"
+                rel="noopener noreferrer" data-project="yt-3KyFYLLr9V4" aria-label="Watch Embrace New Technology">
+                <img src="https://i.ytimg.com/vi/3KyFYLLr9V4/maxresdefault.jpg" alt="Preview of Embrace New Technology"
+                  loading="lazy" decoding="async" width="360" height="640" referrerpolicy="no-referrer" />
+                <span class="pf-image-fallback" aria-hidden="true">Embrace New Technology</span>
+                <span class="pf-host">YOUTUBE</span>
+                <span class="pf-play"><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 4v16l13-8z" />
+                  </svg> Watch project</span>
+              </a>
+              <div class="pf-card-body">
+                <ul class="pf-tags" aria-label="Project format">
+                  <li>Short-form edit</li>
+                  <li>Social storytelling</li>
+                </ul>
+                <h4>Embrace New Technology</h4>
+                <p class="pf-card-description">A motivational social edit about embracing new technology.</p>
+                <div class="pf-card-footer"><a class="pf-source-link" href="https://www.youtube.com/watch?v=3KyFYLLr9V4"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="View Embrace New Technology on YouTube (opens in a new tab)">View on YouTube <span
+                      aria-hidden="true">↗</span></a><span class="pf-duration">Vertical video</span></div>
+              </div>
+            </article>
+
+          </div>
+        </section>
+        <div class="pf-outro">
+          <p>Have a story in mind?</p>
+          <div class="pf-outro-links">
+            <a href="https://www.youtube.com/@NobleOsinachi/shorts" target="_blank" rel="noopener noreferrer">More on
+              YouTube ↗</a>
+            <a href="https://drive.google.com/drive/folders/1AwG1RAiTuax64fodzXXC81IOSDjpXc_6" target="_blank"
+              rel="noopener noreferrer">Faceless video archive ↗</a>
+            <a href="/ecom-videos/">More video creatives ↗</a>
+            <a class="pf-contact" href="#contact">Let’s create together ↗</a>
+          </div>
+        </div>
       </div>
     </section>
-    <dialog id="portfolio-player" class="pf-player" aria-labelledby="portfolio-player-title" aria-describedby="portfolio-player-help">
-      <div class="pf-player-header"><h2 id="portfolio-player-title">Project video</h2><button type="button" class="pf-player-close" aria-label="Close video player">×</button></div>
+    <dialog id="portfolio-player" class="pf-player" aria-labelledby="portfolio-player-title"
+      aria-describedby="portfolio-player-help">
+      <div class="pf-player-header">
+        <h2 id="portfolio-player-title">Project video</h2><button type="button" class="pf-player-close"
+          aria-label="Close video player">×</button>
+      </div>
       <div class="pf-player-stage"></div>
-      <div class="pf-player-footer"><p id="portfolio-player-help">Use the player controls to start watching.</p><a data-player-source href="https://www.youtube.com/@NobleOsinachi/shorts" target="_blank" rel="noopener noreferrer">Open original ↗</a></div>
+      <div class="pf-player-footer">
+        <p id="portfolio-player-help">Use the player controls to start watching.</p><a data-player-source
+          href="https://www.youtube.com/@NobleOsinachi/shorts" target="_blank" rel="noopener noreferrer">Open original
+          ↗</a>
+      </div>
     </dialog>
 
     <!-- Testimonials Section -->

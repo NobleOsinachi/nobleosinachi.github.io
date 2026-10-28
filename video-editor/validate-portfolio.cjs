@@ -23,4 +23,12 @@ const portfolio = renderPortfolio(config);
 assert.equal((portfolio.match(/data-project-card=/g)||[]).length,config.categories.reduce((n,c)=>n+c.projects.length,0),'All selected projects rendered once.');
 assert(!portfolio.includes('<iframe'), 'No portfolio iframe or player network load before a user chooses a project.');
 for (const project of config.categories.flatMap(category=>category.projects)) assert(portfolio.includes(`data-project="${project.key}"`));
-console.log('PASS: four categories of three; unique verified sources; invalid counts rejected; AI first; static cards/data synchronized; zero eager portfolio embeds.');
+for (const category of config.categories) assert.equal(category.projects.length + (category.placeholders || []).length, category.displayTarget || config.displayTarget, 'Every category matches its configured count.');
+const pending = config.categories.flatMap(c=>c.placeholders || []).length;
+assert([0,3].includes(pending),'Only the authorized placeholder set is allowed, until all three uploads replace it.');
+assert.equal((portfolio.match(/data-placeholder=/g)||[]).length,pending);
+if (pending) {
+ const misleading = structuredClone(config); misleading.categories[1].placeholders[0].videoId='fakeVideo01';
+ assert(validatePortfolio(misleading).some(message=>message.includes('misleading placeholder')));
+}
+console.log('PASS: category counts 12 / 9 / 12 / 12; 45 unique verified sources; invalid counts and fake media rejected; AI first; static cards synchronized; zero eager portfolio embeds.');
